@@ -1,0 +1,49 @@
+0,1,2,3,4,5,6,7
+SITE AND HISTOLOGY (cond.),,,,,,,
+Site,Male,Female,Total,Site,Male,Female,Total
+Lungs,1636,288,1924,Connective tissue,108,61,169
+Sq cell ca,810,100,910,Sq cell ca,31,23,54
+Adenocarcinoma,474,140,614,Malignent tumour,20,10,30
+Small cell ca,208,18,226,Osteosarcoma,10,4,14
+Small cell type,99,21,120,Fibrosarcoma,8,2,10
+Large cell ca,22,4,26,Sarcoma,5,4,9
+Malignant tumour,18,3,21,Fibrous histocytoma,7,2,9
+Other,5,2,7,Adenocarcinoma,4,4,8
+"Medistinum, pleura and thymus",38,9,47,Liposarcoma,3,2,5
+Sq cell ca,14,2,16,Chondrosarcoma,4,0,4
+Adenocarcinoma,12,1,13,NHL,2,1,3
+Small cell type,5,3,8,Rhabdomyosarcoma,2,1,3
+Malignanttumour,7,3,10,Lymphoma,2,1,3
+Bones and cartilage,136,84,220,Dermato fibroma,2,1,3
+Osteosarcoma,57,25,82,Embryonal sarcoma,2,1,3
+Ewing's sarcoma,24,14,38,Hodgkins' Lymphoma,1,1,2
+Fibrous histocytoma,11,8,19,Malignant melanoma,1,1,2
+Sq cell ca,8,9,17,Ewing's sarcoma,1,1,2
+Sarcoma,6,8,14,Spindle cell ca,1,1,2
+Fibrosarcoma,6,7,13,Neurofibrosarcoma,1,1,2
+Chondrosarcoma,8,4,12,Lymphangiosarcoma,1,0,1
+Malignanttumour,5,4,9,Breast,23,1348,1371
+Adenocarcinoma,6,2,8,Duct cell ca,20,1342,1362
+Other,5,3,8,Medullary ca,0,2,2
+Blood and haematopoietic system,145,78,223,Lobuler ca,0,2,2
+Acute Lymphoblastic Leukemia,66,39,105,Sq cell ca,1,2,3
+Acute Myeloid/Gralulocytic Leukemia,38,23,61,Adenocarcinoma,2,0,2
+"Chronic Myeloid/Gralulocytic
+Leukemia",18,8,26,Vulva and vagina,-,25,25
+Leukemia,8,4,12,Sq cell ca,-,21,21
+Chronic Monocytic leukemia,8,2,10,Adenocarcinoma,-,3,3
+Chronic Lymphocytic Leukemia,5,1,6,Fibrous histiocytoma,-,1,1
+Multiple myeloma,2,1,3,Cervix,-,783,783
+Skin,46,25,71,Sq cell ca,-,702,702
+Sq cell ca,19,9,28,Adenocarcinoma,-,76,76
+Basal cell ca,18,11,29,Adenoid Sq cell ca,-,3,3
+Malignant melanoma,6,2,8,Germ cell tumour,-,2,2
+Adenocarcinoma,2,2,4,Uterus,-,45,45
+Liposarcoma,1,1,2,Sq cell ca,-,23,23
+Perpheral nerves,2,2,4,Adenocarcinoma,-,18,18
+Sq cell ca,2,0,2,Endrometroid ca,-,2,2
+Neuroblstoma,1,1,2,Leiomyosarcoma,-,1,1
+Peritoneum,9,9,18,Serous cystadeno ca,-,1,1
+Adenocarcinoma,8,5,13,,,,
+Sq cell ca,1,1,2,,,,
+Malignant tumour,0,2,2,,,,

@@ -1,0 +1,58 @@
+0,1,2,3,4,5,6,7,8,9,10
+C44.9,Skin,0,0,1,2,11,3,3,0,20
+C47.2,Perepheral nerve &,,,,,,,,,
+,Autonomic nerve of lower,1,0,0,0,0,0,0,0,1
+,,,,,,,,,,
+,limb,,,,,,,,,
+C47.6,Perepheral nerve &,,,,,,,,,
+,,1,0,0,0,0,0,0,0,1
+,Autonomic nerve of Trunk,,,,,,,,,
+,,,,,,,,,,
+C48.0,Retroperitonium,0,1,0,0,0,0,0,0,1
+C48.1,"Omentum, Pouch of duglus,",,,,,,,,,
+,,0,0,4,1,0,2,1,0,8
+,Cal de sac,,,,,,,,,
+,,,,,,,,,,
+C49.0,Connective tissue of,,,,,,,,,
+,,1,1,2,2,4,2,1,0,13
+,scalp/face/neck,,,,,,,,,
+,,,,,,,,,,
+C49.1,Connective tissue of,,,,,,,,,
+,"UL,arm,",,,,,,,,,
+,,0,0,3,0,3,4,1,0,11
+,"forearm,hand,shoulder,thu",,,,,,,,,
+,,,,,,,,,,
+,"m,wris",,,,,,,,,
+C49.2,Connective tissue of,,,,,,,,,
+,,2,5,1,10,11,3,1,1,34
+,"LL,foot,leg,thigh,hip,knee",,,,,,,,,
+,,,,,,,,,,
+C49.3,Connective tissue of Thorax,0,0,0,1,0,0,0,0,1
+C49.3,Lymphatics/Lymphoma,0,1,1,0,0,1,0,0,3
+C50.0,Breast (Nipple/areola),0,0,2,3,2,0,1,0,8
+C50.3,Breast (LIQ),0,0,0,0,1,0,0,0,1
+C50.8,Breast (Over lapping,,,,,,,,,
+,,0,0,0,0,1,0,0,0,1
+,lession),,,,,,,,,
+,,,,,,,,,,
+C50.9,Breast,3,43,221,450,430,159,52,5,1363
+C51.9,Vulva,0,0,0,2,4,5,1,0,12
+C52.9,Vagina,0,0,0,6,3,6,2,1,18
+C53.9,Cervix,0,8,65,209,326,190,71,25,894
+C54.9,Body of uterus,0,0,0,0,0,0,0,1,1
+C55.9,Uterus,0,0,7,16,17,10,2,0,52
+C56.9,Ovary,0,2,15,16,23,18,8,0,82
+C57.4,Adenexa,0,3,4,3,7,3,2,0,22
+C57.8,Tubo overian & Utero,,,,,,,,,
+,,2,15,10,8,21,9,1,0,66
+,overian,,,,,,,,,
+,,,,,,,,,,
+C57.9,Female genital tract,0,0,2,0,0,0,0,0,2
+C58.9,"Placenta, Foetal membrane",0,0,0,0,0,0,1,0,1
+C64.9,Kidney,3,3,4,0,3,3,2,0,18
+C65.9,Renal pelvis,2,0,1,1,0,0,0,0,4
+C66.9,Ureter,0,0,1,0,0,0,0,0,1
+C67.9,Bladder,0,0,3,3,8,7,8,2,31
+C69.4,Eye ball,1,0,0,0,0,0,0,0,1
+C69.6,Orbit,0,1,0,0,0,0,0,2,3
+C69.9,Eye,12,1,0,1,3,4,1,0,22

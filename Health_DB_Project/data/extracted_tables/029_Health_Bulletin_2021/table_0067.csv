@@ -1,0 +1,15 @@
+0,1,2,3,4
+Case,"No. of
+samples",Type of Sample,Type of test,Result
+AFP case,"2,562",Stool,"Cell culture,
+ITD Real
+Time PCR","18 Sabin like polio
+virus detected"
+"Measles &
+Rubella","3,867",Serum,IgM ELISA,"125 measles positive
+& 133 rubella
+positive cases
+detected"
+COVID-19,217106,"Nasopharyngeal swab sent
+by DGHS",RT-PCR,"24,028 positive cases
+detected"

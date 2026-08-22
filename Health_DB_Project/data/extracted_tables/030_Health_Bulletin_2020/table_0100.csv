@@ -1,0 +1,26 @@
+0,1,2,3
+Type of facility,Type of service,"Total no. of
+facilities",Total no. of beds
+Upazila health complex (100-bed),Hospital,3,300
+Upazila health complex (50-bed),Hospital,345,17250
+Upazila health complex (31-bed),Hospital,65,2015
+Upazila health complex (10-bed),Hospital,11,110
+Subtotal of upazila health complexes,,424,19675
+50-bed hospital,Hospital,2,100
+31-bed hospital,Hospital,7,217
+30-bed hospital,Hospital,3,90
+25-bed hospital,Hospital,1,25
+20-bed hospital,Hospital,38,760
+10-bed hospital,Hospital,13,130
+Upazila health office,OPD,60,0
+Union sub-center,OPD,1312,0
+"Union health and family welfare center
+(UH&FWC)",OPD,87,0
+Urban dispensary,OPD,35,0
+School health clinic,OPD,23,0
+"Tejgaon Health Complex, Dhaka",,1,0
+"Grand Total of primary-level facilities
+(except community clinic)",,2006,20999
+Community clinic (functional at present),OPD,13948,0
+"Grand Total of primary-level facilities
+(including community clinic)",,15954,20999

@@ -1,0 +1,11 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12
+Vaccine,"No. of
+doses",,,Age of Administration,,,"Dose
+interval",,,Route,,
+BCG,,1,,,After birth,,,-,,,Intra-dermal,
+"Pentavalent (DTP-Hib-
+HepB)",3,,,"W6, W10, W14",,,4 week,,,Intra-muscular,,
+PCV,,3,,,"W6, W10, W14",,,4 week,,,Intra-muscular,
+bOPV,3,,,"W6, W10, W14",,,4 week,,,Oral,,
+IPV,,2,,,"W6, W14",,,8 week,,,Intra-dermal,
+Measles-Rubella (MR),2,,,9 months and 15 months,,,-,,,Sub-cutaneous,,

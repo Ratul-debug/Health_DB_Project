@@ -1,0 +1,26 @@
+{
+  "pdf": "025_nan.pdf",
+  "tables": [
+    {
+      "page": 1,
+      "file": "table_001.csv",
+      "rows": 6,
+      "cols": 4,
+      "hash": "e7928c3e96d32ba2bd5b654e2018094e"
+    },
+    {
+      "page": 6,
+      "file": "table_002.csv",
+      "rows": 5,
+      "cols": 7,
+      "hash": "61ba14cd6314dffa34a3c3187fe2d5da"
+    },
+    {
+      "page": 7,
+      "file": "table_003.csv",
+      "rows": 9,
+      "cols": 7,
+      "hash": "51330d0ac5fc0d51630e08e90deef0d1"
+    }
+  ]
+}

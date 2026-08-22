@@ -1,0 +1,31 @@
+0,1,2,3,4,5
+Table 11.3. Recurrent healthcare expenditure by gender (Values in crore Taka),,,,,
+"ICD-10
+Chapter",Classification of diseases and conditions,Male,"Male (Per-
+centage)",Female,"Female (Per-
+centage)"
+A00-B99,Certain infectious and parasitic diseases,"1,519",45,"1,867",55
+C00-D48,Neoplasms,701,52,658,48
+D50-D89,"Diseases of the blood and blood-forming organs
+and certain disorders involving the immune
+mechanism",101,28,257,72
+E00-E90,"Endocrine, nutritional and metabolic diseases",888,36,"1,596",64
+F00-F99,Mental and behavioral disorders,929,45,"1,115",55
+G00-G99,Diseases of the nervous system,487,43,644,57
+H00-H59,Diseases of the eye and adnexa,439,40,652,60
+H60-H95,Diseases of the ear and mastoid process,314,40,479,60
+I00-I99,Diseases of the circulatory system,"3,249",37,"5,608",63
+J00-J99,Diseases of the respiratory system,"2,633",49,"2,736",51
+K00-K99,Diseases of the digestive system,"3,851",43,"5,018",57
+L00-L99,Diseases of the skin and subcutaneous tissue,"1,142",51,"1,104",49
+M00-M99,"Diseases of the musculoskeletal system and
+connective tissue","3,459",37,"6,001",63
+N00-N99,Diseases of the genitourinary system,994,29,"2,401",71
+O00-O99,"Pregnancy, child birth, and the puerperium",-,0,"2,477",100
+P00-P96,"Certain conditions originating in the perinatal
+period",,28,70,71
+Q00-Q99,"Congenital malformations, deformations, and
+chrosomal abnormalities",63,23,211,77
+R00-R99,"Symptoms, signs, and abnormal clinical and
+laboratory findings, not elsewhere classified","3,758",47,"4,251",53
+Table 11.3 contd.,,,,,

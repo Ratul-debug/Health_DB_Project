@@ -1,0 +1,55 @@
+0,1,2,3,4,5,6,7,8
+"Table 6.6. Admissions and inpatient deaths with age and sex distribution in all types of hospitals in
+2015",,,,,,,,
+Level,Type of facility,"Number
+of
+facilities","Admission
+and death",Total,Male,,Female,
+,,,,,<5 yrs,>5 yrs,<5 yrs,>5 yrs
+Primary,10-bed hospitals,17,Admission,"6,838",335,"1,922",426,"4,155"
+,,,Death,13,3,6,2,2
+,20-bed hospitals,26,Admission,"14,931","2,942","4,663","1,366","5,960"
+,,,Death,39,6,20,2,11
+,"Trauma centers
+(TC)",5,Admission,279,55,95,44,85
+,,,Death,0,0,0,0,0
+,"Upazila health
+complexes (UHCs)",421,Admission,"2,376,809","265,377","753,563","284,065","1,073,804"
+,,,Death,"7,242",984,"3,014","1,017","2,227"
+Secondary,"District hospitals/
+General hospitals",65,Admission,"1,767,201","223,460","600,947","208,802","733,992"
+,,,Death,"24,988","4,137","9,955","3,473","7,423"
+Tertiary,"Bangladesh
+Institute of
+Tropical and
+Infectious
+Diseases,
+Chittagong",1,Admission,"5,986",124,"2,965",73,"2,824"
+,,,Death,30,1,23,1,5
+,"Dhaka Dental
+College Hospital",1,Admission,"1,868",28,858,26,956
+,,,Death,2,0,1,0,1
+,"Hospitals of
+alternative
+medical colleges",2,Admission,"1,499",50,645,62,742
+,,,Death,1,0,1,0,0
+,"Medical college
+hospitals",14,Admission,"1,382,585","141,214","603,544","124,711","513,116"
+,,,Death,"66,661","8,381","29,804","6,401","22,075"
+,"Mental Hospital,
+Pabna",1,Admission,"1,570",0,1234,0,336
+,,,Death,14,0,8,0,6
+,"Shaheed Sheikh
+Abu Naser
+Specialized
+Hospital, Khulna",1,Admission,"2,775",0,1743,0,1032
+,,,Death,232,0,125,0,107
+,"Specialty institute
+hospitals",11,Admission,"148,554","6,358","86,616","4,618","50,962"
+,,,Death,"6,603",312,"4,343",245,"1,703"
+,"TB hospitals
+(Rajshahi and
+Khulna)",2,Admission,746,0,506,0,240
+,,,Death,30,0,23,0,7
+Total,,567,Admissions,"5,711,641","639,943","2,059,301","624,193","2,388,204"
+,,,Deaths,"105,856","13,824","47,323","11,141","33,568"

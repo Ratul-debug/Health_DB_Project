@@ -1,0 +1,40 @@
+{
+  "pdf": "067_Information_on_Corona_hospitals_beds_and_others_.pdf",
+  "tables": [
+    {
+      "page": 1,
+      "file": "table_001.csv",
+      "rows": 27,
+      "cols": 17,
+      "hash": "189f0bc510a20abdb46ce7b89f8216d6"
+    },
+    {
+      "page": 2,
+      "file": "table_002.csv",
+      "rows": 29,
+      "cols": 17,
+      "hash": "d50e036e45d7341094c851dd666c86cc"
+    },
+    {
+      "page": 3,
+      "file": "table_003.csv",
+      "rows": 20,
+      "cols": 17,
+      "hash": "fbd1987e3cf3f15e2b56262834d6935d"
+    },
+    {
+      "page": 4,
+      "file": "table_004.csv",
+      "rows": 53,
+      "cols": 17,
+      "hash": "28458fe6801f641fb6d17ad0a89d4cb9"
+    },
+    {
+      "page": 5,
+      "file": "table_005.csv",
+      "rows": 51,
+      "cols": 17,
+      "hash": "b502318c52368ef9bb0fe4f516c81382"
+    }
+  ]
+}

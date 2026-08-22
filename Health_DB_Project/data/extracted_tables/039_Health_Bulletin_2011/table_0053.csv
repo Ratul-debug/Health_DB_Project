@@ -1,0 +1,40 @@
+0,1,2,3,4,5,6,7,8,9
+Place,,,,,,,"Total
+(N)",Filled-up (N),"Vacant
+(N)"
+,Class,,,Type of post,,,,,
+,,,,,,,,,
+Division,,Class I,,,Assistant chief,,5,5,0
+,,,,"Data-entry operator (5);
+Sta(cid:1)s(cid:1)cal assistant (12)",,,18,16,2
+,,Class III,,,,,,,
+,,,,,,,,,
+,,Total,,,,,23,21,2
+District,,Class I,,,Sta(cid:1)s(cid:1)cian,,64,6,58
+,,Class III,,,Sta(cid:1)s(cid:1)cal assistant,,56,56,0
+,,,,,,,120,62,58
+Upazila,,Class I,,Sta(cid:1)s(cid:1)cal officer,,,0,0,0
+,Class II,,,Sta(cid:1)s(cid:1)cian,,,1,0,1
+,Class III,,,"Sta(cid:1)s(cid:1)cal assistant (5);
+Sta(cid:1)s(cid:1)cian (475)",,,482,400,82
+,Total,,,,,,483,400,83
+"Medical college hospitals
+(8 old, SSMCH, SZMCH)",,,,Sta(cid:1)s(cid:1)cian/Sta(cid:1)s(cid:1)cal officer,,,10,2,8
+,Class I,,,,,,,,
+,,,,,,,,,
+"Postgraduate ins(cid:1)tute (IPHN,
+NIPSOM, NICVD, NIDCH, NIKDU,
+NICRH, NCCRFH)",Class I,,,,Sta(cid:1)s(cid:1)cian/Sta(cid:1)s(cid:1)cal officer,,5,2,3
+,Class II,,,,Sta(cid:1)s(cid:1)cian/Sta(cid:1)s(cid:1)cal officer,,3,2,1
+,Class III,,,"Assistant
+sta(cid:1)s(cid:1)cian/Sta(cid:1)s(cid:1)cal
+assistant",,,5,4,1
+,Total,,,,,,13,8,5
+"200-bed and 250-bed hospitals
+(Narayanganj, Khulna, Noakhali)",Class III,,,Sta(cid:1)s(cid:1)cal assistant,,,3,1,2
+TB Clinic (Chankhar Pul),Class III,,,Sta(cid:1)s(cid:1)cian,,,1,0,1
+All places,Class I,,,Men(cid:1)oned above,,,103,25,78
+,Class II,,,,,,9,7,2
+,Class III,,,,,,602,494,108
+,,Class IV,,,,,7,7,0
+,Total,,,,,,721,533,188

@@ -1,0 +1,37 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+ICD-O,Primary site of tumour,Age group,,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,75-84,85-94,Total
+C18.9,Colon,0,2,15,14,19,18,4,0,0,72
+C20.9,Rectum,2,19,35,36,29,29,9,3,2,164
+C21.0,Anus,0,0,1,0,0,0,0,0,0,1
+C21.1,Anal canal,0,1,2,4,3,2,5,0,0,17
+C22.0,Liver,3,7,8,30,53,38,11,9,0,159
+C23.9,Gall blader,0,0,8,27,51,33,21,2,0,142
+C24.0,Bile duct,0,0,1,2,3,3,0,1,0,10
+C21.1,Ampula of vater,0,0,0,0,0,0,1,0,0,1
+C22.0,Head of pancrease,0,0,0,0,1,1,1,0,0,3
+C23.9,Pancrease,0,0,2,1,6,5,1,0,0,15
+C21.1,Nasal cavity,0,0,0,0,0,1,0,0,0,1
+C30.1,"Middle ear , inner ear",0,1,0,1,1,1,0,0,0,4
+C31.0,Maxillary sinuses,0,1,1,2,6,2,1,0,0,13
+C31.2,Frontal sinuses,0,0,0,0,1,0,0,0,0,1
+C32.0,"Glottis, Vocal cord",0,0,0,6,0,2,0,1,0,9
+C32.1,"Supraglottis, Epiglottis,",0,1,2,1,4,6,0,1,0,15
+C32.9,Larynx,0,0,1,1,8,6,8,2,0,26
+C34.9,Bronchous,0,0,2,1,7,9,2,1,0,22
+C34.9,Lung,4,5,20,37,81,93,57,23,1,321
+C38.4,Pleura,0,0,3,4,14,8,2,1,0,32
+C40.0,"Long bones & articular cartilages
+of lower limbs",1,1,0,0,1,0,0,0,0,3
+C40.1,"Short bones & articular cartilages
+of lower limbs",0,0,1,0,0,0,0,0,0,1
+C40.9,Bones & articular cartilages limbs,2,1,0,0,1,0,0,0,0,4
+C41.0,"Bones & articular cartilages
+of Skull & face",1,0,0,0,1,0,0,0,0,2
+C41.2,Vertebra & Vertebral column,0,0,1,4,5,10,0,1,0,21
+C41.9,Bones & articular cartilages,4,3,1,1,0,2,0,0,0,11
+C42.1,Blood,16,12,18,19,9,5,1,0,0,80
+C44.0,Bone marrow,1,3,1,4,2,4,1,0,0,16
+C44.1,Skin of eye lid,0,0,0,0,1,0,0,0,0,1
+C44.3,Skin of Face,0,0,0,3,2,0,1,2,0,8
+C44.9,Skin,1,0,0,4,6,5,8,0,0,24

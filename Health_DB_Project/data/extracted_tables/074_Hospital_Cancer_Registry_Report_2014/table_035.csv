@@ -1,0 +1,49 @@
+0,1,2,3,4,5,6,7
+SITE AND HISTOLOGY (cond.),,,,,,,
+Site,Male,Female,Total,Site,Male,Female,Total
+Ovary,-,74,74,Ureter and bladder,112,30,142
+Adenocarcinoma,-,41,41,Transitional cell ca,85,22,107
+Dysgerminoma,-,2,2,Adenocarcinoma,9,3,12
+Serous cystadeno ca,-,10,10,Sq cell ca,9,2,11
+Sq cell ca,-,13,13,Papilary ca,7,3,10
+Papilary adenocarcinoma,-,1,1,Malignant tumour,2,0,2
+Mucinous cystadeno ca,-,3,3,Eye and adnexa,65,26,91
+Granulosa cell tumour,-,1,1,Retinoblastoma,40,17,57
+Germ cell tumour,-,2,2,Sq cell ca,13,3,16
+Fibrosarcoma,-,1,1,Adenocarcinoma,3,3,6
+Unspecified female genital organs,-,69,69,Malignant tumour,4,2,6
+Sq cell ca,-,18,18,NHL,3,0,3
+Adenocarcinoma,-,19,19,Basal cell carcinoma,2,1,3
+Serous cystadeno ca,-,4,4,Brain and meninges,60,35,95
+Dysgerminoma,-,2,2,Astrocytoma,23,14,37
+Mucinous cystadeno ca,-,2,2,Glioblastoma,16,6,22
+Malignant tumour,-,24,24,Glioma,10,5,15
+Penis,7,-,7,Meningioma,2,6,8
+Sq cell ca,5,-,5,Neuroblstoma,3,2,5
+Malignant tumour,2,-,2,Ependymoma,3,1,4
+Prostate,77,-,77,Adenocarcinoma,2,1,3
+Adenocarcinoma,65,-,65,Meduloblastoma,1,0,1
+Transitional cell ca,8,-,8,Thyroid,35,53,88
+Sq cell ca,3,-,3,Papilary ca,25,41,66
+Malignant tumour,1,-,1,Folicular ca,6,6,12
+Testis,44,-,44,Medullary ca,1,3,4
+Seminoma,22,-,22,Adenocarcinoma,1,2,3
+Malignant tumour,5,-,5,Malignant tumour,1,1,2
+Sertoli cell tumour,4,-,4,Sq cell ca,1,0,1
+Embryonal sarcoma,2,-,2,Ill defined sites,16,24,40
+Embryonal carcinoma,2,-,2,Malignant tumuour,5,13,18
+Teratoma,2,-,2,Sq cell ca,7,8,15
+Germ cell tumour,2,-,2,Adenocarcinoma,2,1,3
+Adenocarcinoma,2,-,2,Fibrosarcoma,1,1,2
+Leydig cell tumour,2,-,2,Sarcoma,1,1,2
+Teratocarcinoma,1,-,1,Lymph nodes,821,308,1129
+Unspecified male genital Organ,4,-,4,NHL,301,110,411
+Sq cell ca,3,-,3,Sq cell ca,214,64,278
+Adenocarcinoma,1,-,1,Adenocarcinoma,145,51,196
+Kidney,71,22,93,Hodgkins' Lymphoma,46,25,71
+Renal cell ca,50,18,68,Fibrosarcoma,6,2,8
+Nephrpblastoma,11,2,13,Small cell ca,11,3,14
+Transitional cell ca,4,1,5,Follicular ca,4,2,6
+Adenocarcinoma,3,0,3,Mucoepidrmoid,3,2,5
+Sq cell ca,3,0,3,Malignant tumour,91,49,140
+Angiomyosarcoma,0,1,1,,,,

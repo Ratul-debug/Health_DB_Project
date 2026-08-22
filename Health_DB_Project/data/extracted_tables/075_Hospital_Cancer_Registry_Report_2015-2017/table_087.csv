@@ -1,0 +1,47 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+ICD-O,Primary site of tumour,Age group,,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,75-84,85-94,Total
+C18.3,Hepatic flexure,0,0,0,0,0,3,1,0,0,4
+C18.4,Transverse colon,0,0,0,1,0,0,0,0,0,1
+C18.7,Sigmoid colon,0,1,1,0,1,2,0,0,0,5
+C18.9,Colon,0,6,23,25,33,20,15,1,0,123
+C20.9,Rectum,1,32,56,58,55,30,23,5,2,262
+C21.0,Anus,0,0,0,1,0,0,0,0,0,1
+C21.1,Anal canal,0,2,4,1,9,5,6,0,0,27
+C22.0,Liver,2,4,23,58,75,98,78,9,3,350
+C22.1,Intra hepatic bile duct,0,0,0,0,0,0,1,0,0,1
+C23.9,Gall blader,1,2,6,14,32,42,20,11,1,129
+C24.0,Bile duct,0,0,0,0,1,2,0,0,0,3
+C24.1,Ampula of vater,0,0,0,0,0,2,0,0,0,2
+C24.9,Biliary tract,0,0,0,0,0,0,1,0,0,1
+C25.0,Head of pancrease,0,0,0,0,2,3,1,1,0,7
+C25.9,Pancrease,0,0,2,3,5,6,7,2,0,25
+C30.0,Nasal cavity,0,1,0,1,2,2,0,0,0,6
+C30.1,"Middle ear , inner ear",0,0,0,0,0,5,2,0,0,7
+C31.0,Maxillary sinuses,0,0,0,4,3,0,7,0,0,14
+C31.1,Frontal sinuses,1,0,1,0,4,0,1,0,0,7
+"C31.2
+C32.0","Glottis, Vocal cord
+Supraglottis, Epiglottis,","0
+0","0
+0","6
+3","16
+6","20
+38","35
+40","31
+39","5
+4","2
+1","115
+131"
+C32.9,Larynx,0,0,2,19,50,56,42,5,3,177
+C34.0,Bronchous,0,0,2,4,19,25,26,6,1,83
+C34.9,Lung,1,13,29,81,316,605,549,139,27,1760
+C38.4,Pleura,0,2,6,6,13,17,13,3,2,62
+C40.0,"Long bones & articular cartilages
+of upper limbs",5,1,0,0,0,0,0,0,0,6
+C40.1,"Short bones & articular cartilages
+of upper limbs",0,0,0,0,0,0,1,0,0,1
+C40.2,"Long bones & articular cartilages
+of lower limbs",1,0,0,1,0,0,0,0,0,2
+C40.9,Bones & articular cartilages limbs,1,0,1,0,0,0,0,0,0,2
+C41.1,Mendible & Jaw,0,0,0,0,1,0,0,0,0,1

@@ -1,0 +1,54 @@
+{
+  "pdf": "091__.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "file": "table_001.csv",
+      "rows": 7,
+      "cols": 5,
+      "hash": "61daa0bdfd40df6be8760a0c1cfb1eb5"
+    },
+    {
+      "page": 29,
+      "file": "table_002.csv",
+      "rows": 20,
+      "cols": 2,
+      "hash": "f020132191531d1126257e256e405d09"
+    },
+    {
+      "page": 33,
+      "file": "table_003.csv",
+      "rows": 10,
+      "cols": 2,
+      "hash": "55e4fb676b70209c97723d766f4435e9"
+    },
+    {
+      "page": 49,
+      "file": "table_004.csv",
+      "rows": 27,
+      "cols": 2,
+      "hash": "e4d941aac971a6c25a308197693cac65"
+    },
+    {
+      "page": 76,
+      "file": "table_005.csv",
+      "rows": 20,
+      "cols": 3,
+      "hash": "ed0295a4605a641989047fde07b1f89a"
+    },
+    {
+      "page": 77,
+      "file": "table_006.csv",
+      "rows": 24,
+      "cols": 3,
+      "hash": "6194652a61432288c8820e379a296f55"
+    },
+    {
+      "page": 78,
+      "file": "table_007.csv",
+      "rows": 23,
+      "cols": 2,
+      "hash": "ebb6a2863868cbda3a588974a3856baa"
+    }
+  ]
+}

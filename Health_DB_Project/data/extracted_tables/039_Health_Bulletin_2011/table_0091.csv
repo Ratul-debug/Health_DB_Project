@@ -1,0 +1,17 @@
+0,1,2,3,4,5
+All ages,,,,,
+Male,,Female,,Both Sexes,
+Acute myocardial infarction,35.63,Acute myocardial infarction,24.20,Acute myocardial infarction,32.41
+Left ventricular failure,23.55,Left ventricular failure,21.35,Left ventricular failure,22.93
+Unstable angina,6.45,Valvular diseases,7.42,Unstable angina,6.46
+"Non ST-elevation myocardial
+infarction",5.95,"Non ST-elevation myocardial
+infarction",6.62,"Non ST-elevation myocardial
+infarction",6.14
+Old myocardial infarction,3.58,Unstable angina,6.51,Valvular diseases,4.18
+Atrial/ V entriculars eptald efect,3.09,Rheumatic heart disease,6.28,Atrial/ V entricular septal defect,3.63
+Recurrent myocardial infarction,2.91,Atrial/ V entricular septal defect,5.02,Old myocardial infarction,3.25
+Valvular diseases,2.91,Tetralogy of fallot,2.51,Rheumatic heart disease,3.05
+Ischemic cardiomyopathy,2.15,Old myocardial infarction,2.40,Recurrent myocardial infarction,2.60
+Rheumatic heart disease,1.79,Dilated cardiomyopathy,2.28,Ischemic cardiomyopathy,1.99
+Total deaths,99,Total deaths,30,Total deaths,129

@@ -1,0 +1,36 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+ICD-O,Primary site of tumour,Age group,,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,75-84,85-94,Total
+C41.2,Vertebra & Vertebral column,1,3,1,3,11,11,9,4,0,43
+C41.4,Bones & articular cartilages of pelvic region,1,0,0,0,0,0,0,0,0,1
+C41.9,Bones & articular cartilages,3,0,1,1,0,0,0,0,0,5
+C42.0,Blood,30,20,22,9,13,13,11,0,0,118
+C42.1,Bone marrow,6,3,5,7,9,7,4,1,1,43
+C42.4,Haemopoietic system,0,0,0,1,0,0,0,0,0,1
+C44.0,Skin of lip,0,0,0,0,0,1,0,0,0,1
+C44.1,Skin of eye lid,1,0,0,0,0,1,1,0,0,3
+C44.3,Skin of Face,0,0,0,0,0,0,1,0,0,1
+C44.7,Skin of lower limb & Hip,0,1,0,0,0,0,0,0,0,1
+C44.9,Skin,0,1,3,7,9,6,10,0,1,37
+C47.0,"Peripheral nerve & Autonomic
+nerve of face",1,1,0,0,0,0,0,0,0,2
+C48.1,"Omentum, Pouch of duglus, Cal de sac",0,0,0,1,0,0,0,0,0,1
+C49.0,Connective tissue of scalp/face/neck,1,2,4,1,4,4,1,3,0,20
+C49.1,"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wris",7,8,11,5,16,5,6,2,0,52
+C49.2,"Connective tissue of LL,foot,leg,
+thigh,hip,knee",19,23,16,16,22,16,10,2,1,125
+C49.4,"Connective tissue of Abdomen,
+abdominal wall, umbillicus",0,0,1,0,0,1,1,0,0,3
+C49.6,Connective tissue of Trunk,0,0,0,0,0,0,1,0,0,1
+C50.9,Breast,1,2,1,3,16,4,9,0,0,36
+C60.9,Penis,0,0,1,0,3,3,1,1,0,9
+C61.9,Prostate,0,1,0,2,8,30,45,21,4,111
+C62.9,Testis,1,8,25,10,5,5,2,0,0,56
+C64.9,Kidney,2,1,5,6,21,25,12,2,3,77
+C67.9,Bladder,0,0,7,14,39,56,47,11,2,176
+C69.0,Conjunctiva,0,0,0,0,0,1,0,0,0,1
+C69.4,Eye ball,3,0,0,1,0,0,0,0,0,4
+C69.6,Orbit,2,0,1,0,0,1,1,0,0,5
+C69.9,Eye,16,1,2,1,1,1,1,0,0,23
+C70.1,Spinal menengis,0,0,0,0,0,0,0,0,1,1

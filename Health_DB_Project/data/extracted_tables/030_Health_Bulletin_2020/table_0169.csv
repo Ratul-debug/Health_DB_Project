@@ -1,0 +1,11 @@
+0,1,2,3,4
+Category,Sanctioned,Filled-up,Vacant,% of vacancy
+Pharmacy,2941,1733,1208,41.07
+Laboratory,3053,1716,1310,42.91
+Radiography,935,562,360,38.50
+Radiotherapy,139,32,94,67.63
+Physiotherapy,455,111,331,72.75
+Dental,749,473,263,35.11
+MT (SI),537,482,42,7.82
+MT (EPI),599,557,29,4.84
+Total,9408,5666,3637,38.66

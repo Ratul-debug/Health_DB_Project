@@ -1,0 +1,13 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13
+,Indoor Patients,,,,Outdoor Patients (including Emergency),,,,Analysis of Data,,,,
+,,,,,,,,,Average,Bed,,Average,Average daily
+Year,,,,Patient days/ Bed,,,,,,,Hospital,,
+,Admission,Discharge,Death,,Male,Female,Children,Total,Duration,occupancy,,daily,outdoor
+,,,,occupied days,,,,,,,death rate,,
+,,,,,,,,,of stay,rate,,admission,patients
+,,,,,,,,,,,,,
+1,2,3,4,5,6,7,8,9,10,11,12,13,14
+2002,17081,17117,1629,118284,52740,29532,4674,86944,6.91,129.63,9.52,47,238
+2003,20083,20354,1744,143955,54550,31939,5150,91639,7.07,157.76,8.57,55,251
+2004,21522,21739,1832,150090,56482,31250,4857,92589,6.90,164.03,8.43,59,253
+2005,22419,22657,1744,146356,59950,34608,5497,100055,6.46,160.39,7.70,62,274

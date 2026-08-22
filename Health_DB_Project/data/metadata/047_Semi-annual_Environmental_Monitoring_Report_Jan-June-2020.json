@@ -1,0 +1,68 @@
+{
+  "pdf": "047_Semi-annual_Environmental_Monitoring_Report_Jan-June-2020.pdf",
+  "tables": [
+    {
+      "page": 14,
+      "file": "table_001.csv",
+      "rows": 14,
+      "cols": 4,
+      "hash": "2a6eb652ed97b449f2ac761821f00280"
+    },
+    {
+      "page": 15,
+      "file": "table_002.csv",
+      "rows": 15,
+      "cols": 4,
+      "hash": "5431173580c4a387f463a06ade66ef06"
+    },
+    {
+      "page": 16,
+      "file": "table_003.csv",
+      "rows": 6,
+      "cols": 4,
+      "hash": "e2f72f83610035bcdaa9328c6fadc852"
+    },
+    {
+      "page": 18,
+      "file": "table_004.csv",
+      "rows": 5,
+      "cols": 12,
+      "hash": "12392365ea3f41d23be7067922d23e1e"
+    },
+    {
+      "page": 24,
+      "file": "table_005.csv",
+      "rows": 8,
+      "cols": 3,
+      "hash": "9cb83260f133951698db25357c6cd2db"
+    },
+    {
+      "page": 25,
+      "file": "table_006.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "9b90d08efdcc630f609255ab6668dafb"
+    },
+    {
+      "page": 26,
+      "file": "table_007.csv",
+      "rows": 7,
+      "cols": 3,
+      "hash": "14685fa3e1d9727230391cfce651679b"
+    },
+    {
+      "page": 27,
+      "file": "table_008.csv",
+      "rows": 9,
+      "cols": 3,
+      "hash": "644e04d0b92ab14d108850f5683d66d5"
+    },
+    {
+      "page": 28,
+      "file": "table_009.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "8ea5955e6b170c098bf211ec350306be"
+    }
+  ]
+}

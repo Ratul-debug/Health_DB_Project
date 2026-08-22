@@ -1,0 +1,47 @@
+{
+  "pdf": "060_Environmental_Management_Plan_Medical_Gas_System_SSMCH.pdf",
+  "tables": [
+    {
+      "page": 8,
+      "file": "table_001.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "82c5db3ad794bd429908688db252be7c"
+    },
+    {
+      "page": 9,
+      "file": "table_002.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "752d7da807c0d6c073fb3244bcb14258"
+    },
+    {
+      "page": 10,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "4e0a264fc69f4072a57e0e9159593d86"
+    },
+    {
+      "page": 11,
+      "file": "table_004.csv",
+      "rows": 5,
+      "cols": 13,
+      "hash": "88f4d1503bb35b632c99f4d4d5f900e9"
+    },
+    {
+      "page": 12,
+      "file": "table_005.csv",
+      "rows": 48,
+      "cols": 15,
+      "hash": "bafeffa50c2882b3b3efb512432145c8"
+    },
+    {
+      "page": 13,
+      "file": "table_006.csv",
+      "rows": 11,
+      "cols": 16,
+      "hash": "b99a1bdfe577bd7e0149585d47c35771"
+    }
+  ]
+}

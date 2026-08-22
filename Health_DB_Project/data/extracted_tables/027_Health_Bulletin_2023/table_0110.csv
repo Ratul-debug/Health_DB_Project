@@ -1,0 +1,30 @@
+0,1,2,3
+"Table 5.1. Primary healthcare facilities run by DGHS, December 2023",,,
+Type of facility,"Type of
+service","Total
+number of
+facilities","Total number
+of sanctioned
+beds"
+Upazila health complex (100-bed),Hospital,8,800
+Upazila health complex (50-bed),Hospital,358,"17,900"
+Upazila health complex (31-bed),Hospital,52,"1,612"
+Upazila health complex (10-bed),Hospital,11,110
+Sub-total of upazila health complexes,,429,"20,422"
+50-bed hospital,Hospital,2,100
+31-bed hospital,Hospital,7,217
+30-bed hospital,Hospital,3,90
+25-bed hospital,Hospital,1,25
+20-bed hospital,Hospital,39,780
+10-bed hospital,Hospital,15,150
+Upazila health office,OPD,60,0
+Union sub-center,OPD,"1,312",0
+Union health and family welfare center (UH&FWC),OPD,87,0
+Urban dispensary,OPD,35,0
+School health clinic,OPD,23,0
+"Tejgaon health complex, Dhaka",OPD,1,0
+"Grand total of primary-level facilities (except
+community clinic)",,"1,975","21,784"
+Community clinic (functional at present)*,OPD,"14,272",0
+"Grand total of primary-level facilities (including
+community clinic)",,16.247,"21,784"

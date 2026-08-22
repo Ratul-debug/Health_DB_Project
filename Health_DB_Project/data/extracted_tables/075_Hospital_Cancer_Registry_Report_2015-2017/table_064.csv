@@ -1,0 +1,48 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+Gastric antrum,3,1,4,Bile duct,2,,2
+Sq cell ca,1,0,1,Cholangiocarcinoma,2,,2
+Basal cell ca,1,0,1,Ampula of vater,2,,2
+Adenocarcinoma,1,1,2,Sq cell ca,1,,1
+Stomach,299,104,403,Adenocarcinoma,1,,1
+Malignent tumour,127,38,165,Head of pancreas,4,,4
+Sq cell ca,22,8,30,Adenocarcinoma,4,,4
+Adenocarcinoma,150,58,208,Pancreas,20,7,27
+Duodenum,3,,3,Sq cell ca,5,0,5
+Small cell ca,1,,1,Adenocarcinoma,15,7,22
+Adenocarcinoma,2,,2,Nasal cavity,5,1,6
+Jejunum,1,1,2,Sq cell ca,2,0,2
+Adenocarcinoma,1,1,2,Adenocarcinoma,1,0,1
+Ileum,4,5,9,Adeno cystic ca,1,0,1
+Sq cell ca,1,3,4,Neuroblstoma,1,1,2
+Adenocarcinoma,2,2,4,"Middle ear, inner ear",7,6,13
+Hodgkins' Lymphoma,1,0,1,Sq cell ca,6,4,10
+Cecum,9,7,16,Basal cell ca,0,1,1
+Sq cell ca,1,1,2,Adeno cystic ca,0,1,1
+Adenocarcinoma,8,6,14,Granulosa cell tumour,1,0,1
+Hepatic flexure,4,2,6,Maxillary sinuses,8,8,16
+Sq cell ca,4,1,5,Sq cell ca,7,7,14
+Adenocarcinoma,0,1,1,Adenocarcinoma,1,0,1
+Sigmoid colon,5,,5,Haemongiosarcoma,0,1,1
+Adenocarcinoma,5,,5,Frontal sinuses,4,2,6
+Colon,86,47,133,Sq cell ca,1,1,2
+Spindle cell ca,1,0,1,Adenocarcinoma,0,1,1
+Sq cell ca,7,5,12,Glioma,1,0,1
+Adenocarcinoma,78,42,120,Astrocytoma,1,0,1
+Rectum,191,140,331,Glioblastoma,1,0,1
+Sq cell ca,32,25,57,"Glottis, Vocal cord",85,5,90
+Adenocarcinoma,159,114,273,Sq cell ca,85,5,90
+Mucoepidermoid ca,0,1,1,"Supraglottis, Epiglottis",103,12,115
+Anal canal,13,11,24,Sq cell ca,103,10,113
+Sq cell ca,10,7,17,Adenocarcinoma,0,2,2
+Adenocarcinoma,3,4,7,Larynx,131,12,143
+Liver,286,118,404,Spindle cell ca,1,0,1
+Sq cell ca,3,1,4,Sq cell ca,130,12,142
+Transitional cell ca,1,0,1,Bronchous,38,8,46
+Adenocarcinoma,3,1,4,Small cell ca,1,0,1
+Hepatocellular ca,279,116,395,Sq cell ca,37,7,44
+Intra hepatic bile duct,1,1,,Adenocarcinoma,0,1,1
+Cholangiocarcinoma,,1,1,,,,
+Gall bladder,91,132,223,,,,
+Sq cell ca,2,7,8,,,,
+Adenocarcinoma,89,125,214,,,,

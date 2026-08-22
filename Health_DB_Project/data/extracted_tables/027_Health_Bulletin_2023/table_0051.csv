@@ -1,0 +1,14 @@
+0,1,2,3,4
+Table 4.2.1. Vaccination schedule for children,,,,
+Vaccine,"No. of
+doses","Age of
+administration","Dose
+interval",Route
+BCG,1,After birth,-,Intradermal
+"Pentavalent (DTP-Hib-
+HepB)",3,"W6, W10, W14",4 weeks,Intramuscular
+PCV,3,"W6, W10, W14",4 weeks,Intramuscular
+bOPV,3,"W6, W10, W14",4 weeks,Oral
+IPV,2,"W6, W14",8 weeks,Intradermal
+Measles-Rubella (MR),2,"9 months and 15
+months",-,Sub-cutaneous

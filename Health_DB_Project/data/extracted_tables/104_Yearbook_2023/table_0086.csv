@@ -1,0 +1,19 @@
+0,1,2,3
+Sl. No.,Description,Number,%
+01,Total Number of Outpatients Visits,13344,100.00
+02,Total number of Existing Patients,1548,100.00
+03,Provided Day-care Services to patients out of Total Patients,922,59.56
+04,Gender Distribution of Outpatients Visits,,
+,Female,4293,32.17
+,Male,9051,67.83
+05,Disease Wise Distribution of Outpatients Visits,,
+,Non-Hodgkin Lymphoma,2052,25.73
+,Hodgkin Lymphoma,2122,15.90
+,Acute Lymphoblastic Leukaemia,1985,14.88
+,Acute Myeloid Leukaemia,806,6.04
+,Acute Promyelocytic Leukaemia,216,1.62
+,Chronic Myeloid Leukaemia,1903,14.26
+,Multiple Myeloma,1147,8.6
+,Chronic Lymphocytic Leukaemia/SLL,234,1.75
+,Others,1498,11.23
+,Total,13344,100

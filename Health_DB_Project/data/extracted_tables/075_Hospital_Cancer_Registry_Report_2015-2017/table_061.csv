@@ -1,0 +1,47 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+ICD-O,Primary site of tumour,Age group,,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,75-84,85-94,Total
+C23.9,Gall blader,0,0,7,27,36,38,15,5,3,131
+C25.9,Pancrease,0,1,1,1,0,0,4,0,0,7
+C30.0,Nasal cavity,0,0,0,1,0,0,0,0,0,1
+C30.1,"Middle ear , inner ear",0,0,3,0,1,1,0,1,0,6
+C31.0,Maxillary sinuses,0,1,0,0,3,1,2,1,0,8
+C31.2,Frontal sinuses,0,0,0,1,1,0,0,0,0,2
+C32.0,"Glottis, Vocal cord",0,0,0,2,0,2,1,0,0,5
+C32.1,"Supraglottis, Epiglottis,",0,0,0,1,3,6,1,1,0,12
+C32.9,Larynx,0,0,1,1,5,4,0,1,0,12
+C34.0,Bronchous,0,0,1,1,3,1,1,1,0,8
+C34.9,Lung,1,2,14,24,74,85,48,18,1,267
+C38.4,Pleura,0,2,4,3,11,8,5,1,0,34
+C41.1,Mendible & Jaw,0,0,0,0,2,0,0,0,0,2
+C41.2,Vertebra & Vertebral column,0,3,1,3,5,2,1,1,0,16
+C41.9,Bones & articular cartilages,5,3,1,3,1,1,1,0,0,15
+C42.0,Blood,16,13,5,9,7,6,1,1,0,58
+C42.1,Bone marrow,0,1,0,2,1,0,1,0,0,5
+C44.1,Skin of eye lid,0,0,0,0,0,2,1,1,0,4
+C44.3,Skin of Face,0,0,0,1,0,0,0,0,0,1
+C44.9,Skin,0,2,1,1,3,4,3,2,0,16
+C48.1,"Omentum, Pouch of duglus,
+Cal de sac",0,0,0,2,3,2,0,0,0,7
+C49.0,Connective tissue of scalp/face/neck,1,1,0,0,1,2,0,0,0,5
+C49.1,"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wris",1,1,1,1,2,0,1,0,0,7
+C49.2,"Connective tissue of LL,foot,leg,
+thigh,hip,knee",4,7,5,6,8,4,1,1,0,36
+C49.9,Connective tissue,5,5,4,1,5,0,0,0,0,20
+"C50.0
+C50.9","Breast (Nipple/areola)
+Breast","0
+2","0
+35","0
+234","1
+498","0
+479","1
+208","0
+48","0
+11","0
+2","2
+1517"
+C51.9,Vulva,0,0,0,1,0,0,0,0,0,1
+C52.9,Vagina,0,0,3,0,6,5,4,0,0,18
+C53.9,Cervix,0,8,52,204,295,199,84,17,2,861

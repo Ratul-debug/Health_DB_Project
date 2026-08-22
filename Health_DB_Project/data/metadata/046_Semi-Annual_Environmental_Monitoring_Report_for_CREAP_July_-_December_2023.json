@@ -1,0 +1,397 @@
+{
+  "pdf": "046_Semi-Annual_Environmental_Monitoring_Report_for_CREAP_July_-_December_2023.pdf",
+  "tables": [
+    {
+      "page": 11,
+      "file": "table_001.csv",
+      "rows": 28,
+      "cols": 14,
+      "hash": "f4068a2b675798e1abb4c04dbc54411a"
+    },
+    {
+      "page": 12,
+      "file": "table_002.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "cc10f816a114551c4cd2b21df229e70d"
+    },
+    {
+      "page": 13,
+      "file": "table_003.csv",
+      "rows": 37,
+      "cols": 7,
+      "hash": "11d95c001853813dd9f5ecb576d9d33f"
+    },
+    {
+      "page": 14,
+      "file": "table_004.csv",
+      "rows": 8,
+      "cols": 5,
+      "hash": "98fb53ac80417890175804976d9cf1a6"
+    },
+    {
+      "page": 15,
+      "file": "table_005.csv",
+      "rows": 15,
+      "cols": 7,
+      "hash": "9605debbab3d7d496a77d80a421ef164"
+    },
+    {
+      "page": 18,
+      "file": "table_006.csv",
+      "rows": 16,
+      "cols": 4,
+      "hash": "aad3b7c7e09363f0851081e81261b2e5"
+    },
+    {
+      "page": 19,
+      "file": "table_007.csv",
+      "rows": 13,
+      "cols": 4,
+      "hash": "76bf836a83c3687a60523202414a0217"
+    },
+    {
+      "page": 26,
+      "file": "table_008.csv",
+      "rows": 9,
+      "cols": 5,
+      "hash": "e2b20a8aa6db99163dc1563c92c4cd9e"
+    },
+    {
+      "page": 26,
+      "file": "table_009.csv",
+      "rows": 10,
+      "cols": 5,
+      "hash": "79cde03bfb0b4bb0e5c336d4fe4f92ff"
+    },
+    {
+      "page": 27,
+      "file": "table_010.csv",
+      "rows": 16,
+      "cols": 5,
+      "hash": "e2ced8427705eb2eb7ea0718cd5209a6"
+    },
+    {
+      "page": 28,
+      "file": "table_011.csv",
+      "rows": 13,
+      "cols": 5,
+      "hash": "8a23f252ead5528140ac65b5fee5189d"
+    },
+    {
+      "page": 30,
+      "file": "table_012.csv",
+      "rows": 6,
+      "cols": 16,
+      "hash": "4efdcd0fcbc5a61c8a167c49837e9931"
+    },
+    {
+      "page": 31,
+      "file": "table_013.csv",
+      "rows": 7,
+      "cols": 14,
+      "hash": "3b8915e553f7c67ce6fa470334729a7a"
+    },
+    {
+      "page": 33,
+      "file": "table_014.csv",
+      "rows": 6,
+      "cols": 17,
+      "hash": "0e05040137c722bd13f72e548e7f9b5a"
+    },
+    {
+      "page": 34,
+      "file": "table_015.csv",
+      "rows": 7,
+      "cols": 14,
+      "hash": "020deaecba780894060f89b74c3f92da"
+    },
+    {
+      "page": 36,
+      "file": "table_016.csv",
+      "rows": 6,
+      "cols": 17,
+      "hash": "6556bfcb8bf0d52decc5428c058a5af6"
+    },
+    {
+      "page": 37,
+      "file": "table_017.csv",
+      "rows": 7,
+      "cols": 16,
+      "hash": "242291d4d52557fcb07c4a1047674239"
+    },
+    {
+      "page": 39,
+      "file": "table_018.csv",
+      "rows": 6,
+      "cols": 16,
+      "hash": "4cbd5c2606b0c03b7e56b479bf6b16ec"
+    },
+    {
+      "page": 40,
+      "file": "table_019.csv",
+      "rows": 6,
+      "cols": 16,
+      "hash": "07fbab042f0fb83f4216dffacf7d75a4"
+    },
+    {
+      "page": 41,
+      "file": "table_020.csv",
+      "rows": 5,
+      "cols": 16,
+      "hash": "b84a68234e14ed329037431ed88aab65"
+    },
+    {
+      "page": 43,
+      "file": "table_021.csv",
+      "rows": 9,
+      "cols": 4,
+      "hash": "e05d27e5a09e6e2c43633f0881168faf"
+    },
+    {
+      "page": 43,
+      "file": "table_022.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "5b6c63adfde1bf380f94178d3add61bf"
+    },
+    {
+      "page": 46,
+      "file": "table_023.csv",
+      "rows": 5,
+      "cols": 5,
+      "hash": "c6a89b29a63a769a1bfd2aaceea77872"
+    },
+    {
+      "page": 46,
+      "file": "table_024.csv",
+      "rows": 15,
+      "cols": 5,
+      "hash": "264f5857aede5443ddf64769bc2b2b46"
+    },
+    {
+      "page": 47,
+      "file": "table_025.csv",
+      "rows": 9,
+      "cols": 3,
+      "hash": "95a6da2756f72ff449057e5d380ea728"
+    },
+    {
+      "page": 48,
+      "file": "table_026.csv",
+      "rows": 11,
+      "cols": 5,
+      "hash": "3d862791f666c3c3bd039eee5fa36193"
+    },
+    {
+      "page": 50,
+      "file": "table_027.csv",
+      "rows": 13,
+      "cols": 19,
+      "hash": "0b6274f98a98a1f7a1aa872f2412fcaf"
+    },
+    {
+      "page": 51,
+      "file": "table_028.csv",
+      "rows": 11,
+      "cols": 19,
+      "hash": "1176121f00b8d312ed9288a8b66d2874"
+    },
+    {
+      "page": 52,
+      "file": "table_029.csv",
+      "rows": 5,
+      "cols": 19,
+      "hash": "c3977959f2b28fe898750562d3b2e291"
+    },
+    {
+      "page": 54,
+      "file": "table_030.csv",
+      "rows": 7,
+      "cols": 8,
+      "hash": "0db2e0643a5892b3f24476d0c1aa7f54"
+    },
+    {
+      "page": 55,
+      "file": "table_031.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "d240d1e65455b38922bfd9884065df88"
+    },
+    {
+      "page": 57,
+      "file": "table_032.csv",
+      "rows": 8,
+      "cols": 3,
+      "hash": "aef6e0428768daf7744ca099a691ce4d"
+    },
+    {
+      "page": 59,
+      "file": "table_033.csv",
+      "rows": 6,
+      "cols": 4,
+      "hash": "e2f4be2c07c560687468c7a39e1e270e"
+    },
+    {
+      "page": 61,
+      "file": "table_034.csv",
+      "rows": 7,
+      "cols": 5,
+      "hash": "5cb672ecf4ddeb2464773b4780b98896"
+    },
+    {
+      "page": 62,
+      "file": "table_035.csv",
+      "rows": 26,
+      "cols": 7,
+      "hash": "43558d85a9acb2be61d8d4841a0886b3"
+    },
+    {
+      "page": 63,
+      "file": "table_036.csv",
+      "rows": 6,
+      "cols": 7,
+      "hash": "a6874a585474c626ff9242d8818cf625"
+    },
+    {
+      "page": 65,
+      "file": "table_037.csv",
+      "rows": 8,
+      "cols": 13,
+      "hash": "98f91169dc563578c37f6059b055812d"
+    },
+    {
+      "page": 66,
+      "file": "table_038.csv",
+      "rows": 6,
+      "cols": 14,
+      "hash": "ce81b775cd38f143c1c3fbbbcfa8d6bc"
+    },
+    {
+      "page": 67,
+      "file": "table_039.csv",
+      "rows": 6,
+      "cols": 13,
+      "hash": "4ee9037bd04afe70b76ccd28ba2e8372"
+    },
+    {
+      "page": 70,
+      "file": "table_040.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "3c279976ba8339c068a6cc2fe860c999"
+    },
+    {
+      "page": 71,
+      "file": "table_041.csv",
+      "rows": 6,
+      "cols": 14,
+      "hash": "f3b62ba430ab8ffed678a9a399bf55c9"
+    },
+    {
+      "page": 72,
+      "file": "table_042.csv",
+      "rows": 5,
+      "cols": 13,
+      "hash": "0f4908eeddc74feef980ac37619a6412"
+    },
+    {
+      "page": 74,
+      "file": "table_043.csv",
+      "rows": 10,
+      "cols": 13,
+      "hash": "fcdd279ec7ee7b59141052df6216f70e"
+    },
+    {
+      "page": 75,
+      "file": "table_044.csv",
+      "rows": 8,
+      "cols": 13,
+      "hash": "f84ac830a38c8e0f43d407dbfed2621b"
+    },
+    {
+      "page": 76,
+      "file": "table_045.csv",
+      "rows": 8,
+      "cols": 12,
+      "hash": "9ac477ce90bbd8506d6b1862334a54df"
+    },
+    {
+      "page": 77,
+      "file": "table_046.csv",
+      "rows": 6,
+      "cols": 12,
+      "hash": "c41e84afc67253f4ed8541c7927bd144"
+    },
+    {
+      "page": 78,
+      "file": "table_047.csv",
+      "rows": 8,
+      "cols": 13,
+      "hash": "d41c82936b1b08fce5e00d94b9646ef5"
+    },
+    {
+      "page": 79,
+      "file": "table_048.csv",
+      "rows": 7,
+      "cols": 12,
+      "hash": "fa92b111d4817f87ee380772683fd204"
+    },
+    {
+      "page": 80,
+      "file": "table_049.csv",
+      "rows": 6,
+      "cols": 12,
+      "hash": "8e9fc9098f83fe6dfd2b597d8112876a"
+    },
+    {
+      "page": 81,
+      "file": "table_050.csv",
+      "rows": 40,
+      "cols": 5,
+      "hash": "8e0617adf7bb3966d286a3eda7086fc3"
+    },
+    {
+      "page": 82,
+      "file": "table_051.csv",
+      "rows": 15,
+      "cols": 5,
+      "hash": "e9627e6b21173b620029b023e146d471"
+    },
+    {
+      "page": 84,
+      "file": "table_052.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "c558c94a23e00edbae415cd0f1a77692"
+    },
+    {
+      "page": 85,
+      "file": "table_053.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "3e23339c322f0443fbe31e11c5598905"
+    },
+    {
+      "page": 87,
+      "file": "table_054.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "91b5367e848e9e3568f75634eba1494a"
+    },
+    {
+      "page": 104,
+      "file": "table_055.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "83b99a2e2a9576328198ba90f3ff854e"
+    },
+    {
+      "page": 105,
+      "file": "table_056.csv",
+      "rows": 11,
+      "cols": 3,
+      "hash": "e77127aa012c8f8d00ae6380a75335d6"
+    }
+  ]
+}

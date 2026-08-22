@@ -1,0 +1,36 @@
+0,1,2,3,4,5
+Age 5 -1 4 years,,,,,
+Boy,,Girl,,Both sexes,
+Non-H odgkin lymphoma,50.00,Brain tumor,100,Brain tumor,33.33
+Retinoblastoma,50.00,-,-,Non-H odgkin lymphoma,33.33
+-,-,-,-,Retinoblastoma,33.33
+Total deaths,2,Total deaths,1,Total deaths,3
+Age 15 -2 4 years,,,,,
+Boy,,Girl,,Both sexes,
+Acute myeloid leukemia,40.00,Ewing’s sarcoma,33.33,Acute lymphatic leukemia,18.18
+Acute lymphatic leukemia,20.00,Acute lymphatic leukemia,16.67,Acute myeloid leukemia,18.18
+Ca-Lung,20.00,Ca-Kidney,16.67,Ewing’s sarcoma,18.18
+Non-H odgkin lymphoma,20.00,Soft-t issue sarcoma,16.67,Ca-Kidney,9.09
+-,-,Other,16.67,Ca-Lung,9.09
+-,-,-,-,Non Hodgkin lymphoma,9.09
+Total deaths,5,Total deaths,6,Total deaths,11
+Age 25 - 49 years,,,,,
+Male,,Female,,Both sexes,
+Ca-Lung,40.00,Ca-Breast,33.33,Ca-Breast,20.00
+Adenocarcinoma,10.00,Chorioc arcinoma,20.00,Ca-Lung,16.00
+Acute myeloid leukemia,10.00,Ewing’s sarcoma,13.33,Chorio carcinoma,12.00
+Ca-Rectum,10.00,Adenocarcinoma,6.67,Adenocarcinoma,8.00
+Ca-Testes,10.00,Acute myeloid leukemia,6.67,Acute myeloid leukemia,8.00
+Fibrosarcoma,10.00,ca-Colon,6.67,Ewing’s sarcoma,8.00
+Non-Hodgkin lymphoma,10.00,Ca-Kidney,6.67,Non- Hodgkin lymphoma,8.00
+-,-,Ca-Ovary,6.67,ca-Colon,4.00
+-,-,Ca-Stomach,6.67,Ca-Kidney,4.00
+-,-,Leiomyosarcoma,6.67,Ca-Ovary,4.00
+-,-,Non-H odgkin lymphoma,6.67,Ca-Rectum,4.00
+-,-,Soft-t issue sarcoma,6.67,Ca-Stomach,4.00
+-,-,Other,6.67,Ca-Testes,4.00
+-,-,-,-,Fibrosarcoma,4.00
+-,-,-,-,Leiomyosarcoma,4.00
+-,-,-,-,Soft-t issue sarcoma,4.00
+-,-,-,-,Other,4.00
+Total deaths,10,Total deaths,15,Total deaths,25

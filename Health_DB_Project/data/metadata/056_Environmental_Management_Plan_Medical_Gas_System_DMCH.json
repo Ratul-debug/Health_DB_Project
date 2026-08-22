@@ -1,0 +1,40 @@
+{
+  "pdf": "056_Environmental_Management_Plan_Medical_Gas_System_DMCH.pdf",
+  "tables": [
+    {
+      "page": 10,
+      "file": "table_001.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "a8c6e9d51cf9d2646693a1262f55ec62"
+    },
+    {
+      "page": 11,
+      "file": "table_002.csv",
+      "rows": 6,
+      "cols": 13,
+      "hash": "64c97384934be7ce554fb542a9795612"
+    },
+    {
+      "page": 12,
+      "file": "table_003.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "172d722e67cf0c423a7c1d1ef1049e09"
+    },
+    {
+      "page": 13,
+      "file": "table_004.csv",
+      "rows": 5,
+      "cols": 13,
+      "hash": "5f828097390f7bd77ad744dc1e4dfece"
+    },
+    {
+      "page": 14,
+      "file": "table_005.csv",
+      "rows": 48,
+      "cols": 16,
+      "hash": "2091e63018fd2611b4c4bf52e27086f3"
+    }
+  ]
+}

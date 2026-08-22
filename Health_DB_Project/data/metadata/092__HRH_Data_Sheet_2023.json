@@ -1,0 +1,19 @@
+{
+  "pdf": "092__HRH_Data_Sheet_2023.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "file": "table_001.csv",
+      "rows": 43,
+      "cols": 5,
+      "hash": "c9459daaf19fc2bdb2cf50c89d2e6f4c"
+    },
+    {
+      "page": 3,
+      "file": "table_002.csv",
+      "rows": 34,
+      "cols": 3,
+      "hash": "238eed8e973baaad184e82ce0d3b97f2"
+    }
+  ]
+}

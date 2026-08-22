@@ -1,0 +1,39 @@
+0,1,2
+Type of facility,"Type of
+service","Total
+No. of
+facilities"
+"Upazila health complex (50-bed)
+Upazila health complex (31-bed)
+Upazila health complex (20-bed)
+Upazila health complex (10-bed)","Hospital
+Hospital
+Hospital
+Hospital","268
+145
+1
+11"
+,Subtotal of upazila health complexes,425
+"31-bed hospital
+30-bed hospital","Hospital
+Hospital","5
+1"
+,Subtotal of hospitals outside health complexes,6
+Trauma center (20-bed),Hospital,5
+,Total of upazila-level hospitals,436
+"20-bed hospital
+10-bed hospital","Hospital
+Hospital","18
+13"
+,Subtotal of union-level hospitals,31
+"Union subcenter
+Union health and family welfare
+center","Outpatient only
+Outpatient only","1275
+87"
+,Subtotal of union outpatient centers,1362
+,Total of union-level facilities,1393
+Community clinic,Outpatient only,12527
+,Grand total of hospitals (upazila and below),467
+,"Grand total of health facilities (upazila
+and below)",14356

@@ -1,0 +1,52 @@
+0,1,2,3,4,5
+Age 29 day- 1 1 months,,,,,
+Boy,,Girl,,Both sexes,
+Cardio-respiratory failure,100,Cardio-respiratory failure,75.00,Cardio-respiratory failure,83.33
+-,-,Tuberculosis,25.00,Tuberculosis,16.67
+Total deaths,2,Total deaths,4,Total deaths,6
+Age 1 year- 4 year(s ),,,,,
+Boy,,Girl,,Both sexes,
+Cardio-respiratory failure,75.00,Cardio-respiratory failure,100.00,Cardio-respiratory failure,83.33
+Septicemia,25.00,-,-,Septicemia,16.67
+Total deaths,4,Total deaths,2,Total deaths,6
+Age 5 years -1 4 years,,,,,
+Boy,,Girl,,Both sexes,
+Cardio-respiratory failure,28.57,Cardio-respiratory failure,75.00,Cardio-respiratory failure,45.45
+Others,28.57,Others,25.00,Others,27.27
+Tuberculosis,14.29,Tuberculosis,0.00,Tuberculosis,9.09
+Respiratory failure,14.29,Respiratory failure,0.00,Respiratory failure,9.09
+Malignancy,14.29,Malignancy,0.00,Malignancy,9.09
+Total deaths,7,Total deaths,4,Total deaths,11
+Age 15 years- 2 4 years,,,,,
+Male,,Female,,Both sexes,
+Cardio-respiratory failure,74.36,Cardio-respiratory failure,78.95,Cardio-respiratory failure,74.58
+Tuberculosis,12.82,Respiratory failure,10.53,Tuberculosis,11.86
+Respiratory failure,12.82,Tuberculosis,5.26,Others,10.17
+Cardiov ascular diseases,0.00,Cardiov asculard iseases,5.26,Cardio vascular diseases,1.69
+Others,0.00,Others,5.26,Respiratory failure,1.69
+Total deaths,19,Total deaths,20,Total deaths,59
+Age 25 years -4 9 years,,,,,
+Male,,Female,,Both sexes,
+Cardio-respiratory failure,77.40,Cardio-respiratory failure,77.78,Cardio-respiratory failure,77.49
+Tuberculosis,10.73,Respiratory failure,7.41,Tuberculosis,8.66
+Others,3.95,Asthma,3.70,Others,3.90
+Cardio vascular diseases,2.26,Cardio vascular diseases,3.70,Respiratory failure,3.46
+Respiratory failure,2.26,Others,3.70,Cardio vascular diseases,2.60
+Malignancy,1.69,Malignancy,1.85,Malignancy,1.73
+Asthma,0.56,Tuberculosis,1.85,Asthma,1.30
+COPD,0.56,COPD,0.00,COPD,0.43
+Pneumonia,0.56,Pneumonia,0.00,Pneumonia,0.43
+Total deaths,177,Total deaths,54,Total deaths,231
+Age 50 years an dabov e,,,,,
+Male,,Female,,Both sexes,
+Cardio-respiratory failure,68.91,Cardio-respiratory failure,59.54,Cardio-respiratory failure,66.73
+Others,10.44,Tuberculosis,6.11,Others,8.90
+COPD,7.89,Others,3.82,COPD,6.05
+Tuberculosis,5.57,Malignancy,3.05,Tuberculosis,5.69
+Respiratory failure,4.41,Respiratory failure,2.29,Respiratory failure,3.91
+Malignancy,3.48,Asthma,1.53,Malignancy,3.38
+Cardiov ascular diseases,1.39,Cardio vascular diseases,1.53,Cardiov ascular diseases,1.42
+Pneumonia,1.16,Pneumonia,1.53,Pneumonia,1.25
+Asthma,0.93,COPD,0.00,Asthma,1.07
+Lung abscess,0.93,Lung abscess,0.00,Lung abscess,0.71
+Total deaths,431,Total deaths,131,Total deaths,562

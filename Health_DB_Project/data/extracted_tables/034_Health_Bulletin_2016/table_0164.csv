@@ -1,0 +1,22 @@
+0,1,2,3,4
+"Table 16.13. Number of nursing institutions, along with the numbers of seats, offering different types
+of nursing degrees (June 2016)",,,,
+Course,Ownership,Affiliation,No.,Seats
+BSc,Government,MOHFW,7,700
+,,"Armed Forces Medical Institute, Dhaka Cantonment, Dhaka",1,60
+,,"Faculty of Nursing BSMMU, Dhaka",1,25
+,,Sub-total (Government),9,785
+,Private,Private (one institution has been closed),13,430
+,,Sub-total (BSc in Nursing),22,"1,215"
+Post-basic BSc,Government,MOHFW,4,500
+,Private,Private,10,345
+,,Sub-total (Post-basic BSc in Nursing),14,845
+"Specialized
+education",Private,Private,4,80
+,,Sub-total (Specialized education in Nursing),4,80
+Diploma,Government,MOHFW,43,"2,580"
+,,Armed Forces Medical Institute,1,50
+,,Sub-total (Government),44,"2,630"
+,Private,Private,47,1910
+,,Sub-total (Diploma in Nursing),91,"4,540"
+,,Total,131,"8,740"

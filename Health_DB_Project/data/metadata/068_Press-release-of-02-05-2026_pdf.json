@@ -1,0 +1,89 @@
+{
+  "pdf": "068_Press-release-of-02-05-2026_pdf.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "file": "table_001.csv",
+      "rows": 13,
+      "cols": 9,
+      "hash": "0b8c9e99d7284223b7cf089fe25ac0ad"
+    },
+    {
+      "page": 2,
+      "file": "table_002.csv",
+      "rows": 10,
+      "cols": 7,
+      "hash": "bc731819f6edae68273eb0bd55f1bc24"
+    },
+    {
+      "page": 2,
+      "file": "table_003.csv",
+      "rows": 6,
+      "cols": 8,
+      "hash": "46882568ca06be459f4dfea903ffe6b5"
+    },
+    {
+      "page": 3,
+      "file": "table_004.csv",
+      "rows": 59,
+      "cols": 9,
+      "hash": "0dd3363121a8dda76de461f5bc96ee18"
+    },
+    {
+      "page": 4,
+      "file": "table_005.csv",
+      "rows": 15,
+      "cols": 9,
+      "hash": "b4a7840ee89892426ff7db8bc81e6889"
+    },
+    {
+      "page": 4,
+      "file": "table_006.csv",
+      "rows": 10,
+      "cols": 5,
+      "hash": "5fdf0cb7e1f1dc7c84a2cecd38fa3ba1"
+    },
+    {
+      "page": 4,
+      "file": "table_007.csv",
+      "rows": 26,
+      "cols": 6,
+      "hash": "0738005bdf056334bdc9270457d543ee"
+    },
+    {
+      "page": 5,
+      "file": "table_008.csv",
+      "rows": 60,
+      "cols": 6,
+      "hash": "a214940ecc030436accbf1c322c53bcd"
+    },
+    {
+      "page": 6,
+      "file": "table_009.csv",
+      "rows": 60,
+      "cols": 6,
+      "hash": "ab02ac7505f8b2f32dfd4a4d31494083"
+    },
+    {
+      "page": 7,
+      "file": "table_010.csv",
+      "rows": 24,
+      "cols": 6,
+      "hash": "02d2fcc3fcdcd2a475991eb0fb5febc3"
+    },
+    {
+      "page": 7,
+      "file": "table_011.csv",
+      "rows": 10,
+      "cols": 4,
+      "hash": "3b5409be3e695529da4cfb72581b07dd"
+    },
+    {
+      "page": 7,
+      "file": "table_012.csv",
+      "rows": 6,
+      "cols": 4,
+      "hash": "65cf5781af3cfd23abd53556d8b40e86"
+    }
+  ]
+}

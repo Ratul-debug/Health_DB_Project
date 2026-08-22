@@ -1,0 +1,45 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+"Connective tissue of UL, arm,
+forearm, hand, shoulder, thumb, wrist",23,7,30,Breast,14,1517,1531
+Malignant tumour,2,0,2,Malignant tumour,0,1,1
+Spindle cell ca,0,1,1,Sq cell ca,0,2,2
+Small cell ca,1,1,2,Adenocarcinoma,1,1,2
+Sq cell ca,6,2,8,Duct cell ca,13,1513,1526
+Adenocarcinoma,3,0,3,Vulva,,1,1
+Sarcoma,3,0,3,Sq cell ca,,1,1
+Fibrous histocytoma,1,0,1,Vagina,,18,18
+Liposarcoma,1,0,1,Small cell ca,,1,1
+Rhabdomyosarcoma,1,0,1,Sq cell ca,,14,14
+Osteosarcoma,4,3,7,Adenocarcinoma,,3,3
+Ewing's sarcoma,1,0,1,Cervix,,861,861
+"Connective tissue of LL, foot,
+leg, thigh, hip, knee",91,37,128,Malignant tumour,,1,1
+Malignant tumour,3,0,3,Sq cell ca,,805,805
+Spindle cell ca,2,0,2,Adenocarcinoma,,48,48
+Sq cell ca,25,7,32,Endrometroid ca,,6,6
+Basal cell ca,0,1,1,Duct cell ca,,1,1
+Malignent melanoma,1,0,1,Uterus,,70,70
+Sarcoma,2,1,3,Malignant tumour,,1,1
+Fibrosarcoma,2,1,3,Sq cell ca,,51,51
+Fibrous histocytoma,2,0,2,Adenocarcinoma,,15,15
+Dermato fibroma,1,0,1,Endrometroid ca,,3,3
+Liposarcoma,1,1,2,Ovary,,92,92
+Angiomyosarcoma,0,1,1,Small cell ca,,1,1
+Rhabdomyosarcoma,2,0,2,Sq cell ca,,55,55
+"Haemongiosarcoma, Angiosarcoma",1,0,1,Adenocarcinoma,,33,33
+Osteosarcoma,44,24,68,Adeno cystic ca,,1,1
+Chondrosarcoma,1,1,2,Endrometroid ca,,2,2
+Ewing's sarcoma,4,0,4,Adenexa,,18,18
+Connective tissue,42,20,62,Malignant tumour,,1,1
+Sarcoma,4,0,4,Sq cell ca,,9,9
+Fibrosarcoma,8,3,11,Adenocarcinoma,,4,4
+Fibrous histocytoma,17,4,21,Adeno cystic ca,,4,4
+Liposarcoma,7,2,9,Tubo overian & Utero overian,,49,49
+Leiomyosarcoma,1,1,2,Malignent tumour,,2,2
+Rhabdomyosarcoma,5,9,14,Sq cell ca,,28,28
+Ewing's sarcoma,0,1,1,Adenoid Sq cell ca,,3,3
+Breast (Nipple/areola),,2,2,Adenocarcinoma,,7,7
+Duct cell ca,,2,2,Adeno cystic ca,,7,7
+,,,,Papilary adenocarcinoma,,1,1
+,,,,Teratoma,,1,1

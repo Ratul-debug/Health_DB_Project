@@ -1,0 +1,55 @@
+0,1,2,3,4,5
+D. HEALTH STATUS,,,,,
+32,Infant Mortality Rate (per 1000 live birth),,,52,"SVRS, 2004, BBS"
+33,"Maternal Mortality Rate (per 1,000 live births)",,,3.65,"SVRS, 2004, BBS"
+34,"Neonatal Mortality Rate (per 1,000 live births)",,,36,"SVRS, 2004, BBS"
+35,"Under 5 Mortality Rate (per 1,000 live births)",,,74,"SVRS, 2004, BBS"
+36,Percent of population using safe drinking water,,,97.4,"SVRS, 2004, BBS"
+,,,Rural,96.9,"SVRS, 2004, BBS"
+,,,Urban,99.9,"SVRS, 2004, BBS"
+37,Percent of population using water seal latrines,,,46.2,"SVRS, 2004, BBS"
+38,"Prevalence of night blindness among pre school children
+(HKL 2005)",,,0.04,"Director, IPHN,
+Mohakhali."
+39,% of births attended by skilled personnel,,,13.4,"SVRS, 2004, BBS"
+40,"Malaria slide positivity rate (positive per hundred slide
+examined)",,,6.49,"MIS, 2005"
+41,Malaria incidence rate per 1000 population,,,0.34,"MIS, 2005"
+42,TB incidence rate per 100000 population,,,99,"MIS, 2005"
+43,"% of smear-positive pulmonary TB cases detected put under
+DOTS",,,62%,"TB Annual Report
+2005, NTCP, DGHS."
+44,"% of smear-positive pulmonary TB cases detected cured
+under DOTS",,,92%,
+45,% urban of population with access to improved sanitation,,,78.6,"SVRS, 2004, BBS"
+46,"% of <5 children with diarrhoea treated with ORT (ORS or
+home made solution)",,,74.6,"BD & HS, 2004"
+47,"% of <5 children with symptoms of ARI seeking care from
+triained provider",,,20.3,"BD & HS, 2004"
+E. EDUCATION and ECONOMY,,,,,
+48,Per Capita GDP (in U.S.$),,,306,"Statistical Pocket Book
+Bangladesh 2006, BBS"
+49,Per Capita Income (in US$),,,476,
+50,"Per capita public health expenditure on
+H&FP (Taka)",,,296,
+51,"Adult Literacy Rate (Pop.15+),2004",,,51.6,"SVRS, 2004, BBS"
+F. HEALTH SERVICES PROVISION,,,,,
+52,No. of Hospital Beds,,,"51,684","MIS, 2005"
+53,No. of Beds in Public Sector,,,"35,579","MIS, 2005"
+54,No. of Beds in Health Sector,,,"32,941","MIS, 2005"
+55,No. of Beds in Private Sector,,,"16,105","MIS, 2005"
+56,No. of Hospitals in Public Sector,,,671,"MIS, 2005"
+57,No. of Hospitals in Health Sector,,,537,"MIS, 2005"
+58,No. of Clinics/Hospitals in Private Sector,,,1005,"MIS, 2005"
+59,No. of Registered Physicians (as on ‘2007),,,"45,723","BMDC, 2007"
+60,"No. of Registered Dental Surgeon (as on
+‘2007)",,,"2,945","BMDC, 2007"
+61,No. of Government Medical colleges,,,14,"MIS, 2005"
+62,No. of Private Medical & Dental colleges,,,34,"MIS, 2005"
+63,"No. of Private Institute of Health Technology
+(IHT)",,,18,"MIS, 2005"
+64,No. of Health Personnel (Govt. service),,,"103,210","MIS, 2006"
+65,No. of Physicians under BCS health Cadre,,,"7,833","MIS, 2005"
+66,No. of Doctors under Health Services,,,"10,338","MIS, 2005"
+67,No. of Registered Nurses (as on June‘2007),,,"21,715","BNC, 2007"
+68,No. of Nurses in Public sector,,,"14,971","MIS, 2006"

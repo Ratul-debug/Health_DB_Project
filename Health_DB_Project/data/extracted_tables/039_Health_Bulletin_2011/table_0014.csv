@@ -1,0 +1,26 @@
+0,1,2,3,4,5,6,7,8
+Head,Barisal,Chittagong,Dhaka,Khulna,Rajshahi,Rangpur,Sylhet,Bangladesh
+Visit for ANC service (N),63750,251178,561926,230181,165960,178045,65380,1516420
+Admitted patients (N),41135,105625,253992,102445,120809,94639,48328,766973
+Complications treated (N),15610,35470,98873,28612,28628,18228,18409,243830
+Normal delivery (N),13445,51275,86301,41465,61510,45541,20689,320226
+"Forceps/Vacuum/
+Destructive operation (N)",34,938,949,336,376,753,621,4007
+"Vaginal breech/Face
+presentation delivery (N)",72,927,1009,342,361,643,456,3810
+Caesarean section (N),14252,29740,95975,31462,24168,23460,11612,230669
+Total deliveries (N),27803,82880,184234,73605,86415,70397,33378,558712
+Livebirth (N),26980,80277,180823,72571,85128,69001,31453,546233
+Stillbirth (N),1071,3505,4887,1641,2159,2393,2206,17862
+Other surgeries (N),862,4887,10193,2319,3740,1987,3044,27032
+Referred in (N),1128,7349,5523,2076,1515,1606,1060,20257
+Referred out (N),2482,5045,10262,3602,5879,5662,3395,36327
+Visit for PNC service (N),18848,88611,255917,65387,70881,66582,30920,597146
+Maternal death (N),143,257,537,119,212,255,177,1700
+Neonatal death (N),505,501,399,147,165,257,306,2280
+"Proportion (%) of all births
+in EmOC facilities",13.9,141,19.3,20.6,21.7,20.9,17.3,18.4
+Met need (%) for EmOC,52.2,40.1,69.1,53.4,47.9,36.1,63.5,53.7
+"Cesarean section rate as %
+of all births",7.15,5.0,10.1,8.8,6.1,7.0,6.0,7.6
+Case-fatality rate (CFR) (%),0.9,0.7,0.5,0.4,0.7,1.4,1.0,0.7

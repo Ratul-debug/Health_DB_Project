@@ -1,0 +1,18 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+,,,Class,,,,,,,Sanctionedpostsineach,,,,,,,,,,,,,
+,Level,,,,,,Nameofpost,,,Place,,,No.,,,Totalposts(N o.),,,Vacantposts,,,Remarks,
+Directorate,,,1,,,"Statistician/
+StatisticalOfficer",,,MBDC,,,1,,,1,,,0,,,MBDC,,
+,Directorate,,,2,,,StatisticalOfficer,,,EPI,,,1,,,1,,,0,,,EPI,
+Directorate,,,3,,,"Statistical
+Assistant",,,CDC,,,2,,,2,,,1,,,CDC,,
+,Directorate,,,3,,,Statistical,,,Hospital,,,1,,,1,,,1,,,Hosp,
+,,,,,,,Assistant,,,,,,,,,,,,,,,,
+Directorate,,,3,,,"Statistical
+Assistant",,,ARI,,,1,,,1,,,0,,,ARI,,
+,Directorate,,,3,,,Statistical,,,EPI,,,1,,,1,,,0,,,EPI,
+,,,,,,,Assistant,,,,,,,,,,,,,,,,
+Directorate,,,3,,,"Statistical
+Assistant",,,MBDC,,,2,,,2,,,0,,,MBDC,,
+,Division,,,1,,,AssistantChief,,,Alldivision,,,1,,,5,,,0,,,Nopostin,
+,,,,,,,,,,,,,,,,,,,,,,Sylhet,

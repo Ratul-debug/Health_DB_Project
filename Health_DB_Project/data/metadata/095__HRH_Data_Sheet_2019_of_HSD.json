@@ -1,0 +1,75 @@
+{
+  "pdf": "095__HRH_Data_Sheet_2019_of_HSD.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "file": "table_001.csv",
+      "rows": 27,
+      "cols": 3,
+      "hash": "30b2fbcd5e4ce475ffd60907133db136"
+    },
+    {
+      "page": 3,
+      "file": "table_002.csv",
+      "rows": 39,
+      "cols": 8,
+      "hash": "5b9f23888e6da23293a579ed96e2d79f"
+    },
+    {
+      "page": 4,
+      "file": "table_003.csv",
+      "rows": 8,
+      "cols": 6,
+      "hash": "20dac3e8e4c36ffed3810e50e5617a2c"
+    },
+    {
+      "page": 4,
+      "file": "table_004.csv",
+      "rows": 23,
+      "cols": 8,
+      "hash": "08a4b84a60c06afa435dc8cab9cad85b"
+    },
+    {
+      "page": 5,
+      "file": "table_005.csv",
+      "rows": 30,
+      "cols": 4,
+      "hash": "b5f7609fab7d5438bf7abc649d7e753e"
+    },
+    {
+      "page": 5,
+      "file": "table_006.csv",
+      "rows": 17,
+      "cols": 4,
+      "hash": "24b5937c63c374d1ace9baa9a134b5e8"
+    },
+    {
+      "page": 6,
+      "file": "table_007.csv",
+      "rows": 24,
+      "cols": 4,
+      "hash": "c266539223ee8aeab00e6527441b3663"
+    },
+    {
+      "page": 7,
+      "file": "table_008.csv",
+      "rows": 8,
+      "cols": 8,
+      "hash": "8270bee51415b473b0038e3f78bb1784"
+    },
+    {
+      "page": 7,
+      "file": "table_009.csv",
+      "rows": 13,
+      "cols": 26,
+      "hash": "49018ab939c7315aa7df7b4b63f1ee9c"
+    },
+    {
+      "page": 8,
+      "file": "table_010.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "c0cd5556f22d181f099310dccda5da19"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+0,1,2,3,4
+Months,No of USG,No. of CT Scan,No. of CT Guided Procedure,No of X-rays
+January,1600,516,38,0
+February,1300,384,48,0
+March,1500,400,45,0
+April,1000,300,09,0
+May,1400,429,41,0
+June,1100,471,25,0
+July,1300,424,27,0
+August,1600,460,01,0
+September,1400,387,0,0
+October,1300,460,0,824
+November,1400,468,0,622
+December,1400,361,0,39
+Total,16300,5907,234,1485

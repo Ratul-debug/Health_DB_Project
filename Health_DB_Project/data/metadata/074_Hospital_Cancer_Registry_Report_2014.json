@@ -1,0 +1,250 @@
+{
+  "pdf": "074_Hospital_Cancer_Registry_Report_2014.pdf",
+  "tables": [
+    {
+      "page": 6,
+      "file": "table_001.csv",
+      "rows": 27,
+      "cols": 2,
+      "hash": "d8d7544ea9e80cf9a4d8ee001ab689a8"
+    },
+    {
+      "page": 7,
+      "file": "table_002.csv",
+      "rows": 19,
+      "cols": 2,
+      "hash": "16e4af369523e009a56a77b8ddce3adb"
+    },
+    {
+      "page": 8,
+      "file": "table_003.csv",
+      "rows": 29,
+      "cols": 2,
+      "hash": "ae123b96e9049bd58a502c44fc43eea2"
+    },
+    {
+      "page": 9,
+      "file": "table_004.csv",
+      "rows": 11,
+      "cols": 2,
+      "hash": "1a599d5af01dcbe4d9c59ce9f95a220c"
+    },
+    {
+      "page": 14,
+      "file": "table_005.csv",
+      "rows": 7,
+      "cols": 3,
+      "hash": "924090a7d841b4170b5fb9f5858f75cb"
+    },
+    {
+      "page": 15,
+      "file": "table_006.csv",
+      "rows": 37,
+      "cols": 7,
+      "hash": "fbd0fcc1da5803cabe15dc67925aa875"
+    },
+    {
+      "page": 16,
+      "file": "table_007.csv",
+      "rows": 60,
+      "cols": 10,
+      "hash": "ca7b80c047fedb6b8c8e545c285aa71f"
+    },
+    {
+      "page": 17,
+      "file": "table_008.csv",
+      "rows": 29,
+      "cols": 4,
+      "hash": "c05ff1eae44cae39c1b5836e557e2b35"
+    },
+    {
+      "page": 18,
+      "file": "table_009.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "bc9893400f1df89878098767e4723e7c"
+    },
+    {
+      "page": 18,
+      "file": "table_010.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "d364a19727cd47cf32104e7dd3c19ea0"
+    },
+    {
+      "page": 19,
+      "file": "table_011.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "8af215ca102ea61cb529173216a45fc3"
+    },
+    {
+      "page": 20,
+      "file": "table_012.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "e954d8aac54219e427accc13e7dff79c"
+    },
+    {
+      "page": 21,
+      "file": "table_013.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "46b1ce111eea0a64e6b9641c878c2b1a"
+    },
+    {
+      "page": 22,
+      "file": "table_014.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "3f9c6e9297f0d1ca1dea2151e7208166"
+    },
+    {
+      "page": 23,
+      "file": "table_015.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "ecbe259e14e4e714097b743fc3be221a"
+    },
+    {
+      "page": 25,
+      "file": "table_016.csv",
+      "rows": 30,
+      "cols": 4,
+      "hash": "1e8bd1c8b79a60c7e877633407177e1d"
+    },
+    {
+      "page": 27,
+      "file": "table_017.csv",
+      "rows": 20,
+      "cols": 4,
+      "hash": "ad4a39e5982744448cbf5409e3f9be35"
+    },
+    {
+      "page": 28,
+      "file": "table_018.csv",
+      "rows": 8,
+      "cols": 4,
+      "hash": "6ab0086a379dec25286011103b6ab66b"
+    },
+    {
+      "page": 32,
+      "file": "table_019.csv",
+      "rows": 30,
+      "cols": 4,
+      "hash": "c8528de28ab85b90315f89c471f1586f"
+    },
+    {
+      "page": 34,
+      "file": "table_020.csv",
+      "rows": 10,
+      "cols": 3,
+      "hash": "1c59befa39388d04b7c6ae94d019b44e"
+    },
+    {
+      "page": 35,
+      "file": "table_021.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "26b6cf8676443cca48416915ae7024e1"
+    },
+    {
+      "page": 39,
+      "file": "table_022.csv",
+      "rows": 7,
+      "cols": 3,
+      "hash": "53430598e5962a94cd96cc2b7751e4e4"
+    },
+    {
+      "page": 42,
+      "file": "table_023.csv",
+      "rows": 11,
+      "cols": 4,
+      "hash": "4765ff3a09090a31bb2b55d008a5db24"
+    },
+    {
+      "page": 42,
+      "file": "table_024.csv",
+      "rows": 10,
+      "cols": 13,
+      "hash": "c588b86283a520623a2e02be0ffc5938"
+    },
+    {
+      "page": 48,
+      "file": "table_025.csv",
+      "rows": 44,
+      "cols": 11,
+      "hash": "7e216519a2ec1a581a389a4c591594d2"
+    },
+    {
+      "page": 49,
+      "file": "table_026.csv",
+      "rows": 51,
+      "cols": 11,
+      "hash": "9bd045ded67265bbf9a69ffd38b711e2"
+    },
+    {
+      "page": 50,
+      "file": "table_027.csv",
+      "rows": 59,
+      "cols": 11,
+      "hash": "43850112ce4b23172faa682048996e69"
+    },
+    {
+      "page": 51,
+      "file": "table_028.csv",
+      "rows": 35,
+      "cols": 11,
+      "hash": "e2ccf701f27b292b37beaa62518d40b5"
+    },
+    {
+      "page": 52,
+      "file": "table_029.csv",
+      "rows": 42,
+      "cols": 11,
+      "hash": "178735ad3ad70af69f9e9051fb856dcf"
+    },
+    {
+      "page": 53,
+      "file": "table_030.csv",
+      "rows": 56,
+      "cols": 11,
+      "hash": "b13d58b7162a9feeb84d6b1794daa0db"
+    },
+    {
+      "page": 54,
+      "file": "table_031.csv",
+      "rows": 57,
+      "cols": 11,
+      "hash": "155cac9c913b4e759620db886cd2c3a9"
+    },
+    {
+      "page": 55,
+      "file": "table_032.csv",
+      "rows": 22,
+      "cols": 11,
+      "hash": "69d5eec30cd8e750524d3e38c10b93e3"
+    },
+    {
+      "page": 56,
+      "file": "table_033.csv",
+      "rows": 47,
+      "cols": 8,
+      "hash": "863ddde1480a581e3343ad83a4a8a89a"
+    },
+    {
+      "page": 57,
+      "file": "table_034.csv",
+      "rows": 47,
+      "cols": 8,
+      "hash": "f87e8fe36f7481d6b0af51eeb56fce81"
+    },
+    {
+      "page": 58,
+      "file": "table_035.csv",
+      "rows": 48,
+      "cols": 8,
+      "hash": "135f73513575d57b77c076ed9dfa8258"
+    }
+  ]
+}

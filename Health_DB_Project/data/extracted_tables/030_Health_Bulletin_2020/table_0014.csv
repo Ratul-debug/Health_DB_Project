@@ -1,0 +1,27 @@
+0,1,2,3
+"Sl.
+no.",Indicator,Impact/Outcome,
+,,"Base year’s information
+(source with year)","7th FYP target
+(FY 2020)"
+1.,Life-expectancy at birth,72.22 years (World Bank 2015),72
+2.,Total fertility rate (children per woman),2.13 (World Bank 2015),2.0
+3.,"Under-5 mortality rate (per 1,000
+livebirths)",45 (BDHS 2017-18),37
+4.,"Infant mortality rate (per 1,000 livebirths)",38 (BDHS 2017-18),20
+5.,"Maternal mortality ratio (per 100,000
+livebirths)",173 (World Bank 2017),105
+6.,"Proportion of underweight among under-5
+children (%)",22 (BDHS 2017-18),20
+7.,"Proportion of stunting among under-5
+children (%)",31 (BDHS 2017-18),25
+Output,,,
+8.,"Proportion of births attended medically-
+trained care providers (%)",52.7 (BDHS 2017-18),65
+9.,Contraceptive prevalence rate (%),61.9 (BDHS 2017-18),75
+10.,"Proportion of children fully-vaccinated by
+12 months (%)",89 (BDHS 2017-18),75
+11.,"Proportion of births in health facilities by
+wealth quintile (ratio of the lowest and the
+highest quintile)",15: 69.5 (BDHS 2014),1: 3.5
+12.,TB case detection rate (%),81 (World Bank 2019),75

@@ -1,0 +1,15 @@
+0,1,2
+"ICD 10
+code",Cause of admission,"Number of
+patients"
+I21,Acute myocardial infarction,13121
+I11,Hypertensive heart disease,6856
+I089,"Multiple valve disease, unspecified",4060
+Q20,Congenital malformations of cardiac chambers and connections,3766
+I50,Heart failure,3739
+I70,Atherosclerosis,3627
+I330,Acute and subacute infective endocarditis,2964
+I501,Left ventricular failure,1697
+J440,"Chronic obstructive pulmonary disease with acute lower
+respiratory infection",1637
+C759,"Endocrine gland, unspecified",329

@@ -1,0 +1,8 @@
+0,1,2,3,4,5
+No.,Type of care,Male patients,Female patients,Child patients,Total patients
+1.,Outdoor,7073,7583,2161,16817
+2.,Pathology,980,871,336,2187
+3.,Emergency,1800,1785,145,3730
+4.,Indoor/admitted patients,4722,3636,849,9207
+5.,Antenatal care,-,914,-,914
+6.,IMCI and Nutrition,-,-,1614,1614

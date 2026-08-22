@@ -1,0 +1,49 @@
+0,1,2,3,4,5
+Age 15 - 24 years,,,,,
+Male,,Female,,Both sexes,
+Myocardial infarction,22.00,Pregnancy-related causes,17.22,Injury,16.59
+Injury,16.67,Injury,16.56,Myocardial infarction,12.61
+Asthma,9.33,Asthma,9.27,Asthma,9.29
+COPD,6.67,Myocardial infarction,7.95,"Meningitis/
+Encephalitis",5.02
+Septicemia,5.33,"Meningitis/
+Encephalitis",5.55,COPD,4.42
+Poisoning,4.00,Septicemia,3.31,Poisoning,4.42
+"Meningitis/
+Encephalitis",3.96,Poisoning,4.64,Septicemia,3.98
+Total deaths,150,Total deaths,301,Total deaths,451
+Age 25 - 49 years,,,,,
+Male,,Female,,Both sexes,
+Myocardial infarction,27.46,Pregnancy-r elated causes,28.86,Myocardial infarction,18.56
+Cerebro-v ascular accident,19.25,Cerebro-v ascular accident,14.50,Cerebro-v ascular accident,16.77
+Injury,11.94,Myocardial infarction,10.40,Injury,11.13
+Asthma,11.19,Injury,10.40,Asthma,8.28
+COPD,10.90,"Nutritional
+Problem/ A nemia",8.03,"Nutritional
+Problem /A nemia",7.52
+Poisoning,6.64,Poisoning,7.87,Poisoning,7.28
+"Nutritional Problem /
+Anemia",6.97,Asthma,5.61,COPD,6.64
+"Other
+Cardio vascular diseases*",1.89,"Other
+Cardio vascular diseases",1.64,"Other
+Cardio vascular diseases",1.76
+Acute abdomen,1.02,COPD,2.74,Acute abdomen,1.01
+Total deaths,670,Total deaths,731,Total deaths,"1,401"
+Age 50 years an dabov e,,,,,
+Male,,Female,,Both sexes,
+Cerebro-v ascular accident,21.51,Cerebro-v ascular accident,40.66,Cerebro-v ascular accident,27.43
+Myocardial infarction,9.90,Myocardial infarction,7.71,Myocardial infarction,9.22
+Injury,7.78,"Other
+Cardio vascular diseases",6.35,"Other
+Cardio vascular diseases",6.30
+"Other
+Cardio vascular diseases",6.27,"Nutritional
+Problem / Anemia",4.42,Injury,6.14
+COPD,3.50,Asthma,3.94,"Nutritional
+Problem/ Anemia",3.63
+"Nutritional
+Problem / Anemia",3.28,Poisoning,2.74,Asthma,3.25
+Asthma,2.93,COPD,2.51,COPD,3.19
+Poisoning,2.25,Injury,2.46,Poisoning,2.40
+Total deaths,"3,919",Total deaths,"1,751",Total deaths,"5,670"

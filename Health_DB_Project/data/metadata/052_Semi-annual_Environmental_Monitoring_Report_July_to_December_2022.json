@@ -1,0 +1,145 @@
+{
+  "pdf": "052_Semi-annual_Environmental_Monitoring_Report_July_to_December_2022.pdf",
+  "tables": [
+    {
+      "page": 10,
+      "file": "table_001.csv",
+      "rows": 25,
+      "cols": 14,
+      "hash": "d9036fdee942c40f28ce60b6940826e0"
+    },
+    {
+      "page": 11,
+      "file": "table_002.csv",
+      "rows": 26,
+      "cols": 14,
+      "hash": "c1be3ece1189db5e7e6581736f48f4bc"
+    },
+    {
+      "page": 12,
+      "file": "table_003.csv",
+      "rows": 10,
+      "cols": 14,
+      "hash": "87105fe6ff2706f859a38564bd2989fb"
+    },
+    {
+      "page": 24,
+      "file": "table_004.csv",
+      "rows": 7,
+      "cols": 14,
+      "hash": "b20913c15ba539239c7b183c09f24904"
+    },
+    {
+      "page": 26,
+      "file": "table_005.csv",
+      "rows": 6,
+      "cols": 16,
+      "hash": "cfacb5d1163ab806decfda096001b22d"
+    },
+    {
+      "page": 27,
+      "file": "table_006.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "4df6ef32b2bbe67bf4a661456a728b77"
+    },
+    {
+      "page": 30,
+      "file": "table_007.csv",
+      "rows": 9,
+      "cols": 4,
+      "hash": "159e6b467182f952a4bf03ada1ea3593"
+    },
+    {
+      "page": 30,
+      "file": "table_008.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "eb799ca8776cbacd8d08462545bc8ae9"
+    },
+    {
+      "page": 31,
+      "file": "table_009.csv",
+      "rows": 12,
+      "cols": 6,
+      "hash": "27769163c176965c4a876b3ad0ec5438"
+    },
+    {
+      "page": 32,
+      "file": "table_010.csv",
+      "rows": 5,
+      "cols": 6,
+      "hash": "7259f36888ac9c182520eaabea733ca7"
+    },
+    {
+      "page": 33,
+      "file": "table_011.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "878c41e42a7b75b877e3a0659fda7015"
+    },
+    {
+      "page": 34,
+      "file": "table_012.csv",
+      "rows": 5,
+      "cols": 4,
+      "hash": "d3685c71924336f5de3ffe2634719cf0"
+    },
+    {
+      "page": 37,
+      "file": "table_013.csv",
+      "rows": 5,
+      "cols": 5,
+      "hash": "54519043b713de1e2b030016f5086cd8"
+    },
+    {
+      "page": 50,
+      "file": "table_014.csv",
+      "rows": 11,
+      "cols": 13,
+      "hash": "02966df3aa75e39ea9eae10c687f262f"
+    },
+    {
+      "page": 51,
+      "file": "table_015.csv",
+      "rows": 8,
+      "cols": 12,
+      "hash": "d4d78ed23571d7f35de2ea7511a70308"
+    },
+    {
+      "page": 52,
+      "file": "table_016.csv",
+      "rows": 8,
+      "cols": 12,
+      "hash": "6725576d8304bfae7dc72d9a519965c2"
+    },
+    {
+      "page": 53,
+      "file": "table_017.csv",
+      "rows": 6,
+      "cols": 12,
+      "hash": "a8c54b534432ccb9aed8cca1192427c4"
+    },
+    {
+      "page": 54,
+      "file": "table_018.csv",
+      "rows": 8,
+      "cols": 13,
+      "hash": "2100dbdb6d366c22446dec87bfa42a77"
+    },
+    {
+      "page": 55,
+      "file": "table_019.csv",
+      "rows": 7,
+      "cols": 12,
+      "hash": "1e358861be725a985087acb0f15f4f20"
+    },
+    {
+      "page": 56,
+      "file": "table_020.csv",
+      "rows": 6,
+      "cols": 12,
+      "hash": "fb7fc8f9e90e248838bc5c336605696d"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+Pituitary gland,,1,1,LN of axilla,8,17,25
+Sq cell ca,,1,1,Sq cell ca,5,15,20
+"Cheek, Jaw ,Nose",16,19,35,Adenocarcinoma,2,1,3
+Sq cell ca,13,14,27,Malignent melanoma,0,1,1
+Adenoid Sq cell ca,0,1,1,Hodgkins' Lymphoma,1,0,1
+Basal cell ca,1,2,3,Inguinal region,17,10,27
+Adenocarcinoma,2,2,4,Sq cell ca,8,5,13
+Thorax,1,,1,Adenocarcinoma,2,1,3
+Sq cell ca,1,,1,Malignent melanoma,1,2,3
+Abdominal wall,3,,3,Fibrosarcoma,0,1,1
+Sq cell ca,1,,1,Rhabdomyosarcoma,1,0,1
+Sarcoma,1,,1,Lymphoma,0,1,1
+Dermato fibroma,1,,1,Hodgkins' Lymphoma,5,0,5
+LN of Head face & Neck,823,379,1202,Pelvic LN,1,7,8
+Adenoma,1,0,1,Sq cell ca,1,6,7
+Malignent tumour,2,3,5,Ewing's sarcoma,0,1,1
+Gaint cell type,1,0,1,LN,262,112,374
+Large cell ca,2,0,2,Sq cell ca,1,0,1
+Spindle cell ca,2,2,4,NHL,250,109,359
+Small cell ca,14,3,17,Hodgkins' Lymphoma,11,3,14
+Sq cell ca,512,222,734,Un known primary site,75,73,148
+Adenocarcinoma,158,91,249,Malignant tumour,1,2,3
+Hepatocellular ca,1,1,2,Small cell ca,6,0,6
+Mucoepidermoid ca,0,1,1,Sq cell ca,49,52,101
+Serous cystadeno ca,0,1,1,Adenocarcinoma,17,18,35
+Mucinous cystadeno ca,0,1,1,Duct cell ca,2,1,3
+Malignent melanoma,1,0,1,,,,
+Sarcoma,2,0,2,,,,
+Fibrosarcoma,2,2,4,,,,
+Fibrous histocytoma,4,2,6,,,,
+Dermato fibroma,2,0,2,,,,
+Embryonal sarcoma,2,0,2,,,,
+Seminoma,1,0,1,,,,
+kaposi's sarcoma,0,1,1,,,,
+Ewing's sarcoma,8,8,16,,,,
+Lymphoma,1,0,1,,,,
+NHL,1,0,1,,,,
+Hodgkins' Lymphoma,105,40,145,,,,
+Multiple myaloma,1,0,1,,,,
+Chronic Myeloid/Gralulocytic Leukemia,0,1,1,,,,

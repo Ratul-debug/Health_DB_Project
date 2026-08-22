@@ -1,0 +1,14 @@
+0,1,2
+"ICD 10
+code",Cause of admission,"Number of
+patients"
+N18.5,"N185 Chronic kidney disease, stage 5",1627
+N04,Nephrotic syndrome,606
+N17,Acute renal failure,477
+N18,Chronic renal failure,285
+N18.9,"Chronic kidney disease, unspecified",245
+N00,Acute nephritic syndrome,214
+N13,Obstructive and reflux uropathy,374
+N20,Calculus of kidney and ureter,416
+N40,Hyperplasia of prostate,258
+C64,"Malignant neoplasm of kidney, except renal pelvis",238

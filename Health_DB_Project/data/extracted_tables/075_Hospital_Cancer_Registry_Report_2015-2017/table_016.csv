@@ -1,0 +1,20 @@
+0,1,2,3
+Primary site of tumour,Sex,,Total
+,Male,Female,
+Nasal cavity,13 (.7),10 (2.9),23 (1.0)
+"Middle ear , inner ear",8 (.4),2 (.6),10 (.4)
+Maxillary sinuses,12 (.6),6 (1.7),18 (.8)
+Ethmoid sinuses,0 (.0),1 (.3),1 (.0)
+Frontal sinuses,6 (.3),1 (.3),7 (.3)
+"Glottis, Vocal cord
+Supraglottis, Epiglottis,","79 (4.0)
+104 (5.3)","6 (1.7)
+10 (2.9)","85 (3.7)
+114 (4.9)"
+Laryngeal cartilages,1 (.1),0 (.0),1 (.0)
+Larynx,121 (6.1),14 (4.0),135 (5.8)
+Bronchous,1 (.1),0 (.0),1 (.0)
+Lung,1598 (81.0),271 (78.1),1869 (80.5)
+Mediastinum,7 (.4),0 (.0),7 (.3)
+Pleura,24 (1.2),26 (7.5),50 (2.2)
+Total,1974 (100.0),347 (100.0),2321 (100.0)

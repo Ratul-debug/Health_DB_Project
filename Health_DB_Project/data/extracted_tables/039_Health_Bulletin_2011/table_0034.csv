@@ -1,0 +1,22 @@
+0,1,2,3,4,5
+Facility,No. of beds,"Bed-
+occupancy
+rate (%)","Hospital-
+death rate (%)","Average daily
+admission (N)","Average
+daily OPD
+visit (N)"
+"ABC Complex Eye Clinic, Salna, Sadar, Gazipur",10,48.96,0.00,4,135
+"Alam General Eye Hospital, Kapasia, Gazipur",20,29.92,0.00,2,35
+"Al-Baraka General Hospital, Gazipur",10,41.75,0.00,1,2
+"Al-Fahim Hospital, Kapasia, Gazipur",10,12.68,0.00,0,5
+"Al-Hera Hospital, Sreepur, Gazipur",10,47.23,0.00,2,2
+"Al-Noor Islami Hospital, Gazipur",10,32.58,0.00,2,7
+"Aloha Swasto Kandro Hoapital, Balubari,
+Dinajpur",5,0.00,0.00,0,1
+"Aurobindo Shishu Hospital, Dinajpur",10,0.00,1.00,7,39
+"Ayesha Memorial Hospital, Dhaka",50,0.00,3.09,39,60
+"Banesha Memorial Hospital, Tongi, Gazipur",10,28.77,0.00,1,1
+"BNSB Base Eye Hospital,Sirajgonj",,0.00,0.01,25,116
+"BRAC Shushastho, Dinajpur",10,0.00,0.00,0,7
+"BRAC Shushostho, Gazipur",5,147.95,0.00,2,42

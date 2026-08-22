@@ -1,0 +1,25 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+Sl No.,,,Name of Institution,,,,No. of X-Ray Machine,,,,,,,,,,,,,,Remarks,,
+,,,,,,Total,,,"Servicable
+(mA)",,,"Unservicable
+(mA)",,,"Repairable
+(mA)",,,,Non-,,,,
+,,,,,,,,,,,,,,,,,,,repairable,,,,
+,,,,,,,,,,,,,,,,,,,(mA),,,,
+,1,,,2,,,3,,,4,,,5,,,6,,,7,,,8,
+1,,,"Chest Disease Clinic, Jamalpur",,,"2 – 150, 70",,,,,,"2-150,70",,,"1-150,70",,,,,,,,
+2,,,"Chest Disease Clinic, Pabna",,,1-100,,,,,,1-100,,,1-100,,,,,,,,
+3,,,"TB Clinic, Jessore",,,1-300,,,,,,1-100,,,,,,,,,Non-repairable,,
+4,,,"Chest Disease Clinic, Patuakhali",,,1-100,,,1- 100,,,,,,,,,,,,,,
+5,,,"Chest Disease Clinic, Bhola",,,1-100,,,,,,1-100,,,1-100,,,,,,,,
+6,,,"Chest Disease Clinic, Pirojpur",,,1-150,,,,,,1-150,,,1-150,,,,,,,,
+7,,,"Chest Disease Clinic, Madaripur",,,1-100,,,,,,1-100,,,1-100,,,,,,,,
+8,,,"Chest Disease Clinic, Chandpur",,,1-100,,,,,,1-100,,,1-100,,,,,,,,
+9,,,"Chest Disease Clinic, Chittagong",,,1-100,,,1 -100,,,,,,,,,,,,,,
+10,,,"Chest Disease Clinic, Noakhali",,,"2-300,100",,,1 - 300,,,1-100,,,1-100,,,,,,,,
+11,,,"Chest Disease Clinic, Khulna",,,1-100,,,,,,1-100,,,,,,,,,,,
+12,,,"Chest Disease Clinic, Thakurgaon",,,"2-300,70",,,,,,"2-300,70",,,1-300,,,1-70,,,,,
+13,,,"Chest Disease Clinic, Faridpur",,,1-100,,,1-100,,,,,,,,,,,,,,
+14,,,"Chest Disease Clinic, Rajshahi",,,"2-300,150",,,1-300,,,1-150,,,1-150,,,,,,,,
+15,,,"Chest Disease Clinic, Bogra",,,1-300,,,,,,1-300,,,1-300,,,,,,,,
+16,,,"Chest Disease Clinic, Comilla",,,1-300,,,1-300,,,,,,,,,,,,,,

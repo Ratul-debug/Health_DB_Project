@@ -1,0 +1,47 @@
+0,1,2,3,4
+Table 8.3. Distributions of deaths among inpatients in hospitals in 2015,,,,
+"Level of
+care",Type of facility,"No. of
+deaths","% of total deaths
+in hospitals","Death rate
+(%) against
+admission"
+Primary,10-bed hospitals,13,0.01,0.19
+,20-bed hospitals,39,0.04,0.26
+,Trauma centers,0,0.00,0.00
+,Upazila health complexes (UHC),"7,242",6.84,0.30
+,Subtotal: Primary,"7,294",6.89,0.30
+Secondary,District hospitals/General hospitals,"24,988",23.61,1.41
+,Subtotal: Secondary,"24,988",23.61,1.41
+Tertiary,"Bangladesh Institute of Tropical and
+Infectious Diseases, Chittagong",30,0.03,0.50
+,Dhaka Dental College Hospital,2,0.00,0.11
+,"Hospitals of alternative medical
+colleges",1,0.00%,0.07
+,"Institute of Child and Mother
+Health (ICMH)",412,0.39,2.84
+,Medical college hospitals,"66,661",62.97,4.82
+,"Mental Hospital, Pabna",14,0.01,0.89
+,"National Institute of Cancer
+Research and Hospital (NICRH)",168,0.16,2.31
+,"National Institute of Cardiovascular
+Diseases (NICVD)","4,018",3.80,6.34
+,"National Institute of Chest Disease
+and Hospital (NIDCH)",972,0.92,7.06
+,National Institute of ENT,-,-,-
+,"National Institute of Kidney
+Diseases and Urology (NIKDU)",189,0.18,3.29
+,"National Institute of Mental Health
+& Research (NIMHR)",4,0.004,0.13
+,"National Institute of Neurosciences
+and Hospital (NINH)",696,0.66,9.53
+,"National Institute of
+Ophthalmology (NIO)",0,0.00,0.00
+,"National Institute of Traumatology
+and Orthopaedic Rehabilitation
+(NITOR)",144,0.14,0.77
+,"Shaheed Sheikh Abu Naser
+Specialized Hospital, Khulna",232,0.22,8.36
+,TB hospitals (Rajshahi and Khulna),30,0.03,4.02
+,Subtotal: Tertiary,"7,3573",69.50,4.76
+Grand total,,"105,856",100,1.85

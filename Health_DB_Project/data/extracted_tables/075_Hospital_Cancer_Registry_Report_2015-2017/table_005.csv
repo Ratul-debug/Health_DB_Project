@@ -1,0 +1,15 @@
+0,1,2
+Types of treatment,Frequency,Percentage
+Chemotherapy (C),2067,31.3
+Radiotherapy (R),2393,36.3
+R+C,1759,26.7
+Surgery (S),50,0.8
+S+C,52,0.8
+S+R,31,0.5
+S+R+C,39,0.6
+Hormone therapy,17,0.3
+Palliative,60,0.9
+Slide review,27,0.4
+Referred,49,0.7
+Further investigations,51,0.8
+Total,6595,100.0

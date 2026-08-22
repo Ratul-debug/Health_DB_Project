@@ -1,0 +1,18 @@
+0,1,2,3,4,5
+Age 50 years an d abo ve,,,,,
+Male,,Female,,Both sexes,
+Tetanus,78.95,Tetanus,84.62,Diphtheria,80.39
+Chicken pox,18.42,Chicken pox,15.38,Tetanus,17.65
+Diphtheria,2.63,-,-,Chicken pox,1.96
+Total deaths,38,Total deaths,13,Total deaths,51
+All ages,,,,,
+Male,,Female,,Both sexes,
+Tetanus,78.79,Tetanus,80.00,Tetanus,79.07
+Chicken pox,11.11,Chicken pox,6.67,Chicken pox,10.08
+Diphtheria,1.01,Diphtheria,3.33,Diphtheria,1.55
+Herpetic infection,2.02,Encephalitis,3.33,Herpetic infection,1.55
+Encephalitis,1.01,HIV/ A IDS,3.33,Encephalitis,1.55
+Rabies,2.02,Others,3.33,Rabies,1.55
+HIV/ A IDS,1.01,-,,HIV/ A IDS,1.55
+Others,3.03,-,-,Others,3.10
+Total deaths,99,Total deaths,30,Total deaths,129

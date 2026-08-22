@@ -1,0 +1,27 @@
+0,1,2,3,4
+"Table 4.1. Primary healthcare facilities run by the DGHS at the upazila level and below, 2016",,,,
+Level,Type of facility,"Type of
+service","Total no. of
+facilities","Total no. of
+beds"
+Upazila,Upazila health complex (50-bed),Hospital,297,"14,850"
+,Upazila health complex (31-bed),Hospital,113,"3,503"
+,Upazila health complex (10-bed),Hospital,11,110
+,Upazila health complex (0-bed)*,Hospital,3,0
+,Subtotal of upazila health complexes,,424,"18,463"
+,Upazila health office,Outdoor,60,-
+,31-bed hospital,Hospital,5,155
+,30-bed hospital,Hospital,2,60
+,Subtotal of hospitals outside health complexes,,7,215
+,Total of upazila-level facilities,,491,"18,678"
+Union,20-bed hospital,Hospital,32,640
+,10-bed hospital,Hospital,19,190
+,Subtotal of union-level hospitals,,51,830
+,Union subcenter,Outdoor,"1,498",-
+,Union health and family welfare center,Outdoor,"1,585",-
+,Subtotal of union outpatient centers,,"3,083",-
+,Total of union-level facilities,,"3,134",
+Ward,Community clinic (functional at present),Outdoor,"13,336",-
+Grand total of primary-care hospitals (Upazila and below),,,482,"19,508"
+Grand total of primary health facilities (Upazila and below),,,"16,968","19,508"
+*Hospital not yet started,,,,

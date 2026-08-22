@@ -1,0 +1,9 @@
+0,1,2,3,4,5
+,Type of statistics,,,Description,
+Institute-wise staffing pattern,,,"Designation, type of post, number of sanctioned post, number of existing staff by sex
+in each type of post, number of vaca cies by each type of post, pay scale",,
+Existing staff list(Class I),,,"ID number, code number,name of person,, father’s name, mother’s name,
+designation, status, joining date.",,
+Institute-wise list of staffs leaving job,,,"Class, designation, name of person, father’s name, permanent address, date of
+joining date of LPR, death, dismissal, ID number, code number",,
+Personal Data Sheet,,,Detail resume of individual health staff,,

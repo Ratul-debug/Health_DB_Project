@@ -1,0 +1,47 @@
+{
+  "pdf": "057_Environmental_Management_Plan_Medical_Gas_System_KMCH.pdf",
+  "tables": [
+    {
+      "page": 5,
+      "file": "table_001.csv",
+      "rows": 21,
+      "cols": 2,
+      "hash": "6894ea7ca0bbabb887aab285eda7b803"
+    },
+    {
+      "page": 5,
+      "file": "table_002.csv",
+      "rows": 14,
+      "cols": 2,
+      "hash": "edcdd0d55d2747d491985b6028a52383"
+    },
+    {
+      "page": 9,
+      "file": "table_003.csv",
+      "rows": 6,
+      "cols": 13,
+      "hash": "b48b3c8de3d8ba62c4d25c4b2695696e"
+    },
+    {
+      "page": 10,
+      "file": "table_004.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "5e29bbc557999a15256a95ee37a255c8"
+    },
+    {
+      "page": 11,
+      "file": "table_005.csv",
+      "rows": 6,
+      "cols": 13,
+      "hash": "7130b6ffb4a2f5d7e5aa0ffcd13ea46f"
+    },
+    {
+      "page": 12,
+      "file": "table_006.csv",
+      "rows": 41,
+      "cols": 15,
+      "hash": "414c14a9de8b893b5a27940a3071ae0e"
+    }
+  ]
+}

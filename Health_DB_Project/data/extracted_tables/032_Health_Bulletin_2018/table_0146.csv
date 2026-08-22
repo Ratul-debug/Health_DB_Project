@@ -1,0 +1,13 @@
+0,1,2,3
+SL,Name of Disease,Number of patient,Percent
+01,Undiagnosed,95,20.83%
+02,Joint pain/ Rheumatic pain,38,8.33%
+03,Low back pain,27,5.92%
+04,Fever,24,5.26%
+05,Abdominal pain,17,3.73%
+06,Asthma,17,3.73%
+07,Paralysis,17,3.73%
+08,Vertigo,12,2.63%
+O9,Hemorrhoids/piles,12,2.63%
+10,Lower Abdominal Pain,10,2.19%
+,Total admitted patient,456,

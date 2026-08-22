@@ -1,0 +1,14 @@
+0,1,2
+Sl. no,Type of healthcare units and modern medical equipment,Number
+1,Operation theater,85
+2,ICU ventilator,210
+3,ICU bed,74
+4,CCU,10
+5,HDU,8
+6,NICU,4
+7,SCANU,23
+8,Dialysis bed,27
+9,Dialysis ventilator,169
+10,Cath lab,5
+11,Burn unit,8
+12,Medical waste management,12

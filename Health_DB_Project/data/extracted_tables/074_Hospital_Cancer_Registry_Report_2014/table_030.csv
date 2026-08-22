@@ -1,0 +1,57 @@
+0,1,2,3,4,5,6,7,8,9,10
+C25.9,Pancrease,0,0,1,2,2,2,1,1,9
+C30.0,Nasal cavity,1,1,2,2,0,1,1,1,9
+C30.1,"Middle ear , inner ear",0,0,0,3,0,0,0,0,3
+C31.0,Maxillary sinuses,0,1,0,0,4,2,2,0,9
+C31.1,Ethmoid sinuses,0,0,0,0,0,2,0,0,2
+C31.2,Frontal sinuses,0,0,0,0,1,0,0,0,1
+C32.0,"Glottis, Vocal cord",0,3,0,1,0,1,1,0,6
+C32.1,"Supraglottis, Epiglottis,",1,0,1,2,2,4,2,0,12
+C32.9,Larynx,0,0,2,1,0,5,0,1,9
+C34.1,Upper lobe of lung,1,0,0,0,0,0,0,0,1
+C34.2,Middle lobe of lung,0,0,0,0,0,1,0,0,1
+C34.9,Lung,0,8,20,34,70,87,59,21,299
+C38.3,Mediastinum,0,0,1,0,0,0,0,0,1
+C38.4,Pleura,0,2,0,2,7,4,1,0,16
+C39.9,Respiratory tract,0,0,1,0,0,0,0,0,1
+C40.0,Long bones & articular,,,,,,,,,
+,,11,6,6,1,2,2,0,0,28
+,cartilages of upper limbs,,,,,,,,,
+,,,,,,,,,,
+C40.1,Short bones & articular,,,,,,,,,
+,,2,1,0,0,1,1,0,0,5
+,cartilages of upper limbs,,,,,,,,,
+,,,,,,,,,,
+C40.2,Long bones & articular,,,,,,,,,
+,,2,0,0,0,0,0,1,0,3
+,cartilages of lower limbs,,,,,,,,,
+,,,,,,,,,,
+C40.3,Short bones & articular,,,,,,,,,
+,,4,5,3,3,2,0,0,0,17
+,cartilages of lower limbs,,,,,,,,,
+,,,,,,,,,,
+C40.9,Bones & articular cartilages,,,,,,,,,
+,,1,1,0,2,1,0,0,0,5
+,limbs,,,,,,,,,
+,,,,,,,,,,
+C41.0,Bones & articular cartilages,,,,,,,,,
+,,0,1,0,0,0,0,0,0,1
+,of Skull & face,,,,,,,,,
+,,,,,,,,,,
+C41.1,Mendible & Jaw,0,0,0,0,2,0,3,0,5
+C41.2,Vertebra & Vertebral,,,,,,,,,
+,,0,0,2,3,2,4,2,0,13
+,column,,,,,,,,,
+,,,,,,,,,,
+C41.4,Bones & articular cartilages,,,,,,,,,
+,,0,1,0,1,1,0,0,0,3
+,of pelvic region,,,,,,,,,
+,,,,,,,,,,
+C41.9,Bones & articular cartilages,1,1,0,1,1,0,0,0,4
+C42.1,Blood,16,14,8,9,6,8,4,1,66
+C44.0,Bone marrow,2,2,2,3,2,0,0,1,12
+C44.1,Skin of eye lid,0,0,0,0,0,0,1,0,1
+C44.3,Skin of Face,0,0,0,0,1,0,0,0,1
+,Skin of trunk,0,0,0,0,0,0,1,0,1
+C44.6,Skin of upper limb,0,0,0,0,0,1,0,0,1
+C44.7,Skin of lower limb & Hip,0,0,0,0,0,0,1,0,1

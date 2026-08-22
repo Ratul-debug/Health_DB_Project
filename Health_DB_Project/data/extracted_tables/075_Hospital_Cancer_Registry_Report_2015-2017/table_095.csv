@@ -1,0 +1,53 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+"Supraglottis, Epiglottis",132,15,147,Bones & articular cartilages of pelvic region,1,,1
+Sq cell ca,132,15,147,Ewing's sarcoma,1,,1
+Larynx,177,26,203,Bones & articular cartilages,5,11,16
+Small cell ca,1,0,1,Chondrosarcoma,1,2,3
+Sq cell ca,175,26,201,Ewing's sarcoma,4,9,13
+Adenoid Sq cell ca,1,0,1,Blood,118,80,198
+Bronchus,83,22,105,Multiple myeloma,1,0,1
+Small cell ca,0,1,1,Leukemia,2,2,4
+Sq cell ca,81,17,98,Acute Lymphoblastic Leukemia,74,40,114
+Adenocarcinoma,2,3,5,Chronic Lymphocytic Leukemia,1,1,2
+Mucinous cystadeno ca,0,1,1,Acute Myeloid/Gralulocytic Leukemia,32,21,53
+Lung,1762,322,2084,Chronic Myeloid/Gralulocytic Leukemia,8,16,24
+Malignant tumour,85,19,104,Bone marrow,43,16,59
+Large cell ca,6,0,6,Multiple myeloma,4,1,5
+Small cell ca,196,26,222,Acute Lymphoblastic Leukemia,6,0,6
+Sq cell ca,1114,188,1302,Chronic Lymphocytic Leukemia,2,0,2
+Adenocarcinoma,361,89,450,Myeloid leukemia,1,0,1
+Pleura,62,32,94,Acute Myeloid/Gralulocytic Leukemia,10,8,18
+Malignant tumour,0,1,1,Chronic Myeloid/Gralulocytic Leukemia,20,7,27
+Sq cell ca,45,21,66,Haemopoietic system,1,,1
+Adenoid Sq cell ca,11,1,12,"Haemongiosarcoma, Angiosarcoma",1,,1
+Adenocarcinoma,6,8,14,Skin of lip,1,,1
+Multiple myaloma,0,1,1,Basal cell ca,1,,1
+"Long bones & articular
+cartilages of upper limbs",6,,6,Skin of eye lid,3,1,4
+Ewing's sarcoma,6,,6,Sq cell ca,2,1,3
+"Short bones & articular
+cartilages of upper limbs",1,,1,Rhabdomyosarcoma,1,0,1
+Chronic Myeloid/,1,,1,Skin of Face,1,8,9
+Gralulocytic Leukemia,,,,,,,
+"Long bones & articular
+cartilages of lower limbs",2,3,5,Sq cell ca,1,3,4
+Fibrosarcoma,1,0,1,Basal cell ca,0,5,5
+Ewing's sarcoma,1,3,4,Skin of lower limb & Hip,1,,1
+"Short bones & articular
+cartilages of lower limbs",,1,1,Dermato fibroma,1,,1
+Ewing's sarcoma,,1,1,Skin,37,24,61
+Bones & articular cartilages limbs,2,4,6,Sq cell ca,14,5,19
+Sq cell ca,0,1,1,Basal cell ca,18,18,36
+Ewing's sarcoma,2,3,5,Adenocarcinoma,2,0,2
+Bones & articular cartilages of skull & face,,2,2,Malignant melanoma,1,0,1
+Sarcoma,,1,1,Dermato fibroma,2,1,3
+Ewing's sarcoma,,1,1,Peripheral nerve & Autonomic nerve of face,2,,2
+Mandible & Jaw,1,,1,Neuroblstoma,1,,1
+Sq cell ca,1,,1,Neurofibrosarcoma,1,,1
+Vertebra & Vertebral column,43,21,64,"Omentum, Pouch of duglus, Cal de sac",1,6,7
+Malignant tumour,2,0,2,Adenocarcinoma,1,6,7
+Gaint cell ca,0,1,1,,,,
+Multiple myaloma,1,1,2,,,,
+Sq cell ca,28,13,41,,,,
+Adenocarcinoma,12,6,18,,,,

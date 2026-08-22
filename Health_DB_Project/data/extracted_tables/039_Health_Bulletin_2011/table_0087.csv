@@ -1,0 +1,39 @@
+0,1,2,3,4,5
+Age 0 -2 8 day(s),,,,,
+Boy,,Girl,,Both sexes,
+Tetanus,100,Tetanus,100,Tetanus,100
+Total deaths,10,Total deaths,7,Total deaths,17
+Age 29 days- 11 months,,,,,
+Boy,,Girl,,Both sexes,
+Chicken pox,33.33,-,-,Chicken pox,33.33
+Other,33.33,-,-,Other,33.33
+Tetanus,33.33,-,-,Tetanus,33.33
+Total deaths,3,Total deaths,0,Total deaths,3
+Age 1- 4 years,,,,,
+Boy,,Girl,,Both sexes,
+Tetanus,50.00,-,-,Tetanus,50.00
+Other,50.00,-,-,Other,50.00
+Total deaths,2,Total deaths,0,Total deaths,2
+Age 5 -1 4 years,,,,,
+Boy,,Girl,,Both sexes,
+Tetanus,90.00,Diphtheria,50.00,Tetanus,83.33
+Encephalitis,10.00,Tetanus,50.00,Diphtheria,8.33
+-,-,-,-,Encephalitis,8.33
+Total deaths,10,Total deaths,2,Total deaths,12
+Age 15 -2 4 years,,,,,
+Male,,Female,,Both sexes,
+Tetanus,50.00,Tetanus,67.67,Tetanus,57.14
+Chicken pox,25.00,Others,33.33,Chicken pox,14.29
+Rabies,25.00,-,-,Rabies,14.29
+-,-,-,-,Others,14.29
+Total deaths,4,Total deaths,3,Total deaths,7
+Age 25 - 49 years,,,,,
+Male,,Female,,Both sexes,
+Tetanus,78.13,Tetanus,60.00,Tetanus,75.68
+Chicken pox,6.25,AIDS,20.00,AIDS,5.41
+Herpes infection,6.25,Encephalitis,20.00,Chicken pox,5.41
+AIDS,3.13,-,-,Herpes infection,5.41
+Others,3.13,-,-,Encephalitis,2.70
+Rabies,3.13,-,-,Others,2.70
+-,-,-,-,Rabies,2.70
+Total deaths,32,Total deaths,5,Total deaths,37

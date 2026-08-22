@@ -1,0 +1,62 @@
+0,1,2,3,4,5
+Age 0 - 28 day(s),,,,,
+Boy,,Girl,,Both sexes,
+Perinatal asphyxia,36.12,Perinatal asphyxia,40.75,Perinatal asphyxia,38.39
+Low birthw eight,26.14,Low birthw eight,31.94,Low birth weight,28.99
+Septicemia,8.35,Septicemia,6.75,Septicemia,7.56
+IMCI diseases,2.94,IMCI diseases,1.74,IMCI diseases,2.35
+Total patients,"1,905",Total patients,"1,838",Total patients,"3,743"
+Age 29 day - 11 months,,,,,
+Boy,,Girl,,Both sexes,
+Perinatal asphyxia,39.98,Perinatal asphyxia,57.84,Perinatal asphyxia,48.18
+IMCI diseases,19.38,IMCI diseases,15.15,IMCI diseases,17.44
+Septicemia,16.94,Septicemia,14.09,Septicemia,15.63
+Low birthw eight,6.79,Low birthw eight,4.59,Low birthw eight,5.78
+Meningitis/ E ncephalitis,2.90,Meningitis/ Encephalitis,2.56,Meningitis/ Encephalitis,2.74
+Total deaths,"1,104",Total,937,Total deaths,"2,041"
+Age 1 -4 year( s),,,,,
+Boy,,Girl,,Both sexes,
+Septicemia,7.10,Septicemia,7.96,Septicemia,7.53
+Meningitis/ E ncephalitis,6.83,IMCI diseases,8.35,IMCI diseases,7.49
+IMCI diseases,6.83,Injury,7.53,Injury,6.99
+Injury,6.57,Meningitis/ E ncephalitis,6.87,Meningitis/ Encephalitis,6.85
+Poisoning,3.41,Poisoning,3.11,Poisoning,3.28
+"Other cardiov ascular
+diseases*",2.65,"Other cardio vascular
+diseases*",2.13,"Other cardiov ascular
+diseases*",2.43
+Asthma,1.26,Asthma,1.15,Asthma,1.21
+Total deaths,791,Total deaths,611,Total deaths,"1,402"
+Age 5 -1 4 years,,,,,
+Boy,,Girl,,Both sexes,
+Injury,28.72,Injury,30.28,Injury,29.32
+Pneumonia an d other RTIs,11.82,Pneumonia an dother RTIs,11.06,Pneumonia an dother RTIs,11.49
+Septicemia,11.14,Septicemia,12.01,Septicemia,11.56
+Meningitis/ E ncephalitis,6.71,Meningitis/ E ncephalitis,7.51,Meningitis/ Encephalitis,7.01
+Poisoning,5.25,Poisoning,5.40,Poisoning,5.31
+"Other cardiov ascular
+diseases*",3.79,IMCI diseases,4.93,"Other cardio vascular
+diseases*",3.51
+IMCI diseases,2.33,"Other cardio vascular
+diseases*",3.05,IMCI diseases,3.33
+Asthma,1.17,Asthma,1.17,Asthma,1.17
+Total deaths,686,Total deaths,426,Total deaths,"1,112"
+Age 15 -2 4 years,,,,,
+Male,,Female,,Both sexes,
+Pneumonia an d other RTIs,12.68,Pneumonia an d other RTIs,11.92,Pneumonia an dother RTIs,12.36
+Meningitis/ Encephalitis,12.11,Low birthw eight,12.27,Meningitis/ E ncephalitis,11.67
+"Other cardiov ascular
+diseases*",13.72,Meningitis/ E ncephalitis,11.18,"Other cardiov ascular
+diseases*",11.17
+Myocardial infarction,9.15,Myocardial infarction,10.36,Myocardial infarction,9.67
+Poisoning,8.59,Asthma,4.27,Poisoning,5.62
+COPD,4.57,"Other cardiov ascular
+diseases*",4.00,Low birthw eight,5.31
+Asthma,3.88,COPD,3.82,COPD,4.25
+"Cerebro-v ascular accident
+/s troke",2.98,Poisoning,1.73,Asthma,4.05
+Injury,1.73,Injury,1.36,"Cerebro-v ascular accident/
+stroke",2.04
+Hypertension,0.55,"Cerebro-v ascular accident
+/s troke",0.82,Injury,1.57
+Total deaths,"1,443",Total deaths,"1,100",Total deaths,"2,543"

@@ -1,0 +1,10 @@
+0,1,2,3,4,5
+,Pulmonary case finding,,,Extra Pulmonary,
+Year,Sputum Positive,,Sputum negative,case finding,Total
+,New cases,Relapse,New cases,New cases,
+2001,40771,2017,27703,5778,76269
+2002,46811,2485,26258,6351,81905
+2003,53628,2511,24748,7102,87989
+2004,62669,3213,23803,8626,98311
+2005,84805,3873,22359,11261,122298
+Grand Total,288684,14099,124871,39118,466772

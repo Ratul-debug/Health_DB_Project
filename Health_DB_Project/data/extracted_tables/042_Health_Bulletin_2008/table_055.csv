@@ -1,0 +1,17 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+,Nutritional,,,BMI,,,Rural,,,Urban,,,National,
+,status,,,(kg/m2),,,%,,,%,,,%,
+Grade III CED,,,<16,,,4.1,,,2.0,,,3.7,,
+Grade II CED,,,"16 to
+16.9",,,8.1,,,4.6,,,7.4,,
+Grade I CED,,,"17 to
+18.4",,,23.0,,,14.4,,,21.2,,
+,Total,,,<18,,,35.2,,,21.0,,,32.2,
+Normal,,,"18.5 to
+22.9",,,52.1,,,47.0,,,51.1,,
+Overweight,,,"23 to
+27.4",,,10.6,,,23.5,,,13.3,,
+Obese,,,>27,,,2.1,,,8.5,,,3.4,,
+,Total,,,>23,,,12.7,,,32.0,,,16.7,
+"Note: CED (Chronic Energy Deficiency);
+Source: Child and Mother Nutrition Survey 2005",,,,,,,,,,,,,,

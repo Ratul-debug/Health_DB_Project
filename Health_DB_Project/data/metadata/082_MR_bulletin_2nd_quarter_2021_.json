@@ -1,0 +1,61 @@
+{
+  "pdf": "082_MR_bulletin_2nd_quarter_2021_.pdf",
+  "tables": [
+    {
+      "page": 7,
+      "file": "table_001.csv",
+      "rows": 9,
+      "cols": 3,
+      "hash": "ea41c0c99350ea4e1a71bd9834151f04"
+    },
+    {
+      "page": 10,
+      "file": "table_002.csv",
+      "rows": 6,
+      "cols": 2,
+      "hash": "f63ea1fa1178c6227db971d5d3563a6b"
+    },
+    {
+      "page": 11,
+      "file": "table_003.csv",
+      "rows": 39,
+      "cols": 21,
+      "hash": "e99f8e71058d14443e38959c75c984f9"
+    },
+    {
+      "page": 12,
+      "file": "table_004.csv",
+      "rows": 19,
+      "cols": 4,
+      "hash": "37c435df046140e0d2ff39cca7243031"
+    },
+    {
+      "page": 13,
+      "file": "table_005.csv",
+      "rows": 49,
+      "cols": 11,
+      "hash": "b22472ab128707a4a87fb4d714851ac6"
+    },
+    {
+      "page": 14,
+      "file": "table_006.csv",
+      "rows": 32,
+      "cols": 4,
+      "hash": "1aff2aeed40a9726765404add038733a"
+    },
+    {
+      "page": 15,
+      "file": "table_007.csv",
+      "rows": 43,
+      "cols": 12,
+      "hash": "fee8fd04af46bcda0aebf51b6d5ddcb4"
+    },
+    {
+      "page": 16,
+      "file": "table_008.csv",
+      "rows": 32,
+      "cols": 10,
+      "hash": "16a7e79a3d91ff24ae8c86c3d36e64b0"
+    }
+  ]
+}

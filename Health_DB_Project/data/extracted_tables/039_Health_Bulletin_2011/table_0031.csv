@@ -1,0 +1,11 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+Health facility,"No. of
+beds",Admission (N),,,Death (N),,,Outdoor visit (N),,,
+,,Male,Female,Total,Male,Female,Total,Male,Female,Children,Total
+"ABC Complex Eye Clinic, Salna,
+Sadar, Gazipur",10,649,853,1502,0,0,0,22942,18306,8150,49398
+"Ahsan Clinic,Dinajpur",10,153,316,469,0,0,0,0,0,0,0
+"Alam General Eye Hospital,
+Kapasia, Gazipur",20,336,504,840,0,0,0,5110,6387,1277,12775
+"Al-Baraka General Hospital,
+Gazipur",10,300,360,660,0,0,0,200,260,100,560

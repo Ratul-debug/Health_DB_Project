@@ -1,0 +1,40 @@
+{
+  "pdf": "094_HRH_Data_Sheet_2022_of_HSD.pdf",
+  "tables": [
+    {
+      "page": 3,
+      "file": "table_001.csv",
+      "rows": 39,
+      "cols": 5,
+      "hash": "e91232ed05103aa2fdb6ae5a4bd8593e"
+    },
+    {
+      "page": 4,
+      "file": "table_002.csv",
+      "rows": 16,
+      "cols": 4,
+      "hash": "76ac726744a9586258cb5e745a2724ba"
+    },
+    {
+      "page": 5,
+      "file": "table_003.csv",
+      "rows": 15,
+      "cols": 2,
+      "hash": "e619c54d0bb6207adc092e9864ec0778"
+    },
+    {
+      "page": 6,
+      "file": "table_004.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "c154b2a9764b96bd96a95b8729f7ec3d"
+    },
+    {
+      "page": 7,
+      "file": "table_005.csv",
+      "rows": 14,
+      "cols": 4,
+      "hash": "0afe6ba074f736771d8fc1a899f99bb9"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "pdf": "044_EMP_for_Medical_Gas_System_SSKMCH_COVID-19.pdf",
+  "tables": [
+    {
+      "page": 4,
+      "file": "table_001.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "d90037263315a52109e8298a660a8e19"
+    },
+    {
+      "page": 5,
+      "file": "table_002.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "dad41efe92e04001766f7fb2daa57ed6"
+    },
+    {
+      "page": 5,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "52ac869fbb33a910e1e3faaa0ea401f7"
+    },
+    {
+      "page": 5,
+      "file": "table_004.csv",
+      "rows": 6,
+      "cols": 2,
+      "hash": "09979a4562e0145aa2185a256028db2d"
+    },
+    {
+      "page": 7,
+      "file": "table_005.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "47d59cc744720b28e63ed8d7ba9e001a"
+    },
+    {
+      "page": 8,
+      "file": "table_006.csv",
+      "rows": 6,
+      "cols": 13,
+      "hash": "11b4a34d613d9e9b33cd3cd058533072"
+    },
+    {
+      "page": 9,
+      "file": "table_007.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "f8ebb6a9751cb5a16e95511ed96ecf02"
+    },
+    {
+      "page": 10,
+      "file": "table_008.csv",
+      "rows": 6,
+      "cols": 13,
+      "hash": "01afe61a6f2408e39dc86e580f4114a5"
+    },
+    {
+      "page": 11,
+      "file": "table_009.csv",
+      "rows": 45,
+      "cols": 15,
+      "hash": "b1fc862d01bf41472765f482b0d91e4b"
+    },
+    {
+      "page": 26,
+      "file": "table_010.csv",
+      "rows": 9,
+      "cols": 6,
+      "hash": "a2e276be2a3143d24eb8d5cfefaac736"
+    },
+    {
+      "page": 27,
+      "file": "table_011.csv",
+      "rows": 9,
+      "cols": 2,
+      "hash": "849e445c988cb3d91c62d5a3c7fe89df"
+    },
+    {
+      "page": 28,
+      "file": "table_012.csv",
+      "rows": 10,
+      "cols": 12,
+      "hash": "ae5846788bace8c0673170a7b051fb4d"
+    },
+    {
+      "page": 29,
+      "file": "table_013.csv",
+      "rows": 17,
+      "cols": 2,
+      "hash": "89e4c2212416d802e0c954ca728488ef"
+    },
+    {
+      "page": 29,
+      "file": "table_014.csv",
+      "rows": 17,
+      "cols": 6,
+      "hash": "d1234d326cbd94df53dd89628ae88227"
+    }
+  ]
+}

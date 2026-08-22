@@ -1,0 +1,40 @@
+0,1,2,3,4,5,6,7,8,9,10
+ICD-O,Primary site of tumour,Age group,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,=>75,Total
+C18.2,Ascending colon,0,0,1,0,0,0,1,0,2
+C18.3,Hepatic flexure,0,1,0,0,3,2,2,0,8
+C18.7,Sigmoid colon,0,0,0,0,2,1,0,0,3
+C18.9,Colon,0,6,12,15,22,12,11,2,80
+C20.9,Rectum,1,17,29,36,37,28,19,4,171
+C21.1,Anal canal,0,0,4,4,4,4,2,0,18
+C22.0,Liver,4,6,29,25,70,75,48,18,275
+C23.9,Gall blader,1,1,8,13,24,23,20,7,97
+C24.1,Ampula of vater,0,0,0,1,1,0,0,0,2
+C25.0,Head of pancrease,0,0,0,1,0,2,0,1,4
+C25.9,Pancrease,0,0,1,9,11,3,1,1,26
+C26.9,GIT,0,1,0,0,0,0,1,0,2
+C30.0,Nasal cavity,0,0,1,3,1,1,0,1,7
+C30.1,"Middle ear , inner ear",1,0,0,1,0,3,0,1,6
+C31.0,Maxillary sinuses,0,1,2,3,2,3,2,0,13
+C31.1,Ethmoid sinuses,0,0,0,0,1,0,0,0,1
+C31.2,Frontal sinuses,0,0,0,1,0,1,0,0,2
+C32.0,"Glottis, Vocal cord",0,0,1,5,21,34,14,7,82
+C32.1,"Supraglottis, Epiglottis,",1,0,1,8,21,31,28,11,101
+C32.9,Larynx,0,1,4,6,23,44,23,8,109
+C34.0,Bronchous,1,0,0,0,0,1,0,1,3
+C34.1,Upper lobe of lung,2,0,0,0,1,1,0,0,4
+C34.2,Middle lobe of lung,0,0,0,0,0,0,1,0,1
+C34.3,Lower lobe of lung,0,0,0,0,1,1,0,0,2
+C34.9,Lung,1,6,23,86,347,565,493,163,1684
+C38.2,Posterior mediastinum,0,0,1,0,1,2,0,0,4
+C38.3,Mediastinum,0,0,4,1,5,3,1,2,16
+C38.4,Pleura,0,0,4,3,4,8,9,1,29
+C39.9,Respiratory tract,0,0,0,0,0,1,0,0,1
+C40.0,"Long bones & articular cartilages
+of upper limbs",14,16,7,2,7,2,1,1,50
+C40.1,"Short bones & articular cartilages
+of upper limbs",3,5,0,0,0,0,0,0,8
+C40.2,"Long bones & articular cartilages
+of lower limbs",0,4,2,0,2,0,0,0,8
+C40.3,"Short bones & articular cartilages
+of lower limbs",2,8,2,3,4,0,1,0,20

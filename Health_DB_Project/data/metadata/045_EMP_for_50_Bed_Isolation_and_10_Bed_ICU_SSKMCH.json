@@ -1,0 +1,54 @@
+{
+  "pdf": "045_EMP_for_50_Bed_Isolation_and_10_Bed_ICU_SSKMCH.pdf",
+  "tables": [
+    {
+      "page": 4,
+      "file": "table_001.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "e4de678899dd9b9085e7de18a6c22ed2"
+    },
+    {
+      "page": 5,
+      "file": "table_002.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "ce8ad8751fdaec1ae34756ebdb26c0b6"
+    },
+    {
+      "page": 5,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "878f27266bc9e57541e4beed42d7f776"
+    },
+    {
+      "page": 8,
+      "file": "table_004.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "40becf65eb856a6270cfcfd8b37b5d61"
+    },
+    {
+      "page": 9,
+      "file": "table_005.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "dd932f063d8e7b70d90cbb6b35b2d819"
+    },
+    {
+      "page": 10,
+      "file": "table_006.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "15c931d0804e60acc07be994c8ec1dd8"
+    },
+    {
+      "page": 12,
+      "file": "table_007.csv",
+      "rows": 41,
+      "cols": 15,
+      "hash": "9b27419300fe2b82112150935f941d2b"
+    }
+  ]
+}

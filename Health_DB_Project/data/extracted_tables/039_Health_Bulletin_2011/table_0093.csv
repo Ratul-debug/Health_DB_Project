@@ -1,0 +1,32 @@
+0,1,2,3,4,5
+Age 50+ years,,,,,
+Male,,Female,,Both sexes,
+Ca-Lung,55.56,Ca-Lung,22.22,Ca-Lung,48.89
+Ca-Stomach,8.33,Adenocarcinoma,11.11,Ca-Stomach,8.89
+Ca-Prostate,5.56,ca-Colon,11.11,Other,6.67
+Other,5.56,Ca-Gall bladder,11.11,Adenocarcinoma,4.44
+Adenocarcinoma,2.78,Ca-Stomach,11.11,Ca-Gall bladder,4.44
+Acute myeloid leukemia,2.78,Ca-Tongue,11.11,Ca-prostate,4.44
+Ca-Gall bladder,2.78,Squamous cell carcinoma,11.11,Squamous cell carcinoma,4.44
+Ca-Pancreas,2.78,Other,11.11,Acute myeloid leukemia,2.22
+Ca-Tonsil,2.78,Ventricular septal defect,2.51,ca-Colon,2.22
+Fibrosarcoma,2.78,Atrial septal defect,2.23,Ca-Pancreas,2.22
+Hepato-cellular carcinoma,2.78,Ischemic cardiom yopathy,1.81,Ca-Tongue,2.22
+Non-H odgkin lymphoma,2.78,Congestive cardiac failure,1.39,Ca-Tonsil,2.22
+Squamous cell carcinoma,2.78,-,-,Fibrosarcoma,2.22
+-,-,-,-,Hepato-cellular carcinoma,2.22
+-,-,-,-,Non-H odgkin lymphoma,2.22
+Total deaths,36,Total deaths,9,Total deaths,45
+All ages,,,,,
+Male,,Female,,Both sexes,
+Ca-Lung,44.44,Ca-Breast,16.13,Ca-Lung,30.59
+Acute myeloid leukemia,7.41,Chorio-carcinoma,9.68,Acute myeloid leukemia,5.88
+Non-H odgkin lymphoma,5.56,Adenocarcinoma,6.45,Non-H odgkin lymphoma,5.88
+Ca-Stomach,5.56,Ca-Colon and Ca-Rectum,6.45,Ca-Stomach,5.88
+Adenocarcinoma,3.70,Ca-Lung,6.45,Adenocarcinoma,4.71
+Ca-Prostate,3.70,Non-H odgkin lymphoma,6.45,Ca-Colon and Ca-Rectum,3.53
+Ca-Gall bladder,3.70,Ca-Stomach,6.45,Acute lymphatic leukemia,2.35
+Acute lymphatic leukemia,1.85,Acute lymphatic leukemia,3.23,Squamous cell carcinoma,2.35
+Ca-Colon and Ca-Rectum,1.85,Acute myeloid leukemia,3.23,Ca-Gall bladder,2.35
+Fibrosarcoma,1.85,Ca-Gall bladder,3.23,Fibrosarcoma,2.35
+Total deaths,54,Total deaths,31,Total deaths,85

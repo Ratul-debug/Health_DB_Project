@@ -1,0 +1,15 @@
+0,1,2,3,4,5
+All ages,,,,,
+Male,,Female,,Both sexes,
+Perinatal asphyxia,14.56,Perinatal asphyxia,16.51,Perinatal asphyxia,15.36
+Cerebro-v ascular accident,11.72,Cerebro-v ascular accident,14.06,Cerebro-v ascular accident,10.90
+IMCI diseases,8.78,IMCI diseases,8.51,IMCI diseases,8.67
+Myocardial infarction,8.26,Septicemia,5.78,Myocardial infarction,6.38
+Injury,5.62,Poisoning,5.57,Septicemia,5.42
+Septicemia,5.17,Low birthw eight,4.71,Injury,4.55
+Low birthw eight,4.05,Pregnancy related cause,4.52,Poisoning,4.50
+Poisoning,3.75,Myocardial infarction,3.70,Low birthw eight,4.41
+COPD,2.77,Injury,3.03,Asthma,2.42
+Asthma,2.63,Asthma,2.13,COPD,2.08
+Total deaths,"8,295",Total deaths,"5,816",Total deaths,"14,111"
+"* Cardio vascular diseases except cerebro- vascular accident, myocardial infarction and hypertension",,,,,

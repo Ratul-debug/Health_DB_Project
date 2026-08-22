@@ -1,0 +1,53 @@
+0,1,2,3,4
+Name of indicator,,,,Source
+Sex ratio (male per 100 female),,,100.27,BBS 2011
+Age 0-14 years population (in %) both sex,,,33.3,"SVRS 2009, BBS"
+Female population (15-49 yrs in %),,,54.1,
+Population (60 yrs + in %) both sex,,,6.4,
+Population density per sq.km.,,,964,BBS 2011
+"Crude birth rate (per 1,000 pop.)",,,19.4,"SVRS 2009, BBS"
+"Crude death rate (per 1,000 pop.)",,,5.8,
+Population growth rate (%),,,1. 34,BBS 2011
+Total fertility rate (birth per women 15-49 yrs),,,2.15,"SVRS 2009, BBS"
+Gross reproduction rate,,,1.07,
+Net reproduction rate (NRR),,,1.06,
+Life expectancy at birth (in years),Both sex,,67.2,"SVRS 2009, BBS"
+,Male,,66.1,
+,Female,,68.7,
+Mean age at first marriage (in years),Male,,23.8,
+,Female,,18.5,
+E. HEALTH STATUS,,,,
+Infant mortality rate (per 1000 livebirths),,,39,"SVRS 2009, BBS"
+"Maternal mortality ratio (per 100,000 live births)",,,194,BMMS 2010
+"Neonatal mortality rate (per 1,000 live births)",,,28,"SVRS 2009, BBS"
+"Under-5 mortality rate (per 1,000 live births)",,,50,
+Percentage of population using safe drinking-water (tap and tubewell),,,98.1,
+Percentage of population using sanitary latrine,,,62.7,
+Prevalence of night blindness among pre school children,,,0.04,"IPHN, DGHS 2010"
+% of births attended by skilled personnel,,,26.54,BMMS 2010
+% of women received at least one antenatal care,,,71.2,
+% of mother received PNC from a trained provider within 2 days of delivery,,,22.5,
+"Malaria incidence rate per 1,000 population in endemic districts",,,5.13,"CDC, DGHS 2011"
+"TB incidence rate per 100,000 population",,,225.0,WHO 2010
+TB case notification rate (%),,,70.5,NTP 2010
+TB cure rate (%) with DOTS,,,92.0,
+EPI (Valid vaccination among <23 months children),,,,
+,,DPT 3,89.4%,"Bangladesh EPI Coverage
+Evaluation Survey 2010"
+,,BCG,98.9%,
+,,Measles,89.2%,
+,,HAPB 3,89.4%,
+,,OPV 3,94.7%,
+,,Fully immunized,83.4%,
+Vitamin A coverage,,,96%,
+F. HEALTH SERVICES PROVISION,,,,
+Government hospitals at upazila and union level,,,463,DGHS 2011
+Government hospitals of secondary and tertiary level,,,120,
+Total no. of government hospitals,,,583,
+No. of non-government hospitals (Regd. by DGHS),,,"2,501",
+No. of beds in MOHFW (functioning),,,"39,639",
+No. of beds in private sector (Regd. by DGHS),,,"42,237",
+No. of registered physicians,,,"53,063",BMDC 2011
+Estimated no. of doctors available in the country,,,"43,537",HRD Data Sheet 2011
+Doctors working under MOHFW,,,38%,
+Doctors working under other ministries,,,3%,

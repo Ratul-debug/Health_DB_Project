@@ -1,0 +1,17 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13
+Clinical activities: Number of Procedures done,,,,,,,,,,,,,
+Particulars,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,Total
+Normal FNAC,19,14,18,10,16,18,14,17,16,17,24,18,201
+USG guided FNAC,53,70,40,19,24,42,23,38,42,85,66,40,542
+CT guided FNAC,7,7,12,5,10,11,5,0,0,0,0,0,57
+Slide Review,3,2,3,3,3,4,3,1,6,5,5,7,45
+Total of FNAC,82,93,73,37,53,75,45,56,64,107,95,65,845
+Cervical smear Cytology,75,77,70,28,41,45,51,74,80,82,65,68,756
+Vault smear,3,5,5,6,5,3,3,4,2,6,1,1,44
+Ascitic fluid,8,5,10,2,10,2,2,4,4,4,4,2,57
+Urine Cytology,0,0,0,0,0,0,0,1,0,0,0,0,1
+Peritoneal Fluid,6,6,8,4,15,14,7,12,10,13,12,10,117
+Scrapping,0,0,0,0,0,0,0,1,0,0,0,0,1
+Nipple Discharge,1,1,2,0,0,1,1,0,0,1,0,1,8
+Total of Cytology,93,94,95,40,71,65,64,96,96,106,82,82,984
+Grand total of FNAC & Cytology,175,187,168,77,124,140,109,152,160,213,177,147,1829

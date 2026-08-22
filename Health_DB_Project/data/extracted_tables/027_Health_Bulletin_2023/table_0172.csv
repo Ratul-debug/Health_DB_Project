@@ -1,0 +1,13 @@
+0,1,2,3
+Table 11.4. Pharmaceutical expenditure by service providers in 2020,,,
+HP,Service provider,"Expenditure
+(BDT in crore)","Expenditure
+(Percentage)"
+HP.1.1,General hospitals,"1,518",3.9
+HP.1.3,"Specialized hospitals (other than mental health
+hospitals)","1,103",2.8
+HP.3.4,Ambulatory healthcare centers,774,2.0
+HP.4,Providers of ancillary services,"1,025",2.6
+HP.5.1,Pharmacy,"34,437",88.5
+HP.6,Providers of preventive care,40,0.1
+Total,,"38,897",

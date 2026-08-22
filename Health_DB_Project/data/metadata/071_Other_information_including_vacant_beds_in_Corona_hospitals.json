@@ -1,0 +1,40 @@
+{
+  "pdf": "071_Other_information_including_vacant_beds_in_Corona_hospitals.pdf",
+  "tables": [
+    {
+      "page": 1,
+      "file": "table_001.csv",
+      "rows": 28,
+      "cols": 17,
+      "hash": "e2c6989fbde4a8f5c96b08db6ee78e28"
+    },
+    {
+      "page": 2,
+      "file": "table_002.csv",
+      "rows": 28,
+      "cols": 17,
+      "hash": "ce67e42248d836b9bf27e633f7f95618"
+    },
+    {
+      "page": 3,
+      "file": "table_003.csv",
+      "rows": 20,
+      "cols": 17,
+      "hash": "6ff4375d8a6bbf1fb09e66bf830f87fc"
+    },
+    {
+      "page": 4,
+      "file": "table_004.csv",
+      "rows": 53,
+      "cols": 17,
+      "hash": "737e323166ecdd6ea2a4e2cb48ca4132"
+    },
+    {
+      "page": 5,
+      "file": "table_005.csv",
+      "rows": 51,
+      "cols": 17,
+      "hash": "dddbf2b1eb922ad49c033c23d2dcbc46"
+    }
+  ]
+}

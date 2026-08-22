@@ -1,0 +1,16 @@
+0,1,2,3
+Sl. No.,,Disease types,Number of Patients
+01,,Ca Oesophagus,26
+02,,Ca Stomach,134
+03,,Ca Duodenum,02
+04,,Ca Ascending colon,17
+05,,Ca Transverse colon,04
+06,,Ca Descending colon,16
+S07,,Ca Sigmoid colon,12
+08,,Ca Rectosigmoid junction,02
+09,,Ca Retum,47
+10,,Ca Anoretal Junction,15
+11,,Ca Anal canal,01
+12,,RVF,05
+1,3,GIST,01
+1,4,Metastatic ca stomach,01

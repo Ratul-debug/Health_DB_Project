@@ -1,0 +1,26 @@
+{
+  "pdf": "086_Measles_Update_Till_14_05_26_.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "file": "table_001.csv",
+      "rows": 15,
+      "cols": 38,
+      "hash": "3ebec2fa1b0c7db50afb53ca0a16adda"
+    },
+    {
+      "page": 2,
+      "file": "table_002.csv",
+      "rows": 12,
+      "cols": 22,
+      "hash": "6088cd2a0384e30621a8a139542a7b72"
+    },
+    {
+      "page": 3,
+      "file": "table_003.csv",
+      "rows": 16,
+      "cols": 21,
+      "hash": "26d3153d3d31100d6b7a2c7efb99af40"
+    }
+  ]
+}

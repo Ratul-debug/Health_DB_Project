@@ -1,0 +1,36 @@
+0,1,2,3,4,5,6,7
+"Table 4.14. Age and sex distribution of the emergency-attendance among different levels of all
+hospitals in 2016",,,,,,,
+"Level of
+care",Type of facility,"Number
+of facili-
+ties","Total
+emer-
+gency
+patients",Male,,Female,
+,,,,< 5 yr,>5 yr,<5 yr,>5yr
+Primary,10-bed hospital,1,23,1,10,2,10
+,20-bed hospital,4,"13,595",808,"6,177","1,083","5,527"
+,31-bed hospital,2,"4,882",146,"2,728",101,"1,907"
+,50-bed hospital*,1,"36,125","1,271","21,540","1,009","12,305"
+,"Upazila health
+complex",418,"2,673,976","197,439","1,191,854","167,136","1,117,547"
+Secondary,"District hospital/
+General Hospital",62,"1,922,512","141,316","850,047","132,934","798,215"
+Tertiary,500-bed hospital,2,"60,890","3,600","29,080","2,590","25,620"
+,"Bangladesh
+Institute of
+Tropical and
+Infectious
+Diseases,
+Foujdarhat",1,"2,719",26,"1,417",23,"1,253"
+,"Medical college
+hospital",13,"1,329,820","62,574","549,024","51,562","666,660"
+,"Other tertiary
+hospitals
+(National
+Institutes, Pabna
+Mental hospital)",6,"97,359","1,653","61,936","1,185","32,585"
+,Total,510,"6,141,901","408,834","2,713,813","357,625","2,661,629"
+"Source: DHIS2
+* Renamed Shaheed Ahsanullah Master 250-bedded General Hospital, Tongi",,,,,,,

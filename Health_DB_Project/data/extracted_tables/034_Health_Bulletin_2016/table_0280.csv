@@ -1,0 +1,34 @@
+0,1,2,3,4,5,6,7,8
+Division,Name of institution with location,Estd.,"Physio-
+therapy","Lab
+Medicine","Denti-
+stry","Occu-
+pational
+therapy",Others,Total
+Dhaka,"Bangladesh Health Professionals Institute, Savar, Dhaka
+(BSc)",2007,20,0,0,10,"15 (Speech
+therapy)",45
+,"Bangladesh Medical College, Dhanmondi, Dhaka (BSc)",2008,0,0,0,0,0,0
+,"Bangladesh ShishuShasthya Institute, Sher-e-Bangla Nagar,
+Dhaka (BSc)",2008,0,25,0,0,0,25
+,"GonoShasthya University, Savar, Dhaka (BSc)",2005,20,0,0,0,0,20
+,"Institute of Medical Technology, Mirpur, Dhaka (BSc)",2007,0,30,30,0,0,60
+,"International Institute of Health Science, Shewrapara,
+Dhaka (BSc)",2010,30,30,30,0,0,90
+,"Mark’s Institute of Medical Technology, Mirpur, Dhaka (BSc)",2008,0,50,50,0,0,100
+,"New Lab Institute of Medical Technology, Iqbal Road,
+Mohammadpur, Dhaka (BSc)",2010,0,30,30,0,0,60
+,"SAIC Institute of Medical Technology, Dhaka (BSc)",2007,50,50,50,0,0,150
+,"State University, Mohammadpur, Dhaka (BSc)",2006,50,30,30,0,"50
+(Optometry)",160
+,"The People’s University, Dhanmondi, Dhaka (BSc)",2007,25,0,0,0,0,25
+,"GonoSyastha University, Savar, Dhaka (MSc)",2005,60,0,0,0,0,60
+,"Bangladesh Health Professionals Institute, Savar, Dhaka (MSc)",2007,15,0,0,0,0,15
+Chittagong,"Chittagong Institute of Medical Technology, Halishahar,
+Chittagong",2008,0,50,50,0,50 (Ph),150
+Rangpur,"Prime Institute of Science & Technology, Islambag, Rangpur",,75,0,0,0,0,75
+Rajshahi,"Institute of Health Technology, Tuni Bhaban, Rajshahi",2007,0,25,0,0,0,25
+,"Prime Institute of Health Technology, Talaimari, Rajshahi",2007,50,0,50,0,0,100
+,"Prime Institute of Science & Technology, Rangpur",2008,0,75,0,0,0,75
+Total no. of institutions=18,,"Total
+seats",320,395,320,10,115,1235

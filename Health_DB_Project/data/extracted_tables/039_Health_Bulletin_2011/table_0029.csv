@@ -1,0 +1,15 @@
+0,1,2,3,4,5
+Type of health facility,"Average length
+of stay (day)","Bed-occupancy
+rate (%)","Hospital-death
+rate (%)","Average daily
+admission (N)","Average daily
+OPD visits (N)"
+"Specialized Postgraduate
+Teaching Hospital",7,71.96,5.48,34,217
+Medical College Hospital,3,78.88,3.98,287,918
+District Hospital,3,106.64,2.83,54,404
+Infec(cid:1)ous Disease Hospital,1,4.99,3.76,3,42
+Chest Clinics/Hospital,25,7.16,4.15,1,2
+TB Segrega(cid:1)on Hospital,42,63.04,4.59,0,2
+Leprosy Hospital,44,38.45,0.00,0,19

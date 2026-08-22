@@ -1,0 +1,45 @@
+0,1,2,3,4
+Month,District,Type,Injured,Dead
+Jan,Dhaka,Gas Cylinder Burst,5,2
+Jan,Gaibandha,Bus-Truck Collision,7,1
+Jan,Comilla,Bus lost control,10,2
+Jan,Jessore,Bus lost control,9,2
+Jan,Comilla,Microbus Hit,1,2
+Jan,Gazipur,Bus-Truck Collision,2,5
+Jan,Kushtia,Truck-Autorickshaw Collision,3,2
+Jan,Dhaka,Bus-Truck Collision,0,2
+Jan,Mymensingh,Bus-Truck Collision,19,1
+Jan,Sylhet,Landslide,0,5
+Jan,Comilla,Leguna-Car Collision,2,1
+Feb,Dhaka,Bus-Truck Collision,25,5
+Feb,Rajshahi,Bus lost control,25,1
+Feb,Narayanganj,Truck fell into ditch,0,4
+Jan,Faridpur,Bus-Van Collision,25,13
+Feb,Narsingdi,Bus-Microbus Collision,6,12
+Feb,Manikganj,Bus fell into ditch,11,0
+Feb,Mymensingh,Bus-Nosimon Collision,7,0
+Feb,Faridpur,Bus-Bus Collision,15,4
+Feb,Cox’s Bazar,Bus lost control,15,0
+Feb,Mymensingh,Bus lost control,18,0
+Feb,Sirajganj,Bus-Truck Collision,23,4
+Feb,Barisal,Bus Hit,0,1
+Feb,Cox’s Bazar,Microbus fell into ditch,3,4
+Feb,Dhaka,Gas-Cylinder Burst,9,0
+Mar,Patuakhali,Crane Accident,2,1
+Mar,Dhaka,Bus-Bus Collision,4,1
+Mar,Munsiganj,Unknown,5,1
+Mar,Gaibandha,Bus lost control,6,6
+Mar,Dhaka,Bus lost control,5,0
+Mar,Magura,Unknown,0,2
+Mar,Manikganj,Bus-Motor Cycle Collision,1,1
+Mar,Mymensingh,Bus-Pickup Van Collision,4,10
+Mar,Chuadanga,Truck-Nosimon Collision,14,10
+Mar,Mymensingh,Truck-Nosimon Collision,9,0
+Mar,Bagerhat,Troller Capsize,6,5
+Apr,Chittagong,Troller Capsize,35,4
+Apr,Sylhet,Lightening,0,1
+Apr,Pabna,Storm,100,0
+Apr,Feni,Lightening,19,0
+Apr,Manikganj,Bus-Bus Collision,30,0
+Apr,Mymensingh,Truck-Pickup Collision,0,3
+Apr,Mymensingh,Bus lost control,20,1

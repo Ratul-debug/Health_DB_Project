@@ -1,0 +1,18 @@
+0,1,2,3,4,5,6,7,8
+Type of Facilities,Institution,,"No. of patients
+(outdoor)",,"No. of patients
+(emergency)",,"No. of patients
+(indoor)",
+,No.,Reported (%),Reported,Estimated,Reported,Estimated,Reported,Estimated
+"Postgraduate and
+specialized",12,59,1396813,2364674,264858,448380,162479,275062
+Medical college,17,92,7192689,7860862,1451528,1586369,1445466,1579744
+District,64,99,11430645,11518183,2497397,2516523,1862962,1877229
+"10, 20, 31, 50 and
+100-bedded",48,65,509557,786353,61636,95117,35256,54407
+"Upazila health
+complex",432,99,23725957,23987420,3352944,3389894,2245262,2270005
+Chest disease/TB,56,29,2551,8778,0,0,620,2134
+Infectious disease,5,43,34101,80238,6890,16212,6579,15480
+Community clinic,13105,98,88485294,90438771,-,-,-,-
+Total,,,132777607,137045279,7635253,8052495,5758624,6074061

@@ -1,0 +1,40 @@
+{
+  "pdf": "063_Environmental_Management_Plan_PCR_Lab_NIPSOM.pdf",
+  "tables": [
+    {
+      "page": 9,
+      "file": "table_001.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "da44a0038ece290090d071a2884cba23"
+    },
+    {
+      "page": 10,
+      "file": "table_002.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "8d4a87c85e1f1440282862076f169936"
+    },
+    {
+      "page": 11,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "406f16b6b7ad231801c2da8ee6e9b4a6"
+    },
+    {
+      "page": 13,
+      "file": "table_004.csv",
+      "rows": 45,
+      "cols": 15,
+      "hash": "8cdcaaa76532ab4aafe15705599e2b42"
+    },
+    {
+      "page": 14,
+      "file": "table_005.csv",
+      "rows": 10,
+      "cols": 16,
+      "hash": "3b887e6ecb4b5dcbc359444e6881a5b5"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+0,1,2,3
+,Sex,,
+Head & neck cancer,,,Total
+,Male,Female,
+,,,
+LIP,17 (2.2),16 (3.4),33 (2.7)
+Base of the tongue,41 (5.3),34 (7.3),75 (6.1)
+Lingual tonsil,15 (1.9),9 (1.9),24 (1.9)
+Tongue,148 (19.1),61 (13.1),209 (16.9)
+Gum,9 (1.2),12 (2.6),21 (1.7)
+Floor of the mouth,24 (3.1),17 (3.6),41 (3.3)
+Hard palate,18 (2.3),8 (1.7),26 (2.1)
+Soft palate,15 (1.9),14 (3.0),29 (2.3)
+Palate,12 (1.6),14 (3.0),26 (2.1)
+Cheek /buccal mucosa,105 (13.6),140 (30.0),245 (19.8)
+Oral cavity/Buccal cavity,31 (4.0),28 (6.0),59 (4.8)
+Parotid Gland,32 (4.1),18 (3.9),50 (4.0)
+Sub mandibular/maxillary gland,47 (6.1),38 (8.2),85 (6.9)
+Tonsillar fossa,6 (.8),3 (.6),9 (.7)
+Tonsil,68 (8.8),21 (4.5),89 (7.2)
+Valecula,6 (.8),1 (.2),7 (.6)
+Branchial cleft,5 (.6),3 (.6),8 (.6)
+Oropharynx,5 (.6),2 (.4),7 (.6)
+Nasopharynx,32 (4.1),11 (2.4),43 (3.5)
+Pyriformsinus/fossa,96 (12.4),8 (1.7),104 (8.4)
+Cricoid,1 (.1),0 (.0),1 (.1)
+Aryepiglotic fold,15 (1.9),1 (.2),16 (1.3)
+Hypopharynx,8 (1.0),3 (.6),11 (.9)
+Pharynx,14 (1.8),4 (.9),18 (1.5)
+Laryngopharynx,3 (.4),0 (.0),3 (.2)
+Total,773 (100.0),466 (100.0),1239 (100.0)

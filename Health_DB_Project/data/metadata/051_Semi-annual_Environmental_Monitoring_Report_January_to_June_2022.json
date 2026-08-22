@@ -1,0 +1,96 @@
+{
+  "pdf": "051_Semi-annual_Environmental_Monitoring_Report_January_to_June_2022.pdf",
+  "tables": [
+    {
+      "page": 10,
+      "file": "table_001.csv",
+      "rows": 24,
+      "cols": 14,
+      "hash": "7b8b4c4d351aca0bfc88ff4fa246308a"
+    },
+    {
+      "page": 11,
+      "file": "table_002.csv",
+      "rows": 22,
+      "cols": 14,
+      "hash": "4a27d26588387b08d4ae672b54732420"
+    },
+    {
+      "page": 14,
+      "file": "table_003.csv",
+      "rows": 8,
+      "cols": 5,
+      "hash": "fdd3f07cf5d36a1bb2424970625e5bfc"
+    },
+    {
+      "page": 18,
+      "file": "table_004.csv",
+      "rows": 16,
+      "cols": 4,
+      "hash": "09e5eabc5ad10f58411e1f0a3c51dc79"
+    },
+    {
+      "page": 19,
+      "file": "table_005.csv",
+      "rows": 13,
+      "cols": 4,
+      "hash": "2ead752aa0e44cc59bc5b63a3f196982"
+    },
+    {
+      "page": 24,
+      "file": "table_006.csv",
+      "rows": 7,
+      "cols": 4,
+      "hash": "b7b3d82318209d837b0f6cd0e44660e4"
+    },
+    {
+      "page": 25,
+      "file": "table_007.csv",
+      "rows": 16,
+      "cols": 4,
+      "hash": "60a8cdbda78fc366d907310e4f027dd2"
+    },
+    {
+      "page": 26,
+      "file": "table_008.csv",
+      "rows": 5,
+      "cols": 4,
+      "hash": "f1ac8750956634ebfd1fcc6576b0afd3"
+    },
+    {
+      "page": 42,
+      "file": "table_009.csv",
+      "rows": 40,
+      "cols": 5,
+      "hash": "77fd483268d29486e5958ee0200ad9a4"
+    },
+    {
+      "page": 44,
+      "file": "table_010.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "926aeaaa68f3d4d5361674081dc0638b"
+    },
+    {
+      "page": 46,
+      "file": "table_011.csv",
+      "rows": 16,
+      "cols": 6,
+      "hash": "ac5112b0b6195883604a290d2c33335e"
+    },
+    {
+      "page": 47,
+      "file": "table_012.csv",
+      "rows": 22,
+      "cols": 6,
+      "hash": "7580cdd57c629db5b06d4568c577436c"
+    },
+    {
+      "page": 48,
+      "file": "table_013.csv",
+      "rows": 10,
+      "cols": 10,
+      "hash": "4ef00357a262da8f848d6172b733b49d"
+    }
+  ]
+}

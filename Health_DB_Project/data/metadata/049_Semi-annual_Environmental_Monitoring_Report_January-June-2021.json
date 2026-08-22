@@ -1,0 +1,82 @@
+{
+  "pdf": "049_Semi-annual_Environmental_Monitoring_Report_January-June-2021.pdf",
+  "tables": [
+    {
+      "page": 15,
+      "file": "table_001.csv",
+      "rows": 14,
+      "cols": 4,
+      "hash": "2e3e5bb894e49a56ef41972283ef8ed0"
+    },
+    {
+      "page": 16,
+      "file": "table_002.csv",
+      "rows": 14,
+      "cols": 4,
+      "hash": "5b053b7bbb01f63e56384a6cba53b188"
+    },
+    {
+      "page": 17,
+      "file": "table_003.csv",
+      "rows": 5,
+      "cols": 4,
+      "hash": "d9d897bd1a2b65b953271062f14ca02a"
+    },
+    {
+      "page": 19,
+      "file": "table_004.csv",
+      "rows": 5,
+      "cols": 12,
+      "hash": "9ee035fab6d7a9a992c1bf1e5d6cc54e"
+    },
+    {
+      "page": 26,
+      "file": "table_005.csv",
+      "rows": 12,
+      "cols": 8,
+      "hash": "ed021463433a94176f1b15c4eb5963f2"
+    },
+    {
+      "page": 27,
+      "file": "table_006.csv",
+      "rows": 5,
+      "cols": 8,
+      "hash": "d875f0c0fbedfc00ecb4b4b19442d359"
+    },
+    {
+      "page": 29,
+      "file": "table_007.csv",
+      "rows": 8,
+      "cols": 3,
+      "hash": "b7d87f990e5288cbc6eec624b8f11a89"
+    },
+    {
+      "page": 30,
+      "file": "table_008.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "de6faeea2e8ca1a8e81d23707028d78d"
+    },
+    {
+      "page": 31,
+      "file": "table_009.csv",
+      "rows": 7,
+      "cols": 3,
+      "hash": "3a2dd666d0d2e3a24b27a04b3aa18e1f"
+    },
+    {
+      "page": 32,
+      "file": "table_010.csv",
+      "rows": 9,
+      "cols": 3,
+      "hash": "9a3f3e9670be3f9a5754cfde8ab68b49"
+    },
+    {
+      "page": 33,
+      "file": "table_011.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "27ec37f3218a6ac9ff85102466290968"
+    }
+  ]
+}

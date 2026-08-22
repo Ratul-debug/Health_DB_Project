@@ -1,0 +1,54 @@
+0,1,2,3,4
+Type,"Level of
+facilities",Name of facility,"No. of
+facilities","No. of functional
+beds"
+Airport Health Office,Secondary,Dhaka Airport Health Office,1,0
+,,"Chattogram Airport Health
+Office",1,0
+Chest disease clinic,Secondary,,42,0
+Chest hospital,Secondary,,14,816
+"District-level office (Civil
+Surgeon’s Office)",Secondary,,65,0
+"District-level hospital (District/
+General Hospital)",Secondary,,59,9950
+"Division-level office (Divisional
+Health Office)",Tertiary,,8,0
+Dental college hospital,Tertiary,,1,200
+"Hospital of alternative
+medicine",Tertiary,,3,200
+Infectious disease hospital,Secondary,,5,180
+Leprosy hospital,Secondary,,3,130
+Medical college hospital,Tertiary,,19,15663
+Port Health Office,Secondary,"Chattogram Port Health
+Office",1,0
+,,Khulna Port Health Office,1,0
+Specialized Health Center,Tertiary,"Central Skin & Social Hygiene
+Center, Chattoggram",1,0
+,,"National Center for Control
+of Rheumatic Fever & Heart
+Disease",1,0
+,,National Asthma Center,1,70
+Specialized hospital,Tertiary,,3,850
+"Specialty postgraduate institute
+and hospital",Tertiary,,12,4564
+Trauma center,Secondary,,8,160
+Other hospitals,Tertiary,"Kurmitola 500-bed General
+Hospital, Dhaka",1,500
+,,"Mugda 500-bed General
+Hospital, Dhaka",1,500
+,Secondary,"Narayanganj 300-bed
+Hospital",1,300
+,,Narsingdi 100-bed Hospital,1,100
+,,"Shaheed Ahsan Ullah Master
+General Hospital, Tongi,
+Gazipur",1,250
+,,"Bangladesh-Korea Moitree
+Hospital, Savar, Dhaka",1,30
+,,"Kuwait-Bangladesh
+Friendship Govt. Hospital,
+Uttara, Dhaka",1,100
+,,"Saidpur 100-bed Hospital,
+Nilphamari",1,100
+"Total secondary and tertiary-
+level facilities",,,257,34663

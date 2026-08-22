@@ -1,0 +1,19 @@
+{
+  "pdf": "078_Research_Abstract_of_Planning_Monitoring_and_Research_Operational_Plan_2021-2022.pdf",
+  "tables": [
+    {
+      "page": 3,
+      "file": "table_001.csv",
+      "rows": 10,
+      "cols": 5,
+      "hash": "05bc9ebcc7048e698d50b38b298d8c92"
+    },
+    {
+      "page": 4,
+      "file": "table_002.csv",
+      "rows": 8,
+      "cols": 5,
+      "hash": "e3a1831b397c4e6d0aaaa73322f937c6"
+    }
+  ]
+}

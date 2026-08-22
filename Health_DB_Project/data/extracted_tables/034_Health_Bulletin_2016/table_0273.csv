@@ -1,0 +1,16 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+Division,Name of institute with location,Estd.,Discipline with number of seats,,,,,,,"Quota for
+FF&TR",Total
+,,,LAB,RDL,PTY,SI,DENT,PHAR,RTY,,
+Dhaka,"Institute of Health Technology, Mohakhali, Dhaka",1962,50,50,50,50,50,50,20,5+2,327
+Rajshahi,"Institute of Health Technology, Rajshahi",1976,50,50,50,50,50,50,20,5+1,327
+,"Institute of Health Technology, Bogra",2006,65,55,50,50,55,55,20,5+2,357
+Chittagong,"Institute of Health Technology, Chittagong",2011,50,50,50,50,50,50,20,5+2,327
+Barisal,"Institute of Health Technology, Barisal",2011,50,50,50,50,50,50,20,5+2,327
+Rangpur,"Institute of Health Technology, Rangpur",2011,50,50,50,50,50,50,20,5+2,327
+Khulna,"Institute of Health Technology, Jhenaidah",2011,50,50,50,50,50,50,20,5+2,327
+Sylhet,"Institute of Health Technology, Sylhet",2011,50,50,20,50,50,50,0,5+2,277
+Total institutes=8,,"Total
+seats",415,405,370,400,405,405,140,56,2596
+"LAB= Laboratory; RDL=Radiology; PTY=Physiotherapy; SI=Sanitary inspection; DENT=Dentistry; PHAR=Pharmacy; RTY=Radiotherapy; FF&TR=Children of
+freedom fighters and tribal students",,,,,,,,,,,

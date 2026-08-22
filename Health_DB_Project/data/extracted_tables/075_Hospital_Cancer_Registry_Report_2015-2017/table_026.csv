@@ -1,0 +1,39 @@
+0,1,2,3,4,5,6,7,8,9,10
+ICD-O,Primary site of tumour,Age group,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,=>75,Total
+C40.9,Bones & articular cartilages limbs,1,0,2,0,7,0,0,0,10
+C41.0,"Bones & articular cartilages of
+Skull & face",0,0,0,0,0,1,0,0,1
+C41.1,Mendible & Jaw,0,0,0,0,0,1,0,0,1
+C41.2,Vertebra & Vertebral column,1,0,2,2,2,4,8,0,19
+C41.3,"Bones & articular cartilages of
+thoracic cage",0,0,0,0,0,1,0,0,1
+C41.4,"Bones & articular cartilages of
+pelvic region",0,1,0,0,0,0,0,0,1
+C41.9,Bones & articular cartilages,1,6,4,2,2,1,1,0,17
+C42.0,Blood,29,21,25,15,15,10,10,2,127
+C42.1,Bone marrow,2,6,2,4,2,0,1,2,19
+C44.0,Skin of lip,0,0,0,0,1,0,2,1,4
+C44.1,Skin of eye lid,0,0,0,0,0,1,1,0,2
+C44.3,Skin of Face,0,0,0,0,1,0,0,0,1
+C44.6,Skin of upper limb,0,0,0,0,0,1,1,0,2
+C44.7,Skin of lower limb & Hip,0,0,0,0,2,0,0,0,2
+C44.9,Skin,0,1,4,1,10,11,7,1,35
+C47.0,"Peripheral nerve & Autonomic
+nerve of face",0,0,0,0,0,1,0,0,1
+C47.4,"Perepheral nerve & Autonomic
+nerve of Abdomen",0,0,1,0,0,0,0,0,1
+C48.0,Retroperitonium,0,0,0,0,1,0,0,0,1
+C48.1,"Omentum, Pouch of duglus,
+Cal de sac",0,1,0,1,4,2,0,0,8
+C49.0,Connective tissue of scalp/face/neck,0,3,1,3,3,2,3,4,19
+C49.1,"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wris",3,5,1,3,3,3,4,0,22
+C49.2,"Connective tissue of LL,foot,leg,
+thigh,hip,knee",5,12,5,8,8,11,8,5,62
+C49.3,Lymphatics/Lymphoma,0,1,0,0,0,0,4,2,7
+C49.9,Connective tissue,1,0,0,0,0,0,0,0,1
+C50.9,Breast,0,0,2,3,9,4,4,1,23
+C60.9,Penis,0,1,0,0,2,3,1,0,7
+C61.9,Prostate,0,0,0,1,10,24,35,18,88
+C62.0,Undesendent testis,1,0,0,0,0,0,0,0,1

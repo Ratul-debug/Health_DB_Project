@@ -1,0 +1,40 @@
+{
+  "pdf": "062_Environmental_Management_Plan_PCR_Lab_DNCC.pdf",
+  "tables": [
+    {
+      "page": 9,
+      "file": "table_001.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "332ebbd84039e4a43079d32db2551efc"
+    },
+    {
+      "page": 10,
+      "file": "table_002.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "c0d2fc91572ea9d81f691f1075988c01"
+    },
+    {
+      "page": 11,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "8a16598bc22eabbecce4a8e33c711164"
+    },
+    {
+      "page": 13,
+      "file": "table_004.csv",
+      "rows": 44,
+      "cols": 15,
+      "hash": "8d50295ecbf5ad6aeaa99c5b0da20ff6"
+    },
+    {
+      "page": 14,
+      "file": "table_005.csv",
+      "rows": 11,
+      "cols": 16,
+      "hash": "faa297eb451fe60a95b210144b6ac1bf"
+    }
+  ]
+}

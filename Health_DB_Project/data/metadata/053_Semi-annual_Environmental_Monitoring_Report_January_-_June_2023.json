@@ -1,0 +1,103 @@
+{
+  "pdf": "053_Semi-annual_Environmental_Monitoring_Report_January_-_June_2023.pdf",
+  "tables": [
+    {
+      "page": 11,
+      "file": "table_001.csv",
+      "rows": 28,
+      "cols": 14,
+      "hash": "6621d491c87e0373671bc256484c21ae"
+    },
+    {
+      "page": 12,
+      "file": "table_002.csv",
+      "rows": 9,
+      "cols": 14,
+      "hash": "bcfdabc5a1ffa0293f69b462d0cf6f95"
+    },
+    {
+      "page": 19,
+      "file": "table_003.csv",
+      "rows": 13,
+      "cols": 4,
+      "hash": "484f811a738c77fb03acebc2a696ab1e"
+    },
+    {
+      "page": 23,
+      "file": "table_004.csv",
+      "rows": 36,
+      "cols": 5,
+      "hash": "25c07e3ef217cdb35d5773bf318ea4b5"
+    },
+    {
+      "page": 38,
+      "file": "table_005.csv",
+      "rows": 10,
+      "cols": 5,
+      "hash": "05eae53c78f3ffd7f041e585c77e3c3f"
+    },
+    {
+      "page": 39,
+      "file": "table_006.csv",
+      "rows": 5,
+      "cols": 3,
+      "hash": "9b7013c42390c6bce1b2f30be0b3951c"
+    },
+    {
+      "page": 39,
+      "file": "table_007.csv",
+      "rows": 10,
+      "cols": 9,
+      "hash": "60c6153784e3b5e489f0d2723a97acfe"
+    },
+    {
+      "page": 40,
+      "file": "table_008.csv",
+      "rows": 11,
+      "cols": 9,
+      "hash": "9ba97d07ff077b5a75af9b0c4c33ac68"
+    },
+    {
+      "page": 41,
+      "file": "table_009.csv",
+      "rows": 5,
+      "cols": 8,
+      "hash": "2ff640ce5215525c8b4772970bb57d08"
+    },
+    {
+      "page": 42,
+      "file": "table_010.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "984d687c71cf9f79eecdc613d33fb945"
+    },
+    {
+      "page": 43,
+      "file": "table_011.csv",
+      "rows": 6,
+      "cols": 3,
+      "hash": "580f9e74659caa99ead9e4e47dccedcb"
+    },
+    {
+      "page": 46,
+      "file": "table_012.csv",
+      "rows": 6,
+      "cols": 4,
+      "hash": "74759e03371129df70bf349c15128943"
+    },
+    {
+      "page": 48,
+      "file": "table_013.csv",
+      "rows": 7,
+      "cols": 5,
+      "hash": "6abe77a983708b5e89e6074c8e19f3c2"
+    },
+    {
+      "page": 70,
+      "file": "table_014.csv",
+      "rows": 7,
+      "cols": 2,
+      "hash": "3119135de7e89da34c6bf38556088507"
+    }
+  ]
+}

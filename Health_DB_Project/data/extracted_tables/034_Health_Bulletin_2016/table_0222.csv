@@ -1,0 +1,24 @@
+0,1,2,3,4,5,6
+Division,Name of hospital,Age and sex,,,,
+,,>5 yrs,≤5 yrs,>5 yrs,≤5 yrs,Total
+,,Female,,Male,,
+Rajshahi,Bogra 250-bed Mohammad Ali District Hospital,"8,477","1,083","6,721","1,827","18,108"
+,Chapainowabganj District Hospital,"10,584","2,531","9,649","3,143","25,907"
+,Joypurhat District Hospital,"13,229",952,"10,131","1,320","25,632"
+,Naogaon District Hospital,"11,448","2,329","7,933","1,581","23,291"
+,Natore District Hospital,"10,197","3,612","10,409","3,321","27,539"
+,Pabna 250-bed General Hospital,"30,533","6,530","27,819","9,837","74,719"
+,Sirajganj General Hospital,"41,686","2,737","40,421","3,336","88,180"
+Rangpur,Dinajpur 250-bed General Hospital,"8,263","1,702","12,336","1,932","24,233"
+,Gaibandha District Hospital,"10,039","1,839","7,720","3,025","22,623"
+,Kurigram District Hospital,"10,396","2,997","9,220","2,597","25,210"
+,Lalmonirhat District Hospital,"3,969","1,021","4,064","1,287","10,341"
+,Nilphamari District Hospital,"28,856","4,411","28,854","4,312","66,433"
+,Panchagarh District Hospital,"8,781","1,541","6,540","1,732","18,594"
+,Saidpur 100-bed Hospital,"7,074",889,"3,798",880,"12,641"
+,Thakurgaon District Hospital,"9,084","6,408","10,899","11,681","38,072"
+Sylhet,Habiganj District Hospital,"5,820","16,350","5,505","13,100","40,775"
+,Moulvibazar 250-bed District Sadar Hospital,"17,686","3,077","12,467","4,914","38,144"
+,Sunamganj 250-bed District Sadar Hospital,"10,377","1,765","9,175","1,685","23,002"
+,"Sylhet Shahid Shamsuddin Ahmed District
+Hospital","1,443",-,905,-,"2,348"

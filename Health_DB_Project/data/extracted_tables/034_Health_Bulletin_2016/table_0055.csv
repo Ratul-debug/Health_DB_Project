@@ -1,0 +1,64 @@
+0,1,2
+Table 8.7. Causes for admissions among children aged 5 years or less in all types of hospitals in 2015,,
+ICD-10 chapter,No. of deaths,"Percentage of all deaths
+(N=98,891) in UHC,
+DLH, and MCH"
+"Chapter I-Certain infectious and parasitic diseases
+(A00-B99)","2,131",2.15
+Chapter II-Neoplasms (C00-D48),22,0.02
+"Chapter III-Diseases of blood and blood-forming
+organs and certain disorders involving the immune
+mechanisms (D50-D89)",72,0.07
+"Chapter IV-Endocrine, nutritional and metabolic
+diseases (E00-E90)",180,0.18
+"Chapter V-Mental, behavioral disorders (F00-F99)","Did not appear
+in the top 5
+causes of death
+in any hospital","Did not appear in the
+top 5 causes of death in
+any hospital"
+Chapter VI-Diseases of the nervous system (G00-G99),605,0.61
+"Chapter VII-Diseases of the eye and adnexa
+(H00-H59)","Did not appear
+in the top 5
+causes of death
+in any hospital","Did not appear in the
+top 5 causes of death in
+any hospital"
+"Chapter VIII-Diseases of the ear and mastoid process
+(H60-H95)","Did not appear
+in the top 5
+causes of death
+in any hospital","Did not appear in the
+top 5 causes of death in
+any hospital"
+Chapter IX-Diseases of the circulatory system (I00-I99),40,0.04%
+Chapter X-Diseases of the respiratory system (J00-J99),"3,486",3.53%
+Chapter XI-Diseases of the digestive system (K00-K93),7,0.01%
+"Chapter XII-Diseases of the skin and subcutaneous
+tissue (L00-L99)","Did not appear
+in the top 5
+causes of death
+in any hospital","Did not appear in the
+top 5 causes of death in
+any hospital"
+"Chapter XIII-Diseases of the musculoskeletal system
+and connective tissue (M00-M99)","Did not appear
+in the top 5
+causes of death
+in any hospital","Did not appear in the
+top 5 causes of death in
+any hospital"
+Chapter XIV-Diseases of the genitourinary system (N00-N99),16,0.02
+"Chapter XV-Pregnancy, childbirth, and the
+puerperium (O00-O99)",Not applicable,Not applicable
+"Chapter XVI-Certain conditions originating in the
+perinatal period (P00-P96)","11,239",11.37
+"Chapter XVII-Congenital malformations, deformations,
+and chromosomal abnormalities (Q00-Q99)",156,0.16
+"Chapter XVIII-Symptoms, signs, and abnormal
+clinical and laboratory findings, not elsewhere
+classified (R00-R99)",62,0.06
+"Chapter XX-External causes of morbidity and
+mortality (V01-Y98)",235,0.24
+Total (reported in the list of top 5 causes of death),"18,251",18.46

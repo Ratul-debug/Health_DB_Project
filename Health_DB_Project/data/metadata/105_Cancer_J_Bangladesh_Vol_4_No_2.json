@@ -1,0 +1,33 @@
+{
+  "pdf": "105_Cancer_J_Bangladesh_Vol_4_No_2.pdf",
+  "tables": [
+    {
+      "page": 10,
+      "file": "table_001.csv",
+      "rows": 10,
+      "cols": 7,
+      "hash": "a7b40cc3efda7759ab9c47d50f85b853"
+    },
+    {
+      "page": 10,
+      "file": "table_002.csv",
+      "rows": 7,
+      "cols": 6,
+      "hash": "aa20f5d03d8e6b350aafeb6fb7542276"
+    },
+    {
+      "page": 17,
+      "file": "table_003.csv",
+      "rows": 8,
+      "cols": 11,
+      "hash": "7d724418caffeb0c36104b9367a95697"
+    },
+    {
+      "page": 22,
+      "file": "table_004.csv",
+      "rows": 11,
+      "cols": 9,
+      "hash": "9e4a2e4cb074758d2fb73f755c2ff591"
+    }
+  ]
+}

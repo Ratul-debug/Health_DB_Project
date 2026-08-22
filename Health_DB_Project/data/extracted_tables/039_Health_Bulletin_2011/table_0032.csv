@@ -1,0 +1,93 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+Health facility,"No. of
+beds",Admission (N),,,Death (N),,,Outdoor visit (N),,,
+,,Male,Female,Total,Male,Female,Total,Male,Female,Children,Total
+"Al-Fahim Hospital, Kapasia,
+Gazipur",10,57,110,167,0,0,0,725,885,515,1825
+"Al-Hera Hospital, Sreepur
+Gazipur",10,278,277,555,0,0,0,276,312,123,711
+"Al-Noor Islami Hospital,
+Gazipur",10,94,477,571,0,0,0,425,2030,98,2553
+"Aloha Swasto Kandro Hoapital
+Balubari, Dinajpur",5,11,100,111,0,0,0,127,166,0,293
+"Aurobindo Shishu Hospital,
+Dinajpur",10,1578,1141,2719,17,10,27,4602,2606,7208,14416
+"Ayesha Memorial Hospital,
+Dhaka",50,8760,5840,14600,263,175,438,9034,7391,5475,21900
+"BNSB Base Eye Hospital,
+Sirajganj",,45208,4978,9186,1,0,1,16635,19014,6673,42322
+"BRAC Shushastho, Dinajpur",10,663,673,4,0,0,0,325,2298,29,2652
+"BRAC Shushostho, Gazipur",5,3,903,906,0,0,0,3335,9322,2674,15331
+"Central
+Hospital, Kaliganj, Gazipu r",10,250,682,932,0,0,0,522,892,103,1517
+"Chandra Mallika Socity
+Hospital, Gazipur",10,340,430,770,0,0,0,900,2100,61,3061
+"Chris(cid:1)an Hospital,
+Chadraghona, Kaptai,
+Rangama(cid:1)",100,2209,3273,5482,62,41,103,6756,17543,4465,28764
+"Cosmos General Hospital,
+Gopalpur, Lalpur, Natore",20,380,700,1080,0,0,0,1100,2500,500,4100
+"Desh Eye Hospital, Sadar,
+Gazipur",10,140,133,273,0,0,0,650,600,50,1300
+"Dewan General Hos. &
+Diagnos(cid:1)c Centre, KaliaKair,
+Gaipur",10,64,67,131,0,0,0,311,536,132,979
+"ENT KSG Hospi(cid:1)al, Dinajpur",10,120,130,250,0,0,0,1000,1200,1000,3200
+"Green Hospital, Gazipur",10,264,352,616,0,0,0,1284,1648,329,3221
+"Holy Home Hospital &
+Diagonos(cid:1)c Centre, Kapasia,
+Gazipur",8,168,371,539,0,0,0,229,397,101,727
+"ICDDRB, Dhaka",,91300,65990,157290,122,86,208,17462,10920,25685,54067
+"Insaf Hospital, Joydebpur,
+Gazipur",20,279,680,959,0,0,0,226,501,0,727
+"Jalalabad Ragib-Rabeya
+Hospital, Sylhet",890,17601,19607,37208,364,464,828,61001,69715,43572,"17428
+8"
+"Jalchatra Hospital, Madhupur,
+Tangail",80,634,215,849,19,5,24,8741,8709,3138,20588
+"Jamil Eye & General Hospital,
+Kaliganj, Gazipur",20,395,690,1085,0,0,0,14402,18001,3602,36005
+"Jobaida Memorial Hospital &
+Diagonos(cid:1)c Centre, Sadar,
+Gazipur",10,405,555,960,0,0,0,2104,2893,263,5260
+"Kaliakair General Hospital &
+Diagonos(cid:1)c Center, Gazipur",20,152,530,682,0,0,0,1000,1400,785,3185
+"Kazi Hospital Complex, Gazipur",10,521,729,1250,0,0,0,898,1225,598,2721
+"Khaza Yunus Ali Medical
+College & Hospital, Sirajganj",,6175,3706,9881,170,109,279,38379,27828,66207,20
+"Konabari Clinic & Diagnos(cid:1)c
+Center, Gazipur",10,321,403,724,0,0,0,211,345,102,658
+"Kumudini Hospital, Tangail",750,8358,11852,20210,155,154,309,49931,62811,21756,"13449
+8"
+"Lion Eye Ins(cid:1)tute and Hospital,
+Dhaka",,3182,2320,5502,,,,38743,36431,3020,78194
+"Lutheran Health Care,
+Bangladesh (LHCB) Dumki,
+Patuakhali",40,392,962,1354,12,13,25,1259,7902,5726,14887
+"M.A. Akbar Clinic, Sadar,
+Gazipur",10,157,338,495,0,0,0,1146,1107,34,2287
+"Mathree Seba Clinic &
+Diagnos(cid:1)c Center, Konabari,
+Gazipur",10,56,142,198,0,0,0,256,312,104,672
+"Mawna General Hospital,
+Sreepur, Gazipur",10,37,148,185,0,0,0,840,1160,431,2431
+"Meher Hospital & Diagnos(cid:1)c
+Center, Gazipur",10,65,230,268,0,0,0,415,630,95,1140
+"Metropoliton Medical Center
+Ltd., Dhaka",70,,,3872,,,265,0,0,0,0
+"Model Polly Hospital, Kapasia,
+Gazipur",10,180,452,632,0,0,0,1244,3054,1836,6134
+"Modern Hospital & Diagnos(cid:1)c
+Center, Sreepur, Gazipur",10,230,332,562,0,0,0,1020,1400,300,2720
+"Nagaric Hospital, Barmi,
+Sreepur, Gazipur",10,209,687,896,0,0,0,413,653,105,1171
+"New Turag General Hospital,
+Tongi, Gazipur",20,319,527,891,0,0,0,521,815,218,1534
+"North Bengal Medical College
+Hospital, Sirajganj",,5800,5241,11041,55,16,71,29023,8811,7447,63251
+"Poly Cilnic, Dinajpur",12,73,115,188,,,,0,0,0,0
+"Rajmuk(cid:1) Nursing Home,
+Dinajpur",10,314,1663,1977,0,0,0,0,0,0,0
+"Rawnak Jahan Eye Hospital
+Pvt. Ltd., Mauna, Sreepur,
+Gazipur",10,215,332,547,0,0,0,4210,4825,1842,10877

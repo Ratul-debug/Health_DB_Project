@@ -1,0 +1,16 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+"Name of
+hospital",,Admission (N),,,Death (N),,,Outdoor (N),,,,,,,,
+,Bed (N),,,,,,,,,,,ALS,BOR,HDR,ADA,ADOP
+,,M,F,T,M,F,T,M,F,Child,T,,,,,
+,,,,,,,,,,,,,,,,
+Bogra,20,156,26,182,6,0,6,na,na,na,na,46,99.32,3.85,0,
+Pabna,20,52,8,60,3,0,3,na,na,na,na,160,135.86,4.84,0,0
+Jessore,20,53,19,72,0,0,0,na,na,na,na,97,85.29,0.00,0,0
+Barisal,20,34,32,66,0,0,0,na,na,na,na,80,92.00,0.00,0,0
+Faridpur,20,36,54,90,0,0,0,na,na,na,na,65,90.79,0.00,0,0
+B. Baria,20,108,72,180,11,0,11,na,na,na,na,-,81.95,0.00,0,0
+Rangpur,20,138,36,174,21,0,21,na,na,na,na,-,146.44,0.00,0,0
+Total,140,577,247,824,41,0,41,na,na,na,na,62,104.52,4.78,na,na
+"Note: M- Male; F- Female; T- Total; ALS- Average Length of Stay; BOR- Bed Occupancy Rate; HDR- Hospital Death Rate; ADA- Average
+Daily Admission; ADOP- Average Daily Outdoor Patients",,,,,,,,,,,,,,,,

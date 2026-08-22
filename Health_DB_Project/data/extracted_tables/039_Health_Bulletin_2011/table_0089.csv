@@ -1,0 +1,48 @@
+0,1,2,3,4,5
+Age 0 - 28 day(s),,,,,
+Boy,,Girl,,Both sexes,
+Tetralogy of fallot,30.00,Atrial septal defect,50.00,Ventricular septal defect,33.33
+Ventricular septal defect,30.00,Ventricular septal defect,50.00,Tetralogy of fallot,16.67
+Valvular diseases,20.00,-,-,Valvular diseases,16.67
+Other,20.00,-,-,Other,16.67
+-,-,-,-,Atrial septal defect,8.33
+Total deaths,10,Total deaths,2,Total deaths,12
+Age 29 days- 11 months,,,,,
+Boy,,Girl,,Both sexes,
+Tetralogy of fallot,75.00,Tetralogy of fallot,45.45,Tetralogy of fallot,57.89
+Ventricular septal defect,25.00,Left ventricular failure,18.18,Left ventricular failure,10.53
+Tetanus,33.33,Other,18.18,Ventricular septal defect,10.53
+-,-,Congestive cardiac failure,9.09,Other,10.53
+-,-,Valvular diseases,9.09,Congestive cardiac failure,5.26
+-,-,-,-,Valvular diseases,5.26
+Total deaths,8,Total deaths,11,Total deaths,19
+Age 1- 4 year(s),,,,,
+Boy,,Girl,,Both sexes,
+Tetralogy of fallot,100,Tetralogy of fallot,87.50,Tetralogy of fallot,93.33
+-,-,DCM,12.50,DCM,6.67
+Total deaths,7,Total deaths,8,Total deaths,15
+Age 5- 14 years,,,,,
+Boy,,Girl,,Both sex es,
+Tetralogy of fallot,87.5,Tetralogy of fallot,37.5,Tetralogy of fallot,62.5
+Other,12.5,Congestive cardiac failure,12.5,Other,12.5
+-,-,Left ventricular failure,12.5,Congestive cardiac failure,6.25
+-,-,Rheumatic heart disease,12.5,Left ventricular failure,6.25
+-,-,Ventricular septal defect,12.5,Rheumatic heart disease,6.25
+-,-,Other,12.5,Ventricular septal defect,6.25
+Total deaths,8,Total deaths,8,Total deaths,16
+Age 15 -2 4 years,,,,,
+Male,,Female,,Both sexes,
+Tetralogy of fallot,19.23,Valvular diseases,40.74,Valvular diseases,28.30
+Valvular diseases,15.38,DCM,14.81,Tetralogy of fallot,16.98
+Other,15.38,Tetralogy of fallot,14.81,DCM,11.32
+Rheumatic heart disease,11.54,Left ventricular failure,11.11,Left ventricular failure,9.43
+DCM,7.69,Atrial septal defect,7.41,Other,9.43
+Left ventricular failure,7.69,Acute myocardial infarction,3.70,Rheumatic heart disease,7.55
+Unstable angina,7.69,Rheumatic heart disease,3.70,Atrial septal defect,5.66
+Acute myocardial infarction,3.85,Other,3.70,Acute myocardial infarction,3.77
+Atrial septal defect,3.85,-,-,Unstable angina,3.77
+Congestive cardiac failure,3.85,-,-,Congestive cardiac failure,1.89
+"Non-ST elevation
+myocardial infarction",3.85,-,-,"Non-ST elevation
+myocardial infarction",1.89
+Total deaths,26,Total deaths,27,Total deaths,53

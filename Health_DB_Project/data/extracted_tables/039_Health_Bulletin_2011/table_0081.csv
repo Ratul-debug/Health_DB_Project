@@ -1,0 +1,60 @@
+0,1,2,3,4,5
+Age 0 - 28d ay( s),,,,,
+Boy,,Girl,,Both sexes,
+Perinatal asphyxia,60.47,Perinatal asphyxia,60.19,Perinatal asphyxia,60.35
+IMCI diseases,11.46,IMCI diseases,10.37,IMCI diseases,11.00
+Septicemia,13.34,Septicemia,12.69,Septicemia,13.06
+Low birthw eight,9.75,Low birthweight,10.37,Low birthw eight,10.01
+"Meningitis/
+Encephalitis",2.32,"Meningitis/
+Encephalitis",2.55,"Meningitis/
+Encephalitis",2.54
+Total deaths,"1,867",Total deaths,"1,379",Total deaths,"3,246"
+Age 29 day -1 1 months,,,,,
+Boy,,Girl,,Both sexes,
+IMCI diseases,49.41,IMCI diseases,33.80,IMCI diseases,41.59
+Low birthw eight,16.58,Low birthw eight,14.06,Low birthw eight,15.31
+Septicemia,9.69,Perinatal asphyxia,13.95,Perinatal asphyxia,11.23
+Perinatal asphyxia,8.50,Septicemia,10.19,Septicemia,9.94
+Meningitis/Encephalitis,7.27,Meningitis/Encephalitis,7.62,Meningitis/Encephalitis,7.45
+Total deaths,929,Total deaths,932,Total deaths,"1,861"
+Age 1- 4 year(s),,,,,
+Boy,,Girl,,Both sexes,
+Pneumonia,16.33,Pneumonia,15.87,Pneumonia,16.10
+"Meningitis/
+Encephalitis",10.51,"Meningitis/
+Encephalitis",10.08,"Meningitis/
+Encephalitis",10.30
+"Other respiratory
+tract infections",9.76,"Other respiratory
+tract infections",9.18,"Other respiratory
+tract infections",9.49
+IMCI diseases,9.73,IMCI diseases,7.04,IMCI diseases,7.17
+Septicemia,9.20,Septicemia,6.67,Injury,6.21
+Injury,8.67,Injury,6.67,Septicemia,6.05
+Poisoning,2.10,Poisoning,4.44,Poisoning,5.57
+"Nutritional
+Problem/ A nemia",2.10,"Nutritional
+Problem/ A nemia",2.89,"Nutritional
+Problem/ Anemia",2.49
+Total deaths,565,Total deaths,563,Total deaths,"1,128"
+Age 5 - 14 years,,,,,
+Boy,,Girl,,Both sexes,
+Injury,8.72,"Meningitis/
+Encephalitis",9.65,"Meningitis/
+Encephalitis",8.87
+"Meningitis/
+Encephalitis",8.23,Injury,7.55,Injury,8.19
+Pneumonia,6.26,AGN,5.87,Pneumonia,5.97
+Septicemia,5.13,Pneumonia,5.62,AGN,5.28
+AGN,4.80,Septicemia,3.77,Septicemia,4.52
+"Other respiratory
+tract infections",4.21,Poisoning,3.77,Poisoning,3.95
+Poisoning,4.10,"Other respiratory
+tract infections",3.76,"Other respiratory
+tract infections",3.14
+"Nutritional
+Problem / Anemia",2.82,"Nutritional
+Problem / Anemia",3.07,"Nutritional
+Problem / Anemia",2.93
+Total deaths,195,Total deaths,159,Total deaths,354

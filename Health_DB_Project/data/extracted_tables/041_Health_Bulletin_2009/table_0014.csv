@@ -1,0 +1,11 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+"Name of
+hospital",,Admission (N),,,Death (N),,,Outdoor (N),,,,,,,,
+,Bed (N),,,,,,,,,,,ALS,BOR,HDR,ADA,ADOP
+,,M,F,T,M,F,T,M,F,Child,T,,,,,
+,,,,,,,,,,,,,,,,
+Mental,500,1182,230,1412,4,0,4,9662,11748,0,21410,86,80.22,0.24,4,59
+Tongi labour,50,2735,2486,5221,19,9,28,29587,39128,36876,105591,5,85.38,0.94,14,289
+Total,550,3917,2716,6633,23,9,4,39249,50876,36876,21410,86,72.93,0.24,9,174
+"Note: M- Male; F- Female; T- Total; ALS- Average Length of Stay; BOR- Bed Occupancy Rate; HDR- Hospital Death Rate; ADA- Average
+Daily Admission; ADOP- Average Daily Outdoor Patients",,,,,,,,,,,,,,,,

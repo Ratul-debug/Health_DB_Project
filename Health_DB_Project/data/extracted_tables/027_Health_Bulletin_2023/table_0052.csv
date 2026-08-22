@@ -1,0 +1,10 @@
+0,1
+"Table 4.2.2. Tetanus Vaccine (Td) schedule
+for women of 15-49 years of age",
+Td doses,"Starting dose/Minimum
+interval between doses"
+Td1,15 years of age
+Td2,At least 4 weeks after Td1
+Td3,At least 6 months after Td2
+Td4,At least 1 year after Td3
+Td5,At least 1 year after Td4

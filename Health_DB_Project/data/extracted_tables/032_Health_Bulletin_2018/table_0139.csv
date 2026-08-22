@@ -1,0 +1,7 @@
+0,1,2,3,4
+Division,Male Patient,Female Patient,Child Patient,Total Patient
+Outdoor,13308,18502,16604,48414
+Pathology,529,655,77,1262
+Emergency,793,1584,1792,4169
+Indoor admission patient,168,205,83,456
+Antenatal care,-,-,-,65

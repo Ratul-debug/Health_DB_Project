@@ -1,0 +1,45 @@
+0,1,2
+"Table 7.7. Causes for admissions among children aged 5 years or less in all types of hospitals in
+2015",,
+ICD-10 chapter,No. of admissions,"Percentage of cases
+reported in the top 5
+causes for admission"
+"Chapter I-Certain infectious and parasitic diseases
+(A00-B99)","287,238",43.15
+Chapter II-Neoplasms (C00-D48),322,0.05
+"Chapter III-Diseases of blood and blood-forming
+organs and certain disorders involving the immune
+mechanisms (D50-D89)","9,097",1.37
+"Chapter IV-Endocrine, nutritional and metabolic
+diseases (E00-E90)","3,983",0.60
+"Chapter V-Mental, behavioral disorders (F00-F99)",19,0.00
+Chapter VI-Diseases of the nervous system (G00-G99),"2,348",0.35
+Chapter VII-Diseases of the eye and adnexa (H00-H59),121,0.02
+"Chapter VIII-Diseases of the ear and mastoid process
+(H60-H95)",672,0.10
+Chapter IX-Diseases of the circulatory system (I00-I99),67,0.01
+Chapter X-Diseases of the respiratory system (J00-J99),"230,907",34.68
+Chapter XI-Diseases of the digestive system (K00-K93),"6,310",0.95
+"Chapter XII-Diseases of the skin and subcutaneous
+tissue (L00-L99)",54,0.01
+"Chapter XIII-Diseases of the musculoskeletal system
+and connective tissue (M00-M99)",55,0.01
+"Chapter XIV-Diseases of the genitourinary system
+(N00-N99)","1,139",0.17
+"Chapter XV-Pregnancy, childbirth and the
+puerperium (O00-O99)","Not applicable in
+the age-group","Not applicable in the
+age group"
+"Chapter XVI-Certain conditions originating in the
+perinatal period (P00-P96)","89,253",13.41
+"Chapter XVII-Congenital malformations,
+deformations and chromosomal abnormalities
+(Q00-Q99)","1,288",0.19
+"Chapter XVIII-Symptoms, signs and abnormal clinical
+and laboratory findings, not elsewhere classified
+(R00-R99)","22,335",3.35
+"Chapter XIX-Injury, poisoning and certain other
+consequences of external causes (S00-T98)","5,936",0.89
+"Chapter XX-External causes of morbidity and
+mortality (V01-Y98)","4,604",0.69
+Total (reported in top-5 morbidity list),"665,748",100

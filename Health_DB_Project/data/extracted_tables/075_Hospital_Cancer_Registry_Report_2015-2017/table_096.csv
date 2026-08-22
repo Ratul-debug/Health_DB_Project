@@ -1,0 +1,56 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+Connective tissue of scalp/face/neck,20,7,27,Connective tissue,,5,5
+Malignant tumour,4,0,4,Sarcoma,,1,1
+Sq cell ca,25,11,36,Fibrosarcoma,,1,1
+Basal cell ca,2,1,3,Fibrous histocytoma,,1,1
+Adenocarcinoma,2,1,3,Liposarcoma,,2,2
+Sarcoma,2,0,2,Breast (Nipple/areola),,3,3
+Fibrosarcoma,1,0,1,Duct cell ca,,3,3
+"Haemongiosarcoma, Angiosarcoma",1,0,1,Breast,36,2056,2092
+Osteosarcoma,2,0,2,Sq cell ca,0,6,6
+"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wrist",32,19,51,Adenocarcinoma,0,1,1
+Malignant tumour,1,0,1,Duct cell ca,36,2049,2085
+Small cell ca,1,0,1,Vulva,,9,9
+Sq cell ca,16,8,24,Small cell ca,,1,1
+Adenocarcinoma,0,2,2,Sq cell ca,,8,8
+Sarcoma,1,1,2,Vagina,,26,26
+Fibrosarcoma,1,1,2,Small cell ca,,1,1
+Fibrous histocytoma,1,0,1,Sq cell ca,,25,25
+Dermato fibroma,0,1,1,Cervix,,1059,1059
+Liposarcoma,1,0,1,Small cell ca,0,2,2
+Osteosarcoma,8,4,12,Papilary ca,0,1,1
+Chondrosarcoma,1,0,1,Sq cell ca,10,1001,1011
+Ewing's sarcoma,1,2,3,Adenocarcinoma,0,45,45
+"Connective tissue of LL,foot,leg,
+,thigh,hip,knee",125,55,180,Uterus,,81,83
+Malignant tumour,3,2,5,Sq cell ca,,72,72
+Gaint cell type,1,0,1,Adenocarcinoma,,9,9
+Spindle cell ca,1,0,1,Adeno cystic ca,,1,1
+Small cell ca,2,0,2,Choriocarcinoma,,1,1
+Sq cell ca,27,7,34,Ovary,,114,114
+Adenocarcinoma,2,1,3,Malignant tumour,,3,3
+Sarcoma,5,4,9,Small cell ca,,2,2
+Fibrosarcoma,2,1,3,Sq cell ca,,71,71
+Fibrous histocytoma,1,4,5,Adenocarcinoma,,24,25
+Liposarcoma,1,1,2,Adeno cystic ca,,2,2
+Rhabdomyosarcoma,9,9,18,Endrometroid ca,,4,4
+Osteosarcoma,66,23,89,Serous cystadeno ca,,1,1
+Ewing's sarcoma,4,3,7,Mucinous cystadeno ca,,1,1
+Hodgkins' Lymphoma,1,0,1,Dysgerminoma,,3,3
+"Connective tissue of Abdomen,
+abdominal wall, umbilicus",3,3,6,Germ cell tumour,,1,1
+"Fibrosarcoma
+Rhabdomyosarcoma","1
+2","0
+3","1
+5","Teratoma
+Adenexa",,"1
+23","1
+23"
+Connective tissue of Trunk,1,,1,Small cell ca,,1,1
+Fibrosarcoma,1,,1,Sq cell ca,,14,14
+,,,,Adenocarcinoma,,3,3
+,,,,Adeno cystic ca,,4,4
+,,,,Papilary adenocarcinoma,,1,1

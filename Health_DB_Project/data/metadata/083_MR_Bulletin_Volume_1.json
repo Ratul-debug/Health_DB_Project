@@ -1,0 +1,89 @@
+{
+  "pdf": "083_MR_Bulletin_Volume_1.pdf",
+  "tables": [
+    {
+      "page": 6,
+      "file": "table_001.csv",
+      "rows": 8,
+      "cols": 15,
+      "hash": "f69337020c93169080da5c39db56fe59"
+    },
+    {
+      "page": 6,
+      "file": "table_002.csv",
+      "rows": 9,
+      "cols": 15,
+      "hash": "7f764c1917f65a6a4c2d79a09a46c47d"
+    },
+    {
+      "page": 7,
+      "file": "table_003.csv",
+      "rows": 9,
+      "cols": 3,
+      "hash": "c65210c86158188d5f249bc85db84c8e"
+    },
+    {
+      "page": 9,
+      "file": "table_004.csv",
+      "rows": 17,
+      "cols": 28,
+      "hash": "61b7e20f26eb32d1eb114c07b39303cf"
+    },
+    {
+      "page": 9,
+      "file": "table_005.csv",
+      "rows": 8,
+      "cols": 4,
+      "hash": "d89cf32784e2bab1045e695bf0404cb0"
+    },
+    {
+      "page": 9,
+      "file": "table_006.csv",
+      "rows": 6,
+      "cols": 5,
+      "hash": "d6bca99ced179a07572414b970bccd5b"
+    },
+    {
+      "page": 11,
+      "file": "table_007.csv",
+      "rows": 54,
+      "cols": 18,
+      "hash": "61c6f957cb7aecf72a0c9c5123958a98"
+    },
+    {
+      "page": 12,
+      "file": "table_008.csv",
+      "rows": 35,
+      "cols": 18,
+      "hash": "36bcd9ff57e055f7f315661bc478dd3c"
+    },
+    {
+      "page": 13,
+      "file": "table_009.csv",
+      "rows": 55,
+      "cols": 21,
+      "hash": "79b6dab86b2ab63eebe487ae5bd313dd"
+    },
+    {
+      "page": 14,
+      "file": "table_010.csv",
+      "rows": 36,
+      "cols": 21,
+      "hash": "23b79923457554bdd6855aafe524d8fe"
+    },
+    {
+      "page": 15,
+      "file": "table_011.csv",
+      "rows": 55,
+      "cols": 15,
+      "hash": "fe02c61b175c36e9b9fb6e95bfa1e9f2"
+    },
+    {
+      "page": 16,
+      "file": "table_012.csv",
+      "rows": 36,
+      "cols": 15,
+      "hash": "ac121267c944ca634f03adea1db9b046"
+    }
+  ]
+}

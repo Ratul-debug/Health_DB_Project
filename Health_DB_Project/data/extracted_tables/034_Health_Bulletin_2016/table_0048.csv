@@ -1,0 +1,50 @@
+0,1,2
+Table 7.11. Causes for admissions among persons aged 30 plus years in all hospitals in 2015,,
+ICD-10 chapter,No.,"Percentage of cases reported
+in the top 5 causes for
+admission"
+"Chapter I-Certain infectious and parasitic diseases
+(A00-B99)","386,598",24.90
+Chapter II-Neoplasms (C00-D48),"4,815",0.31
+"Chapter III-Diseases of blood and blood-forming
+organs and certain disorders involving the immune
+mechanisms (D50-D89)","11,317",0.73
+"Chapter IV-Endocrine, nutritional and metabolic
+diseases (E00-E90)","6,877",0.44
+"Chapter V-Mental, behavioral disorders (F00-F99)","39,232",2.53
+Chapter VI-Diseases of the nervous system (G00-G99),"10,326",0.67
+"Chapter VII-Diseases of the eye and adnexa
+(H00-H59)","15,333",0.99
+"Chapter VIII-Diseases of the ear and mastoid process
+(H60-H95)",0,0.00
+"Chapter IX-Diseases of the circulatory system
+(I00-I99)","192,629",12.41
+Chapter X-Diseases of the respiratory system (J00-J99),"190,389",12.26
+Chapter XI-Diseases of the digestive system (K00-K93),"155,763",10.03
+"Chapter XII-Diseases of the skin and subcutaneous
+tissue (L00-L99)","6,490",0.42
+"Chapter XIII-Diseases of the musculoskeletal system
+and connective tissue (M00-M99)",425,0.03
+"Chapter XIV-Diseases of the genitourinary system
+(N00-N99)","15,896",1.02
+"Chapter XV-Pregnancy, childbirth and the puerperium
+(O00-O99)","21,109",1.36
+"Chapter XVI-Certain conditions originating in the
+perinatal period (P00-P96)","Not
+applicable
+in this age-
+group","Not applicable in this age-
+group"
+"Chapter XVII-Congenital malformations, deformations,
+and chromosomal abnormalities (Q00-Q99)",0,0.00
+"Chapter XVIII-Symptoms, signs, and abnormal
+clinical and laboratory findings, not elsewhere
+classified (R00-R99)","61,347",3.95
+"Chapter XIX-Injury, poisoning, and certain other
+consequences of external causes (S00-T98)","87,756",5.65
+"Chapter XX-External causes of morbidity and mortality
+(V01-Y98)","346,317",22.31
+"Chapter XXI-Factors influencing health status and
+contact with health services (Z00-Z99)",420,0.03
+"Total (reported in the list of top 5 causes of
+morbidity)","1,552,619",100

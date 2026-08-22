@@ -1,0 +1,21 @@
+0,1,2,3
+ICD-O,Primary site,Frequency,Percent
+C00-C14,"Lip, oral cavity and pharynx",1037,10.1
+C15-C26,Digestive organ,1942,18.8
+C30-C39,Respiratory system and intrathoracic organ,2321,22.5
+C40-C41,"Bones, joints and articular cartilage",148,1.4
+C42,Haemopoietic and reticuloendothelial systems,218,2.1
+C44,Skin,55,.5
+C48,Retroperitoneum and peritoneum,17,.2
+C49,"Connective, subcutaneous and other soft tissues",222,2.2
+C50,Breast,1374,13.3
+C51-C58,Female genital organs,1036,10.0
+C60-C63,Male genital organs,145,1.4
+C64-C68,Urinary tract,259,2.5
+C69-C72,"Eye, brain and other parts of CNS",221,2.1
+C73-C75,Thyroid and other endocrine glands,113,1.1
+C76,Other ill defined sites,35,.3
+C77,Lymph nodes,1058,10.3
+C80,Unknown primary site,109,1.1
+,Total,10310,100.0
+,,,

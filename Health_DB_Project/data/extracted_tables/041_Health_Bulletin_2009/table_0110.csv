@@ -1,0 +1,35 @@
+0,1,2,3,4,5,6
+Section,Post,"Sancti
+oned","No.
+oCategory f p","Existin
+g osts",Vacant,Remarks
+Personnel MIS,Assistant chief (medical),1,1,1,0,
+Personnel MIS,Assistant chief (statistician),1,1,0,1,
+Personnel MIS,Assistant director,1,1,1,0,
+IT,Assistant programmer,2,2,2,0,
+Health Information Unit,Assistant statistician,2,4,1,3,SSMIS
+Personnel MIS,Assistant statistician,2,,,,SSMIS
+Health Information Unit,"Chief, Health Information Unit",1,1,1,0,SSMIS
+IT,Data entry operator,4,4,4,0,
+Health Information Unit,Deputy chief (medical),1,1,0,1,SSMIS
+Health Information Unit,Deputy chief (non-medical),1,1,0,1,SSMIS
+Health Information Unit,Deputy chief (statistical),1,1,1,0,SSMIS
+Personnel MIS,Deputy director,1,1,1,0,
+Logistic MIS,Deputy Program Manager,1,2,1,0,
+Population MIS (new),Deputy Program Manager,1,,0,1,
+Health Information Unit,Deputy Program Manager (SSMIS),1,1,1,0,SSMIS
+Administration,Director,0,1,1,0,As OSD
+IT,Draftsman,1,1,0,1,
+Administration,Driver,2,2,2,0,
+Administration,Duplicating machine operator,1,1,1,0,
+Health Information Unit,Investigator,2,3,1,2,SSMIS
+Personnel MIS,Investigator,1,,0,,
+Health Information Unit,Machine room clerk,1,3,0,3,SSMIS
+IT,Machine room clerk,1,,0,,
+Personnel MIS,Machine room clerk,1,,0,,
+Administration,MLSS,5,5,2,3,
+Administration,Office assistant,2,5,1,2,
+Health Information Unit,Office assistant,1,,1,,SSMIS
+IT,Office assistant,1,,1,,
+Personnel MIS,Office assistant,2,,1,,
+Administration,Office peon,1,1,0,1,

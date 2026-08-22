@@ -1,0 +1,66 @@
+0,1,2,3,4,5,6,7,8,9
+,Type of,,,No. of,,,No. of,,Name of Hospital
+,Hospital/Facility,,,Hospital,,,Bed,,
+"Upazila Health
+Complex (UHC)",,,260,,,31,,,"123. Companiganj Sunamganj : 124. Chhatak 125. Jagannathpur 126. Deerai 127.
+Sulla 128. Dharmapasha 129. Jamalganj 130. Taherpur 131. Doararbazar 132.
+Biswambarpur. M. Bazar : 133. Rajnagar 134. Barlekha 135. Kamalganj 136.
+Sreemangal Hobiganj : 137. Azmiriganj 138. Baniachong 139. Chunarughat 140.
+Bahubal 141. Nabiganj 142. Lakhai. Rajshahi : 143. Paba 144. Mohanpur 145.
+Godagari 146. Bagmara 147. Bogha Natore : 148. Singra 149. Baraigram 150.
+Bagatipara 151. Gurudashpur Naogoan : 152. Atrai 153. Raninagar 154. Niamatpur
+155. Porsha Rangpur : 156. Baderganj 157. Taraganj 158. Kownia 159. Pirgacha
+160. Haragacha(UHC) Lalmonirhat : 161. Patgram 162. Hatibandha 163. Aditmari
+Nilphamari : 164. Jaldhaka 165. Kishoreganj 166. Saidpur Kurigram : 167.
+Bhurungamari 168. Fulbari 169. Nageswari 170. Rowmari 171. Rajibpur 172.
+Rajarhat Gaibangha : 173. Palashbari 174. Fulchari 175. Sadullapur 176. Sundarganj
+177. Shaghatta Pabna : 178. Atghoria 179. Iswardi 180. Bera 181. Santhia 182.
+Bangura Serajganj : 183. Kazipur 184. Kamarkanda 185. Belkuchi 186. Chowhali
+187. Shahzadpur 188. Ullapara 189. Tarash 190. Raiganj Dinajpur : 191. Birol 192.
+Kaharol 193. Birganj 194. Chirirbandar 195. Khansama 196. Fulbari 197. Hakimpur
+198. Nawabganj 199. Ghoraghat 200. Birampur Thakurgaon : 201. Pirganj
+Panchagarh : 202. Atwari Bogra : 203. Nandigram 204. Dhupchachia 205. Sherpur
+Joypurhat : 206. Panchbibi 207. Khetlal Khulna : 208. Daulatpur(Deghalia) 209.
+Terakhada 210. Dumuria 211. Batiaghata 212. Paikgacha 213. Rupsha 214. Koyra
+Bagerhat : 215. Mollahat 216. Fakirhat 217. Kachua 218. Morrelganj 219.
+Sarankhola 220. Chitalmari Satkhira : 221. Debhatta 222. Kaliganj 223. Assasuni
+224. Tala Jessore : 225. Jhikargacha 226. Chowgacha 227. Bagerpara 228.
+Monirampur 229. Sarsa Jhenaidah : 230. Sailkupa 231. Kotchandpur 232.
+Moheshpur Magura : 233. Sreepur 234. Mohammadpur 235. Salika Narail : 236.
+Lohagara Kushtia : 237. Kumarkhali 238. Khoksha Chuadanga : 239. Alamdanga
+240. Damurhuda 241. Jibannagar Barisal : 242. Bakerganj 243. Wazirpur 244.
+Babuganj 245. Hijla 246. Mehendiganj 247. Banaripara Jhalkathi : 248. Kathalia
+249. Rajapur Perojpur : 250. Nazirpur 251. Bhandaria 252. Nasarabad(Sarupkadi)
+253. Kawkhali Bhola : 254. Tajumuddin 255. Manpura 256. Lalmohan Patuakhali
+: 257. Bauphal 258. Mirzaganj 259. Dashmina 260. Dumki Barguna : 261. Bamna
+262. Amtali C.Nawabganj : 263. Gomastapur 264. Bholahat 265. Nachol.
+New : 1. Sultanpur (Chattagram) 2. Matlab (North) (Chandpur) 3. Daudkandi
+(North) (Comilla) 4. Meghna (Comilla) 5. Zianagar (Perojpur) 6. Majhira (Bogra) 7.
+Mujibnagar (Meherpur) 8. Titas (Comilla) 9. Ashuganj (B.Baria) 10. Manohorganj
+(Comilla) 11. Comilla Sadar (South) (Comilla) 12. Zuri (M.Bazar) 13. Dakkhin
+Surma (Sylhet)."
+UHC Sadar,,,63,,,0,,,"Dhaka Division: Faridpur, Mymensingh, Gazipur, Narayanganj, Gopalganj,
+Narsingdi, Jamalpur, Netrokona, Kishoreganj, Rajbari, Madaripur, Shariatpur,
+Manikganj, Sherpur, Munshiganj, Tangail. Chittagong Division: B.baria, Feni,
+Bandarban, Khagrachari, Chandpur, Laxmipur, Comilla, Noakhali, Cox's Bazar,
+Rangamati. Rajshahi Division: Bogra, Natore, Chapi Nawabganj, Nilphamari,
+Dinajpur, Pabna, Gaibandha, Panchagarh, Joypurhat, Rangpur, Kurigram, Serajganj,
+Lalmonirhat, Thakurgaon, Naogaon. Khulna Division: Bagerhat, Magura,
+Chuadanga, Meherpur, Jessore, Narail, Jhenaidah, Satkhira, Kushtia. Barisal
+Division : Barguna, Jhalkathi, Barisal, Patuakhali, Bhola, Pirojpur Sylhet
+Division: Hobiganj, Sunamganj, M.bazar, Sylhet."
+Health Complex,,,3,,,31,,,"Dohazari, Godagari & Domki"
+Thana H. Complex,,,2,,,,,,Charjabbar & Tejgaon
+General Hospital,,,9,,,250,,,"Jessore, Jamalpur , Noakhali, Patuakhali, Kushtia , Gopalganj, Tangail, Sunamgonj
+& Pabna"
+,,,2,,,200,,,"Chandpur, Narayanganj."
+,,,2,,,150,,,"Khulna, & Chittagong."
+Sadar Hospital,,,47,,,100,,,"Panchagrah, Thakurgaon, Nilphamari, Lalmonirhat, Kurigram, Gaibandha,
+Joypurhat, Serajganj, Natore, Noagaon, Nawabganj, Meherpur, Chuadanga,
+Jhenaidah, Magura, Narail, Satkhira, Bagerhat, Perojpur, Jhalakathi, Barguna, Bhola,
+Barisal, Shariatepur, Madaripur, Rajbari , Faridpur, Narsingdi, Manikganj,
+Munshiganj, Narayanganj, Gazipur, Narsingdi, Sherpur, Kishoreganj, Netrokona,
+Sylhet, Moulavibazar, Hobiganj, B. Baria, Comilla, Laximpur, Feni, Rangamati,
+Bandarban and Cox’s Bazar, Narsingdi zilla hospital."
+,,,1,,,50,,,Khagrachhari
+,,,1,,,200,,,Narayanganj.

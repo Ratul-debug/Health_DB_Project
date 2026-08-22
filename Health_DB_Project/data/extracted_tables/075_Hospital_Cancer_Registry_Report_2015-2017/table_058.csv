@@ -1,0 +1,36 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+ICD-O,Primary site of tumour,Age group,,,,,,,,,
+,,<=14,15-24,25-34,35-44,45-54,55-64,65-74,75-84,85-94,Total
+C18.9,Colon,0,4,13,17,25,20,6,1,0,86
+C20.9,Rectum,1,9,35,46,34,36,22,5,3,191
+C21.1,Anal canal,0,0,3,0,2,3,5,0,0,13
+C22.0,Liver,2,9,27,41,57,76,57,15,2,286
+C23.9,Gall bladder,0,0,5,10,17,28,20,6,4,90
+C24.0,Bile duct,0,0,0,0,2,0,0,0,0,2
+C24.1,Ampula of vater,0,0,1,0,0,1,0,0,0,2
+C25.0,Head of pancrease,0,0,0,0,3,0,1,0,0,4
+C25.9,Pancrease,0,0,0,2,7,5,4,0,1,19
+C30.0,Nasal cavity,0,0,2,0,1,0,2,0,0,5
+C30.1,"Middle ear , inner ear",0,0,2,0,0,4,0,1,0,7
+C31.0,Maxillary sinuses,0,0,1,1,3,3,0,0,0,8
+C31.2,Frontal sinuses,1,0,1,1,0,1,0,0,0,4
+C32.0,"Glottis, Vocal cord",0,0,0,4,27,34,15,3,2,85
+C32.1,"Supraglottis, Epiglottis,",0,0,3,8,35,28,19,10,0,103
+C32.9,Larynx,0,0,4,7,35,37,36,11,1,131
+C34.0,Bronchous,0,0,0,3,5,16,10,3,1,38
+C34.9,Lung,5,11,25,80,284,558,467,115,17,1562
+C38.4,Pleura,1,1,6,1,21,23,22,8,1,84
+C41.0,"Bones & articular cartilages
+of Skull & face",0,1,0,0,0,0,0,0,0,1
+C41.2,Vertebra & Vertebral column,1,1,0,0,4,0,14,3,0,23
+C41.9,Bones & articular cartilages,9,14,5,2,1,3,0,0,1,35
+C42.0,Blood,27,39,17,15,13,12,2,1,0,126
+C42.1,Bone marrow,1,0,2,3,4,1,2,1,0,14
+C44.1,Skin of eye lid,0,0,0,0,1,0,0,0,0,1
+C44.3,Skin of Face,0,0,0,0,0,1,0,0,0,1
+C44.9,Skin,1,0,3,8,6,5,3,4,1,31
+C48.1,"Omentum, Pouch of duglus,
+Cal de sac",0,0,1,0,1,0,0,0,0,2
+C49.0,Connective tissue of scalp/face/neck,1,2,1,2,2,2,2,3,1,16
+C49.1,"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wris",3,5,1,2,6,2,2,2,0,23

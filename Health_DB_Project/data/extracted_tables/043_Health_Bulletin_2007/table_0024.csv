@@ -1,0 +1,63 @@
+0,1,2,3
+Type of,No. of,No. of,Name of Hospital
+Hospital/Facility,Hospital,Bed,
+,1,375,"Shahid Sohrawardy Hospital , Dhaka."
+,1,100,"Sarkari Karmachari Hospital (Dhaka) , Narssindi"
+,1,50,"Masimpur 50 beded ,Tongi."
+Labour Hospital,2,,Sreemongal (50). Saidpur (Nilphamari)
+"Medical College
+Hospital",13,1700,Dhaka
+,,600,Sir Sallimullah
+,,800,Mymensingh
+,,1010,Chittagong
+,,650,Rajshahi
+,,900,MAG Osmani Sylhet
+,,650,Rangpur
+,,500,Sher-e-Bangla Barisal
+,,250,Faridpur
+,,250,Khulna
+,,250,Comilla
+,,250,Bogra
+,,250,Dinajpur
+"Post Graduate
+Institute Hospital",7,600,NIDCH
+,,414,NICVD
+,,500,NITOR
+,,100,NIO
+,,100,NIMHR&H
+,,100,NIKDU&H
+,,100,NICR&H
+Leprosy Hospital,3,20,Nilphamari
+,,30,Dhaka
+,,80,Sylhet
+"Infectious Disease
+Hospital",5,20,Rajshahi
+,,20,Khulna
+,,100,Dhaka
+,,20,Sylhet
+,,20,Chittagong
+"Chest Clinics &
+Chest Hospital",4,150,Rajshahi
+,,100,Khulna
+,,60,Sylhet
+,,100,Chittagong
+"Chest Clinics &
+Chest Hospital",7,20,"Rangpur, Bogra, Pabna, Jessore, Barisal, Faridpur, Brahmanbaria."
+"Chest Clinics &
+Chest Hospital",44,,"National chest clinics & chest hospital Shymoly (Dhaka), Chest clinics & chest
+hospital training centre (Dhaka), Thakurgaon, Dinajpur, Rajshahi, Ch.Nawabganj,
+Natore, Rangpur, Gaibandha, Kurigram, Bogra, Serajganj, Pabna, Kushtia,
+Meherpur, Chuadanga, Jessore, Magura, Khulna, Satkhira, Bagerhat, Barisal,
+Perojpur, Bhola, Patuakhali, Faridpur, Gopalganj, Madaripur, Munshiganj, Tangail,
+Jamalpur, Mymensingh, Kishoreganj, Sunamganj, Maulavibazar, Sylhet, Comilla,
+Brahmanbaria, Chandpur, Feni, Noakhali, Rangamati, Chittagong, Cox’s Bazar."
+Dental Hospital,1,20,Dhaka
+Mental Hospital,1,500,Pabna
+Homeopathic,1,100,"Homeopathic Degree College and Hospital, Mirpur, Dhaka."
+"Unani and
+Ayurvedic",1,100,"Unani and Ayurvedic degree college & Hospital, Mirpur, Dhaka."
+School health clinic,23,,"Dinajpur, Rajshahi, Saidpur (Nilphamari), Rangpur, Bogra, Pabna, Kushtia, Jessore,
+Khulna, Barisal, Faridpur, Armanitola (Dhaka), Azimpur (Dhaka), Sher-e-bangla
+nagar (Dhaka), Narayanganj, Tangail, Mymensingh, Comilla, Maijdee(Noakhali),
+Begumganj, Sylhet, Chittagong, Rangamati."
+Urban dispensaries,35,,"Dinajpur-1, Rajshahi-5, Khulna-3, Dhaka-17, Chittagong-9."

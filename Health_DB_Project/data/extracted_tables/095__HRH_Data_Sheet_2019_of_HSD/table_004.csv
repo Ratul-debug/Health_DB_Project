@@ -1,0 +1,25 @@
+0,1,2,3,4,5,6,7
+"D: Staff position in three major Directorate Generals of Ministry of Health
+and Family Welfare",,,,,,,
+D.1: Directorate General of Health Services (DGHS),,,,,,,
+Class,,,Grade,Sanctioned,Filled up,Vacant,% of Vacancy
+Class I,Doctor,,2-9,25980,20914,5066,19.50%
+,Non-doctors,,,526,227,299,56.84%
+Class II,,,10,953,618,335,35.15%
+Class III,,,11-16,51246,36553,14693,28.67%
+Class IV,,,17-20,25038,16673,8365,33.41%
+Total,,,,103743,74985,28758,27.72%
+D.2: Directorate General of Family Planning (DGFP),,,,,,,
+Class,,Grade,,Sanctioned,Filled up,Vacant,% of Vacancy
+Class I,,2-9,,1953,1298,655,33.54%
+Class II,,10,,1089,499,590,54.18%
+Class III,,11-16,,16881,14271,2610,15.46%
+Class IV,,17-20,,32512,25214,7298,3.99%
+Total,,,,52435,41282,11153,21.27%
+D.3: Directorate General of Nursing and Midwifery (DGNM),,,,,,,
+Class,,Grade,,Sanctioned,Filled up,Vacant,% of Vacancy
+Class I,,2-9,,378,271,107,28.30%
+Class II,,10,,35531,33638,1893,5.32%
+Class III,,11-16,,884,789,95,10.74%
+Class IV,,17-20,,716,567,149,20.81%
+Total,,,,37509,35265,2244,6.00%

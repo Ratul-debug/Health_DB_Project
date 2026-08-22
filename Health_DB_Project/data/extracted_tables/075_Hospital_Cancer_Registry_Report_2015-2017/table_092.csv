@@ -1,0 +1,41 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+ICD-O,Primary site of tumour,Age group,,,,,,,,,
+,,<=14 15-24 25-34 35-44 45-54 55-64 65-74 75-84 85-94 Total,,,,,,,,,
+C48.1,"Omentum, Pouch of duglus,
+Cal de sac",0,0,0,0,3,1,2,0,0,6
+C49.0,Connective tissue of scalp/face/neck,0,0,1,1,3,0,2,0,0,7
+C49.1,"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wris",3,10,1,0,5,3,3,0,0,25
+C49.0,"Connective tissue of LL,foot,leg,
+thigh,hip,knee",14,9,7,8,7,8,2,0,0,55
+C49.1,"Connective tissue of Abdomen,
+abdominal wall, umbillicus",2,1,0,0,0,0,0,0,0,3
+C49.9,Connective tissue,0,0,1,2,0,2,0,0,0,5
+C50.0,Breast (Nipple/areola),0,1,1,1,0,0,0,0,0,3
+C50.9,Breast,1,65,301,638,655,297,82,16,1,2056
+C51.9,Vulva,0,0,0,2,4,1,1,1,0,9
+C52.9,Vagina,0,1,2,5,6,9,2,1,0,26
+C53.9,Cervix,0,7,62,218,402,253,87,14,4,1047
+C55.9,Uterus,0,1,6,22,29,14,8,1,0,81
+C56.9,Ovary,3,10,17,21,34,23,5,0,0,113
+C57.4,Adenexa,0,4,4,3,6,4,1,0,0,22
+C57.8,Tubo overian & Utero overian,2,6,10,8,5,7,2,0,0,40
+C64.9,Kidney,5,1,5,5,9,3,3,0,0,31
+C67.9,Bladder,0,1,4,9,18,19,15,0,0,66
+C69.4,Eye ball,1,0,0,1,3,1,1,0,0,7
+C69.6,Orbit,0,0,3,1,0,0,0,0,0,4
+C69.9,Eye,12,0,1,2,0,0,0,1,0,16
+C70.9,Meninges (NOS),0,0,2,3,0,1,0,1,0,7
+C 71.1,Frontal lobe,0,1,0,0,0,0,0,0,0,1
+C 71.4,Occipital lobe,0,0,2,0,0,0,0,0,0,2
+C71.9,Brain,6,6,10,7,15,6,2,0,0,52
+C73.9,Thyroid,0,8,19,19,11,12,5,3,0,77
+C75.1,Pituitary gland,0,0,0,0,1,0,0,0,0,1
+C76.0,"Cheek, Jaw ,Nose",0,0,0,2,7,6,2,2,0,19
+C77.0,LN of Head face & Neck,19,31,46,57,96,79,38,11,2,379
+C77.3,LN of axilla,0,1,6,2,2,6,0,0,0,17
+C77.4,Inguinal region,0,0,1,3,1,4,1,0,0,10
+C77.5,Pelvic LN,1,2,0,0,1,2,1,0,0,7
+C77.9,LN,8,15,16,19,19,13,17,5,0,112
+C80.9,Un known primary site,1,3,11,9,24,16,8,3,1,76
+,Total,119,258,714,1400,1979,1354,596,139,17,6576

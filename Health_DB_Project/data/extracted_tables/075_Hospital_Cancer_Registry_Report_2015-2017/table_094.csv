@@ -1,0 +1,47 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+Oesophagus,422,199,621,Anal canal,27,17,44
+Small cell ca,1,0,1,Malignant tumour,0,1,1
+Sq cell ca,384,190,574,Sq cell ca,22,11,33
+Adenocarcinoma,37,9,46,Adenocarcinoma,5,5,10
+Gastric antrum,3,6,9,Liver,350,159,509
+Sq cell ca,2,5,7,Small cell ca,1,1,2
+Adenocarcinoma,1,1,2,Sq cell ca,3,1,4
+Stomach,379,173,552,Adenocarcinoma,3,0,3
+Malignant tumour,175,66,241,Hepatocellular ca,339,157,496
+Sq cell ca,33,17,50,Embryonal sarcoma,4,0,4
+Adenocarcinoma,171,90,261,Intra hepatic bile duct,1,,1
+Duodenum,4,2,6,Cholangiocarcinoma/Bile duct carcinoma,1,,1
+Adenocarcinoma,4,2,6,Gall bladder,129,142,271
+Ileum,12,11,23,Small cell ca,0,1,1
+Sq cell ca,8,7,15,Sq cell ca,4,4,8
+Adenocarcinoma,4,3,7,Adenocarcinoma,125,137,262
+Ewing's sarcoma,0,1,1,Bile duct,3,10,13
+Cecum,19,12,31,Cholangiocarcinoma/Bile duct carcinoma,3,10,13
+Sq cell ca,6,5,11,Ampula of vater,2,1,3
+Adenocarcinoma,13,7,20,Sq cell ca,0,1,1
+Appendix,1,,1,Adenocarcinoma,2,0,2
+Adenocarcinoma,1,,1,Biliary tract,1,,1
+Ascending colon,1,,1,Cholangiocarcinoma/Bile duct carcinoma,1,,1
+Adenocarcinoma,1,,1,Head of pancreas,7,3,10
+Hepatic flexure,4,6,10,Sq cell ca,1,0,1
+Sq cell ca,3,5,8,Adenocarcinoma,6,3,9
+Adenocarcinoma,0,1,1,Pancreas,25,15,40
+Multiple myaloma,1,0,1,Sq cell ca,5,3,8
+Transverse colon,1,,1,Adenocarcinoma,19,12,31
+Adenocarcinoma,1,,1,Cholangiocarcinoma/Bile duct carcinoma,1,0,1
+Sigmoid colon,5,2,7,Nasal cavity,6,1,7
+Sq cell ca,1,0,1,Sq cell ca,6,1,7
+Adenocarcinoma,4,2,6,"Middle ear , inner ear",7,4,11
+Colon,123,72,195,Sq cell ca,7,4,11
+Sq cell ca,10,7,17,Maxillary sinuses,14,13,27
+Adenocarcinoma,112,64,176,Sq cell ca,12,13,25
+Hepatocellular ca,1,1,2,Adeno cystic ca,1,0,1
+Rectum,262,164,426,Malignant melanoma,1,0,1
+Sq cell ca,33,21,54,Frontal sinuses,7,1,8
+Adenocarcinoma,227,140,367,Sq cell ca,5,1,6
+Hepatocellular ca,0,1,1,Ependymoma,1,0,1
+Duct cell ca,2,2,4,Astrocytoma,1,0,1
+Anus,1,1,2,"Glottis, Vocal cord",115,9,124
+Sq cell ca,1,1,2,Sq cell ca,113,9,122
+,,,,Others,2,0,2

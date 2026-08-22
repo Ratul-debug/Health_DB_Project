@@ -1,0 +1,15 @@
+0,1,2
+"ICD 10
+code",Cause of admission,"Number of
+patients"
+F30,Manic episode,852
+F20,Schizophrenia,746
+F41,Other anxiety disorders,160
+F19,"Mental and behavioral disorders due to multiple drug use and use of
+other psychoactive substances",158
+F79,Unspecified mental retardation,80
+G40,Epilepsy,34
+F42,Obsessive-compulsive disorder,33
+F03,Unspecified dementia,23
+F60,Specific personality disorders,13
+R401,Stupor,12

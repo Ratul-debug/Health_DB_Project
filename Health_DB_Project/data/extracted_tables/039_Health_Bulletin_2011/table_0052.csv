@@ -1,0 +1,21 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Place,,,,,,,,"Total
+(N)",,,Filled-up (N),,,"Vacant
+(N)",,
+,,Class,,,Type of post,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+MIS-Health,,,Class I,,,Medical/Non-medical,,,18,,,10,,,8,
+,,,Class II,,,Assistant sta(cid:1)s(cid:1)cian,,,4,,,4,,,0,
+,,,,,,Sta(cid:1)s(cid:1)cal/Data-entry,,,,,,,,,,
+,,,Class III,,,,,,30,,,12,,,18,
+,,,,,,operator/Clerical,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,Class IV,,,MLSS/Security guard,,,7,,,7,,,0,
+,,,Total,,,,,,59,,,33,,,26,
+DGHS,,,Class I,,,At MBDC,,,1,,,0,,,1,
+,,,Class II,,,At EPI,,,1,,,1,,,0,
+,,,,,,"At CDC, Hospital, IMCI, EPI,",,,,,,,,,,
+,,,Class III,,,,,,7,,,5,,,2,
+,,,,,,"MBDC , IEDCR",,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,Total,,,,,,9,,,6,,,3,

@@ -1,0 +1,41 @@
+0,1,2,3,4,5
+Age 25 - 49 years,,,,,
+Male,,Female,,Both sexes,
+Acute myocardial infarction,30.33,Left ventricular failure,19.13,Acute myocardial infarction,23.62
+Left ventricular failure,19.43,Valvular diseases,18.26,Left ventricular failure,19.33
+Unstable angina,8.06,Rheumatic heart disease,17.39,Rheumatic heart disease,10.74
+Rheumatic heart disease,7.11,Acute myocardial infarction,11.30,Valvular diseases,9.20
+Other,5.21,Other,11.30,Other,7.36
+Valvular diseases,4.27,Atrial septal defect,4.35,Unstable angina,6.44
+"Non-ST elevation
+myocardial infarction",3.79,Unstable angina,3.48,"Non-ST elevation
+myocardial infarction",3.07
+Old myocardial infarction,3.79,Congestive cardiac failure,2.61,Old myocardial infarction,2.76
+Recurrent myocardial infarction,3.32,Tetralogy of fallot,2.61,Congestive cardiac failure,2.45
+DCM,2.84,"Non-ST elevation
+myocardial infarction",1.74,Recurrent myocardial infarction,2.45
+Congestive cardiac failure,2.37,Cerebro vascular accident,0.87,Atrial septal defect,2.15
+Ischemic cardio myopathy,2.37,DCM,0.87,DCM,2.15
+Tetralogy of fallot,1.90,Ischemic-c ardio myopathy,0.87,Tetralogy of fallot,2.15
+Atrial septal defect,0.95,Old myocardial infarction,0.87,Ischemic cardio myopathy,1.84
+Ventricular septal defect,0.47,Recurrent myocardial infarction,0.87,Cerebro-v ascular accident,0.31
+-,-,-,-,Ventricular septal defect,0.31
+Total deaths,211,Total deaths,115,Total deaths,326
+Age 50+ years,,,,,
+Male,,Female,,Both sexes,
+Acute myocardial infarction,36.86,Acute myocardial infarction,27.62,Acute myocardial infarction,34.41
+Left ventricular failure,24.21,Left ventricular failure,22.18,Left ventricular failure,23.67
+"Non-ST elevation
+myocardial infarction",6.20,"Non-ST elevation
+myocardial infarction",7.81,"Non-ST elevation
+myocardial infarction",6.63
+Other,4.34,Other,6.56,Other,4.93
+Old myocardial infarction,3.63,Valvular diseases,5.30,Old myocardial infarction,3.41
+Valvular diseases,2.52,Rheumatic heart disease,4.60,Valvular diseases,3.26
+Ischemic cardio myopathy,2.17,Old myocardial infarction,2.79,Ischemic cardio myopathy,2.07
+Ventricular septal defect,1.71,Ventricular septal defect,2.51,Rheumatic heart disease,2.04
+Atrial septal defect,1.31,Atrial septal defect,2.23,Ventricular septal defect,1.93
+Rheumatic heart disease,1.11,Ischemic cardio myopathy,1.81,Atrial septal defect,1.56
+Congestive cardiac failure,1.01,Congestive cardiac failure,1.39,Congestive cardiac failure,1.11
+Cor-pulmonale,0.40,Cor-pulmonale,0.28,Cor-pulmonale,0.37
+Total deaths,"1,983",Total deaths,717,Total deaths,"2,700"

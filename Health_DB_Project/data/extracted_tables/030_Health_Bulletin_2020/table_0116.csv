@@ -1,0 +1,28 @@
+0,1,2,3,4,5,6,7
+"Level of
+care",Type of facilities,"Number of
+facilities
+reporting
+deaths","Total
+number
+of
+deaths",0-4 year(s),,≥5 years,
+,,,,Female,Male,Female,Male
+Primary,10-bed hospitals,17,1,0,0,0,1
+,20-bed hospitals,32,28,2,1,5,20
+,25-bed hospitals,1,0,0,0,0,0
+,30-bed hospitals,2,0,0,0,0,0
+,31-bed hospitals,7,7,0,2,4,1
+,50-bed hospitals,2,0,0,0,0,0
+,"100-bed hospitals,
+Saidpur, Nilphamari",1,72,10,4,25,33
+,"Upazila health
+complexes",424,6317,384,508,2321,3104
+Secondary,District-Level hospitals,62,26302,2881,3860,8263,"11,298"
+Tertiary,500-bed hospitals,2,1013,31,25,392,565
+,"Medical college
+hospitals",16,87163,8495,10335,28352,39981
+,"Other tertiary
+hospitals (National
+Institutes)",15,9403,50,110,3230,6013
+Total,,581,130306,11853,14845,42592,61016

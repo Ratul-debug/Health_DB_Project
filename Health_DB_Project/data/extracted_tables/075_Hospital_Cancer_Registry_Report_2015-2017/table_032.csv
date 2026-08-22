@@ -1,0 +1,47 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+Lip,17,16,33,Stomach,300,132,432
+Sq cell ca,8,9,17,Adenocarcinoma,178,84,262
+Basal cell ca,7,6,13,Malignant tumour,103,41,144
+Mucoepidermoid ca,1,1,2,Sq cell ca,10,2,12
+Malignant tumour,1,0,1,Adenoma,5,3,8
+Tongue,199,103,302,Other,4,2,6
+Squamous cell carcinoma,188,97,285,Small Intestine,21,177,198
+Rhabdomyosarcoma,4,3,7,Adenocarcinoma,17,15,32
+Other,7,3,10,NHL,2,1,3
+Oral cavity,223,226,449,Papilary adenocarcinoma,1,1,2
+Squamous cell carcinoma,173,203,376,Sq cell ca,1,0,1
+Adenocarcinoma,6,4,10,Colon,89,42,131
+Fibrosarcoma,5,3,8,Adenocarcinoma,81,37,118
+Adenocystic carcinoma,6,2,8,Sq cell ca,5,3,8
+Malignant melanoma,0,2,2,Malignant tumour,3,2,5
+Basal cell carcinoma,4,1,5,Rectum,159,110,269
+NHL,3,0,3,Adenocarcinoma,140,98,238
+Malignant tumour,22,11,33,Sq cell ca,17,9,26
+Other,3,0,3,Adenoma,2,3,5
+Salivary glands,79,54,133,Anal canal,18,7,25
+Squamous cell carcinoma,33,33,66,Sq cell ca,10,4,14
+Mucoepidermoid carcinoma,25,9,34,Adenocarcinoma,7,3,10
+Adenocarcinoma,11,6,17,Adenoid Sq cell ca,1,0,1
+Adeno cystic carcinoma,3,3,6,Liver,257,108,365
+NHL,2,1,3,Hepatocellular ca,212,83,295
+Pleomorphic carcinoma,2,0,2,Adenocarcinoma,34,25,59
+Malignant tumour,2,0,2,Hepatoblastoma,6,0,6
+Sarcoma,1,1,2,Sq cell ca,4,1,5
+Other,0,1,1,Gall bladder,88,118,206
+Tonsil,72,23,95,Adenocarcinoma,81,112,193
+Squamous cell carcinoma,69,20,89,Cholangiocarcinoma,5,4,9
+Adenocarcinoma,1,1,2,Sq cell ca,2,2,4
+NHL,1,1,2,Pancreas,26,12,38
+Other,1,1,2,Adenocarcinoma,25,9,34
+Pharynx,160,24,184,Sq cell ca,0,3,3
+Squamous cell carcinoma,132,13,145,Cholangiocarcinoma,1,0,1
+Malignant tumour,16,8,24,Nose. Middle ear and Sinuses,26,24,50
+Adenocarcinoma,5,1,6,Sq cell ca,17,14,31
+NHL,4,1,5,Malignant tumour,6,5,11
+Other,3,1,4,Adenocarcinoma,3,5,8
+Oesophagus,288,144,432,Larynx,286,27,313
+Squamous cell carcinoma,234,128,362,Sq cell ca,275,25,300
+Adenocarcinoma,50,13,63,Adenocarcinoma,8,2,10
+Lymphoma,4,3,7,Malignant tumour,2,0,2
+,,,,Other,1,0,1

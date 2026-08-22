@@ -1,0 +1,16 @@
+0,1,2,3
+SL,Name of Disease,Number of patient,Percent
+01,General Weakness,100,39.2%
+02,Arthritis,32,12.54%
+03,Peptic ulcer Disease,26,10.19%
+01,General Weakness,100,39.2%
+02,Arthritis,32,12.54%
+03,Peptic ulcer Disease,26,10.19%
+04,Asthma,21,8.23%
+05,Stroke & Paralysis,20,7.8%
+06,Cancer,18,7.05%
+07,Skin Disease,12,2.63%
+08,Back pain,11,4.31%
+O9,Diabetes Mellitus,8,3.13%
+10,Eczema,7,2.74%
+Total,,255,

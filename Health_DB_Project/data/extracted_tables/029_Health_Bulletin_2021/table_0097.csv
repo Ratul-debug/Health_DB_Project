@@ -1,0 +1,26 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32
+S.N,,,Name of Medical College Hospital,,,,Outpatient Visit,,,,,,Emergency Visit,,,,,,Admission,,,,,ALS,,,BOR,,,,Sanction,
+,,,,,,,Male,,,Female,,,Male,,,Female,,,Male,,,Female,,,,,,,,,ed Bed,
+1,,,"Bangabandhu Sheikh Mujib Medical College
+Hospital, Faridpur",,,88903,,,107392,,,26369,,,28300,,,24758,,,27020,,,4.94,,,121.64,,,500,,
+2,,,Chittagong Medical College Hospital,,,307188,,,301801,,,130171,,,109751,,,114326,,,95586,,,4.55,,,174.45,,,500,,
+3,,,Colonel Malek Medical College Hospital,,,431,,,603,,,0,,,0,,,0,,,0,,,0.00,,,0.00,,,500,,
+4,,,Cumilla Medical College Hospital,,,132613,,,155757,,,30139,,,35906,,,30083,,,35919,,,4.17,,,165.91,,,500,,
+5,,,Dhaka Medical College Hospital,,,331272,,,399922,,,136254,,,125724,,,41172,,,35152,,,8.80,,,84.17,,,2600,,
+6,,,Khulna Medical College Hospital,,,122045,,,192480,,,3072.3,,,3643,,,40988,,,46230,,,4.79,,,194.58,,,500,,
+7,,,M Abdur Rahim Medical College Hospital,,,91826,,,111305,,,22812,,,25596,,,22452,,,25462,,,4.23,,,125.89,,,500,,
+8,,,Mymensingh Medical College Hospital,,,442909,,,416800,,,44581,,,47169,,,101579,,,114916,,,3.96,,,234.78,,,1000,,
+9,,,Rajshahi Medical College Hospital,,,430483,,,442545,,,8414,,,11317,,,99528,,,114688,,,3.62,,,134.93,,,1000,,
+10,,,Rangpur Medical College Hospital,,,144811,,,121742,,,54981,,,51413,,,57986,,,54170,,,3.73,,,117.46,,,1000,,
+11,,,Satkhira Medical College Hospital,,,33102,,,47275,,,507,,,754,,,3364,,,4752,,,15.00,,,86.00,,,500,,
+12,,,Shaheed Suhrawardy Medical College Hospital,,,979452,,,987124,,,163358,,,163662,,,40171,,,43242,,,6.23,,,114.80,,,850,,
+13,,,"Shaheed Taj Uddin Ahmad Medical College
+Hospital",,,244760,,,129717,,,47079,,,46522,,,18428,,,22203,,,3.63,,,71.63,,,500,,
+14,,,"Shaheed Ziaur Rahman Medical College Hospital,
+Bogra",,,181679,,,234418,,,44322,,,35292,,,45600,,,38457,,,4.58,,,215.42,,,500,,
+15,,,"Shahid Syed Nazrul Islam Medical College
+Hospital",,,81665,,,100640,,,22376,,,19463,,,16588,,,15009,,,3.28,,,64.35,,,500,,
+16,,,Sher-e-bangla Medical College Hospital,,,156232,,,184402,,,71543.1,,,68645,,,66142,,,63212,,,3.97,,,139.84,,,1000,,
+17,,,Sir Salimullah Medical College Hospital,,,248890,,,365630,,,116118,,,117212,,,33841,,,42099,,,4.91,,,112.10,,,900,,
+18,,,Sylhet MAG Osmani Medical College Hospital,,,310847,,,368029,,,8689,,,5501,,,73914,,,67463,,,4.02,,,181.31,,,900,,
+,,,,Total,,,4329108,,,4667582,,,930785,,,895870,,,830920,,,845580,,,4.91,,,129.96,,,14250,

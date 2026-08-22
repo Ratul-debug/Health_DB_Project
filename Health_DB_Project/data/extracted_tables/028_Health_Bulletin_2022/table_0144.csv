@@ -1,0 +1,27 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+,,,,,,,,,,No. of,
+,,,,,,,No. of,,,,
+,Type,,,Name of facility,,,,,,functional,
+,,,,,,,facilities,,,,
+,,,,,,,,,,beds,
+,,,,,,,,,,,
+,Secondary Level Hospitals,,,,,,,,,,
+Airport health office,,,Dhaka Airport Health Office,,,1,,,0,,
+,,,Chattogram Airport Health office,,,1,,,0,,
+Chest disease clinic,,,,,,42,,,0,,
+Chest hospital,,,,,,14,,,816,,
+"District - level office
+(Civil Surgeon's Office)",,,,,,65,,,0,,
+"District - level hospital
+(250-Bed) (District/
+General Hospital)",,,,,,53,,,13250,,
+"District - level hospital
+(100-Bed) (District/
+General Hospital)",,,,,,6,,,600,,
+"Infectious disease
+hospital",,,,,,5,,,180,,
+Leprosy hospital,,,,,,3,,,130,,
+Port health office,,,Chattogram Port Health Office,,,1,,,0,,
+,,,Khulna Port Health Office,,,1,,,0,,
+Trauma center,,,,,,8,,,160,,
+Other hospitals,,,Narayanganj 300-bed Hospital,,,1,,,300,,

@@ -1,0 +1,12 @@
+0,1,2,3,4,5
+Name,,Institute Type of,,Number of Institute,Number of Seats
+,,Teaching,,,
+"BSc in Health
+Technology",Government,,,3,110
+,Private,,,13,1065
+,Total,,,16,1175
+"MSc in Health
+Technology",Government,,,-,-
+,Private,,,2,65
+,Total,,,2,65
+Total,,,,,1240

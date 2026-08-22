@@ -1,0 +1,22 @@
+0,1,2,3
+"Table 4.13. Distribution of the outdoor patient-visits in different facilities, 2016",,,
+"Level of
+care",Type of facilities,"Number of
+facilities","Total OPD
+visits"
+Primary,10-bed hospital,2,"19,548"
+,20-bed hospital,7,"89,440"
+,31-bed hospital,2,"133,235"
+,"50-bed hospital (renamed Shaheed Ahsanullah
+Master 250-bedded General Hospital, Tongi)",1,"175,788"
+,Upazila health complex,414,"21,654,136"
+Secondary,District hospital/General hospital,63,"9,414,088"
+Tertiary,500-bed hospital,2,"958,173"
+,"Bangladesh Institute of Tropical and Infectious
+Diseases, Foujdarhat",1,"29,755"
+,Medical college hospital,13,"6,016,347"
+,"20 bed Infectious Disease Hospital, Faujdarhat",1,9
+,"Other tertiary hospitals (National Institutes,
+Pabna Mental Hospital)",8,"709,791"
+,Total,514,"39,200,310"
+Source: DHIS2,,,

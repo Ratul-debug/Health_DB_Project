@@ -1,0 +1,31 @@
+0,1,2,3
+,Sex,,
+Primary site of tumour,,,Total
+,Male,Female,
+,,,
+Cervical oesophagus,18 (1.3),34 (4.4),52 (2.4)
+Abdominal oesophagus,1 (.1),3 (.4),4 (.2)
+Upper 3rd of oesophagus,1 (.1),0 (.0),1 (.0)
+Middle 3rd of oesophagus,1 (.1),1 (.1),2 (.1)
+Oesophagus,321 (23.5),135 (17.6),456 (21.4)
+Gastric antrum,4 (.3),0 (.0),4 (.2)
+Stomach,300 (22.0),132 (17.2),432 (20.3)
+Duodenum,4 (.3),0 (.0),4 (.2)
+Jejunum,13 (1.0),13 (1.7),26 (1.2)
+Ileum,5 (.4),4 (.5),9 (.4)
+Cecum,8 (.6),4 (.5),12 (.6)
+Ascending colon,2 (.1),1 (.1),3 (.1)
+Hepatic flexure,8 (.6),2 (.3),10 (.5)
+Sigmoid colon,3 (.2),6 (.8),9 (.4)
+Colon,80 (5.9),30 (3.9),110 (5.2)
+Rectosigmoid junction,0 (.0),4 (.5),4 (.2)
+Rectum,171 (12.5),119 (15.5),290 (13.6)
+Anus,0 (.0),2 (.3),2 (.1)
+Anal canal,18 (1.3),6 (.8),24 (1.1)
+Liver,275 (20.2),115 (15.0),390 (18.3)
+Gall blader,97 (7.1),141 (18.4),238 (11.2)
+Ampula of vater,2 (.1),2 (.3),4 (.2)
+Head of pancrease,4 (.3),4 (.5),8 (.4)
+Pancrease,26 (1.9),9 (1.2),35 (1.6)
+GIT,2 (.1),0 (.0),2 (.1)
+Total,1364 (100.0),767 (100.0),2131 (100.0)

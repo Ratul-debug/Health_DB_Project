@@ -1,0 +1,29 @@
+0,1,2,3,4,5,6,7,8
+"Table 80: Projection of the supply of Medical Technologist - Prosthetics and Or-
+thotics according to scenario 2 (+10%)",,,,,,,"Total population
+in BD
+(2018, 2024 &
+2030)","Density per
+10000"
+Year,New registrations,,,"Supply of
+previous
+year","Attrition
+rate
+4%","Total
+Supply",,
+,"Gradu-
+ates",Increase,80%,,,,,
+2018,,,,,,23,164600000,0.001
+2019,9,,7,23,1,29,,
+2020,7,,6,29,1,34,,
+2021,9,,7,34,1,40,,
+2022,9,,7,40,2,45,,
+2023,8,,6,45,2,50,,
+2024,9,10%,7,50,2,55,174612904,0.003
+2025,9,,7,55,2,60,,
+2026,9,,7,60,2,64,,
+2027,9,,7,64,3,69,,
+2028,9,,7,69,3,73,,
+2029,9,,7,73,3,77,,
+2030,9,,7,77,3,81,190686952,0.004
+Source: BBS Pop Projection 2011-2061,,,,,,,,

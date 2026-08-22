@@ -1,0 +1,89 @@
+
+Query 1: Highest Budget Program
+SELECT hp.program_name,
+       hpb.allocation_total
+FROM health_program hp
+JOIN health_program_budget hpb
+ON hp.program_id = hpb.program_id
+ORDER BY hpb.allocation_total DESC
+LIMIT 1;
+
+Query 2: Lowest Progress Program
+SELECT hp.program_name,
+       hpb.progress_percent
+FROM health_program hp
+JOIN health_program_budget hpb
+ON hp.program_id = hpb.program_id
+ORDER BY hpb.progress_percent ASC
+LIMIT 1;
+
+Query 3: Programs with Progress Above 90%
+SELECT hp.program_name,
+       hpb.progress_percent
+FROM health_program hp
+JOIN health_program_budget hpb
+ON hp.program_id = hpb.program_id
+WHERE hpb.progress_percent > 90;
+
+Query 4: Total Budget Allocation
+SELECT SUM(allocation_total) AS total_budget
+FROM health_program_budget;
+
+Query 5: Total Expenditure
+SELECT SUM(expenditure_total) AS total_expenditure
+FROM health_program_budget;
+
+Query 6: Top 5 Most Funded Programs
+SELECT hp.program_name,
+       hpb.allocation_total
+FROM health_program hp
+JOIN health_program_budget hpb
+ON hp.program_id = hpb.program_id
+ORDER BY hpb.allocation_total DESC
+LIMIT 5;
+
+
+Cancer Dataset Queries:
+
+Most Common Cancer Site
+SELECT site_name,
+       SUM(cases) AS total_cases
+FROM cancer_age_distribution
+GROUP BY site_name
+ORDER BY total_cases DESC
+LIMIT 10;
+
+
+Male vs Female Cases
+SELECT gender,
+       SUM(cases) AS total_cases
+FROM cancer_age_distribution
+GROUP BY gender;
+
+
+Most Affected Age Group
+SELECT age_group,
+       SUM(cases) AS total_cases
+FROM cancer_age_distribution
+GROUP BY age_group
+ORDER BY total_cases DESC;
+
+
+Top Cancer Among Females
+SELECT site_name,
+       SUM(cases) AS total_cases
+FROM cancer_age_distribution
+WHERE gender='Female'
+GROUP BY site_name
+ORDER BY total_cases DESC
+LIMIT 10;
+
+
+Top Cancer Among Males
+SELECT site_name,
+       SUM(cases) AS total_cases
+FROM cancer_age_distribution
+WHERE gender='Male'
+GROUP BY site_name
+ORDER BY total_cases DESC
+LIMIT 10;

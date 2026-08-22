@@ -1,0 +1,40 @@
+0,1,2,3,4,5
+"Table 4.7.4. Activities of National Polio and Measles-Rubella and AMES Laboratory (NPML),
+IPH (National Surveillance Laboratories) from 2021 to 2023",,,,,
+Case,Year,"Type of
+sample","No. of
+samples",Type of tests,Result
+"Polio (from
+AFP cases)",2021,Stool,"2,562","Cell culture,
+ITD
+RT-= PCR","18 Sabin-like poliovirus
+detected"
+,2022,,"2,627",,"24 Sabin-like poliovirus
+detected"
+,2023,,"3,125",,
+,,,,,"20 Sabin-like poliovirus
+detected"
+"Polio (from
+environmen-
+tal samples)",2022,Sewage,148,"Cell culture,
+ITD
+RT- PCR","37 Sabin like poliovirus
+detected"
+,2023,,208,,"74 Sabin-like poliovirus cases
+detected"
+"Measles and
+rubella",2021,Serum,"3,867 +3,867",IgM ELISA,"125 measles and 133 rubella
+cases detected"
+,2022,,"6,406+6,406",,"234 measles and 169 rubella
+cases detected"
+,2023,,"7,030",,
+,,,,,"259 measles and 163 rubella
+cases detected"
+COVID-19,2021,"Naso-
+pha-
+ryngeal
+swab
+sent","217,106",RT-PCR,"24,,028 positive cases
+detected"
+,2022,,"465,41",,"4,049 positive cases detected"
+,2023,,437,,44 positive cases detected

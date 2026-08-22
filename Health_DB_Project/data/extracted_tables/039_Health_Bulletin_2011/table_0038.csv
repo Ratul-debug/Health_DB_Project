@@ -1,0 +1,26 @@
+0,1,2,3,4,5,6,7,8,9
+Month,Total (N),"Admission
+(N)","Death
+(N)","Average
+length
+of stay
+(day)","Bed-
+occupancy
+rate (%)","Hospital
+-death
+rate (%)","Average
+daily
+admission
+(N)","Average
+daily OPD
+visits (N)","Cesarean
+sec(cid:1)on"
+June,2057732,1315,0,3,49,0,43,79305,441
+July,2035454,1364,0,3,49,0,44,81063,471
+August,2057864,1585,0,3,57,0,51,79926,544
+September,2048843,1503,0,3,56,0,50,93537,509
+October,2113913,1582,0,3,57,0,51,85338,534
+November,2097036,1524,0,3,56,0,50,91880,495
+December,2109962,1332,0,3,48,0,42,87734,432
+Total,29182131,17145,-,3,52,0,47,99418,5772
+Note: Only female pa(cid:1)ents; the SSFP operates emergency obstetric care facili(cid:1)es with 270 sanc(cid:1)oned beds,,,,,,,,,

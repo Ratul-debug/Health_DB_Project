@@ -1,0 +1,16 @@
+0,1,2
+"ICD 10
+code",Cause of admission,"Number of
+patients"
+V89.2,"Person injured in unspecified motor-vehicle accident, traffic",4486
+V87.0,"Person injured in collision between car and two- or three-wheeled motor
+vehicle (traffic)",3215
+V87.2,Person injured in collision between car and pick-up truck or van (traffic),2182
+V87.3,Person injured in collision between car and bus (traffic),1128
+M96.6,"Fracture of bone following insertion of orthopedic implant, joint
+prosthesis, or bone plate",2050
+M99,"Biomechanical lesions, NEC",1280
+Y07,Other maltreatment (like physical abuse),370
+Y00,Assault by blunt object,280
+T09.3,"Injury of spinal cord, level unspecified",235
+M86,Osteomyelitis,144

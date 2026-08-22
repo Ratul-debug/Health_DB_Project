@@ -1,0 +1,33 @@
+{
+  "pdf": "100_Pregnancy_History_Information.pdf",
+  "tables": [
+    {
+      "page": 51,
+      "file": "table_001.csv",
+      "rows": 6,
+      "cols": 2,
+      "hash": "7c5d5e5100b90a8b099df75cc3403afe"
+    },
+    {
+      "page": 51,
+      "file": "table_002.csv",
+      "rows": 6,
+      "cols": 2,
+      "hash": "d44cdef4cdc92aba1e3c5ad4700924d5"
+    },
+    {
+      "page": 52,
+      "file": "table_003.csv",
+      "rows": 6,
+      "cols": 2,
+      "hash": "224c6feac8b4569fb94509edea5f1d5c"
+    },
+    {
+      "page": 52,
+      "file": "table_004.csv",
+      "rows": 6,
+      "cols": 2,
+      "hash": "7b1e1a14aebe8cfeaf270c1f8682329f"
+    }
+  ]
+}

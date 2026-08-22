@@ -1,0 +1,12 @@
+{
+  "pdf": "111_Cancer_J_Bangladesh_Vol_1_No_1_July_2020.pdf",
+  "tables": [
+    {
+      "page": 23,
+      "file": "table_001.csv",
+      "rows": 5,
+      "cols": 6,
+      "hash": "da964f51c4048de8c1747c62ff8e1adc"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+0,1,2,3
+,Sex,,
+Respiratory system,Male,Female,Total
+Nasal cavity,7 (.3),9 (2.4),16 (.7)
+"Middle ear , inner ear",6 (.3),3 (.8),9 (.4)
+Maxillary sinuses,13 (.6),9 (2.4),22 (.9)
+Ethmoid sinuses,1 (.0),2 (.5),3 (.1)
+Frontal sinuses,2 (.1),1 (.3),3 (.1)
+"Glottis, Vocal cord",82 (4.0),6 (1.6),88 (3.6)
+"Supraglottis, Epiglottis,",101 (4.9),12 (3.2),113 (4.6)
+Larynx,109 (5.3),9 (2.4),118 (4.8)
+Bronchous,3 (.1),0 (.0),3 (0.1)
+Upper lobe of lung,4 (.2),1 (.3),5 (0.2)
+Middle lobe of lung,1 (.0),1 (.3),2 (0.1)
+Lower lobe of lung,2 (.1),0 (0.0),2 (0.1)
+Lung,1684 (81.5),299 (80.8),1983 (81.4)
+Posterior mediastinum,4 (.2),0 (0.0),4 (0.2 )
+Mediastinum,16 (.8),1 (.3),17 (.7)
+Pleura,29 (1.4),16 (4.3),45 (1.8)
+Respiratory tract,1 (.0),1 (.3),2 (.1)
+,2065 (100.0),370 (100.0),2435 (100.0)

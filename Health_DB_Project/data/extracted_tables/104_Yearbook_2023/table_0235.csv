@@ -1,0 +1,47 @@
+0,1,2,3,4,5,6,7
+Sl. No.,,Name of Procedure,,,,Total,Grand Total
+,,Biopsy,,,,,
+1,,Jamshidi Bone Biopsy,,,,,80
+2,,Core Biopsy,,,,,5
+3,,Excision Biopsy,,,,,10
+4,,Incision Biospsy,,,,,28
+,,Amputation,,,,,
+5,,Above Knee Amputation,,,,,16
+,,Right,,,,11,
+,,Left,,,,5,
+6,,Below Knee Amputation,,,,,3
+,,Right,,,,2,
+,,Left,,,,1,
+7,,Ray Amputation,,,,,3
+,,Right,,,,1,
+,,Left,,,,2,
+8,,Forequarter,,,,,5
+,,Right,,,,1,
+,,Left,,,,2,
+,,Palliative,,,,2,
+9,,Palliative Syme’s Amputation (Right),,,,,1
+10,,Mid Thigh Amputation (Right),,,,,1
+11,,Mid Arm Amputation (Right),,,,,2
+12,,Hip Disarticulation,,,,,12
+,,Right,,,,5,
+,,Left,,,,4,
+,,Palliative,,,,2,
+,13,Shoulder Disarticulation,,,,,4
+,,Right,,,,1,
+,,Left,,,,3,
+14,,Scapulectomy,,,,,3
+,,Partial,,,,1,
+,,,Near Total,,,2,
+15,,Cure,ttage and Bone Grafting,,,,3
+,,Endo,porsthesis (EPR),,,,
+,16,Wide,Local Excision w,ith EPR,,,15
+,,Wide,Local Excision (,WLE),,,
+,17,WLE,,,,,13
+,18,WLE with LD flap,,,,,3
+19,,WLE with Fibula graft,,,,,2
+20,,Reversal of Ilizarov Ring,,,,,1
+,21,Excision of Osteochon,,droma,,,1
+,22,Implant Removal,,,,,2
+,23,Extraperiosteal Excisio,,n,,,1
+,24,Inter,nal Hemipelvecto,my,,,1
+,,,Total,,,,215

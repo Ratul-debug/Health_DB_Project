@@ -1,0 +1,103 @@
+{
+  "pdf": "098_HRD_Data_Sheet_2011_of_MOHFW.pdf",
+  "tables": [
+    {
+      "page": 1,
+      "file": "table_001.csv",
+      "rows": 19,
+      "cols": 3,
+      "hash": "117dce2e6a5684d96eff22e8d542b88d"
+    },
+    {
+      "page": 1,
+      "file": "table_002.csv",
+      "rows": 17,
+      "cols": 3,
+      "hash": "f3fd1d1a25db2596a882e104a497048e"
+    },
+    {
+      "page": 1,
+      "file": "table_003.csv",
+      "rows": 11,
+      "cols": 3,
+      "hash": "029c7d30b27cb3a811ae1f8349aa4876"
+    },
+    {
+      "page": 2,
+      "file": "table_004.csv",
+      "rows": 22,
+      "cols": 12,
+      "hash": "65f84d296422af0b3bbe9b5beb1d569f"
+    },
+    {
+      "page": 2,
+      "file": "table_005.csv",
+      "rows": 9,
+      "cols": 6,
+      "hash": "2e4433ce3d4db5e8977fb312d5a1b6aa"
+    },
+    {
+      "page": 2,
+      "file": "table_006.csv",
+      "rows": 8,
+      "cols": 3,
+      "hash": "d28d06faaba366e8dae6a2f51c608b3d"
+    },
+    {
+      "page": 3,
+      "file": "table_007.csv",
+      "rows": 8,
+      "cols": 5,
+      "hash": "c0f3c24dca754cea6135564f3f8b1bcb"
+    },
+    {
+      "page": 3,
+      "file": "table_008.csv",
+      "rows": 7,
+      "cols": 4,
+      "hash": "4e6557fdae3ceb275cae68dede5b49e3"
+    },
+    {
+      "page": 3,
+      "file": "table_009.csv",
+      "rows": 7,
+      "cols": 7,
+      "hash": "3ae849215bb7c47b3c79a1a5edec5834"
+    },
+    {
+      "page": 3,
+      "file": "table_010.csv",
+      "rows": 13,
+      "cols": 5,
+      "hash": "21cce5212a876445bb8637a6a66af9de"
+    },
+    {
+      "page": 3,
+      "file": "table_011.csv",
+      "rows": 10,
+      "cols": 7,
+      "hash": "78321de2a309f90c71f24e9b6269b66c"
+    },
+    {
+      "page": 4,
+      "file": "table_012.csv",
+      "rows": 12,
+      "cols": 6,
+      "hash": "89acd2f9a5c8dc2fb4722564aad60bbe"
+    },
+    {
+      "page": 4,
+      "file": "table_013.csv",
+      "rows": 7,
+      "cols": 5,
+      "hash": "2ba03c0072f17a40fbd92b44b6b7e7ca"
+    },
+    {
+      "page": 4,
+      "file": "table_014.csv",
+      "rows": 12,
+      "cols": 4,
+      "hash": "108ecdb5dcf09dd42dbdf31bc177e08b"
+    }
+  ]
+}

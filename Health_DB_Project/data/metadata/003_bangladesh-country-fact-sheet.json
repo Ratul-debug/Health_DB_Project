@@ -1,0 +1,47 @@
+{
+  "pdf": "003_bangladesh-country-fact-sheet.pdf",
+  "tables": [
+    {
+      "page": 1,
+      "file": "table_001.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "c92d0232c14f10258d5d04f24f4e81ef"
+    },
+    {
+      "page": 1,
+      "file": "table_002.csv",
+      "rows": 6,
+      "cols": 5,
+      "hash": "86634c9dce63aa1c6aa6551489f50e91"
+    },
+    {
+      "page": 1,
+      "file": "table_003.csv",
+      "rows": 16,
+      "cols": 12,
+      "hash": "a1c85e126f27d55a7189ada60db1e796"
+    },
+    {
+      "page": 1,
+      "file": "table_004.csv",
+      "rows": 63,
+      "cols": 23,
+      "hash": "630b3325722d002ae3e76f45c039b544"
+    },
+    {
+      "page": 1,
+      "file": "table_005.csv",
+      "rows": 11,
+      "cols": 3,
+      "hash": "eb0f6fe50203d2e0cd4588d2ea6a6f7a"
+    },
+    {
+      "page": 1,
+      "file": "table_006.csv",
+      "rows": 46,
+      "cols": 8,
+      "hash": "c48fde724a75e47ffa580936d5f5f910"
+    }
+  ]
+}

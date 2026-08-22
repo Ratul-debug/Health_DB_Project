@@ -1,0 +1,138 @@
+{
+  "pdf": "021_Preventation_and_Management_of_Mental_Health_Conditions_in_Bangladesh.pdf",
+  "tables": [
+    {
+      "page": 13,
+      "file": "table_001.csv",
+      "rows": 8,
+      "cols": 4,
+      "hash": "5c6209d8ab6873cdd789cc18924b9d57"
+    },
+    {
+      "page": 24,
+      "file": "table_002.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "6466eb2b43903e2d0ab08f59aee97cc4"
+    },
+    {
+      "page": 28,
+      "file": "table_003.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "5432cc4000d6c3d86d3e2aab8141ba85"
+    },
+    {
+      "page": 30,
+      "file": "table_004.csv",
+      "rows": 6,
+      "cols": 7,
+      "hash": "831a1d151432192aed1cacdedbfbaf52"
+    },
+    {
+      "page": 31,
+      "file": "table_005.csv",
+      "rows": 9,
+      "cols": 7,
+      "hash": "95854df2ae864dedcd3bc68fc3cf08c5"
+    },
+    {
+      "page": 31,
+      "file": "table_006.csv",
+      "rows": 12,
+      "cols": 3,
+      "hash": "b655ac5879641975a9e3ca8500317dfd"
+    },
+    {
+      "page": 32,
+      "file": "table_007.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "9e6336fea21377e95cf0ac82dad394b6"
+    },
+    {
+      "page": 36,
+      "file": "table_008.csv",
+      "rows": 5,
+      "cols": 10,
+      "hash": "29c53c39a7cbb275c6306d14762cc5eb"
+    },
+    {
+      "page": 37,
+      "file": "table_009.csv",
+      "rows": 5,
+      "cols": 5,
+      "hash": "021ffa13cd6697c53a2ca1bca9466ef2"
+    },
+    {
+      "page": 38,
+      "file": "table_010.csv",
+      "rows": 13,
+      "cols": 6,
+      "hash": "3bd41fbf4c26bf813a80616077b5f3eb"
+    },
+    {
+      "page": 40,
+      "file": "table_011.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "8f0e5ba8fe74abf6fc9cbda2d08b983c"
+    },
+    {
+      "page": 44,
+      "file": "table_012.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "6bb4ac31e0dd6a104de358811919a04e"
+    },
+    {
+      "page": 48,
+      "file": "table_013.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "d2397804854d5266e9690365749c9d3c"
+    },
+    {
+      "page": 56,
+      "file": "table_014.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "00d539eb522f45915231b672702190a1"
+    },
+    {
+      "page": 56,
+      "file": "table_015.csv",
+      "rows": 9,
+      "cols": 9,
+      "hash": "f9b8947ae7924f7e63adceda9d72e07c"
+    },
+    {
+      "page": 57,
+      "file": "table_016.csv",
+      "rows": 8,
+      "cols": 6,
+      "hash": "a11c55966493d90cf1e3b1db8d875f83"
+    },
+    {
+      "page": 59,
+      "file": "table_017.csv",
+      "rows": 10,
+      "cols": 4,
+      "hash": "9689d81a4a05915a8a11f8ed035360b0"
+    },
+    {
+      "page": 60,
+      "file": "table_018.csv",
+      "rows": 5,
+      "cols": 2,
+      "hash": "c278915367deac43bf1e3fae6cece1f9"
+    },
+    {
+      "page": 60,
+      "file": "table_019.csv",
+      "rows": 17,
+      "cols": 4,
+      "hash": "7f923dd5d8ca4359fc0a1a6e1d424030"
+    }
+  ]
+}

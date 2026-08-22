@@ -1,0 +1,82 @@
+{
+  "pdf": "055_Environmental_Management_Plan_Medical_Gas_System_CuMCH.pdf",
+  "tables": [
+    {
+      "page": 5,
+      "file": "table_001.csv",
+      "rows": 8,
+      "cols": 4,
+      "hash": "cc116859bfa24f0078a0d56fd7d836e3"
+    },
+    {
+      "page": 8,
+      "file": "table_002.csv",
+      "rows": 9,
+      "cols": 13,
+      "hash": "ecf7608f0a2bf3ea3acf8c9554100b6f"
+    },
+    {
+      "page": 9,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 12,
+      "hash": "c9bcd1727e79a5fe27784ba34e86d825"
+    },
+    {
+      "page": 10,
+      "file": "table_004.csv",
+      "rows": 9,
+      "cols": 13,
+      "hash": "a7991a87d8472a92b53bf75189149b23"
+    },
+    {
+      "page": 11,
+      "file": "table_005.csv",
+      "rows": 8,
+      "cols": 12,
+      "hash": "fb979b24a8dac817308cdf80a9147da6"
+    },
+    {
+      "page": 12,
+      "file": "table_006.csv",
+      "rows": 5,
+      "cols": 12,
+      "hash": "56dda595189fb89160fcde1b4f929cc6"
+    },
+    {
+      "page": 13,
+      "file": "table_007.csv",
+      "rows": 20,
+      "cols": 4,
+      "hash": "82462af40b951efb4b831ea8c87c58d3"
+    },
+    {
+      "page": 26,
+      "file": "table_008.csv",
+      "rows": 9,
+      "cols": 6,
+      "hash": "2b8d74511dce22267f8a3525a11ae2a0"
+    },
+    {
+      "page": 27,
+      "file": "table_009.csv",
+      "rows": 9,
+      "cols": 2,
+      "hash": "40e76bbdcbe8d3c2c18ffb7df9f4dc35"
+    },
+    {
+      "page": 27,
+      "file": "table_010.csv",
+      "rows": 8,
+      "cols": 2,
+      "hash": "aafc304f072515221c1f7ff0c25ccc02"
+    },
+    {
+      "page": 29,
+      "file": "table_011.csv",
+      "rows": 10,
+      "cols": 11,
+      "hash": "0fc71c1e9fc42594fa364b2a32a13c9f"
+    }
+  ]
+}

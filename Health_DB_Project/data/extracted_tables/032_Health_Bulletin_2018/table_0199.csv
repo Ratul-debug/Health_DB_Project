@@ -1,0 +1,45 @@
+0,1
+"Figure 8.6. Screenshot of Health System Strengthening (HSS) scoreboard
+http://103.247.238.81/webportal/ system in Dhaka Medical College Maternity Hospital, Bangladesh
+pages/hss_menu.php. Hospital (DMCH) and the National Secretariat Clinic, National Institute
+Institute of Neurosciences & Hospital of Traumatology, Orthopedics and
+g. Shared Health Record and (NINS) has been almost done in Rehabilitation (NITOR), and National
+OpenMRS 2016-2017. LAN and infrastructure Institute of Cardiovascular Diseases
+Shared Health Record (SHR) is have been set up, and they will (NICVD). However, the real expansion
+a system that stores the lifetime fully be in operation by the end of of automation for a reasonable
+medical history of citizens in this year. These are considered as number of hospitals is illustrated
+electronic format and Open Health new additions to hospitals that through the scaling-up of the Shared
+Information Exchange is a gateway already have started the automation Health Record. Figure 8.7. shows the
+to different systems and data. The system. These hospitals include, architecture of SHR and OpenHIE.
+electronic medical records (EMR), National Institute of Kidney Diseases
+stored in SHR, are shared through & Urology (NIKDU), Government
+OpenHIE, across different medical or Employees’ Hospital, Azimpur
+health facility management systems
+(like OpenMRS+ combination of
+OpenMRS, OpenERP and OpenELIS,
+OpenSRP, etc.), with proper access
+credentials and privileges. Here,
+sensitive information is protected
+with special security. In this case,
+patients do not need to carry their
+medical files when they visit any
+medical center or a physician.
+Currently, SHR has been
+implemented in Kaliganj Upazila
+Health Complex, Gazipur, and
+Gazipur General Hospital. Apart
+from SHR, the hospital automation
+Figure 8.7. Architecture of SHR and OpenHIE
+HEALTH BULLETIN 2018 | 169",
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

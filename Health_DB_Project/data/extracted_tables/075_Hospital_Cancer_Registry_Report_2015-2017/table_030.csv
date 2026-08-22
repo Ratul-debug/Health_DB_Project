@@ -1,0 +1,41 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12
+IICCDD--OO,PPPrrriiimmmaaarrryyy sssiiittteee ooofff tttuuummmooouuurrr,,,AAAAAgggggeeeee gggggrrrrrooooouuuuuppppp,,,,,,,,
+,,PPPrrriiimmmaaarrryyy sssiiittteee ooofff tttuuummmooouuurrr,,,,,,,,,,TTTTTTTTTTTTToooooooooooootttttttttttttaaaaaaaaaaaaalllllllllllll
+,,,,<<<<<<<<<<<<<=============11111111111114444444444444,11111111111115555555555555-------------22222222222224444444444444,22222222222225555555555555-------------33333333333334444444444444,33333333333335555555555555-------------44444444444444444444444444,44444444444445555555555555-------------55555555555554444444444444,55555555555555555555555555-------------66666666666664444444444444,66666666666665555555555555-------------77777777777774444444444444,=============>>>>>>>>>>>>>77777777777775555555555555,TTTTTTTTTTTTToooooooooooootttttttttttttaaaaaaaaaaaaalllllllllllll
+,,,,,,,,,,,,
+C41.9,Bones & articular cartilages,,,1,1,0,1,1,0,0,0,4
+C42.1,Blood,,,16,14,8,9,6,8,4,1,66
+C44.0,Bone marrow,,,2,2,2,3,2,0,0,1,12
+C44.1,Skin of eye lid,,,0,0,0,0,0,0,1,0,1
+C44.3,Skin of Face,,,0,0,0,0,1,0,0,0,1
+,Skin of trunk,,,0,0,0,0,0,0,1,0,1
+C44.6,Skin of upper limb,,,0,0,0,0,0,1,0,0,1
+C44.7,Skin of lower limb & Hip,,,0,0,0,0,0,0,1,0,1
+C44.9,Skin,,,0,0,1,2,11,3,3,0,20
+C47.2,"Perepheral nerve & Autonomic
+nerve of lower limb",,,1,0,0,0,0,0,0,0,1
+C47.6,Perepheral nerve & Autonomic,,,1,0,0,0,0,0,0,0,1
+,nerve of Trunk,,,,,,,,,,,
+C48.0,Retroperitonium,,,0,1,0,0,0,0,0,0,1
+C48.1,"Omentum, Pouch of duglus,",,,0,0,4,1,0,2,1,0,8
+,Cal de sac,,,,,,,,,,,
+C49.0,"Connective tissue of scalp/face/
+neck",,,1,1,2,2,4,2,1,0,13
+C49.1,"Connective tissue of UL,arm,
+forearm,hand,shoulder,thum,wris",,,0,0,3,0,3,4,1,0,11
+C49.2,"Connective tissue of LL,foot,leg,
+thigh,hip,knee",,,2,5,1,10,11,3,1,1,34
+C49.3,Connective tissue of Thorax,,,0,0,0,1,0,0,0,0,1
+C49.3,Lymphatics/Lymphoma,,,0,1,1,0,0,1,0,0,3
+C50.0,Breast (Nipple/areola),,,0,0,2,3,2,0,1,0,8
+C50.3,Breast (LIQ),,,0,0,0,0,1,0,0,0,1
+C50.8,Breast (Over lapping lession),,,0,0,0,0,1,0,0,0,1
+C50.9,Breast,,,3,43,221,450,430,159,52,5,1363
+C51.9,Vulva,,,0,0,0,2,4,5,1,0,12
+C52.9,Vagina,,,0,0,0,6,3,6,2,1,18
+C53.9,Cervix,,,0,8,65,209,326,190,71,25,894
+C54.9,Body of uterus,,,0,0,0,0,0,0,0,1,1
+C55.9,Uterus,,,0,0,7,16,17,10,2,0,52
+C56.9,Ovary,,,0,2,15,16,23,18,8,0,82
+C57.4,Adenexa,,,0,3,4,3,7,3,2,0,22
+C57.8,Tubo overian & Utero overian,,,2,15,10,8,21,9,1,0,66

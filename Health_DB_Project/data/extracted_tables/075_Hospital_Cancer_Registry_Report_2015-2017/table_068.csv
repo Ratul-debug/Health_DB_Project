@@ -1,0 +1,42 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+LN of Head face & Neck,405,160,565,Un known primary site,97,88,185
+Large cell ca,2,0,2,Adenoma,0,1,1
+Spindle cell ca,3,0,3,Malignent tumour,1,0,1
+Small cell ca,14,1,15,Gaint cell type,2,5,7
+Sq cell ca,273,106,379,Spindle cell ca,0,1,1
+Basal cell ca,2,0,2,Small cell ca,5,3,8
+Adenocarcinoma,86,41,127,Sq cell ca,52,46,98
+"Cholangiocarcinoma/
+Bile duct carcinoma",1,0,1,Adenoid Sq cell ca,1,1,2
+Hepatocellular ca,1,0,1,Basal cell ca,1,2,3
+Mucoepidermoid ca,0,1,1,Adenocarcinoma,28,22,50
+Malignent melanoma,1,0,1,Adeno cystic ca,0,3,3
+Sarcoma,0,2,2,Malignent melanoma,1,0,1
+Liposarcoma,0,1,1,Sarcoma,1,1,2
+Seminoma,2,0,2,Fibrosarcoma,0,2,2
+Ewing's sarcoma,1,0,1,Liposarcoma,2,0,2
+Hodgkins' Lymphoma,19,8,27,Chondrosarcoma,1,0,1
+LN of axilla,8,30,38,Ependymoma,1,0,1
+Sq cell ca,5,28,33,Multiple myaloma,1,1,2
+Basal cell ca,1,0,1,Synovial sarcoma,11,9,20
+Adenocarcinoma,1,0,1,Sq cell ca,9,9,18
+Liposarcoma,0,1,1,Adeno cystic ca,1,0,1
+Hodgkins' Lymphoma,1,1,2,Chondrosarcoma,1,0,1
+LN of Inguinal region,16,9,25,,,,
+Sq cell ca,11,7,18,,,,
+Adenocarcinoma,1,0,1,,,,
+Malignent melanoma,1,0,1,,,,
+Sarcoma,0,1,1,,,,
+Dermato fibroma,0,1,1,,,,
+Hodgkins' Lymphoma,3,0,3,,,,
+Pelvic LN,4,5,9,,,,
+Sq cell ca,3,3,6,,,,
+Adeno cystic ca,0,1,1,,,,
+Malignent melanoma,1,0,1,,,,
+Leiomyosarcoma,0,1,1,,,,
+LN,335,130,465,,,,
+Sq cell ca,0,1,1,,,,
+Adenocarcinoma,0,2,2,,,,
+NHL,320,120,440,,,,
+Hodgkins' Lymphoma,15,7,22,,,,

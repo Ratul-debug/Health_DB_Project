@@ -1,0 +1,12 @@
+0,1,2
+"Table 8.19. Mortality profile of the patients
+aged between 30 and 70 years at NINH in 2015",,
+"ICD-10 code with name of
+disease","No. of
+cases",%
+"I64 Stroke, not specified as
+hemorrhage or infarction",132,18.97
+C71 Cancer involving brain,99,14.22
+S09 Injuries of head,29,8.48
+G03 Meningitis,35,5.03
+Total deaths=696,,

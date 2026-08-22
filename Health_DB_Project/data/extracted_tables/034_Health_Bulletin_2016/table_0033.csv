@@ -1,0 +1,37 @@
+0,1,2,3
+Table 6.2. Distribution of the outdoor patient-visits among different facilities,,,
+"Level of
+care",Type of facility,"Number of
+facilities","Total visits in
+OPD"
+Primary,10-bed hospitals,17,"260,840"
+,20-bed hospitals,26,"285,542"
+,Community clinics (CC),"11,165","103,342,733"
+,"Maternal and child welfare centers (MCWC) (under
+DGFP)",33,"680,946"
+,Rural/urban/thana health centers,37,"462,296"
+,Sadar upazila health offices (UHO),60,"20,425"
+,Tejgaon Thana Health Complex,1,"38,447"
+,Trauma centers (TC),5,"21,791"
+,"Union health and family welfare centers (UHFWC)
+(under DGFP)","2,380","10,309,203"
+,"Union health and family welfare centers (UHFWC)
+(under DGHS)",714,"3,839,318"
+,Union subcenters (USC),"1,228","15,248,109"
+,Upazila health complexes (UHC),421,"24,015,427"
+,Total: primary,"16,087","158,525,077"
+Secondary,District hospitals/general hospitals,65,"11,431,032"
+,Total: secondary,65,"11,431,032"
+Tertiary,"Bangladesh Institute of Tropical and Infectious
+Diseases, Chittagong",1,"29,911"
+,Dhaka Dental College Hospital,1,"89,522"
+,Hospitals of alternative medical colleges,2,"131,996"
+,Medical college hospitals,14,"6,976,954"
+,"Other tertiary facilities
+(National Center for Control of Rheumatic Fever and
+Heart Disease, Dhaka; Mental Hospital, Pabna; and
+Sheikh Abu Naser Specialized Hospital, Khulna)",3,"211,991"
+,Specialty institute hospitals,11,"1,295,704"
+,TB hospitals (Rajshahi and Khulna),2,"5,771"
+,Total: tertiary,34,"8,741,849"
+Grand total,,"16,186","178,697,958"

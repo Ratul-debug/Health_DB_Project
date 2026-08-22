@@ -1,0 +1,60 @@
+0,1,2,3,4,5,6,7,8,9,10
+C41.2,Vertebra & Vertebral,,,,,,,,,
+,,1,0,2,2,2,4,8,0,19
+,column,,,,,,,,,
+,,,,,,,,,,
+C41.3,Bones & articular cartilages,,,,,,,,,
+,,0,0,0,0,0,1,0,0,1
+,of thoracic cage,,,,,,,,,
+,,,,,,,,,,
+C41.4,Bones & articular cartilages,,,,,,,,,
+,,0,1,0,0,0,0,0,0,1
+,of pelvic region,,,,,,,,,
+,,,,,,,,,,
+C41.9,Bones & articular cartilages,1,6,4,2,2,1,1,0,17
+C42.0,Blood,29,21,25,15,15,10,10,2,127
+C42.1,Bone marrow,2,6,2,4,2,0,1,2,19
+C44.0,Skin of lip,0,0,0,0,1,0,2,1,4
+C44.1,Skin of eye lid,0,0,0,0,0,1,1,0,2
+C44.3,Skin of Face,0,0,0,0,1,0,0,0,1
+C44.6,Skin of upper limb,0,0,0,0,0,1,1,0,2
+C44.7,Skin of lower limb & Hip,0,0,0,0,2,0,0,0,2
+C44.9,Skin,0,1,4,1,10,11,7,1,35
+C47.0,Peripheral nerve &,,,,,,,,,
+,,0,0,0,0,0,1,0,0,1
+,Autonomic nerve of face,,,,,,,,,
+,,,,,,,,,,
+C47.4,Perepheral nerve &,,,,,,,,,
+,Autonomic nerve of,0,0,1,0,0,0,0,0,1
+,,,,,,,,,,
+,Abdomen,,,,,,,,,
+C48.0,Retroperitonium,0,0,0,0,1,0,0,0,1
+C48.1,"Omentum, Pouch of duglus,",,,,,,,,,
+,,0,1,0,1,4,2,0,0,8
+,Cal de sac,,,,,,,,,
+,,,,,,,,,,
+C49.0,Connective tissue of,,,,,,,,,
+,,0,3,1,3,3,2,3,4,19
+,scalp/face/neck,,,,,,,,,
+,,,,,,,,,,
+C49.1,Connective tissue of,,,,,,,,,
+,"UL,arm,",,,,,,,,,
+,,3,5,1,3,3,3,4,0,22
+,"forearm,hand,shoulder,thu",,,,,,,,,
+,,,,,,,,,,
+,"m,wris",,,,,,,,,
+C49.2,Connective tissue of,,,,,,,,,
+,,5,12,5,8,8,11,8,5,62
+,"LL,foot,leg,thigh,hip,knee",,,,,,,,,
+,,,,,,,,,,
+C49.3,Lymphatics/Lymphoma,0,1,0,0,0,0,4,2,7
+C49.9,Connective tissue,1,0,0,0,0,0,0,0,1
+C50.9,Breast,0,0,2,3,9,4,4,1,23
+C60.9,Penis,0,1,0,0,2,3,1,0,7
+C61.9,Prostate,0,0,0,1,10,24,35,18,88
+C62.0,Undesendent testis,1,0,0,0,0,0,0,0,1
+C62.1,Desendent testis,0,0,1,0,0,0,0,0,1
+C62.9,Testis,3,11,9,10,6,3,3,0,45
+C63.0,Epididymis,0,1,0,0,1,0,1,0,3
+C63.2,Scortum,0,0,0,0,0,0,0,1,1
+C64.9,Kidney,11,0,4,9,11,17,8,3,63

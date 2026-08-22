@@ -1,0 +1,130 @@
+
+
+================================================================================
+HEALTH_STAT
+================================================================================
+                                                    file  rows  cols
+extracted_tables/039_Health_Bulletin_2011/table_0069.csv    81    17
+extracted_tables/039_Health_Bulletin_2011/table_0072.csv    77    17
+extracted_tables/039_Health_Bulletin_2011/table_0065.csv    76    17
+extracted_tables/039_Health_Bulletin_2011/table_0066.csv    74    17
+extracted_tables/039_Health_Bulletin_2011/table_0068.csv    61    17
+extracted_tables/039_Health_Bulletin_2011/table_0077.csv    58    17
+extracted_tables/039_Health_Bulletin_2011/table_0071.csv    54    17
+extracted_tables/039_Health_Bulletin_2011/table_0035.csv    54     6
+extracted_tables/039_Health_Bulletin_2011/table_0078.csv    53    17
+extracted_tables/034_Health_Bulletin_2016/table_0186.csv    52     7
+extracted_tables/039_Health_Bulletin_2011/table_0086.csv    51     6
+extracted_tables/039_Health_Bulletin_2011/table_0084.csv    49     6
+extracted_tables/034_Health_Bulletin_2016/table_0184.csv    47     7
+extracted_tables/039_Health_Bulletin_2011/table_0032.csv    46    12
+extracted_tables/043_Health_Bulletin_2007/table_0024.csv    46     4
+ extracted_tables/042_Health_Bulletin_2008/table_026.csv    45    30
+extracted_tables/039_Health_Bulletin_2011/table_0089.csv    45     6
+extracted_tables/043_Health_Bulletin_2007/table_0037.csv    45     3
+ extracted_tables/042_Health_Bulletin_2008/table_023.csv    44    23
+extracted_tables/039_Health_Bulletin_2011/table_0079.csv    44     6
+
+
+================================================================================
+POPULATION
+================================================================================
+                                                    file  rows  cols
+ extracted_tables/042_Health_Bulletin_2008/table_009.csv    63    21
+ extracted_tables/042_Health_Bulletin_2008/table_008.csv    58    22
+extracted_tables/029_Health_Bulletin_2021/table_0103.csv    53     9
+extracted_tables/034_Health_Bulletin_2016/table_0231.csv    53     7
+extracted_tables/034_Health_Bulletin_2016/table_0224.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0227.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0225.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0226.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0228.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0229.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0230.csv    52     7
+extracted_tables/034_Health_Bulletin_2016/table_0214.csv    52     6
+extracted_tables/034_Health_Bulletin_2016/table_0271.csv    52     4
+extracted_tables/034_Health_Bulletin_2016/table_0217.csv    51     6
+extracted_tables/034_Health_Bulletin_2016/table_0215.csv    51     6
+extracted_tables/043_Health_Bulletin_2007/table_0180.csv    51     5
+extracted_tables/043_Health_Bulletin_2007/table_0171.csv    51     5
+extracted_tables/043_Health_Bulletin_2007/table_0179.csv    51     5
+extracted_tables/043_Health_Bulletin_2007/table_0181.csv    51     5
+extracted_tables/043_Health_Bulletin_2007/table_0177.csv    51     5
+
+
+================================================================================
+HUMAN_RESOURCE
+================================================================================
+                                                    file  rows  cols
+extracted_tables/034_Health_Bulletin_2016/table_0185.csv    51     7
+extracted_tables/043_Health_Bulletin_2007/table_0199.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0194.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0206.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0203.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0193.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0195.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0201.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0196.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0205.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0192.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0204.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0042.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0202.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0198.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0200.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0197.csv    48     6
+extracted_tables/043_Health_Bulletin_2007/table_0191.csv    46     6
+extracted_tables/034_Health_Bulletin_2016/table_0282.csv    46     4
+extracted_tables/043_Health_Bulletin_2007/table_0049.csv    42     6
+
+
+================================================================================
+SURGERY
+================================================================================
+                                                                        file  rows  cols
+                    extracted_tables/034_Health_Bulletin_2016/table_0250.csv    52     3
+                           extracted_tables/104_Yearbook_2023/table_0041.csv    34    14
+                    extracted_tables/043_Health_Bulletin_2007/table_0046.csv    29    17
+                    extracted_tables/033_Health_Bulletin_2017/table_0240.csv    27     5
+                    extracted_tables/033_Health_Bulletin_2017/table_0241.csv    23     5
+                    extracted_tables/043_Health_Bulletin_2007/table_0018.csv    23     4
+                    extracted_tables/033_Health_Bulletin_2017/table_0112.csv    23     3
+                    extracted_tables/043_Health_Bulletin_2007/table_0051.csv    20     6
+                     extracted_tables/042_Health_Bulletin_2008/table_122.csv    19     2
+                    extracted_tables/043_Health_Bulletin_2007/table_0017.csv    16     4
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_004.csv    15     3
+                           extracted_tables/104_Yearbook_2023/table_0022.csv    14     9
+                           extracted_tables/104_Yearbook_2023/table_0016.csv    14     8
+                    extracted_tables/028_Health_Bulletin_2022/table_0238.csv    14     6
+                    extracted_tables/027_Health_Bulletin_2023/table_0180.csv    14     5
+                           extracted_tables/104_Yearbook_2023/table_0247.csv    14     4
+                    extracted_tables/033_Health_Bulletin_2017/table_0111.csv    14     3
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_005.csv    14     3
+                    extracted_tables/032_Health_Bulletin_2018/table_0228.csv    14     2
+                    extracted_tables/029_Health_Bulletin_2021/table_0169.csv    13     7
+
+
+================================================================================
+CANCER
+================================================================================
+                                                                        file  rows  cols
+     extracted_tables/074_Hospital_Cancer_Registry_Report_2014/table_007.csv    60    10
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_095.csv    48     8
+     extracted_tables/074_Hospital_Cancer_Registry_Report_2014/table_035.csv    48     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_063.csv    47     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_064.csv    47     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_034.csv    47     8
+     extracted_tables/074_Hospital_Cancer_Registry_Report_2014/table_033.csv    47     8
+     extracted_tables/074_Hospital_Cancer_Registry_Report_2014/table_034.csv    47     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_032.csv    46     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_094.csv    46     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_033.csv    45     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_097.csv    45     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_093.csv    45     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_096.csv    45     8
+     extracted_tables/074_Hospital_Cancer_Registry_Report_2014/table_025.csv    44    11
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_067.csv    42     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_066.csv    42     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_098.csv    41     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_065.csv    40     8
+extracted_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_068.csv    40     8

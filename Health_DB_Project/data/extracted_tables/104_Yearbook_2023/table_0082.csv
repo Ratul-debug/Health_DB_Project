@@ -1,0 +1,17 @@
+0,1,2,3
+Sl. No.,Description,Number,%
+01,Total Number of Admitted Patients,626,100
+02,Total number of beds,40+Cabins,
+03,Gender Distribution of total patients,,
+,Female,148,23.64
+,Male,478,76.36
+04,Number of new patients out of total admitted,162,25.89
+05,Disease wise distribution of admitted patients,,
+,Lymphoma,209,33.39
+,Acute Lymphoblastic Leukaemia,181,28.91
+,Acute Myeloid Leukaemia,144,23.00
+,Multiple Myeloma,46,7.35
+,Chronic Myeloid Leukaemia,19,3.04
+,Chronic Lymphocytic Leukaemia,18,2.88
+,Myelodysplastic Syndrome,09,1.44
+06,Total Death,39,6.23

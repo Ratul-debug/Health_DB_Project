@@ -1,0 +1,20 @@
+0,1,2,3
+Division,Name of nursing college,Degree,No. of seats
+Under the Ministry of Health and Family Welfare,,,
+Chittagong,"College of Nursing, Chittagong Medical College, Chittagong",BSc Nursing,100
+Dhaka,"College of Nursing, Dhaka Medical College, Dhaka",BSc,100
+,"College of Nursing, Mymensingh Medical College, Mymensingh",BSc,100
+Rajshahi,"College of Nursing, Rajshahi Medical College, Rajshahi",BSc,100
+Rangpur,"College of Nursing, Rangpur Medical College, Rangpur",BSc,100
+Sylhet,"College of Nursing, MAG Osmani Medical College, Sylhet",BSc,100
+Barisal,"College of Nursing, Sher-e-Bangla Medical College, Barisal",BSc,100
+Total no. of nursing colleges under MOHFW=7,,Total seats,700
+Dhaka,"Armed Forces Medical Institute, Dhaka Cantonment, Dhaka",BSc,60
+,"Faculty of Nursing, BSMMU, Dhaka",BSc,25
+Rangpur,"Army Nursing College, Rangpur Cantonment, Rangpur",BSc,50
+Chittagong,"Army Nursing College, Chittagong Cantonment, Chittagong",BSc,50
+,"Army Nursing College Comilla Cantonment, Comilla",BSc,50
+,"Army Nursing College, Jessore Cantonment, Jessore",BSc,50
+,"Army Nursing College, Bogra Cantonment, Bogra",BSc,50
+Total no. of nursing colleges under the Ministry of Defense=6; under BSMMU=1,,Total seats,60
+Total no. of nursing colleges in the government sector=14 (including autonomous BSMMU),,Grand total,1035

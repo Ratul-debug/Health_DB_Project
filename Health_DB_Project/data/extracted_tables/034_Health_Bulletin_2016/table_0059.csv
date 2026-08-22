@@ -1,0 +1,62 @@
+0,1,2
+"Table 8.11. Causes of death among persons aged between 30 and 70 years in different hospitals
+in 2015",,
+ICD-10 chapter,No. of deaths,"Percentage of all deaths
+(N=98,891) in UHCs, DLHs
+and MCHs"
+"Chapter I-Certain infectious and parasitic
+diseases (A00-B99)",663,0.67
+Chapter II-Neoplasms (C00-D48),449,0.45
+"Chapter III-Diseases of blood and blood-
+forming organs and certain disorders involving
+the immune mechanisms (D50-D89)",51,0.05
+"Chapter IV-Endocrine, nutritional and
+metabolic diseases (E00-E90)",492,0.50
+"Chapter V-Mental, behavioral disorders
+(F00-F99)",3,0.00
+Chapter VI-Diseases of the nervous system (G00-G99),682,0.69
+"Chapter VII-Diseases of the eye and adnexa
+(H00-H59)","Did not appear in
+the top 5 causes of
+death in any hospital","Did not appear in the top
+5 causes of death in any
+hospital"
+"Chapter VIII-Diseases of the ear and mastoid
+process (H60-H95)","Did not appear in
+the top 5 causes of
+death in any hospital","Did not appear in the top
+5 causes of death in any
+hospital"
+Chapter IX-Diseases of the circulatory system (I00-I99),"17,495",17.69
+"Chapter X-Diseases of the respiratory system
+(J00-J99)","4,257",4.30
+"Chapter XI-Diseases of the digestive system
+(K00-K93)",160,0.16
+"Chapter XII-Diseases of the skin and
+subcutaneous tissue (L00-L99)",1,0.00
+"Chapter XIII-Diseases of the musculoskeletal
+system and connective tissue (M00-M99)","Did not appear in
+the top 5 causes of
+death in any hospital","Did not appear in the top
+5 causes of death in any
+hospital"
+"Chapter XIV-Diseases of the genitourinary
+system (N00-N99)",933,0.94%
+"Chapter XV-Pregnancy, childbirth, and the
+puerperium (O00-O99)","Reported under causes
+of maternal death","Reported under causes of
+maternal death"
+"Chapter XVI-Certain conditions originating in
+the perinatal period (P00-P96)","Reported under
+mortality of <5
+years age-group","Reported under mortality of
+<5 years age-group"
+"Chapter XVII-Congenital malformations,
+deformations, and chromosomal abnormalities
+(Q00-Q99)",16,0.02%
+"Chapter XVIII-Symptoms, signs, and abnormal
+clinical and laboratory findings, not elsewhere
+classified (R00-R99)",301,0.30%
+"Chapter XX-External causes of morbidity and
+mortality (V01-Y98)","6,165",6.23%
+Total (reported in the list of top 5 causes of death),"31,668",32.02%

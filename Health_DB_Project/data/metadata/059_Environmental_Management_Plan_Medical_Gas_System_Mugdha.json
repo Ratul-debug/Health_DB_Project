@@ -1,0 +1,54 @@
+{
+  "pdf": "059_Environmental_Management_Plan_Medical_Gas_System_Mugdha.pdf",
+  "tables": [
+    {
+      "page": 8,
+      "file": "table_001.csv",
+      "rows": 10,
+      "cols": 15,
+      "hash": "54b395d8cec9c3e9290bd8266bc018c1"
+    },
+    {
+      "page": 9,
+      "file": "table_002.csv",
+      "rows": 8,
+      "cols": 14,
+      "hash": "a38b631e09fc2c9b2908d20b00b3070b"
+    },
+    {
+      "page": 10,
+      "file": "table_003.csv",
+      "rows": 7,
+      "cols": 13,
+      "hash": "8bc3a6b6ebef8eb19d44100f2f2086d4"
+    },
+    {
+      "page": 11,
+      "file": "table_004.csv",
+      "rows": 5,
+      "cols": 13,
+      "hash": "b6575279111ee75cf1a60748ffb7f8e0"
+    },
+    {
+      "page": 12,
+      "file": "table_005.csv",
+      "rows": 42,
+      "cols": 15,
+      "hash": "8d7c78d8d1cd8ece86d8982e2d22eba4"
+    },
+    {
+      "page": 13,
+      "file": "table_006.csv",
+      "rows": 13,
+      "cols": 15,
+      "hash": "eb41be865a488c0c0ee6a8314e3f2464"
+    },
+    {
+      "page": 24,
+      "file": "table_007.csv",
+      "rows": 11,
+      "cols": 6,
+      "hash": "7e112078f8668fa06c82f495a1634c1d"
+    }
+  ]
+}

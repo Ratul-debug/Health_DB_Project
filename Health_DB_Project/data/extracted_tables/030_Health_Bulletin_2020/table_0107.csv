@@ -1,0 +1,45 @@
+0,1,2,3,4,5,6,7
+Sl no,"Name of medical college
+hospital",OPD visit,,Emergency visit,,Inpatients,
+,,Female,Male,Female,Male,Female,Male
+1,"Bangabandhu Sheikh Mujib
+Medical College Hospital,
+Faridpur",90761,64936,24006,19836,23960,20182
+2,"Chattogram Medical
+College Hospital,
+Chattogram",256981,274306,100961,117287,90334,106432
+3,"Kumilla Medical College
+Hospital, Kumilla",119207,103212,29906,25887,29838,26090
+4,"Dhaka Medical College
+Hospital, Dhaka",336867,285651,137676,151979,37000,44872
+5,"Khulna Medical College
+Hospital, Khulna",120301,70441,1131,919,12301,10517
+6,"M Abdur Rahim Medical
+College Hospital, Dinajpur",94165,83510,22650,21169,22419,20996
+7,"MAG Osmani Medical
+College Hospital, Sylhet",277330,237077,5890,10064,52890,59173
+8,"Mymensingh Medical
+College Hospital,
+Mymensingh",391591,369729,31396,28929,91017,82471
+9,"Rajshahi Medical College
+Hospital, Rajshahi",299069,257498,4857,4899,75745,67817
+10,"Rangpur Medical College
+Hospital, Rangpur",96673,114663,43929,46268,45641,48502
+11,"Shaheed Suhrawardy
+Medical College Hospital,
+Dhaka",935601,918433,133851,131831,38303,36228
+12,"Shaheed Tajuddin Ahmad
+Medical College Hospital,
+Gazipur",86990,85149,28501,29906,14449,11176
+13,"Shahid Syed Nazrul Islam
+Medical College Hospital,
+Kishoreganj",29263,20622,2288,2756,1968,2127
+14,"Shaheed Ziaur Rahman
+Medical College Hospital,
+Bogura",176308,144472,27681,34972,30998,36861
+15,"Sher-E-Bangla Medical
+College Hospital, Barishal",135782,115290,55750,55077,51244,50394
+16,"Sir Salimullah Medical
+College Hospital, Mitford,
+Dhaka",318562,219234,83761,84296,30338,23037
+Total,,3765451,3364223,734234,766075,648445,646875

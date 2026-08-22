@@ -1,0 +1,41 @@
+0,1,2,3,4,5,6,7
+Site,Male,Female,Total,Site,Male,Female,Total
+Lung,1562,267,1829,Bone marrow,14,5,19
+Malignant tumour,179,29,208,Multiple myeloma,8,2,10
+Gaint cell type,1,0,1,Acute Lymphoblastic Leukemia,2,0,2
+Large cell ca,5,0,5,Chronic Lymphocytic Leukemia,0,1,1
+Small cell ca,161,19,180,Acute Myeloid/Gralulocytic Leukemia,3,0,3
+Sq cell ca,911,131,1042,Chronic Myeloid/Gralulocytic Leukemia,1,2,3
+Adenocarcinoma,304,87,391,Skin of eye lid,1,4,5
+Hepatocellular ca,1,0,1,Giant cell ca,0,1,1
+Duct cell ca,0,1,1,Sq cell ca,1,3,4
+Pleura,79,29,108,Skin of Face,1,1,2
+Small cell ca,2,2,4,Sq cell ca,0,1,1
+Sq cell ca,65,20,85,Basal cell ca,1,0,1
+Adenocarcinoma,10,7,17,Skin,31,16,47
+Adeno cystic ca,2,0,2,Epithelial carcinoma,0,1,1
+Bones & articular cartilages of Skull & face,1,,1,Spindle cell ca,1,1,2
+Chondrosarcoma,1,,1,Sq cell ca,20,6,26
+Mendible & Jaw,,2,2,Basal cell ca,4,8,12
+Sq cell ca,,2,2,Adenocarcinoma,1,0,1
+Vertebra & Vertebral column,23,16,39,Malignent melanoma,4,0,4
+Malignent tumour,1,0,1,Dermato fibroma,1,0,1
+Spindle cell ca,1,1,2,"Omentum, Pouch of duglus, Cal de sac",2,7,9
+Small cell ca,1,0,1,Sq cell ca,1,2,3
+Sq cell ca,13,10,23,Adenocarcinoma,0,3,3
+Adenocarcinoma,6,4,10,Adeno cystic ca,0,1,1
+Folicular ca,0,1,1,Papilary adenocarcinoma,0,1,1
+Multiple myaloma,1,0,1,Choriocarcinoma,1,0,1
+Bones & articular cartilages,35,15,50,Connective tissue of scalp/face/neck,16,5,21
+Gaint cell type,2,0,2,Malignent tumour,1,0,1
+Sq cell ca,0,1,1,Spindle cell ca,0,1,1
+Osteosarcoma,9,5,14,Sq cell ca,12,2,14
+Chondrosarcoma,3,4,7,Adenocarcinoma,1,0,1
+Ewing's sarcoma,21,5,26,Papilary adenocarcinoma,0,1,1
+Blood,126,58,184,Chondrosarcoma,1,0,1
+Angiosarcoma,0,1,1,Ewing's sarcoma,1,0,1
+Leukemia,4,0,4,Ependymoma,0,1,1
+Acute Lymphoblastic Leukemia,76,38,114,,,,
+Chronic Lymphocytic Leukemia,0,1,1,,,,
+Acute Myeloid/Gralulocytic Leukemia,35,12,47,,,,
+Chronic Myeloid/Gralulocytic Leukemia,11,6,17,,,,

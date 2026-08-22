@@ -1,0 +1,49 @@
+0,1,2,3,4,5
+Designation,Sanctioned,Existing,,,Vacant
+,Post,Male,Female,Total,
+Chief Librarian,1,0,1,1,0
+Chief Medical Officer,3,3,0,3,0
+Curator,2,1,1,2,0
+Food Chemist,1,0,0,0,1
+Hostel Superintendent,1,1,0,1,0
+Jr. Consultant,481,175,65,240,241
+Resident Physician,6,5,0,5,1
+Resident Surgeon,11,7,3,10,1
+RMO,21,15,3,18,3
+Specialist,24,13,4,17,7
+Sr. H. Education Officer,64,59,2,61,3
+Sr. Lecturer,1,0,1,1,0
+Sr. Research Officer,1,0,0,0,1
+OSD,19,70,9,79,-60
+Sub-Total :,648,358,91,449,199
+Scale : 08 (7400-365*16-13240),,,,,
+Asstt. Director,1,0,0,0,1
+Asstt. Professor,6,6,0,6,0
+Asstt. Registrar,7,6,1,7,0
+Asstt. Research Officer,1,1,0,1,0
+Jr. Clinician,4,3,1,4,0
+Jr. Food Chemist,2,0,0,0,2
+Lecturer,4,3,1,4,0
+Medical Officer,18,10,8,18,0
+Occupational Therapist,1,1,0,1,0
+Registrar,6,4,0,4,2
+Sr. Clinical Psychologist,1,1,0,1,0
+Transplant Co-ordinator,2,1,1,2,0
+Vetanary Officer,1,0,0,0,1
+Sub-Total :,54,36,12,48,6
+Scale : 09 (6800-325*7-9075-365*11-13090),,,,,
+Accounts Officer,1,1,0,1,0
+Anaesthesiologist,67,50,5,55,12
+Anesthesist,66,41,6,47,19
+Asstt. Airport Health Officer,4,2,2,4,0
+Asstt. Bacteriologist,1,1,0,1,0
+Asstt. Chief,3,0,0,0,3
+Asstt. Dental Surgeon,2,1,1,2,0
+Asstt. Hostel Superintendent,1,1,0,1,0
+Asstt. Librarian,2,0,1,1,1
+Asstt. Nutritionist,1,0,1,1,0
+Asstt. Port Health Officer,2,2,0,2,0
+Asstt. Programmer,5,3,0,3,2
+Asstt. Radiologist,1,0,1,1,0
+Asstt. Registrar,637,480,82,562,75
+Asstt. Surgeon,10,10,0,10,0
