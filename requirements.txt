@@ -1,0 +1,9 @@
+pandas
+pyyaml
+python-dateutil
+unidecode
+rapidfuzz
+chardet
+mysql-connector-python
+tqdm
+
