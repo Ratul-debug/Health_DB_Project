@@ -340,7 +340,7 @@ CREATE TABLE `HealthWorker` (
 
 LOCK TABLES `HealthWorker` WRITE;
 /*!40000 ALTER TABLE `HealthWorker` DISABLE KEYS */;
-INSERT INTO `HealthWorker` VALUES (1,'Dr. Prasanta Kumar Chakraborty',1,8,'Male'),(2,'Dr. Neelufar Rahman',2,9,'Male'),(3,'Dr. Sadat Khondakar',3,19,'Male'),(4,'Dr. Md. Ehsanul Alam',4,19,'Male'),(5,'Dr. Md. Mozaharul Islam',5,19,'Male'),(6,'Dr. Ahsan Rahman',6,19,'Male'),(7,'Dr. Nusrat Sultana',7,19,'Female'),(8,'Dr. Farzana Ahmed',8,19,'Female'),(9,'Dr. Md. Saiful Islam',9,19,'Male'),(10,'Dr. Tanvir Hasan',10,19,'Male'),(11,'Dr. Sadia Rahman',11,19,'Female'),(12,'Dr. Nazmul Islam',12,19,'Male');
+INSERT INTO `HealthWorker` VALUES (1,'Dr. Prasanta Kumar Chakraborty',1,19,'Male'),(2,'Dr. Neelufar Rahman',2,19,'Male'),(3,'Dr. Sadat Khondakar',3,19,'Male'),(4,'Dr. Md. Ehsanul Alam',4,19,'Male'),(5,'Dr. Md. Mozaharul Islam',5,19,'Male'),(6,'Dr. Ahsan Rahman',6,19,'Male'),(7,'Dr. Nusrat Sultana',7,19,'Female'),(8,'Dr. Farzana Ahmed',8,19,'Female'),(9,'Dr. Md. Saiful Islam',9,19,'Male'),(10,'Dr. Tanvir Hasan',10,19,'Male'),(11,'Dr. Sadia Rahman',11,19,'Female'),(12,'Dr. Nazmul Islam',12,19,'Male');
 /*!40000 ALTER TABLE `HealthWorker` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -640,4 +640,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-24 19:36:14
+-- Dump completed on 2026-08-24 19:45:18

@@ -61,8 +61,8 @@ laboratory_legend_fragments	0
 dirty_disease_fragment_ids	0
 cancer_cases_without_stage	0
 WorkID	WorkerName	DesignationName	FacilityName
-1	Dr. Prasanta Kumar Chakraborty	Associate professor	Dr. Moklessur Clinic, Sadar Road, Barisal
-2	Dr. Neelufar Rahman	Assistant professor	Damien Foundation. Netrakona TB & Leprosy Hospital, Anantapur, Netrakona
+1	Dr. Prasanta Kumar Chakraborty	Medical Officer	Dr. Moklessur Clinic, Sadar Road, Barisal
+2	Dr. Neelufar Rahman	Medical Officer	Damien Foundation. Netrakona TB & Leprosy Hospital, Anantapur, Netrakona
 3	Dr. Sadat Khondakar	Medical Officer	Dastagir Private Hospital, Narsingdi
 4	Dr. Md. Ehsanul Alam	Medical Officer	Desh Eye Hospital, Gazipur Sadar
 5	Dr. Md. Mozaharul Islam	Medical Officer	Dhaka Community Hospital, Dhaka
