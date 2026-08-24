@@ -2,7 +2,8 @@
 
 USE `health_db`;
 
--- Expected: 21 tables, 21 primary-key columns, 25 foreign-key columns.
+-- Expected: 21 tables, 21 primary-key columns, 25 foreign-key columns,
+-- and zero nullable columns.
 SELECT COUNT(*) AS total_tables
 FROM information_schema.TABLES
 WHERE TABLE_SCHEMA = DATABASE() AND TABLE_TYPE = 'BASE TABLE';
@@ -14,6 +15,10 @@ WHERE TABLE_SCHEMA = DATABASE() AND CONSTRAINT_NAME = 'PRIMARY';
 SELECT COUNT(*) AS total_foreign_keys
 FROM information_schema.KEY_COLUMN_USAGE
 WHERE TABLE_SCHEMA = DATABASE() AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+SELECT COUNT(*) AS total_nullable_columns
+FROM information_schema.COLUMNS
+WHERE TABLE_SCHEMA = DATABASE() AND IS_NULLABLE = 'YES';
 
 -- Row counts for all 21 tables.
 SELECT 'AdministrativeRegion' AS table_name, COUNT(*) AS row_count FROM `AdministrativeRegion`
@@ -39,16 +44,43 @@ UNION ALL SELECT 'TelemedicineCenter', COUNT(*) FROM `TelemedicineCenter`
 UNION ALL SELECT 'Vaccination', COUNT(*) FROM `Vaccination`
 ORDER BY table_name;
 
+-- Expected: 395 total demonstration rows and zero empty tables.
+SELECT SUM(row_count) AS total_demonstration_rows,
+       SUM(row_count = 0) AS empty_tables
+FROM (
+    SELECT COUNT(*) AS row_count FROM `AdministrativeRegion`
+    UNION ALL SELECT COUNT(*) FROM `Biopsy`
+    UNION ALL SELECT COUNT(*) FROM `CancerCase`
+    UNION ALL SELECT COUNT(*) FROM `Covid19`
+    UNION ALL SELECT COUNT(*) FROM `Dengue`
+    UNION ALL SELECT COUNT(*) FROM `Designation`
+    UNION ALL SELECT COUNT(*) FROM `Diarrhea`
+    UNION ALL SELECT COUNT(*) FROM `Disease`
+    UNION ALL SELECT COUNT(*) FROM `HealthFacility`
+    UNION ALL SELECT COUNT(*) FROM `HealthWorker`
+    UNION ALL SELECT COUNT(*) FROM `HIV`
+    UNION ALL SELECT COUNT(*) FROM `HospitalBed`
+    UNION ALL SELECT COUNT(*) FROM `Laboratory`
+    UNION ALL SELECT COUNT(*) FROM `Malnutrition`
+    UNION ALL SELECT COUNT(*) FROM `MaternalHealth`
+    UNION ALL SELECT COUNT(*) FROM `Measles`
+    UNION ALL SELECT COUNT(*) FROM `Newborn`
+    UNION ALL SELECT COUNT(*) FROM `Patient`
+    UNION ALL SELECT COUNT(*) FROM `PopulationGroup`
+    UNION ALL SELECT COUNT(*) FROM `TelemedicineCenter`
+    UNION ALL SELECT COUNT(*) FROM `Vaccination`
+) AS table_counts;
+
 -- Every result should be zero.
 SELECT 'HealthFacility.RegionID' AS relationship_name, COUNT(*) AS orphan_rows
 FROM `HealthFacility` c LEFT JOIN `AdministrativeRegion` p ON p.`RegionID` = c.`RegionID`
-WHERE c.`RegionID` IS NOT NULL AND p.`RegionID` IS NULL
+WHERE p.`RegionID` IS NULL
 UNION ALL SELECT 'HealthWorker.FacilityID', COUNT(*)
 FROM `HealthWorker` c LEFT JOIN `HealthFacility` p ON p.`FacilityID` = c.`FacilityID`
-WHERE c.`FacilityID` IS NOT NULL AND p.`FacilityID` IS NULL
+WHERE p.`FacilityID` IS NULL
 UNION ALL SELECT 'HealthWorker.DesignationID', COUNT(*)
 FROM `HealthWorker` c LEFT JOIN `Designation` p ON p.`DesignationID` = c.`DesignationID`
-WHERE c.`DesignationID` IS NOT NULL AND p.`DesignationID` IS NULL
+WHERE p.`DesignationID` IS NULL
 UNION ALL SELECT 'HospitalBed.FacilityID', COUNT(*)
 FROM `HospitalBed` c LEFT JOIN `HealthFacility` p ON p.`FacilityID` = c.`FacilityID`
 WHERE p.`FacilityID` IS NULL
@@ -57,7 +89,7 @@ FROM `Laboratory` c LEFT JOIN `HealthFacility` p ON p.`FacilityID` = c.`Facility
 WHERE p.`FacilityID` IS NULL
 UNION ALL SELECT 'Patient.BedID', COUNT(*)
 FROM `Patient` c LEFT JOIN `HospitalBed` p ON p.`BedID` = c.`BedID`
-WHERE c.`BedID` IS NOT NULL AND p.`BedID` IS NULL
+WHERE p.`BedID` IS NULL
 UNION ALL SELECT 'MaternalHealth.PatientID', COUNT(*)
 FROM `MaternalHealth` c LEFT JOIN `Patient` p ON p.`PatientID` = c.`PatientID`
 WHERE p.`PatientID` IS NULL
@@ -66,10 +98,10 @@ FROM `Newborn` c LEFT JOIN `MaternalHealth` p ON p.`MotherID` = c.`MotherID`
 WHERE p.`MotherID` IS NULL
 UNION ALL SELECT 'PopulationGroup.RegionID', COUNT(*)
 FROM `PopulationGroup` c LEFT JOIN `AdministrativeRegion` p ON p.`RegionID` = c.`RegionID`
-WHERE c.`RegionID` IS NOT NULL AND p.`RegionID` IS NULL
+WHERE p.`RegionID` IS NULL
 UNION ALL SELECT 'TelemedicineCenter.PatientID', COUNT(*)
 FROM `TelemedicineCenter` c LEFT JOIN `Patient` p ON p.`PatientID` = c.`PatientID`
-WHERE c.`PatientID` IS NOT NULL AND p.`PatientID` IS NULL
+WHERE p.`PatientID` IS NULL
 UNION ALL SELECT 'Vaccination.PatientID', COUNT(*)
 FROM `Vaccination` c LEFT JOIN `Patient` p ON p.`PatientID` = c.`PatientID`
 WHERE p.`PatientID` IS NULL
@@ -118,6 +150,15 @@ WHERE p.`PatientID` IS NULL;
 
 -- Semantic checks for the mixed-source demonstration data.
 -- Every result should be zero.
+SET @dhaka_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'dhaka' LIMIT 1);
+SET @chattogram_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'chattogram' LIMIT 1);
+SET @rajshahi_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'rajshahi' LIMIT 1);
+SET @khulna_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'khulna' LIMIT 1);
+SET @barishal_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'barishal' LIMIT 1);
+SET @sylhet_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'sylhet' LIMIT 1);
+SET @rangpur_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'rangpur' LIMIT 1);
+SET @mymensingh_region := (SELECT `RegionID` FROM `AdministrativeRegion` WHERE LOWER(`RegionName`) = 'mymensingh' LIMIT 1);
+
 SELECT 'facilities_without_region' AS quality_check, COUNT(*) AS issue_count
 FROM `HealthFacility` WHERE `RegionID` IS NULL
 UNION ALL
@@ -142,7 +183,75 @@ SELECT 'dirty_disease_fragment_ids', COUNT(*)
 FROM `Disease` WHERE `DiseaseID` BETWEEN 1 AND 11
 UNION ALL
 SELECT 'cancer_cases_without_stage', COUNT(*)
-FROM `CancerCase` WHERE `CancerStage` IS NULL;
+FROM `CancerCase` WHERE `CancerStage` IS NULL
+UNION ALL
+SELECT 'diseases_without_icd_code', COUNT(*)
+FROM `Disease`
+WHERE `ICDCode` IS NULL OR TRIM(`ICDCode`) = ''
+UNION ALL
+SELECT 'sex_specific_cancer_mismatch', COUNT(*)
+FROM `CancerCase` c
+JOIN `Patient` p ON p.`PatientID` = c.`PatientID`
+WHERE (LOWER(c.`CancerType`) IN ('ovarian', 'cervical') AND LOWER(p.`Gender`) <> 'female')
+   OR (LOWER(c.`CancerType`) = 'prostate' AND LOWER(p.`Gender`) <> 'male')
+UNION ALL
+SELECT 'recognizable_facility_region_mismatch', COUNT(*)
+FROM (
+    SELECT `RegionID`, CASE
+        WHEN LOWER(`FacilityName`) REGEXP 'barisal|barishal|barguna|pirojpur' THEN @barishal_region
+        WHEN LOWER(`FacilityName`) REGEXP 'rajshahi|natore|bogra|joypurhat|sirajganj|bonpara' THEN @rajshahi_region
+        WHEN LOWER(`FacilityName`) REGEXP 'khulna|magura|satkhira|chuadanga|jhenaidah' THEN @khulna_region
+        WHEN LOWER(`FacilityName`) REGEXP 'chittagong|chattogram|noakhali|feni|maijdee|begumganj|hathazari|cox.s bazar' THEN @chattogram_region
+        WHEN LOWER(`FacilityName`) REGEXP 'mymensingh|netrakona|kishoreganj' THEN @mymensingh_region
+        WHEN LOWER(`FacilityName`) REGEXP 'rangpur|saidpur|nilphamari' THEN @rangpur_region
+        WHEN LOWER(`FacilityName`) REGEXP 'sylhet' THEN @sylhet_region
+        WHEN LOWER(`FacilityName`) REGEXP 'dhaka|gazipur|narsingdi|narayanganj|munshiganj|savar|tongi|uttara' THEN @dhaka_region
+        ELSE NULL
+    END AS expected_region
+    FROM `HealthFacility`
+) AS facility_location
+WHERE expected_region IS NOT NULL AND `RegionID` <> expected_region
+UNION ALL
+SELECT 'implausible_adult_malnutrition_measurement', COUNT(*)
+FROM `Malnutrition`
+WHERE `Height` < 140 OR `Height` > 210 OR `BMI` < 10 OR `BMI` >= 18.5
+UNION ALL
+SELECT 'malnutrition_bmi_classification_mismatch', COUNT(*)
+FROM `Malnutrition`
+WHERE (`BMI` < 16.00 AND `MalnutritionType` <> 'Severe Thinness')
+   OR (`BMI` >= 16.00 AND `BMI` < 17.00 AND `MalnutritionType` <> 'Moderate Thinness')
+   OR (`BMI` >= 17.00 AND `BMI` < 18.50 AND `MalnutritionType` <> 'Mild Thinness');
+
+-- Scan every column in all 21 tables. The total counts SQL NULL values and
+-- empty/whitespace-only text values. Expected: zero.
+SET SESSION group_concat_max_len = 1000000;
+
+SELECT GROUP_CONCAT(
+    CONCAT(
+        'SELECT COUNT(*) AS issue_count FROM `', `TABLE_NAME`,
+        '` WHERE `', `COLUMN_NAME`, '` IS NULL',
+        CASE
+            WHEN `DATA_TYPE` IN ('char', 'varchar', 'tinytext', 'text', 'mediumtext', 'longtext')
+            THEN CONCAT(' OR TRIM(`', `COLUMN_NAME`, '`) = ''''')
+            ELSE ''
+        END
+    )
+    ORDER BY `TABLE_NAME`, `ORDINAL_POSITION`
+    SEPARATOR ' UNION ALL '
+) INTO @all_column_checks
+FROM information_schema.COLUMNS
+WHERE `TABLE_SCHEMA` = DATABASE();
+
+SET @all_blank_sql := CONCAT(
+    'SELECT ''all_null_or_blank_values'' AS quality_check, ',
+    'SUM(issue_count) AS issue_count FROM (',
+    @all_column_checks,
+    ') AS all_column_results'
+);
+
+PREPARE all_blank_statement FROM @all_blank_sql;
+EXECUTE all_blank_statement;
+DEALLOCATE PREPARE all_blank_statement;
 
 -- Demonstration joins.
 SELECT w.`WorkID`, w.`WorkerName`, d.`DesignationName`, f.`FacilityName`

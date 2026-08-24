@@ -33,8 +33,8 @@ DROP TABLE IF EXISTS `AdministrativeRegion`;
 CREATE TABLE `AdministrativeRegion` (
   `RegionID` int NOT NULL AUTO_INCREMENT,
   `RegionName` varchar(150) NOT NULL,
-  `Population` bigint DEFAULT NULL,
-  `RegionType` varchar(50) DEFAULT NULL,
+  `Population` bigint NOT NULL,
+  `RegionType` varchar(50) NOT NULL,
   PRIMARY KEY (`RegionID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -59,7 +59,7 @@ DROP TABLE IF EXISTS `Biopsy`;
 CREATE TABLE `Biopsy` (
   `BiopsyID` int NOT NULL AUTO_INCREMENT,
   `CancerCaseID` int NOT NULL,
-  `ProcedureDate` date DEFAULT NULL,
+  `ProcedureDate` date NOT NULL,
   PRIMARY KEY (`BiopsyID`),
   KEY `idx_biopsy_cancercase` (`CancerCaseID`),
   CONSTRAINT `fk_biopsy_cancercase` FOREIGN KEY (`CancerCaseID`) REFERENCES `CancerCase` (`CancerID`)
@@ -87,9 +87,9 @@ CREATE TABLE `CancerCase` (
   `CancerID` int NOT NULL AUTO_INCREMENT,
   `PatientID` int NOT NULL,
   `LabID` int NOT NULL,
-  `CancerType` varchar(255) DEFAULT NULL,
-  `TestResult` varchar(255) DEFAULT NULL,
-  `CancerStage` varchar(100) DEFAULT NULL,
+  `CancerType` varchar(255) NOT NULL,
+  `TestResult` varchar(255) NOT NULL,
+  `CancerStage` varchar(100) NOT NULL,
   PRIMARY KEY (`CancerID`),
   KEY `idx_cancercase_patient` (`PatientID`),
   KEY `idx_cancercase_lab` (`LabID`),
@@ -104,7 +104,7 @@ CREATE TABLE `CancerCase` (
 
 LOCK TABLES `CancerCase` WRITE;
 /*!40000 ALTER TABLE `CancerCase` DISABLE KEYS */;
-INSERT INTO `CancerCase` VALUES (1,1,1,'Lung','Confirmed','Stage I'),(2,2,2,'Colorectal','Confirmed','Stage II'),(3,3,3,'Ovarian','Confirmed','Stage III'),(4,4,4,'Oral','Confirmed','Stage IV'),(5,5,5,'Leukemia','Confirmed','Stage I'),(6,6,6,'Breast','Confirmed','Stage II'),(7,7,7,'Cervical','Confirmed','Stage III'),(8,8,1,'Ovarian','Confirmed','Stage IV'),(9,9,2,'Prostate','Confirmed','Stage I'),(10,10,3,'Esophagus','Confirmed','Stage II'),(11,11,4,'Esophagus','Confirmed','Stage III'),(12,12,5,'Stomach','Confirmed','Stage IV');
+INSERT INTO `CancerCase` VALUES (1,1,1,'Lung','Confirmed','Stage I'),(2,2,2,'Colorectal','Confirmed','Stage II'),(3,3,3,'Ovarian','Confirmed','Stage III'),(4,4,4,'Oral','Confirmed','Stage IV'),(5,5,5,'Leukemia','Confirmed','Stage I'),(6,6,6,'Breast','Confirmed','Stage II'),(7,7,7,'Cervical','Confirmed','Stage III'),(8,9,1,'Ovarian','Confirmed','Stage IV'),(9,8,2,'Prostate','Confirmed','Stage I'),(10,10,3,'Esophagus','Confirmed','Stage II'),(11,11,4,'Esophagus','Confirmed','Stage III'),(12,12,5,'Stomach','Confirmed','Stage IV');
 /*!40000 ALTER TABLE `CancerCase` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -119,8 +119,8 @@ CREATE TABLE `Covid19` (
   `CovidID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `TestResult` varchar(255) DEFAULT NULL,
-  `Temperature` decimal(5,2) DEFAULT NULL,
+  `TestResult` varchar(255) NOT NULL,
+  `Temperature` decimal(5,2) NOT NULL,
   PRIMARY KEY (`CovidID`),
   KEY `idx_covid19_disease` (`DiseaseID`),
   KEY `idx_covid19_patient` (`PatientID`),
@@ -150,9 +150,9 @@ CREATE TABLE `Dengue` (
   `DengueID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `Age` int DEFAULT NULL,
-  `Gender` varchar(30) DEFAULT NULL,
-  `DengueType` varchar(100) DEFAULT NULL,
+  `Age` int NOT NULL,
+  `Gender` varchar(30) NOT NULL,
+  `DengueType` varchar(100) NOT NULL,
   PRIMARY KEY (`DengueID`),
   KEY `idx_dengue_disease` (`DiseaseID`),
   KEY `idx_dengue_patient` (`PatientID`),
@@ -206,9 +206,9 @@ CREATE TABLE `Diarrhea` (
   `DiarrheaID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `Symptoms` text,
-  `TestResult` varchar(255) DEFAULT NULL,
-  `AdmissionDate` date DEFAULT NULL,
+  `Symptoms` text NOT NULL,
+  `TestResult` varchar(255) NOT NULL,
+  `AdmissionDate` date NOT NULL,
   PRIMARY KEY (`DiarrheaID`),
   KEY `idx_diarrhea_disease` (`DiseaseID`),
   KEY `idx_diarrhea_patient` (`PatientID`),
@@ -237,7 +237,7 @@ DROP TABLE IF EXISTS `Disease`;
 CREATE TABLE `Disease` (
   `DiseaseID` int NOT NULL AUTO_INCREMENT,
   `DiseaseName` varchar(255) NOT NULL,
-  `ICDCode` varchar(100) DEFAULT NULL,
+  `ICDCode` varchar(100) NOT NULL,
   PRIMARY KEY (`DiseaseID`),
   KEY `idx_disease_name` (`DiseaseName`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -249,7 +249,7 @@ CREATE TABLE `Disease` (
 
 LOCK TABLES `Disease` WRITE;
 /*!40000 ALTER TABLE `Disease` DISABLE KEYS */;
-INSERT INTO `Disease` VALUES (12,'Cancer',NULL),(13,'Diabetes',NULL),(14,'Dengue','A90'),(15,'COVID-19','U07.1'),(16,'Measles','B05.9'),(17,'HIV',NULL),(18,'Diarrhea',NULL),(19,'Cholera (Diarrheal Infection)','A00.9'),(20,'Tuberculosis (Pulmonary TB)','A15.0');
+INSERT INTO `Disease` VALUES (12,'Cancer','C80.9'),(13,'Diabetes','E14.9'),(14,'Dengue','A90'),(15,'COVID-19','U07.1'),(16,'Measles','B05.9'),(17,'HIV','B20'),(18,'Diarrhea','A09'),(19,'Cholera (Diarrheal Infection)','A00.9'),(20,'Tuberculosis (Pulmonary TB)','A15.0');
 /*!40000 ALTER TABLE `Disease` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -264,9 +264,9 @@ CREATE TABLE `HIV` (
   `HIVID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `DiagnosisDate` date DEFAULT NULL,
-  `HIVStatus` varchar(100) DEFAULT NULL,
-  `TestResult` varchar(255) DEFAULT NULL,
+  `DiagnosisDate` date NOT NULL,
+  `HIVStatus` varchar(100) NOT NULL,
+  `TestResult` varchar(255) NOT NULL,
   PRIMARY KEY (`HIVID`),
   KEY `idx_hiv_disease` (`DiseaseID`),
   KEY `idx_hiv_patient` (`PatientID`),
@@ -294,9 +294,9 @@ DROP TABLE IF EXISTS `HealthFacility`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `HealthFacility` (
   `FacilityID` int NOT NULL AUTO_INCREMENT,
-  `FacilityType` varchar(150) DEFAULT NULL,
+  `FacilityType` varchar(150) NOT NULL,
   `FacilityName` varchar(255) NOT NULL,
-  `RegionID` int DEFAULT NULL,
+  `RegionID` int NOT NULL,
   PRIMARY KEY (`FacilityID`),
   KEY `idx_healthfacility_region` (`RegionID`),
   CONSTRAINT `fk_healthfacility_region` FOREIGN KEY (`RegionID`) REFERENCES `AdministrativeRegion` (`RegionID`)
@@ -309,7 +309,7 @@ CREATE TABLE `HealthFacility` (
 
 LOCK TABLES `HealthFacility` WRITE;
 /*!40000 ALTER TABLE `HealthFacility` DISABLE KEYS */;
-INSERT INTO `HealthFacility` VALUES (1,'Health Facility','Dr. Moklessur Clinic, Sadar Road, Barisal',1),(2,'Hospital','Damien Foundation. Netrakona TB & Leprosy Hospital, Anantapur, Netrakona',2),(3,'Hospital','Dastagir Private Hospital, Narsingdi',3),(4,'Hospital','Desh Eye Hospital, Gazipur Sadar',4),(5,'Hospital','Dhaka Community Hospital, Dhaka',1),(6,'Hospital','Dhaka Hospital, icddr,b',1),(7,'Hospital','Dobir Uddin Hospital, Kasiadanga, Rajshahi',3),(8,'Hospital','Doctors Care Clinic and Hospital, Barguna, Barisal',8),(9,'Health Facility','Dolphin Clinic, Bornalimur, Rajshahi',3),(10,'Health Facility','Dr.Khadem Hossain Clinic, Bangla Bazar, Barisal',2),(11,'Hospital','Dream Hospital, Begumganj, Noakhali',3),(12,'Hospital','East West Medical College Hospital, Uttara, Dhaka',1),(13,'Hospital','Ebnee Hashman (Pvt.) Hospital, Feni, Chittagong',5),(14,'Hospital','Ehsan Genaral Hospital, Magura',6),(15,'Hospital','Ekushey Hospital (Pvt), Mymensingh Sadar',8),(16,'Health Facility','Fair Health Clinic, Barisal',8),(17,'Hospital','Faruk Al-Nasir Hospital, Kazipur, Sirajganj',1),(18,'Health Facility','Farzina Clinic, Kazipur, Sirajganj',2),(19,'Hospital','Good Heal Hospital, Maijdee, Noakhali',3),(20,'Health Facility','Gorib Shah Clinic, Magura',4),(21,'Health Facility','Gorib-E-Nawaz Clinic, Talaimari, Rajshahi',3),(22,'Health Facility','Hasina Clinic & Nursing Home, Magura',6),(23,'Hospital','Hathazari Adhunic Hospital, Chittagong',7),(24,'Health Facility','Health Care Clinic, Parara Road, Barisal',8),(25,'Health Facility','Impact Masudul Haque Community Health Centre, Chuadanga',1),(26,'Hospital','Islami Bank Hospital, Chandmary, Barisal',2),(27,'Hospital','Islami Bank Hospital, Dhaka',1),(28,'Hospital','Islami Bank Hospital, Laxmipur, Rajshahi',3),(29,'Hospital','Islami General Hospital, Keshorhat, Rajshahi',3),(30,'Hospital','Islami General Hospital, Nowhata, Rajshahi',3),(31,'Health Facility','Islamia Poly Clinic, Bangla Bazar, Barisal',7),(32,'Health Facility','Jahangir Health Complex, Mymensingh Sadar',8),(33,'Hospital','Jalalabad Ragib-Rabeya Hospital, Sylhet',6),(34,'Health Facility','Jam-Jam Islami Clinic, Laxmipur, Rajshahi',3),(35,'Hospital','Jamuna (Pvt.) Hospital, Mymensingh Sadar',8),(36,'Health Facility','Jamuna Clinic, Kaliganj, Satkhira',4),(37,'Health Facility','Jamuna Clinic, Laxmipur, Rajshahi',3),(38,'Health Facility','Janani Clinic, Jiban Nagar, Chuadanga, Khulna',4),(39,'Hospital','Janani General Hospital, Noakhali Sadar',7),(40,'Health Facility','Janaseba Clinic & Nursing Home, Magura',8),(41,'Health Facility','Janaseba Clinic, Assasuni, Satkhira',1),(42,'Health Facility','Janata Clinic & Nursing Home, Magura',2),(43,'Health Facility','Janata Clinic, Shipaipara, Rajshahi',3),(44,'Hospital','Jayeda Hospital, Bonpara, Natore',4),(45,'Hospital','Kaisar Memorial Hospital, Uposhahor, Chittagong',5),(46,'Health Facility','Cox\'s Bazar Community Clinic',6),(47,'Health Facility','Primary Care Clinic',7),(48,'Health Facility','Upazila Health Complex',8),(49,'Health Facility','IOM Coordination Clinic',1),(50,'Health Facility','Community Health Clinic',2),(51,'Health Facility','Government Community Clinic',3),(52,'Health Facility','Primary Health Center',4),(53,'Health Facility','Community Clinic (MOH)',5),(54,'Hospital','Field Hospital',6),(55,'Hospital','Upazila HC and Sadar Hospital',7),(56,'Health Facility','Chest disease clinic',8),(57,'Hospital','Chest hospital',1),(58,'Hospital','District-level hospital (District/ General Hospital)',2),(59,'Hospital','Dental college hospital',3),(60,'Hospital','Hospital of alternative medicine',4),(61,'Hospital','Infectious disease hospital',5),(62,'Hospital','Leprosy hospital',6),(63,'Hospital','Medical college hospital',7),(64,'Health Facility','Specialized Health Center',8),(65,'Hospital','Specialized hospital',1),(66,'Hospital','Specialty postgraduate institute and hospital',2),(67,'Hospital','Other hospitals',3),(68,'Hospital','Kurmitola 500-bed General Hospital, Dhaka',1),(69,'Hospital','Mugda 500-bed General Hospital, Dhaka',1),(70,'Hospital','Narayanganj 300-bed Hospital',6),(71,'Hospital','Narsingdi 100-bed Hospital',7),(72,'Hospital','Shaheed Ahsan Ullah Master General Hospital, Tongi, Gazipur',8),(73,'Hospital','Bangladesh-Korea Moitree Hospital, Savar, Dhaka',1),(74,'Hospital','Kuwait-Bangladesh Friendship Govt. Hospital, Uttara, Dhaka',1),(75,'Hospital','Saidpur 100-bed Hospital, Nilphamari',3),(76,'Hospital','A K Eye Hospital, Magura',4),(77,'Hospital','Ad-Din Medical College Hospital, Dhaka',1),(78,'Hospital','Ahamedia General Hospital, Mymensingh',8),(79,'Health Facility','Ahsania Clinic, Debhata, Satkhira',7),(80,'Health Facility','Akota Clinic & Diagnostic Center, Rajshahi',3),(81,'Health Facility','Akota Clinic, Satkhira Sadar',1),(82,'Hospital','Al Hera Private Hospital, Magura',2),(83,'Hospital','Al Modina Genaral Hospital, Kishoreganj',3),(84,'Hospital','Al Safa (Pvt.) Hospital, Mymensingh Sadar',8),(85,'Hospital','Al Zannat (Pvt.) Hospital, Mymensingh Sadar',8),(86,'Health Facility','Albaraka Clinic, Laxmipur, Rajshahi',3),(87,'Health Facility','Al-Baraka Clinic, Magura',7),(88,'Health Facility','Al-Modina Clinic, Magura',8),(89,'Health Facility','Al-Shefa Clinic, Joypurhat',1),(90,'Hospital','Ambia Hospital, Bogra Road, Barisal',2),(91,'Hospital','Ambia Hospital, Pirojpur, Barisal',3),(92,'Health Facility','Amena Clinic, Talaimari, Rajshahi',3),(93,'Hospital','Amina Hospital, Bonpara, Natore',5),(94,'Health Facility','Anowara Clinic, Satkhira Sadar',6),(95,'Hospital','Anwara Private Hospital, Jhenaidah',7),(96,'Hospital','Apollo Hospital &Diagnostic Complex, Maijdee Bazar, Noakhali',8),(97,'Hospital','Apollo Hospitals, Dhaka',1),(98,'Health Facility','Arafat Clinic &Diagnostic, Munshiganj',2),(99,'Health Facility','Aroggo Clinic, Magura',3),(100,'Hospital','Asha (Pvt.) Hospital, Mymensingh Sadar',8);
+INSERT INTO `HealthFacility` VALUES (1,'Health Facility','Dr. Moklessur Clinic, Sadar Road, Barisal',5),(2,'Hospital','Damien Foundation. Netrakona TB & Leprosy Hospital, Anantapur, Netrakona',8),(3,'Hospital','Dastagir Private Hospital, Narsingdi',1),(4,'Hospital','Desh Eye Hospital, Gazipur Sadar',1),(5,'Hospital','Dhaka Community Hospital, Dhaka',1),(6,'Hospital','Dhaka Hospital, icddr,b',1),(7,'Hospital','Dobir Uddin Hospital, Kasiadanga, Rajshahi',3),(8,'Hospital','Doctors Care Clinic and Hospital, Barguna, Barisal',5),(9,'Health Facility','Dolphin Clinic, Bornalimur, Rajshahi',3),(10,'Health Facility','Dr.Khadem Hossain Clinic, Bangla Bazar, Barisal',5),(11,'Hospital','Dream Hospital, Begumganj, Noakhali',2),(12,'Hospital','East West Medical College Hospital, Uttara, Dhaka',1),(13,'Hospital','Ebnee Hashman (Pvt.) Hospital, Feni, Chittagong',2),(14,'Hospital','Ehsan Genaral Hospital, Magura',4),(15,'Hospital','Ekushey Hospital (Pvt), Mymensingh Sadar',8),(16,'Health Facility','Fair Health Clinic, Barisal',5),(17,'Hospital','Faruk Al-Nasir Hospital, Kazipur, Sirajganj',3),(18,'Health Facility','Farzina Clinic, Kazipur, Sirajganj',3),(19,'Hospital','Good Heal Hospital, Maijdee, Noakhali',2),(20,'Health Facility','Gorib Shah Clinic, Magura',4),(21,'Health Facility','Gorib-E-Nawaz Clinic, Talaimari, Rajshahi',3),(22,'Health Facility','Hasina Clinic & Nursing Home, Magura',4),(23,'Hospital','Hathazari Adhunic Hospital, Chittagong',2),(24,'Health Facility','Health Care Clinic, Parara Road, Barisal',5),(25,'Health Facility','Impact Masudul Haque Community Health Centre, Chuadanga',4),(26,'Hospital','Islami Bank Hospital, Chandmary, Barisal',5),(27,'Hospital','Islami Bank Hospital, Dhaka',1),(28,'Hospital','Islami Bank Hospital, Laxmipur, Rajshahi',3),(29,'Hospital','Islami General Hospital, Keshorhat, Rajshahi',3),(30,'Hospital','Islami General Hospital, Nowhata, Rajshahi',3),(31,'Health Facility','Islamia Poly Clinic, Bangla Bazar, Barisal',5),(32,'Health Facility','Jahangir Health Complex, Mymensingh Sadar',8),(33,'Hospital','Jalalabad Ragib-Rabeya Hospital, Sylhet',6),(34,'Health Facility','Jam-Jam Islami Clinic, Laxmipur, Rajshahi',3),(35,'Hospital','Jamuna (Pvt.) Hospital, Mymensingh Sadar',8),(36,'Health Facility','Jamuna Clinic, Kaliganj, Satkhira',4),(37,'Health Facility','Jamuna Clinic, Laxmipur, Rajshahi',3),(38,'Health Facility','Janani Clinic, Jiban Nagar, Chuadanga, Khulna',4),(39,'Hospital','Janani General Hospital, Noakhali Sadar',2),(40,'Health Facility','Janaseba Clinic & Nursing Home, Magura',4),(41,'Health Facility','Janaseba Clinic, Assasuni, Satkhira',4),(42,'Health Facility','Janata Clinic & Nursing Home, Magura',4),(43,'Health Facility','Janata Clinic, Shipaipara, Rajshahi',3),(44,'Hospital','Jayeda Hospital, Bonpara, Natore',3),(45,'Hospital','Kaisar Memorial Hospital, Uposhahor, Chittagong',2),(46,'Health Facility','Cox\'s Bazar Community Clinic',2),(47,'Health Facility','Primary Care Clinic',7),(48,'Health Facility','Upazila Health Complex',8),(49,'Health Facility','IOM Coordination Clinic',1),(50,'Health Facility','Community Health Clinic',2),(51,'Health Facility','Government Community Clinic',3),(52,'Health Facility','Primary Health Center',4),(53,'Health Facility','Community Clinic (MOH)',5),(54,'Hospital','Field Hospital',6),(55,'Hospital','Upazila HC and Sadar Hospital',7),(56,'Health Facility','Chest disease clinic',8),(57,'Hospital','Chest hospital',1),(58,'Hospital','District-level hospital (District/ General Hospital)',2),(59,'Hospital','Dental college hospital',3),(60,'Hospital','Hospital of alternative medicine',4),(61,'Hospital','Infectious disease hospital',5),(62,'Hospital','Leprosy hospital',6),(63,'Hospital','Medical college hospital',7),(64,'Health Facility','Specialized Health Center',8),(65,'Hospital','Specialized hospital',1),(66,'Hospital','Specialty postgraduate institute and hospital',2),(67,'Hospital','Other hospitals',3),(68,'Hospital','Kurmitola 500-bed General Hospital, Dhaka',1),(69,'Hospital','Mugda 500-bed General Hospital, Dhaka',1),(70,'Hospital','Narayanganj 300-bed Hospital',1),(71,'Hospital','Narsingdi 100-bed Hospital',1),(72,'Hospital','Shaheed Ahsan Ullah Master General Hospital, Tongi, Gazipur',1),(73,'Hospital','Bangladesh-Korea Moitree Hospital, Savar, Dhaka',1),(74,'Hospital','Kuwait-Bangladesh Friendship Govt. Hospital, Uttara, Dhaka',1),(75,'Hospital','Saidpur 100-bed Hospital, Nilphamari',7),(76,'Hospital','A K Eye Hospital, Magura',4),(77,'Hospital','Ad-Din Medical College Hospital, Dhaka',1),(78,'Hospital','Ahamedia General Hospital, Mymensingh',8),(79,'Health Facility','Ahsania Clinic, Debhata, Satkhira',4),(80,'Health Facility','Akota Clinic & Diagnostic Center, Rajshahi',3),(81,'Health Facility','Akota Clinic, Satkhira Sadar',4),(82,'Hospital','Al Hera Private Hospital, Magura',4),(83,'Hospital','Al Modina Genaral Hospital, Kishoreganj',8),(84,'Hospital','Al Safa (Pvt.) Hospital, Mymensingh Sadar',8),(85,'Hospital','Al Zannat (Pvt.) Hospital, Mymensingh Sadar',8),(86,'Health Facility','Albaraka Clinic, Laxmipur, Rajshahi',3),(87,'Health Facility','Al-Baraka Clinic, Magura',4),(88,'Health Facility','Al-Modina Clinic, Magura',4),(89,'Health Facility','Al-Shefa Clinic, Joypurhat',3),(90,'Hospital','Ambia Hospital, Bogra Road, Barisal',5),(91,'Hospital','Ambia Hospital, Pirojpur, Barisal',5),(92,'Health Facility','Amena Clinic, Talaimari, Rajshahi',3),(93,'Hospital','Amina Hospital, Bonpara, Natore',3),(94,'Health Facility','Anowara Clinic, Satkhira Sadar',4),(95,'Hospital','Anwara Private Hospital, Jhenaidah',4),(96,'Hospital','Apollo Hospital &Diagnostic Complex, Maijdee Bazar, Noakhali',2),(97,'Hospital','Apollo Hospitals, Dhaka',1),(98,'Health Facility','Arafat Clinic &Diagnostic, Munshiganj',1),(99,'Health Facility','Aroggo Clinic, Magura',4),(100,'Hospital','Asha (Pvt.) Hospital, Mymensingh Sadar',8);
 /*!40000 ALTER TABLE `HealthFacility` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -323,9 +323,9 @@ DROP TABLE IF EXISTS `HealthWorker`;
 CREATE TABLE `HealthWorker` (
   `WorkID` int NOT NULL AUTO_INCREMENT,
   `WorkerName` varchar(255) NOT NULL,
-  `FacilityID` int DEFAULT NULL,
+  `FacilityID` int NOT NULL,
   `DesignationID` int NOT NULL,
-  `Gender` varchar(30) DEFAULT NULL,
+  `Gender` varchar(30) NOT NULL,
   PRIMARY KEY (`WorkID`),
   KEY `idx_healthworker_facility` (`FacilityID`),
   KEY `idx_healthworker_designation` (`DesignationID`),
@@ -354,8 +354,8 @@ DROP TABLE IF EXISTS `HospitalBed`;
 CREATE TABLE `HospitalBed` (
   `BedID` int NOT NULL AUTO_INCREMENT,
   `FacilityID` int NOT NULL,
-  `BedType` varchar(100) DEFAULT NULL,
-  `Status` varchar(100) DEFAULT NULL,
+  `BedType` varchar(100) NOT NULL,
+  `Status` varchar(100) NOT NULL,
   PRIMARY KEY (`BedID`),
   KEY `idx_hospitalbed_facility` (`FacilityID`),
   CONSTRAINT `fk_hospitalbed_facility` FOREIGN KEY (`FacilityID`) REFERENCES `HealthFacility` (`FacilityID`)
@@ -409,9 +409,9 @@ DROP TABLE IF EXISTS `Malnutrition`;
 CREATE TABLE `Malnutrition` (
   `MalnutritionID` int NOT NULL AUTO_INCREMENT,
   `PatientID` int NOT NULL,
-  `Height` decimal(8,2) DEFAULT NULL,
-  `BMI` decimal(8,2) DEFAULT NULL,
-  `MalnutritionType` varchar(100) DEFAULT NULL,
+  `Height` decimal(8,2) NOT NULL,
+  `BMI` decimal(8,2) NOT NULL,
+  `MalnutritionType` varchar(100) NOT NULL,
   PRIMARY KEY (`MalnutritionID`),
   KEY `idx_malnutrition_patient` (`PatientID`),
   CONSTRAINT `fk_malnutrition_patient` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`)
@@ -424,7 +424,7 @@ CREATE TABLE `Malnutrition` (
 
 LOCK TABLES `Malnutrition` WRITE;
 /*!40000 ALTER TABLE `Malnutrition` DISABLE KEYS */;
-INSERT INTO `Malnutrition` VALUES (1,1,90.00,14.20,'Underweight'),(2,2,92.40,14.70,'Stunting'),(3,3,94.80,15.20,'Wasting'),(4,4,97.20,15.70,'Underweight'),(5,5,99.60,16.20,'Stunting'),(6,6,102.00,16.70,'Wasting'),(7,7,104.40,17.20,'Underweight'),(8,8,106.80,14.20,'Stunting'),(9,9,109.20,14.70,'Wasting'),(10,10,111.60,15.20,'Underweight'),(11,11,114.00,15.70,'Stunting'),(12,12,116.40,16.20,'Wasting'),(13,13,118.80,16.70,'Underweight'),(14,14,121.20,17.20,'Stunting'),(15,15,123.60,14.20,'Wasting');
+INSERT INTO `Malnutrition` VALUES (1,1,157.00,15.90,'Severe Thinness'),(2,2,164.00,16.60,'Moderate Thinness'),(3,3,171.00,17.30,'Mild Thinness'),(4,4,178.00,18.00,'Mild Thinness'),(5,5,154.00,15.50,'Severe Thinness'),(6,6,161.00,16.20,'Moderate Thinness'),(7,7,168.00,16.90,'Moderate Thinness'),(8,8,175.00,17.60,'Mild Thinness'),(9,9,151.00,18.30,'Mild Thinness'),(10,10,158.00,15.80,'Severe Thinness'),(11,11,165.00,16.50,'Moderate Thinness'),(12,12,172.00,17.20,'Mild Thinness'),(13,13,179.00,17.90,'Mild Thinness'),(14,14,155.00,15.40,'Severe Thinness'),(15,15,162.00,16.10,'Moderate Thinness');
 /*!40000 ALTER TABLE `Malnutrition` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -438,7 +438,7 @@ DROP TABLE IF EXISTS `MaternalHealth`;
 CREATE TABLE `MaternalHealth` (
   `MotherID` int NOT NULL AUTO_INCREMENT,
   `PatientID` int NOT NULL,
-  `StartDate` date DEFAULT NULL,
+  `StartDate` date NOT NULL,
   PRIMARY KEY (`MotherID`),
   KEY `idx_maternal_patient` (`PatientID`),
   CONSTRAINT `fk_maternal_patient` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`)
@@ -466,9 +466,9 @@ CREATE TABLE `Measles` (
   `MeaslesID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `Symptoms` text,
-  `Fever` varchar(50) DEFAULT NULL,
-  `DiagnosisDate` date DEFAULT NULL,
+  `Symptoms` text NOT NULL,
+  `Fever` varchar(50) NOT NULL,
+  `DiagnosisDate` date NOT NULL,
   PRIMARY KEY (`MeaslesID`),
   KEY `idx_measles_disease` (`DiseaseID`),
   KEY `idx_measles_patient` (`PatientID`),
@@ -497,7 +497,7 @@ DROP TABLE IF EXISTS `Newborn`;
 CREATE TABLE `Newborn` (
   `NewbornID` int NOT NULL AUTO_INCREMENT,
   `MotherID` int NOT NULL,
-  `BirthDate` date DEFAULT NULL,
+  `BirthDate` date NOT NULL,
   PRIMARY KEY (`NewbornID`),
   KEY `idx_newborn_mother` (`MotherID`),
   CONSTRAINT `fk_newborn_mother` FOREIGN KEY (`MotherID`) REFERENCES `MaternalHealth` (`MotherID`)
@@ -523,11 +523,11 @@ DROP TABLE IF EXISTS `Patient`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Patient` (
   `PatientID` int NOT NULL AUTO_INCREMENT,
-  `FullName` varchar(255) DEFAULT NULL,
-  `DateOfBirth` date DEFAULT NULL,
-  `Gender` varchar(30) DEFAULT NULL,
-  `NationalID` varchar(50) DEFAULT NULL,
-  `BedID` int DEFAULT NULL,
+  `FullName` varchar(255) NOT NULL,
+  `DateOfBirth` date NOT NULL,
+  `Gender` varchar(30) NOT NULL,
+  `NationalID` varchar(50) NOT NULL,
+  `BedID` int NOT NULL,
   PRIMARY KEY (`PatientID`),
   UNIQUE KEY `NationalID` (`NationalID`),
   KEY `idx_patient_nationalid` (`NationalID`),
@@ -555,8 +555,8 @@ DROP TABLE IF EXISTS `PopulationGroup`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `PopulationGroup` (
   `PopulationGroupID` int NOT NULL AUTO_INCREMENT,
-  `RegionID` int DEFAULT NULL,
-  `Population` bigint DEFAULT NULL,
+  `RegionID` int NOT NULL,
+  `Population` bigint NOT NULL,
   PRIMARY KEY (`PopulationGroupID`),
   KEY `idx_populationgroup_region` (`RegionID`),
   CONSTRAINT `fk_populationgroup_region` FOREIGN KEY (`RegionID`) REFERENCES `AdministrativeRegion` (`RegionID`)
@@ -582,8 +582,8 @@ DROP TABLE IF EXISTS `TelemedicineCenter`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `TelemedicineCenter` (
   `CenterID` int NOT NULL AUTO_INCREMENT,
-  `ConsultationID` varchar(100) DEFAULT NULL,
-  `PatientID` int DEFAULT NULL,
+  `ConsultationID` varchar(100) NOT NULL,
+  `PatientID` int NOT NULL,
   PRIMARY KEY (`CenterID`),
   KEY `idx_telemedicine_patient` (`PatientID`),
   CONSTRAINT `fk_telemedicine_patient` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`)
@@ -640,4 +640,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-24 19:45:18
+-- Dump completed on 2026-08-24 22:39:16

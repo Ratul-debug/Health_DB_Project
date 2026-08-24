@@ -6,6 +6,7 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
 
 - 21 MySQL tables matching the submitted entity list
 - 21 primary keys and 25 implemented foreign-key constraints
+- All 89 table columns populated in the canonical snapshot and enforced as `NOT NULL`
 - 112 source records inventoried in `health_data.xlsx`; 65 accessible PDFs retained
 - 68 extraction/metadata source folders and 3,797 extracted CSV tables retained for traceability
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
@@ -78,6 +79,10 @@ Validate the restored database:
 ```bash
 mysql -u healthuser -p < sql/validation/validation_queries.sql
 ```
+
+The validation report checks table/PK/FK counts, non-empty tables, every
+foreign-key relationship, all-column NULL/blank values, and the documented
+semantic rules. Every reported `issue_count` is expected to be `0`.
 
 No database password is stored in this repository.
 

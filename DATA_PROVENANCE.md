@@ -27,4 +27,8 @@ The synthetic values are suitable for schema demonstration and SQL testing. They
 
 `sql/health_db_21_tables_with_data.sql` is the canonical restorable demonstration snapshot. `sql/schema.sql` contains the same 21-table structure without rows. Recreate both dumps after any database migration so their columns and foreign keys stay synchronized.
 
-The ordered migrations are retained under `sql/migrations/`. Migration `003_final_data_cleanup.sql` changes demonstration values only; it does not alter the 21-table schema or its 25 foreign keys.
+The ordered migrations are retained under `sql/migrations/`. Migration
+`003_final_data_cleanup.sql` curates the demonstration values. Migration
+`004_final_semantic_alignment.sql` completes the remaining values, aligns the
+documented semantic relationships, and makes every populated column mandatory.
+Neither migration changes the 21-entity design or its 25 foreign keys.

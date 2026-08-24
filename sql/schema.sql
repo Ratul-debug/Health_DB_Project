@@ -33,8 +33,8 @@ DROP TABLE IF EXISTS `AdministrativeRegion`;
 CREATE TABLE `AdministrativeRegion` (
   `RegionID` int NOT NULL AUTO_INCREMENT,
   `RegionName` varchar(150) NOT NULL,
-  `Population` bigint DEFAULT NULL,
-  `RegionType` varchar(50) DEFAULT NULL,
+  `Population` bigint NOT NULL,
+  `RegionType` varchar(50) NOT NULL,
   PRIMARY KEY (`RegionID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -49,7 +49,7 @@ DROP TABLE IF EXISTS `Biopsy`;
 CREATE TABLE `Biopsy` (
   `BiopsyID` int NOT NULL AUTO_INCREMENT,
   `CancerCaseID` int NOT NULL,
-  `ProcedureDate` date DEFAULT NULL,
+  `ProcedureDate` date NOT NULL,
   PRIMARY KEY (`BiopsyID`),
   KEY `idx_biopsy_cancercase` (`CancerCaseID`),
   CONSTRAINT `fk_biopsy_cancercase` FOREIGN KEY (`CancerCaseID`) REFERENCES `CancerCase` (`CancerID`)
@@ -67,9 +67,9 @@ CREATE TABLE `CancerCase` (
   `CancerID` int NOT NULL AUTO_INCREMENT,
   `PatientID` int NOT NULL,
   `LabID` int NOT NULL,
-  `CancerType` varchar(255) DEFAULT NULL,
-  `TestResult` varchar(255) DEFAULT NULL,
-  `CancerStage` varchar(100) DEFAULT NULL,
+  `CancerType` varchar(255) NOT NULL,
+  `TestResult` varchar(255) NOT NULL,
+  `CancerStage` varchar(100) NOT NULL,
   PRIMARY KEY (`CancerID`),
   KEY `idx_cancercase_patient` (`PatientID`),
   KEY `idx_cancercase_lab` (`LabID`),
@@ -89,8 +89,8 @@ CREATE TABLE `Covid19` (
   `CovidID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `TestResult` varchar(255) DEFAULT NULL,
-  `Temperature` decimal(5,2) DEFAULT NULL,
+  `TestResult` varchar(255) NOT NULL,
+  `Temperature` decimal(5,2) NOT NULL,
   PRIMARY KEY (`CovidID`),
   KEY `idx_covid19_disease` (`DiseaseID`),
   KEY `idx_covid19_patient` (`PatientID`),
@@ -110,9 +110,9 @@ CREATE TABLE `Dengue` (
   `DengueID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `Age` int DEFAULT NULL,
-  `Gender` varchar(30) DEFAULT NULL,
-  `DengueType` varchar(100) DEFAULT NULL,
+  `Age` int NOT NULL,
+  `Gender` varchar(30) NOT NULL,
+  `DengueType` varchar(100) NOT NULL,
   PRIMARY KEY (`DengueID`),
   KEY `idx_dengue_disease` (`DiseaseID`),
   KEY `idx_dengue_patient` (`PatientID`),
@@ -146,9 +146,9 @@ CREATE TABLE `Diarrhea` (
   `DiarrheaID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `Symptoms` text,
-  `TestResult` varchar(255) DEFAULT NULL,
-  `AdmissionDate` date DEFAULT NULL,
+  `Symptoms` text NOT NULL,
+  `TestResult` varchar(255) NOT NULL,
+  `AdmissionDate` date NOT NULL,
   PRIMARY KEY (`DiarrheaID`),
   KEY `idx_diarrhea_disease` (`DiseaseID`),
   KEY `idx_diarrhea_patient` (`PatientID`),
@@ -167,7 +167,7 @@ DROP TABLE IF EXISTS `Disease`;
 CREATE TABLE `Disease` (
   `DiseaseID` int NOT NULL AUTO_INCREMENT,
   `DiseaseName` varchar(255) NOT NULL,
-  `ICDCode` varchar(100) DEFAULT NULL,
+  `ICDCode` varchar(100) NOT NULL,
   PRIMARY KEY (`DiseaseID`),
   KEY `idx_disease_name` (`DiseaseName`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -184,9 +184,9 @@ CREATE TABLE `HIV` (
   `HIVID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `DiagnosisDate` date DEFAULT NULL,
-  `HIVStatus` varchar(100) DEFAULT NULL,
-  `TestResult` varchar(255) DEFAULT NULL,
+  `DiagnosisDate` date NOT NULL,
+  `HIVStatus` varchar(100) NOT NULL,
+  `TestResult` varchar(255) NOT NULL,
   PRIMARY KEY (`HIVID`),
   KEY `idx_hiv_disease` (`DiseaseID`),
   KEY `idx_hiv_patient` (`PatientID`),
@@ -204,9 +204,9 @@ DROP TABLE IF EXISTS `HealthFacility`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `HealthFacility` (
   `FacilityID` int NOT NULL AUTO_INCREMENT,
-  `FacilityType` varchar(150) DEFAULT NULL,
+  `FacilityType` varchar(150) NOT NULL,
   `FacilityName` varchar(255) NOT NULL,
-  `RegionID` int DEFAULT NULL,
+  `RegionID` int NOT NULL,
   PRIMARY KEY (`FacilityID`),
   KEY `idx_healthfacility_region` (`RegionID`),
   CONSTRAINT `fk_healthfacility_region` FOREIGN KEY (`RegionID`) REFERENCES `AdministrativeRegion` (`RegionID`)
@@ -223,9 +223,9 @@ DROP TABLE IF EXISTS `HealthWorker`;
 CREATE TABLE `HealthWorker` (
   `WorkID` int NOT NULL AUTO_INCREMENT,
   `WorkerName` varchar(255) NOT NULL,
-  `FacilityID` int DEFAULT NULL,
+  `FacilityID` int NOT NULL,
   `DesignationID` int NOT NULL,
-  `Gender` varchar(30) DEFAULT NULL,
+  `Gender` varchar(30) NOT NULL,
   PRIMARY KEY (`WorkID`),
   KEY `idx_healthworker_facility` (`FacilityID`),
   KEY `idx_healthworker_designation` (`DesignationID`),
@@ -244,8 +244,8 @@ DROP TABLE IF EXISTS `HospitalBed`;
 CREATE TABLE `HospitalBed` (
   `BedID` int NOT NULL AUTO_INCREMENT,
   `FacilityID` int NOT NULL,
-  `BedType` varchar(100) DEFAULT NULL,
-  `Status` varchar(100) DEFAULT NULL,
+  `BedType` varchar(100) NOT NULL,
+  `Status` varchar(100) NOT NULL,
   PRIMARY KEY (`BedID`),
   KEY `idx_hospitalbed_facility` (`FacilityID`),
   CONSTRAINT `fk_hospitalbed_facility` FOREIGN KEY (`FacilityID`) REFERENCES `HealthFacility` (`FacilityID`)
@@ -279,9 +279,9 @@ DROP TABLE IF EXISTS `Malnutrition`;
 CREATE TABLE `Malnutrition` (
   `MalnutritionID` int NOT NULL AUTO_INCREMENT,
   `PatientID` int NOT NULL,
-  `Height` decimal(8,2) DEFAULT NULL,
-  `BMI` decimal(8,2) DEFAULT NULL,
-  `MalnutritionType` varchar(100) DEFAULT NULL,
+  `Height` decimal(8,2) NOT NULL,
+  `BMI` decimal(8,2) NOT NULL,
+  `MalnutritionType` varchar(100) NOT NULL,
   PRIMARY KEY (`MalnutritionID`),
   KEY `idx_malnutrition_patient` (`PatientID`),
   CONSTRAINT `fk_malnutrition_patient` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`)
@@ -298,7 +298,7 @@ DROP TABLE IF EXISTS `MaternalHealth`;
 CREATE TABLE `MaternalHealth` (
   `MotherID` int NOT NULL AUTO_INCREMENT,
   `PatientID` int NOT NULL,
-  `StartDate` date DEFAULT NULL,
+  `StartDate` date NOT NULL,
   PRIMARY KEY (`MotherID`),
   KEY `idx_maternal_patient` (`PatientID`),
   CONSTRAINT `fk_maternal_patient` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`)
@@ -316,9 +316,9 @@ CREATE TABLE `Measles` (
   `MeaslesID` int NOT NULL AUTO_INCREMENT,
   `DiseaseID` int NOT NULL,
   `PatientID` int NOT NULL,
-  `Symptoms` text,
-  `Fever` varchar(50) DEFAULT NULL,
-  `DiagnosisDate` date DEFAULT NULL,
+  `Symptoms` text NOT NULL,
+  `Fever` varchar(50) NOT NULL,
+  `DiagnosisDate` date NOT NULL,
   PRIMARY KEY (`MeaslesID`),
   KEY `idx_measles_disease` (`DiseaseID`),
   KEY `idx_measles_patient` (`PatientID`),
@@ -337,7 +337,7 @@ DROP TABLE IF EXISTS `Newborn`;
 CREATE TABLE `Newborn` (
   `NewbornID` int NOT NULL AUTO_INCREMENT,
   `MotherID` int NOT NULL,
-  `BirthDate` date DEFAULT NULL,
+  `BirthDate` date NOT NULL,
   PRIMARY KEY (`NewbornID`),
   KEY `idx_newborn_mother` (`MotherID`),
   CONSTRAINT `fk_newborn_mother` FOREIGN KEY (`MotherID`) REFERENCES `MaternalHealth` (`MotherID`)
@@ -353,11 +353,11 @@ DROP TABLE IF EXISTS `Patient`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Patient` (
   `PatientID` int NOT NULL AUTO_INCREMENT,
-  `FullName` varchar(255) DEFAULT NULL,
-  `DateOfBirth` date DEFAULT NULL,
-  `Gender` varchar(30) DEFAULT NULL,
-  `NationalID` varchar(50) DEFAULT NULL,
-  `BedID` int DEFAULT NULL,
+  `FullName` varchar(255) NOT NULL,
+  `DateOfBirth` date NOT NULL,
+  `Gender` varchar(30) NOT NULL,
+  `NationalID` varchar(50) NOT NULL,
+  `BedID` int NOT NULL,
   PRIMARY KEY (`PatientID`),
   UNIQUE KEY `NationalID` (`NationalID`),
   KEY `idx_patient_nationalid` (`NationalID`),
@@ -375,8 +375,8 @@ DROP TABLE IF EXISTS `PopulationGroup`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `PopulationGroup` (
   `PopulationGroupID` int NOT NULL AUTO_INCREMENT,
-  `RegionID` int DEFAULT NULL,
-  `Population` bigint DEFAULT NULL,
+  `RegionID` int NOT NULL,
+  `Population` bigint NOT NULL,
   PRIMARY KEY (`PopulationGroupID`),
   KEY `idx_populationgroup_region` (`RegionID`),
   CONSTRAINT `fk_populationgroup_region` FOREIGN KEY (`RegionID`) REFERENCES `AdministrativeRegion` (`RegionID`)
@@ -392,8 +392,8 @@ DROP TABLE IF EXISTS `TelemedicineCenter`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `TelemedicineCenter` (
   `CenterID` int NOT NULL AUTO_INCREMENT,
-  `ConsultationID` varchar(100) DEFAULT NULL,
-  `PatientID` int DEFAULT NULL,
+  `ConsultationID` varchar(100) NOT NULL,
+  `PatientID` int NOT NULL,
   PRIMARY KEY (`CenterID`),
   KEY `idx_telemedicine_patient` (`PatientID`),
   CONSTRAINT `fk_telemedicine_patient` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`)
@@ -430,4 +430,4 @@ CREATE TABLE `Vaccination` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-24 19:45:07
+-- Dump completed on 2026-08-24 22:39:09
