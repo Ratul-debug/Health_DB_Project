@@ -10,6 +10,17 @@ The project intentionally uses a **mixed-source demonstration dataset**.
 - Several laboratory labels
 - Cancer-type and vaccine-name reference values
 
+Migration `005_source_backed_row_expansion.sql` adds only rows supported by
+`pdfs/027_Health_Bulletin_2023.pdf`: government medical college hospitals from
+Table 5.4, district/general hospitals from Table 5.5, IPH laboratories from
+Table 4.7.3, and workforce designations from Table 7. Extracted evidence is
+retained in `extracted_tables/027_Health_Bulletin_2023/`.
+
+Tables 5.4 and 5.5 also publish sanctioned bed totals. They do not provide the
+individual bed type, status, and snapshot date required by the physical
+`HospitalBed` entity, so the project does not misrepresent aggregate capacity
+as patient-level or bed-level source records.
+
 PDF extraction can capture sentence fragments instead of clean entity names. The final cleanup migration removes obvious fragments from the curated demonstration database while retaining the unmodified raw evidence under `extracted_tables/` and `metadata/`.
 
 ## Synthetic demonstration values
@@ -31,4 +42,7 @@ The ordered migrations are retained under `sql/migrations/`. Migration
 `003_final_data_cleanup.sql` curates the demonstration values. Migration
 `004_final_semantic_alignment.sql` completes the remaining values, aligns the
 documented semantic relationships, and makes every populated column mandatory.
-Neither migration changes the 21-entity design or its 25 foreign keys.
+Migration `005_source_backed_row_expansion.sql` increases the canonical
+demonstration snapshot from 395 to 495 rows using source-backed reference and
+facility data. None of these migrations changes the 21-entity design, its 89
+columns, or its 25 foreign keys.

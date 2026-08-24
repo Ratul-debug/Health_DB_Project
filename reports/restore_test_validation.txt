@@ -12,14 +12,14 @@ Biopsy	12
 CancerCase	12
 Covid19	20
 Dengue	15
-Designation	19
+Designation	31
 Diarrhea	15
 Disease	9
-HealthFacility	100
+HealthFacility	180
 HealthWorker	12
 HIV	15
 HospitalBed	60
-Laboratory	7
+Laboratory	15
 Malnutrition	15
 MaternalHealth	12
 Measles	15
@@ -29,7 +29,7 @@ PopulationGroup	8
 TelemedicineCenter	10
 Vaccination	6
 total_demonstration_rows	empty_tables
-395	0
+495	0
 relationship_name	orphan_rows
 HealthFacility.RegionID	0
 HealthWorker.FacilityID	0
@@ -69,6 +69,12 @@ sex_specific_cancer_mismatch	0
 recognizable_facility_region_mismatch	0
 implausible_adult_malnutrition_measurement	0
 malnutrition_bmi_classification_mismatch	0
+source_2023_facility_count_mismatch	0
+source_2023_iph_laboratory_count_mismatch	0
+source_2023_designation_count_mismatch	0
+normalized_duplicate_facility_names	0
+normalized_duplicate_laboratory_names	0
+normalized_duplicate_designation_names	0
 quality_check	issue_count
 all_null_or_blank_values	0
 WorkID	WorkerName	DesignationName	FacilityName
@@ -108,3 +114,43 @@ NewbornID	BirthDate	MotherID	mother_name
 8	2023-04-19	8	Mim Akter
 9	2023-04-30	9	Amena Khatun
 10	2023-05-11	10	Nasrin Akter
+RegionName	FacilityType	facility_count
+Barishal	Government District/General Hospital	6
+Barishal	Government Medical College Hospital	1
+Chattogram	Government District/General Hospital	11
+Chattogram	Government Medical College Hospital	2
+Dhaka	Government District/General Hospital	13
+Dhaka	Government Medical College Hospital	8
+Dhaka	Public Health Institute	1
+Khulna	Government District/General Hospital	10
+Khulna	Government Medical College Hospital	2
+Mymensingh	Government District/General Hospital	4
+Mymensingh	Government Medical College Hospital	2
+Rajshahi	Government District/General Hospital	7
+Rajshahi	Government Medical College Hospital	3
+Rangpur	Government District/General Hospital	7
+Rangpur	Government Medical College Hospital	2
+Sylhet	Government District/General Hospital	4
+Sylhet	Government Medical College Hospital	1
+FacilityName	LabName
+Institute of Public Health (IPH), Mohakhali, Dhaka	BSL2++ Bacteriology Laboratories
+Institute of Public Health (IPH), Mohakhali, Dhaka	BSL2++ Virology Laboratories
+Institute of Public Health (IPH), Mohakhali, Dhaka	Clinical Chemistry Laboratories
+Institute of Public Health (IPH), Mohakhali, Dhaka	Clinical Pathology and Immunology Laboratories
+Institute of Public Health (IPH), Mohakhali, Dhaka	Microbiology Laboratories (MBL)
+Institute of Public Health (IPH), Mohakhali, Dhaka	National Food Safety Laboratory (NFSL)
+Institute of Public Health (IPH), Mohakhali, Dhaka	Public Health Laboratory (PHL)
+Institute of Public Health (IPH), Mohakhali, Dhaka	Quality Control Laboratory
+DesignationID	DesignationName
+61	Alternative Physician (Homeopathy, Unani and Ayurvedic)
+62	Field Worker
+63	Health Inspector
+64	Medical Technologist (Dental)
+65	Medical Technologist (EPI)
+66	Medical Technologist (Laboratory)
+67	Medical Technologist (Other Discipline)
+68	Medical Technologist (Physiotherapy)
+69	Medical Technologist (Radiography)
+70	Medical Technologist (Radiotherapy)
+71	Medical Technologist (Sanitary Inspection)
+72	Medical Technologist (Unspecified Discipline)

@@ -1,0 +1,21 @@
+table_name	final_row_count	added_count
+HealthFacility	180	0
+Laboratory	15	0
+Designation	31	0
+quality_check	issue_count
+source_2023_facilities_missing	0
+quality_check	issue_count
+source_2023_facility_region_mismatch	0
+quality_check	issue_count
+source_2023_laboratories_missing	0
+quality_check	issue_count
+source_2023_laboratory_facility_mismatch	0
+quality_check	issue_count
+source_2023_designations_missing	0
+quality_check	issue_count
+normalized_duplicate_facility_names	0
+normalized_duplicate_laboratory_names	0
+normalized_duplicate_designation_names	0
+nullable_columns	0
+quality_check	issue_count
+all_null_or_blank_values	0

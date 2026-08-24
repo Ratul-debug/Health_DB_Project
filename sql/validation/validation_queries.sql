@@ -44,7 +44,7 @@ UNION ALL SELECT 'TelemedicineCenter', COUNT(*) FROM `TelemedicineCenter`
 UNION ALL SELECT 'Vaccination', COUNT(*) FROM `Vaccination`
 ORDER BY table_name;
 
--- Expected: 395 total demonstration rows and zero empty tables.
+-- Expected after migration 005: 495 total demonstration rows and zero empty tables.
 SELECT SUM(row_count) AS total_demonstration_rows,
        SUM(row_count = 0) AS empty_tables
 FROM (
@@ -198,14 +198,14 @@ UNION ALL
 SELECT 'recognizable_facility_region_mismatch', COUNT(*)
 FROM (
     SELECT `RegionID`, CASE
-        WHEN LOWER(`FacilityName`) REGEXP 'barisal|barishal|barguna|pirojpur' THEN @barishal_region
-        WHEN LOWER(`FacilityName`) REGEXP 'rajshahi|natore|bogra|joypurhat|sirajganj|bonpara' THEN @rajshahi_region
-        WHEN LOWER(`FacilityName`) REGEXP 'khulna|magura|satkhira|chuadanga|jhenaidah' THEN @khulna_region
-        WHEN LOWER(`FacilityName`) REGEXP 'chittagong|chattogram|noakhali|feni|maijdee|begumganj|hathazari|cox.s bazar' THEN @chattogram_region
-        WHEN LOWER(`FacilityName`) REGEXP 'mymensingh|netrakona|kishoreganj' THEN @mymensingh_region
-        WHEN LOWER(`FacilityName`) REGEXP 'rangpur|saidpur|nilphamari' THEN @rangpur_region
-        WHEN LOWER(`FacilityName`) REGEXP 'sylhet' THEN @sylhet_region
-        WHEN LOWER(`FacilityName`) REGEXP 'dhaka|gazipur|narsingdi|narayanganj|munshiganj|savar|tongi|uttara' THEN @dhaka_region
+        WHEN LOWER(`FacilityName`) REGEXP 'barisal|barishal|barguna|bhola|jhalokathi|patuakhali|pirojpur|sher-e-bangla' THEN @barishal_region
+        WHEN LOWER(`FacilityName`) REGEXP 'rajshahi|natore|bogra|bogura|chapainawabganj|joypurhat|naogaon|pabna|sirajganj|bonpara|monsur ali' THEN @rajshahi_region
+        WHEN LOWER(`FacilityName`) REGEXP 'khulna|bagerhat|jashore|kushtia|magura|meherpur|narail|satkhira|chuadanga|jhenaidah' THEN @khulna_region
+        WHEN LOWER(`FacilityName`) REGEXP 'chittagong|chattogram|bandarban|brahmanbaria|chandpur|cumilla|khagrachhari|lakshmipur|noakhali|feni|maijdee|begumganj|hathazari|cox.s bazar|rangamati' THEN @chattogram_region
+        WHEN LOWER(`FacilityName`) REGEXP 'mymensingh|jamalpur|netrakona|kishoreganj|sherpur|syed nazrul' THEN @mymensingh_region
+        WHEN LOWER(`FacilityName`) REGEXP 'rangpur|dinajpur|gaibandha|kurigram|lalmonirhat|saidpur|nilphamari|panchagarh|thakurgaon|abdur rahim' THEN @rangpur_region
+        WHEN LOWER(`FacilityName`) REGEXP 'sylhet|habiganj|maulvibazar|sunamganj' THEN @sylhet_region
+        WHEN LOWER(`FacilityName`) REGEXP 'dhaka|faridpur|gazipur|gopalganj|madaripur|manikganj|narsingdi|narayanganj|munshiganj|rajbari|shariatpur|tangail|savar|tongi|uttara|colonel malek|salimullah|suhrawardy|taj uddin|institute of public health' THEN @dhaka_region
         ELSE NULL
     END AS expected_region
     FROM `HealthFacility`
@@ -220,7 +220,62 @@ SELECT 'malnutrition_bmi_classification_mismatch', COUNT(*)
 FROM `Malnutrition`
 WHERE (`BMI` < 16.00 AND `MalnutritionType` <> 'Severe Thinness')
    OR (`BMI` >= 16.00 AND `BMI` < 17.00 AND `MalnutritionType` <> 'Moderate Thinness')
-   OR (`BMI` >= 17.00 AND `BMI` < 18.50 AND `MalnutritionType` <> 'Mild Thinness');
+   OR (`BMI` >= 17.00 AND `BMI` < 18.50 AND `MalnutritionType` <> 'Mild Thinness')
+UNION ALL
+SELECT 'source_2023_facility_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 84)
+FROM `HealthFacility`
+WHERE `FacilityType` IN (
+    'Government Medical College Hospital',
+    'Government District/General Hospital',
+    'Public Health Institute'
+)
+UNION ALL
+SELECT 'source_2023_iph_laboratory_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 8)
+FROM `Laboratory` laboratory_row
+JOIN `HealthFacility` facility_row ON facility_row.`FacilityID` = laboratory_row.`FacilityID`
+WHERE LOWER(TRIM(facility_row.`FacilityName`)) =
+      LOWER('Institute of Public Health (IPH), Mohakhali, Dhaka')
+UNION ALL
+SELECT 'source_2023_designation_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 12)
+FROM `Designation`
+WHERE `DesignationName` IN (
+    'Alternative Physician (Homeopathy, Unani and Ayurvedic)',
+    'Field Worker',
+    'Health Inspector',
+    'Medical Technologist (Dental)',
+    'Medical Technologist (EPI)',
+    'Medical Technologist (Laboratory)',
+    'Medical Technologist (Physiotherapy)',
+    'Medical Technologist (Radiography)',
+    'Medical Technologist (Radiotherapy)',
+    'Medical Technologist (Sanitary Inspection)',
+    'Medical Technologist (Other Discipline)',
+    'Medical Technologist (Unspecified Discipline)'
+)
+UNION ALL
+SELECT 'normalized_duplicate_facility_names', COUNT(*)
+FROM (
+    SELECT LOWER(TRIM(`FacilityName`))
+    FROM `HealthFacility`
+    GROUP BY LOWER(TRIM(`FacilityName`))
+    HAVING COUNT(*) > 1
+) duplicate_rows
+UNION ALL
+SELECT 'normalized_duplicate_laboratory_names', COUNT(*)
+FROM (
+    SELECT LOWER(TRIM(`LabName`))
+    FROM `Laboratory`
+    GROUP BY LOWER(TRIM(`LabName`))
+    HAVING COUNT(*) > 1
+) duplicate_rows
+UNION ALL
+SELECT 'normalized_duplicate_designation_names', COUNT(*)
+FROM (
+    SELECT LOWER(TRIM(`DesignationName`))
+    FROM `Designation`
+    GROUP BY LOWER(TRIM(`DesignationName`))
+    HAVING COUNT(*) > 1
+) duplicate_rows;
 
 -- Scan every column in all 21 tables. The total counts SQL NULL values and
 -- empty/whitespace-only text values. Expected: zero.
@@ -272,3 +327,42 @@ FROM `Newborn` n
 JOIN `MaternalHealth` m ON m.`MotherID` = n.`MotherID`
 JOIN `Patient` p ON p.`PatientID` = m.`PatientID`
 ORDER BY n.`NewbornID`;
+
+-- Source-backed expansion demonstrations.
+SELECT region_row.`RegionName`, facility_row.`FacilityType`, COUNT(*) AS facility_count
+FROM `HealthFacility` facility_row
+JOIN `AdministrativeRegion` region_row
+  ON region_row.`RegionID` = facility_row.`RegionID`
+WHERE facility_row.`FacilityType` IN (
+    'Government Medical College Hospital',
+    'Government District/General Hospital',
+    'Public Health Institute'
+)
+GROUP BY region_row.`RegionName`, facility_row.`FacilityType`
+ORDER BY region_row.`RegionName`, facility_row.`FacilityType`;
+
+SELECT facility_row.`FacilityName`, laboratory_row.`LabName`
+FROM `Laboratory` laboratory_row
+JOIN `HealthFacility` facility_row
+  ON facility_row.`FacilityID` = laboratory_row.`FacilityID`
+WHERE LOWER(TRIM(facility_row.`FacilityName`)) =
+      LOWER('Institute of Public Health (IPH), Mohakhali, Dhaka')
+ORDER BY laboratory_row.`LabName`;
+
+SELECT `DesignationID`, `DesignationName`
+FROM `Designation`
+WHERE `DesignationName` IN (
+    'Alternative Physician (Homeopathy, Unani and Ayurvedic)',
+    'Field Worker',
+    'Health Inspector',
+    'Medical Technologist (Dental)',
+    'Medical Technologist (EPI)',
+    'Medical Technologist (Laboratory)',
+    'Medical Technologist (Physiotherapy)',
+    'Medical Technologist (Radiography)',
+    'Medical Technologist (Radiotherapy)',
+    'Medical Technologist (Sanitary Inspection)',
+    'Medical Technologist (Other Discipline)',
+    'Medical Technologist (Unspecified Discipline)'
+)
+ORDER BY `DesignationName`;

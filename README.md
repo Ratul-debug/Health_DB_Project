@@ -7,7 +7,8 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
 - 21 MySQL tables matching the submitted entity list
 - 21 primary keys and 25 implemented foreign-key constraints
 - All 89 table columns populated in the canonical snapshot and enforced as `NOT NULL`
-- 112 source records inventoried in `health_data.xlsx`; 65 accessible PDFs retained
+- 495 populated demonstration rows after the source-backed expansion
+- 112 source records inventoried in `health_data.xlsx`; 61 valid PDFs retained
 - 68 extraction/metadata source folders and 3,797 extracted CSV tables retained for traceability
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
@@ -83,6 +84,18 @@ mysql -u healthuser -p < sql/validation/validation_queries.sql
 The validation report checks table/PK/FK counts, non-empty tables, every
 foreign-key relationship, all-column NULL/blank values, and the documented
 semantic rules. Every reported `issue_count` is expected to be `0`.
+
+Migration `005_source_backed_row_expansion.sql` adds 100 high-confidence rows
+without changing the ERD or schema: 80 facilities, 8 IPH laboratories, and 12
+workforce designations. The facility rows come from Tables 5.4 and 5.5 of
+`pdfs/027_Health_Bulletin_2023.pdf`; the laboratories come from Table 4.7.3,
+and the designations come from Table 7. Existing facility aliases are
+normalized and duplicate insertion is prevented on repeated execution.
+
+The same source reports sanctioned bed totals, but not one complete row per
+physical bed with the required `BedType`, `Status`, and `SnapshotDate` fields.
+Those aggregate totals are therefore not expanded into synthetic `HospitalBed`
+rows.
 
 No database password is stored in this repository.
 
