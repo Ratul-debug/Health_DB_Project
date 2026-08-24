@@ -116,6 +116,34 @@ UNION ALL SELECT 'Diarrhea.PatientID', COUNT(*)
 FROM `Diarrhea` c LEFT JOIN `Patient` p ON p.`PatientID` = c.`PatientID`
 WHERE p.`PatientID` IS NULL;
 
+-- Semantic checks for the mixed-source demonstration data.
+-- Every result should be zero.
+SELECT 'facilities_without_region' AS quality_check, COUNT(*) AS issue_count
+FROM `HealthFacility` WHERE `RegionID` IS NULL
+UNION ALL
+SELECT 'maternal_links_to_non_female_patient', COUNT(*)
+FROM `MaternalHealth` m
+JOIN `Patient` p ON p.`PatientID` = m.`PatientID`
+WHERE LOWER(p.`Gender`) <> 'female'
+UNION ALL
+SELECT 'dengue_gender_mismatch', COUNT(*)
+FROM `Dengue` d
+JOIN `Patient` p ON p.`PatientID` = d.`PatientID`
+WHERE LOWER(d.`Gender`) <> LOWER(p.`Gender`)
+UNION ALL
+SELECT 'designation_person_name_fragments', COUNT(*)
+FROM `Designation`
+WHERE LOWER(`DesignationName`) REGEXP '^(dr|ms|md|mst)[.]?[[:space:]]'
+UNION ALL
+SELECT 'laboratory_legend_fragments', COUNT(*)
+FROM `Laboratory` WHERE `LabName` LIKE 'LAB=%'
+UNION ALL
+SELECT 'dirty_disease_fragment_ids', COUNT(*)
+FROM `Disease` WHERE `DiseaseID` BETWEEN 1 AND 11
+UNION ALL
+SELECT 'cancer_cases_without_stage', COUNT(*)
+FROM `CancerCase` WHERE `CancerStage` IS NULL;
+
 -- Demonstration joins.
 SELECT w.`WorkID`, w.`WorkerName`, d.`DesignationName`, f.`FacilityName`
 FROM `HealthWorker` w

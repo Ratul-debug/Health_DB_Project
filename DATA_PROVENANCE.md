@@ -10,7 +10,7 @@ The project intentionally uses a **mixed-source demonstration dataset**.
 - Several laboratory labels
 - Cancer-type and vaccine-name reference values
 
-Some source-derived strings still require domain cleaning because PDF extraction can capture sentence fragments instead of a clean entity name. Raw evidence is retained under `extracted_tables/` and `metadata/`.
+PDF extraction can capture sentence fragments instead of clean entity names. The final cleanup migration removes obvious fragments from the curated demonstration database while retaining the unmodified raw evidence under `extracted_tables/` and `metadata/`.
 
 ## Synthetic demonstration values
 
@@ -26,3 +26,5 @@ The synthetic values are suitable for schema demonstration and SQL testing. They
 ## Reproducibility rule
 
 `sql/health_db_21_tables_with_data.sql` is the canonical restorable demonstration snapshot. `sql/schema.sql` contains the same 21-table structure without rows. Recreate both dumps after any database migration so their columns and foreign keys stay synchronized.
+
+The ordered migrations are retained under `sql/migrations/`. Migration `003_final_data_cleanup.sql` changes demonstration values only; it does not alter the 21-table schema or its 25 foreign keys.

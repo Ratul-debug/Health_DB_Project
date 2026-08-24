@@ -6,8 +6,8 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
 
 - 21 MySQL tables matching the submitted entity list
 - 21 primary keys and 25 implemented foreign-key constraints
-- 112 source records inventoried in `health_data.xlsx`
-- Raw PDFs, extraction metadata, and extracted CSV tables retained for traceability
+- 112 source records inventoried in `health_data.xlsx`; 65 accessible PDFs retained
+- 68 extraction/metadata source folders and 3,797 extracted CSV tables retained for traceability
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
 Synthetic patient and clinical records are clearly demo data and must not be presented as real patient observations. See `DATA_PROVENANCE.md`.
@@ -84,6 +84,10 @@ No database password is stored in this repository.
 ## ERD note
 
 The submitted diagram shows the 21 entities and their conceptual relationships. The MySQL implementation enforces those relationships with 25 foreign-key constraints, including implementation columns used for patient, disease-subtype, laboratory, bed, vaccination, malnutrition, and designation links.
+
+## Report alignment note
+
+The normalized rows shown in Tables 3.14-3.18 of the submitted report are illustrative examples that use business-style identifiers such as `FAC001` and `BED-101`. The final physical MySQL implementation uses integer surrogate primary keys while preserving the same 21 entities and relationships. `DiseaseID` is the physical primary key for `Disease`; `ICDCode` remains a domain attribute. A health worker's region is obtained through `HealthWorker -> HealthFacility -> AdministrativeRegion`, avoiding a duplicated `RegionID` in `HealthWorker`.
 
 ## GitHub
 

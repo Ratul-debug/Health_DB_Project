@@ -170,7 +170,7 @@ CREATE TABLE `Disease` (
   `ICDCode` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`DiseaseID`),
   KEY `idx_disease_name` (`DiseaseName`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -430,4 +430,4 @@ CREATE TABLE `Vaccination` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-24 18:03:25
+-- Dump completed on 2026-08-24 19:36:02

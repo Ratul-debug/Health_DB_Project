@@ -1,0 +1,8 @@
+quality_check	issue_count
+facilities_without_region	0
+maternal_links_to_non_female_patient	0
+dengue_gender_mismatch	0
+designation_person_name_fragments	0
+laboratory_legend_fragments	0
+dirty_disease_fragment_ids	0
+cancer_cases_without_stage	0

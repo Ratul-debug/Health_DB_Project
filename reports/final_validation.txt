@@ -10,9 +10,9 @@ Biopsy	12
 CancerCase	12
 Covid19	20
 Dengue	15
-Designation	60
+Designation	19
 Diarrhea	15
-Disease	18
+Disease	9
 HealthFacility	100
 HealthWorker	12
 HIV	15
@@ -52,40 +52,48 @@ HIV.DiseaseID	0
 HIV.PatientID	0
 Diarrhea.DiseaseID	0
 Diarrhea.PatientID	0
+quality_check	issue_count
+facilities_without_region	0
+maternal_links_to_non_female_patient	0
+dengue_gender_mismatch	0
+designation_person_name_fragments	0
+laboratory_legend_fragments	0
+dirty_disease_fragment_ids	0
+cancer_cases_without_stage	0
 WorkID	WorkerName	DesignationName	FacilityName
-1	Dr. Prasanta Kumar Chakraborty Associate Professor and Head	Director General	Dr. Moklessur Clinic, Sadar Road, Barisal
-2	Dr. Neelufar Rahman Assistant Professor	Addl. Director General/equivalent	Damien Foundation. Netrakona TB & Leprosy Hospital, Anantapur, Netrakona
-3	Dr. Sadat Khondakar Medical Officer Medical Officer	Director/ Principal/ Vice Principal/OSD/equivalent	Dastagir Private Hospital, Narsingdi
-4	Dr. Md. Ehsanul Alam Medical Officer	Deputy Director/OSD/equivalent	Desh Eye Hospital, Gazipur Sadar
-5	Dr. Md Mozaharul Islam Medical Officer	Assistant Director/Civil surgeon/OSD/equivalent	Dhaka Community Hospital, Dhaka
-6	Dr. Ahsan Rahman	Deputy civil surgeon/UHFPO/OSD	Dhaka Hospital, icddr,b
-7	Dr. Nusrat Sultana	Professor	Dobir Uddin Hospital, Kasiadanga, Rajshahi
-8	Dr. Farzana Ahmed	Associate professor	Doctors Care Clinic and Hospital, Barguna, Barisal
-9	Dr. Md. Saiful Islam	Assistant professor	Dolphin Clinic, Bornalimur, Rajshahi
-10	Dr. Tanvir Hasan	Senior consultant	Dr.Khadem Hossain Clinic, Bangla Bazar, Barisal
-11	Dr. Sadia Rahman	Senior Lecturer	Dream Hospital, Begumganj, Noakhali
-12	Dr. Nazmul Islam	Junior Lecturer	East West Medical College Hospital, Uttara, Dhaka
+1	Dr. Prasanta Kumar Chakraborty	Associate professor	Dr. Moklessur Clinic, Sadar Road, Barisal
+2	Dr. Neelufar Rahman	Assistant professor	Damien Foundation. Netrakona TB & Leprosy Hospital, Anantapur, Netrakona
+3	Dr. Sadat Khondakar	Medical Officer	Dastagir Private Hospital, Narsingdi
+4	Dr. Md. Ehsanul Alam	Medical Officer	Desh Eye Hospital, Gazipur Sadar
+5	Dr. Md. Mozaharul Islam	Medical Officer	Dhaka Community Hospital, Dhaka
+6	Dr. Ahsan Rahman	Medical Officer	Dhaka Hospital, icddr,b
+7	Dr. Nusrat Sultana	Medical Officer	Dobir Uddin Hospital, Kasiadanga, Rajshahi
+8	Dr. Farzana Ahmed	Medical Officer	Doctors Care Clinic and Hospital, Barguna, Barisal
+9	Dr. Md. Saiful Islam	Medical Officer	Dolphin Clinic, Bornalimur, Rajshahi
+10	Dr. Tanvir Hasan	Medical Officer	Dr.Khadem Hossain Clinic, Bangla Bazar, Barisal
+11	Dr. Sadia Rahman	Medical Officer	Dream Hospital, Begumganj, Noakhali
+12	Dr. Nazmul Islam	Medical Officer	East West Medical College Hospital, Uttara, Dhaka
 CancerID	FullName	CancerType	LabName	ProcedureDate
 1	Amena Khatun	Lung	Pathology Laboratory/ Diagnostic	2023-03-01
 2	Rahim Uddin	Colorectal	PCR Lab	2023-03-11
 3	Nasrin Akter	Ovarian	RT PCR Lab (Govt.)	2023-03-21
 4	Md. Hasan Ali	Oral	RT PCR Lab (Pvt.)	2023-03-31
-5	Shamima Sultana	Leukemia	LAB= Laboratory; RDL=Radiology; ,PTY=Physiotherapy; SI=Sanitary inspection; DENT=Dentistry; PHAR=Pharmacy; RTY=Radiotherapy; FF =	2023-04-10
-6	Rafiq Islam	Breast	LAB= Laboratory; RDL= Radiology; IMG=Imaging; PTY=Physiotherapy; DENT=Dentistry;	2023-04-20
-7	Salma Begum	Cervical	LAB= Laboratory; RDL=Radiology; PTY=Physiotherapy; SI=Sanitary inspection; DENT=Dentistry; PHAR=Pharmacy; RTY=Radiotherapy	2023-04-30
-8	Kamrul Hasan	Ovary	Pathology Laboratory/ Diagnostic	2023-05-10
+5	Shamima Sultana	Leukemia	General Diagnostic Laboratory	2023-04-10
+6	Rafiq Islam	Breast	Imaging and Radiology Laboratory	2023-04-20
+7	Salma Begum	Cervical	Physiotherapy and Allied Health Laboratory	2023-04-30
+8	Kamrul Hasan	Ovarian	Pathology Laboratory/ Diagnostic	2023-05-10
 9	Farzana Yasmin	Prostate	PCR Lab	2023-05-20
 10	Tanvir Ahmed	Esophagus	RT PCR Lab (Govt.)	2023-05-30
-11	Sadia Rahman	Oesophagus	RT PCR Lab (Pvt.)	2023-06-09
-12	Mahmudul Hasan	Stomach	LAB= Laboratory; RDL=Radiology; ,PTY=Physiotherapy; SI=Sanitary inspection; DENT=Dentistry; PHAR=Pharmacy; RTY=Radiotherapy; FF =	2023-06-19
+11	Sadia Rahman	Esophagus	RT PCR Lab (Pvt.)	2023-06-09
+12	Mahmudul Hasan	Stomach	General Diagnostic Laboratory	2023-06-19
 NewbornID	BirthDate	MotherID	mother_name
 1	2023-02-01	1	Amena Khatun
-2	2023-02-12	2	Rahim Uddin
-3	2023-02-23	3	Nasrin Akter
-4	2023-03-06	4	Md. Hasan Ali
-5	2023-03-17	5	Shamima Sultana
-6	2023-03-28	6	Rafiq Islam
-7	2023-04-08	7	Salma Begum
-8	2023-04-19	8	Kamrul Hasan
-9	2023-04-30	9	Farzana Yasmin
-10	2023-05-11	10	Tanvir Ahmed
+2	2023-02-12	2	Nasrin Akter
+3	2023-02-23	3	Shamima Sultana
+4	2023-03-06	4	Salma Begum
+5	2023-03-17	5	Farzana Yasmin
+6	2023-03-28	6	Sadia Rahman
+7	2023-04-08	7	Nusrat Jahan
+8	2023-04-19	8	Mim Akter
+9	2023-04-30	9	Amena Khatun
+10	2023-05-11	10	Nasrin Akter
