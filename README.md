@@ -1,40 +1,90 @@
-# Health DB ETL and Load
+# Health Data Integration Model
 
-## Setup
-1. From project root:
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
+A Bangladesh healthcare data engineering and MySQL project created by the **NULL TERMINATORS** group. The repository inventories source reports, downloads PDFs, extracts and cleans tables, and provides a normalized 21-table demonstration database.
 
-## Run ETL (dry run)
-python -m scripts.run_etl --input_dir extracted_tables --dry_run
+## Current implementation
 
-## Run full ETL
-python -m scripts.run_etl --input_dir extracted_tables
+- 21 MySQL tables matching the submitted entity list
+- 21 primary keys and 25 implemented foreign-key constraints
+- 112 source records inventoried in `health_data.xlsx`
+- Raw PDFs, extraction metadata, and extracted CSV tables retained for traceability
+- Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
-## Optional cleanup choices
-- Drop title/header rows:
-  staging/reports.cleaned_drop_titles.csv is produced by the helper script (or run the provided Python snippet).
-- Fill missing dates by year extraction:
-  staging/reports.filled_dates.csv is produced by the provided Python snippet.
+Synthetic patient and clinical records are clearly demo data and must not be presented as real patient observations. See `DATA_PROVENANCE.md`.
 
-## Create MySQL schema
-mysql -u root -p < create_tables_mysql.sql
+## Repository structure
 
-## Create staging table
-mysql -u youruser -p health_db < create_reports_staging.sql
+```text
+Health_DB_Project/
+├── extracted_tables/          Raw CSV tables extracted from PDFs
+├── metadata/                  Per-document extraction metadata
+├── pdfs/                      Downloaded source reports
+├── reports/                   Catalog, classification, and cleaning summaries
+├── scripts/                   Download, extraction, cleaning, and catalog scripts
+├── sql/
+│   ├── migrations/            Historical one-time database migrations
+│   ├── validation/            Integrity and demonstration queries
+│   ├── schema.sql             Canonical 21-table schema (no data)
+│   └── health_db_21_tables_with_data.sql
+├── ER_DIAGRAM.png             21-entity ERD image
+├── Health_ER_Diagram_.pdf     Submitted 21-entity ERD
+├── health_data.xlsx           Original source catalog
+└── requirements.txt
+```
 
-## Load CSV into staging
-mysql --local-infile=1 -u youruser -p health_db -e "
-LOAD DATA LOCAL INFILE '/full/path/to/Health_DB_Project_2/staging/reports.filled_dates.csv'
-INTO TABLE reports_staging
-FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 LINES
-(pdf_name, facility_name, facility_code, division, district, upazila, disease_name, report_date, age_group, sex, cases, deaths, notes, ocr_confidence);
-"
+## Python setup
 
-## Aggregate and upsert into reports
-mysql -u youruser -p health_db < upsert_reports.sql
+```bash
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-## Verify
-mysql -u youruser -p -e "USE health_db; SELECT COUNT(*) FROM reports; SELECT SUM(cases) FROM reports;"
+## Run the PDF pipeline
 
+Run commands from the repository root:
+
+```bash
+python scripts/downloader.py
+python scripts/extractor.py
+python scripts/cleaner.py
+python scripts/04_find_duplicates.py
+python scripts/05_build_catalog.py
+python scripts/06_classify_tables.py
+python scripts/07_find_best_tables.py
+```
+
+The cleaner preserves `extracted_tables/` as raw evidence and writes normalized copies to `cleaned_tables/`.
+
+## Restore MySQL
+
+Choose one option, not both.
+
+Schema only:
+
+```bash
+mysql -u healthuser -p < sql/schema.sql
+```
+
+Schema plus demonstration data:
+
+```bash
+mysql -u healthuser -p < sql/health_db_21_tables_with_data.sql
+```
+
+Validate the restored database:
+
+```bash
+mysql -u healthuser -p < sql/validation/validation_queries.sql
+```
+
+No database password is stored in this repository.
+
+## ERD note
+
+The submitted diagram shows the 21 entities and their conceptual relationships. The MySQL implementation enforces those relationships with 25 foreign-key constraints, including implementation columns used for patient, disease-subtype, laboratory, bed, vaccination, malnutrition, and designation links.
+
+## GitHub
+
+Repository: https://github.com/Ratul-debug/Health_DB_Project

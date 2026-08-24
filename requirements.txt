@@ -1,4 +1,7 @@
 pandas
+openpyxl
+requests
+pdfplumber
 pyyaml
 python-dateutil
 unidecode
@@ -6,4 +9,3 @@ rapidfuzz
 chardet
 mysql-connector-python
 tqdm
-
