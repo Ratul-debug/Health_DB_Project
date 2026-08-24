@@ -1,0 +1,9 @@
+quality_check	issue_count
+nullable_columns	0
+diseases_without_icd_code	0
+sex_specific_cancer_mismatch	0
+recognizable_facility_region_mismatch	0
+implausible_adult_malnutrition_measurement	0
+malnutrition_bmi_classification_mismatch	0
+quality_check	issue_count
+all_null_or_blank_values	0
