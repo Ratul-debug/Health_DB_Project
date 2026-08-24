@@ -17,6 +17,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 PDF_DIR = BASE_DIR / "pdfs"
 PDF_DIR.mkdir(exist_ok=True)
 
+SOURCE_PAGE_DIR = BASE_DIR / "source_pages"
+SOURCE_PAGE_DIR.mkdir(exist_ok=True)
+
 possible_excel_files = [
     BASE_DIR / "health_data.xlsx",
     BASE_DIR / "data_catalog" / "health_data.xlsx",
@@ -45,8 +48,15 @@ print(f"Using Excel file: {excel_file}")
 # LOAD EXCEL
 # =====================================
 
-df = pd.read_excel(excel_file)
+workbook = pd.ExcelFile(excel_file)
+catalog_sheet = (
+    "Health_Catalog_Clean"
+    if "Health_Catalog_Clean" in workbook.sheet_names
+    else workbook.sheet_names[0]
+)
+df = pd.read_excel(workbook, sheet_name=catalog_sheet)
 
+print(f"Using worksheet: {catalog_sheet}")
 print("Columns found:")
 print(df.columns.tolist())
 
@@ -73,6 +83,7 @@ print(f"Using URL column: {url_col}")
 session = requests.Session()
 
 downloaded = 0
+downloaded_html = 0
 skipped = 0
 failed = 0
 
@@ -101,9 +112,11 @@ for idx, row in tqdm(df.iterrows(), total=len(df)):
 
     dataset_name = dataset_name[:120]
 
-    pdf_path = PDF_DIR / f"{idx:03d}_{dataset_name}.pdf"
+    file_stem = f"{idx:03d}_{dataset_name}"
+    pdf_path = PDF_DIR / f"{file_stem}.pdf"
+    html_path = SOURCE_PAGE_DIR / f"{file_stem}.html"
 
-    if pdf_path.exists():
+    if pdf_path.exists() or html_path.exists():
         skipped += 1
         continue
 
@@ -127,12 +140,31 @@ for idx, row in tqdm(df.iterrows(), total=len(df)):
 
                 content = response.content
 
-                if len(content) > 1000:
+                if len(content) > 1000 and content.startswith(b"%PDF-"):
 
                     with open(pdf_path, "wb") as f:
                         f.write(content)
 
                     downloaded += 1
+                    success = True
+                    break
+
+                content_type = response.headers.get(
+                    "Content-Type", ""
+                ).lower()
+                looks_like_html = (
+                    "text/html" in content_type
+                    or content.lstrip().lower().startswith(
+                        (b"<!doctype html", b"<html")
+                    )
+                )
+
+                if len(content) > 1000 and looks_like_html:
+
+                    with open(html_path, "wb") as f:
+                        f.write(content)
+
+                    downloaded_html += 1
                     success = True
                     break
 
@@ -183,6 +215,7 @@ print("DOWNLOAD SUMMARY")
 print("=================================")
 
 print("Downloaded :", downloaded)
+print("HTML pages:", downloaded_html)
 print("Skipped    :", skipped)
 print("Failed     :", failed)
 

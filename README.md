@@ -8,7 +8,8 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
 - 21 primary keys and 25 implemented foreign-key constraints
 - All 89 table columns populated in the canonical snapshot and enforced as `NOT NULL`
 - 495 populated demonstration rows after the source-backed expansion
-- 112 source records inventoried in `health_data.xlsx`; 61 valid PDFs retained
+- 112 source records inventoried in `health_data.xlsx`; 61 valid PDFs and 4
+  HTML source pages retained with their real file types
 - 68 extraction/metadata source folders and 3,797 extracted CSV tables retained for traceability
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
@@ -21,6 +22,7 @@ Health_DB_Project/
 ├── extracted_tables/          Raw CSV tables extracted from PDFs
 ├── metadata/                  Per-document extraction metadata
 ├── pdfs/                      Downloaded source reports
+├── source_pages/              Downloaded sources that are HTML pages
 ├── reports/                   Catalog, classification, and cleaning summaries
 ├── scripts/                   Download, extraction, cleaning, and catalog scripts
 ├── sql/
@@ -30,7 +32,10 @@ Health_DB_Project/
 │   └── health_db_21_tables_with_data.sql
 ├── ER_DIAGRAM.png             21-entity ERD image
 ├── Health_ER_Diagram_.pdf     Submitted 21-entity ERD
-├── health_data.xlsx           Original source catalog
+├── PROJECT_REPORT.pdf         Submitted project report
+├── REPORT_ALIGNMENT.md        Report-to-database alignment addendum
+├── SOURCE_ARCHIVE_STATUS.md   Source-file type and archive status
+├── health_data.xlsx           Original and clean source-catalog sheets
 └── requirements.txt
 ```
 
@@ -93,7 +98,7 @@ and the designations come from Table 7. Existing facility aliases are
 normalized and duplicate insertion is prevented on repeated execution.
 
 The same source reports sanctioned bed totals, but not one complete row per
-physical bed with the required `BedType`, `Status`, and `SnapshotDate` fields.
+physical bed with the required `BedType` and `Status` fields.
 Those aggregate totals are therefore not expanded into synthetic `HospitalBed`
 rows.
 
@@ -101,11 +106,11 @@ No database password is stored in this repository.
 
 ## ERD note
 
-The submitted diagram shows the 21 entities and their conceptual relationships. The MySQL implementation enforces those relationships with 25 foreign-key constraints, including implementation columns used for patient, disease-subtype, laboratory, bed, vaccination, malnutrition, and designation links.
+The submitted diagram shows the 21 entities and their conceptual relationships. The MySQL implementation enforces those relationships with 25 foreign-key constraints, including implementation columns used for patient, disease-subtype, laboratory, bed, vaccination, malnutrition, and designation links. For an exact conceptual-to-physical mapping, see `REPORT_ALIGNMENT.md`; `sql/schema.sql` is authoritative for the implemented database.
 
 ## Report alignment note
 
-The normalized rows shown in Tables 3.14-3.18 of the submitted report are illustrative examples that use business-style identifiers such as `FAC001` and `BED-101`. The final physical MySQL implementation uses integer surrogate primary keys while preserving the same 21 entities and relationships. `DiseaseID` is the physical primary key for `Disease`; `ICDCode` remains a domain attribute. A health worker's region is obtained through `HealthWorker -> HealthFacility -> AdministrativeRegion`, avoiding a duplicated `RegionID` in `HealthWorker`.
+The normalized rows shown in Tables 3.14-3.18 of `PROJECT_REPORT.pdf` are illustrative examples that use business-style identifiers such as `FAC001` and `BED-101`. The final physical MySQL implementation uses integer surrogate primary keys while preserving the same 21 entities and relationships. `DiseaseID` is the physical primary key for `Disease`; `ICDCode` remains a domain attribute. A health worker's region is obtained through `HealthWorker -> HealthFacility -> AdministrativeRegion`, avoiding a duplicated `RegionID` in `HealthWorker`. `REPORT_ALIGNMENT.md` records the full alignment and resolves the report's earlier planning reference to approximately 40 entities against the final 21-entity implementation.
 
 ## GitHub
 

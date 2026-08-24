@@ -17,9 +17,16 @@ Table 4.7.3, and workforce designations from Table 7. Extracted evidence is
 retained in `extracted_tables/027_Health_Bulletin_2023/`.
 
 Tables 5.4 and 5.5 also publish sanctioned bed totals. They do not provide the
-individual bed type, status, and snapshot date required by the physical
+individual bed type and status required by the physical
 `HospitalBed` entity, so the project does not misrepresent aggregate capacity
 as patient-level or bed-level source records.
+
+The source catalog is retained in two forms inside `health_data.xlsx`:
+`Health` preserves the original grouped presentation, while
+`Health_Catalog_Clean` provides 112 machine-readable records with every field
+populated. Four catalog URLs returned HTML web pages rather than PDF documents;
+their original responses are preserved under `source_pages/` with `.html`
+extensions. See `SOURCE_ARCHIVE_STATUS.md`.
 
 PDF extraction can capture sentence fragments instead of clean entity names. The final cleanup migration removes obvious fragments from the curated demonstration database while retaining the unmodified raw evidence under `extracted_tables/` and `metadata/`.
 
