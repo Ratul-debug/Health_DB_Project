@@ -110,7 +110,15 @@ The submitted diagram shows the 21 entities and their conceptual relationships. 
 
 ## Report alignment note
 
-The normalized rows shown in Tables 3.14-3.18 of `PROJECT_REPORT.pdf` are illustrative examples that use business-style identifiers such as `FAC001` and `BED-101`. The final physical MySQL implementation uses integer surrogate primary keys while preserving the same 21 entities and relationships. `DiseaseID` is the physical primary key for `Disease`; `ICDCode` remains a domain attribute. A health worker's region is obtained through `HealthWorker -> HealthFacility -> AdministrativeRegion`, avoiding a duplicated `RegionID` in `HealthWorker`. `REPORT_ALIGNMENT.md` records the full alignment and resolves the report's earlier planning reference to approximately 40 entities against the final 21-entity implementation.
+Section 3.6 of `PROJECT_REPORT.pdf` verifies the implemented `Patient` table
+through BCNF using its exact six physical columns and actual populated rows.
+Tables 3.14-3.18 use the physical integer identifiers, exact column names, and
+actual database values for `HealthFacility`, `HospitalBed`, `Designation`,
+`Disease`, and `HealthWorker`. `DiseaseID` is the primary key for `Disease`,
+while `ICDCode` is a mandatory domain attribute. A health worker's region is
+derived through `HealthWorker -> HealthFacility -> AdministrativeRegion`, so
+`RegionID` is not duplicated in `HealthWorker`. See `REPORT_ALIGNMENT.md` for
+the complete report-to-schema mapping.
 
 ## GitHub
 

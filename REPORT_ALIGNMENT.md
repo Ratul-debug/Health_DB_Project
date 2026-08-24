@@ -15,23 +15,25 @@ restorable snapshot `sql/health_db_21_tables_with_data.sql`. It contains:
 relationship, empty tables, NULL/blank values, duplicate business keys, and the
 documented semantic rules. Every reported issue count is expected to be zero.
 
-## Why some report examples look different
+## Report sample alignment
 
-`PROJECT_REPORT.pdf` records the development and normalization process. Its
-early planning text refers to approximately 40 candidate entities, while the
-submitted ERD and final normalized implementation contain the selected 21
-entities. The report's sample rows use illustrative business-style identifiers
-such as `FAC001`, `BED-101`, and `DES001`; these are examples, not the physical
-MySQL key types.
+`PROJECT_REPORT.pdf` records the development, normalization, and final physical
+implementation. Section 3.6 uses only the implemented `Patient` relation with
+its exact columns: `PatientID`, `FullName`, `DateOfBirth`, `Gender`,
+`NationalID`, and `BedID`. The displayed Patient rows are copied from the
+canonical SQL snapshot.
 
-The implemented schema uses integer surrogate keys consistently. In particular:
+Tables 3.14-3.18 use physical integer identifiers, exact implemented columns,
+and actual canonical rows:
 
-| Conceptual/report notation | Physical MySQL implementation |
+| Report table | Physical implementation |
 |---|---|
-| `WorkerID` | `HealthWorker.WorkID` |
-| `ICDCode` as a disease identifier | `Disease.DiseaseID` is the PK; `ICDCode` is a mandatory domain attribute |
-| Direct worker-to-region value | `HealthWorker -> HealthFacility -> AdministrativeRegion` |
-| Business-style string IDs | Integer primary and foreign keys |
+| Patient normalization | `Patient(PatientID, FullName, DateOfBirth, Gender, NationalID, BedID)` |
+| Table 3.14 | `HealthFacility` rows 6, 7, 8, 10, and 11 |
+| Table 3.15 | `HospitalBed` rows 6, 7, 8, 10, and 11 |
+| Table 3.16 | `Designation` IDs 7, 14, 15, 17, and 19 |
+| Table 3.17 | `Disease` IDs 14, 15, 16, 19, and 20 |
+| Table 3.18 | `HealthWorker` rows 6, 7, 8, 10, and 11 |
 
 ## ERD interpretation
 
