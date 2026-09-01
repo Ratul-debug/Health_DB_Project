@@ -24,7 +24,10 @@ its exact columns: `PatientID`, `FullName`, `DateOfBirth`, `Gender`,
 canonical SQL snapshot.
 
 Tables 3.14-3.18 use physical integer identifiers, exact implemented columns,
-and actual canonical rows:
+their physical SQL column order, and actual canonical rows. In particular,
+Table 3.14 follows `HealthFacility(FacilityID, FacilityType, FacilityName,
+RegionID)` and Table 3.15 follows
+`HospitalBed(BedID, FacilityID, BedType, Status)`:
 
 | Report table | Physical implementation |
 |---|---|
@@ -48,12 +51,22 @@ For demonstrations and SQL queries, use the physical names and relationships in
 `sql/schema.sql`. The conceptual ERD remains the presentation artifact, while
 the schema and validation report are the executable proof of implementation.
 
-## Post-report data expansion
+## Migration 006 alignment
 
-The 54-page `PROJECT_REPORT.pdf` documents the verified 495-row baseline at the
-time that version was produced. Migration 006 is a later, Bangladesh-only data
-expansion that preserves the same 21 entities, 89 columns, and 25 foreign keys
-while increasing the canonical SQL snapshot to 68,185 rows. Before submitting
-an updated report, regenerate its row-count tables and validation evidence from
-a successful local MySQL restore of the migration-006 snapshot; do not present
-the older 495-row validation files as proof of the expanded database.
+The 54-page `PROJECT_REPORT.pdf` is synchronized with the Bangladesh-only
+migration-006 snapshot. Its discovery inventory, ETL stages, normalization
+sample summaries, validation matrix, provenance table, and final maintenance
+summary all report the canonical 68,185-row state. The seven-step ETL flow on
+printed page 40 separates discovery, acquisition, extraction, cleaning,
+source-to-schema mapping, MySQL loading, and live/restore validation. The
+Contents and List of Tables entries are internal PDF links to their stated
+pages. The displayed sample rows
+remain present after the expansion; their final table totals are
+`HealthFacility = 39,614`, `Designation = 85`, `Disease = 18,517`,
+`Laboratory = 9,709`, and `HealthWorker = 12`.
+
+`reports/final_validation.txt` and
+`reports/restore_test_validation.txt` are the identical 207-line live and
+clean-restore evidence for this state. The historical 495-row count is retained
+only in `DATA_PROVENANCE.md` and the static expansion report as the explicitly
+labelled pre-migration baseline, not as the final database size.

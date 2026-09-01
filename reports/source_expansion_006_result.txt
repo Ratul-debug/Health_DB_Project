@@ -1,0 +1,8 @@
+check_name	row_count
+source_006_designations	54
+check_name	row_count
+source_006_conditions	18508
+check_name	row_count
+source_006_facilities	39434
+check_name	row_count
+source_006_laboratories	9694

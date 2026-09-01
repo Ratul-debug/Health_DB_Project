@@ -12,14 +12,14 @@ Biopsy	12
 CancerCase	12
 Covid19	20
 Dengue	15
-Designation	31
+Designation	85
 Diarrhea	15
-Disease	9
-HealthFacility	180
+Disease	18517
+HealthFacility	39614
 HealthWorker	12
 HIV	15
 HospitalBed	60
-Laboratory	15
+Laboratory	9709
 Malnutrition	15
 MaternalHealth	12
 Measles	15
@@ -29,7 +29,7 @@ PopulationGroup	8
 TelemedicineCenter	10
 Vaccination	6
 total_demonstration_rows	empty_tables
-495	0
+68185	0
 relationship_name	orphan_rows
 HealthFacility.RegionID	0
 HealthWorker.FacilityID	0
@@ -72,6 +72,13 @@ malnutrition_bmi_classification_mismatch	0
 source_2023_facility_count_mismatch	0
 source_2023_iph_laboratory_count_mismatch	0
 source_2023_designation_count_mismatch	0
+source_006_total_row_count_mismatch	0
+source_006_facility_count_mismatch	0
+source_006_laboratory_count_mismatch	0
+source_006_condition_count_mismatch	0
+source_006_designation_count_mismatch	0
+source_006_missing_facility_trace_id	0
+source_006_duplicate_icd11_codes	0
 normalized_duplicate_facility_names	0
 normalized_duplicate_laboratory_names	0
 normalized_duplicate_designation_names	0
@@ -154,3 +161,47 @@ DesignationID	DesignationName
 70	Medical Technologist (Radiotherapy)
 71	Medical Technologist (Sanitary Inspection)
 72	Medical Technologist (Unspecified Discipline)
+RegionName	dghs_active_facility_count
+Barishal	2883
+Chattogram	7481
+Dhaka	9981
+Khulna	4821
+Mymensingh	2791
+Rajshahi	5225
+Rangpur	4025
+Sylhet	2227
+RegionName	dghs_laboratory_count
+Barishal	739
+Chattogram	1858
+Dhaka	3148
+Khulna	1036
+Mymensingh	563
+Rajshahi	1205
+Rangpur	671
+Sylhet	474
+DiseaseID	ICDCode	DiseaseName
+300001	01	Certain infectious or parasitic diseases
+300002	02	Neoplasms
+300003	03	Diseases of the blood or blood-forming organs
+300004	04	Diseases of the immune system
+300005	05	Endocrine, nutritional or metabolic diseases
+300006	06	Mental, behavioural or neurodevelopmental disorders
+300007	07	Sleep-wake disorders
+300008	08	Diseases of the nervous system
+300009	09	Diseases of the visual system
+300010	10	Diseases of the ear or mastoid process
+300011	11	Diseases of the circulatory system
+300012	12	Diseases of the respiratory system
+300013	13	Diseases of the digestive system
+300014	14	Diseases of the skin
+300015	15	Diseases of the musculoskeletal system or connective tissue
+300016	16	Diseases of the genitourinary system
+300017	17	Conditions related to sexual health
+300018	18	Pregnancy, childbirth or the puerperium
+300019	19	Certain conditions originating in the perinatal period
+300020	1A00	Cholera
+300021	1A01	Intestinal infection due to other Vibrio
+300022	1A02	Intestinal infections due to Shigella
+300023	1A03	Intestinal infections due to Escherichia coli
+300024	1A03.0	Enteropathogenic Escherichia coli infection
+300025	1A03.1	Enterotoxigenic Escherichia coli infection
