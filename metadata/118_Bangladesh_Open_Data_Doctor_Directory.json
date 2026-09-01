@@ -1,0 +1,36 @@
+{
+  "catalog_row": 118,
+  "source_name": "Bangladesh Open Data Doctor Directory",
+  "source_url": "https://data.gov.bd/dataset/doctor-directory",
+  "download_urls": [
+    "https://data.gov.bd/sites/default/files/data-resource/2016/10/18/Doctor-Directory.xls"
+  ],
+  "bangladesh_only": true,
+  "collection_date": "2026-09-01",
+  "release_or_snapshot": "Released 2016-10-18; metadata modified 2017-01-18",
+  "raw_files": [
+    {
+      "file": "source_datasets/bangladesh_open_data_doctor_directory_2016.xls",
+      "sha256": "cde1e8463c9dff60c3ddc7b4a3a3528bec28294eb1e67efcaadf81a4fa566bb2"
+    }
+  ],
+  "extracted_tables": [
+    {
+      "file": "extracted_tables/118_Bangladesh_Open_Data_Doctor_Directory/table_0001.csv",
+      "rows": 199,
+      "columns": 11
+    }
+  ],
+  "sql_mapping": {
+    "Designation": 54
+  },
+  "exclusion_note": "Provider rows lack mandatory Gender and therefore are not inserted as HealthWorker records.",
+  "pipeline": [
+    "catalogued_in_health_data.xlsx",
+    "raw_source_archived",
+    "table_extracted",
+    "mapping_cleaned",
+    "loaded_by_migration_006",
+    "validated"
+  ]
+}

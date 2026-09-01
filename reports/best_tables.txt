@@ -2,6 +2,8 @@
 CANCER
 ================================================================================
                                                                       file  rows  cols  keyword_score
+     cleaned_tables/116_Bangladesh_ICD11_Condition_ValueSet/table_0001.csv 18508     5              1
+                 cleaned_tables/115_Bangladesh_Core_FHIR_IG/table_0001.csv  1529     5              2
                     cleaned_tables/039_Health_Bulletin_2011/table_0065.csv    75    17              1
                     cleaned_tables/039_Health_Bulletin_2011/table_0068.csv    60    17              1
                     cleaned_tables/039_Health_Bulletin_2011/table_0077.csv    57    17              1
@@ -20,8 +22,6 @@ cleaned_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_093.csv    45
 cleaned_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_096.csv    45     8              2
 cleaned_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_097.csv    45     8              2
      cleaned_tables/074_Hospital_Cancer_Registry_Report_2014/table_025.csv    43    11              1
-cleaned_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_066.csv    42     8              2
-cleaned_tables/075_Hospital_Cancer_Registry_Report_2015-2017/table_067.csv    42     8              2
 
 ================================================================================
 ERROR
@@ -51,27 +51,27 @@ cleaned_tables/021_Preventation_and_Management_of_Mental_Health_Conditions_in_Ba
 ================================================================================
 HEALTH_STAT
 ================================================================================
-                                                  file  rows  cols  keyword_score
- cleaned_tables/042_Health_Bulletin_2008/table_008.csv    57    14              2
-cleaned_tables/039_Health_Bulletin_2011/table_0035.csv    53     6              1
-cleaned_tables/034_Health_Bulletin_2016/table_0186.csv    52     7              1
-cleaned_tables/034_Health_Bulletin_2016/table_0270.csv    50     4              1
-cleaned_tables/034_Health_Bulletin_2016/table_0184.csv    47     7              1
-cleaned_tables/039_Health_Bulletin_2011/table_0086.csv    47     6              1
-cleaned_tables/039_Health_Bulletin_2011/table_0032.csv    46    12              2
-cleaned_tables/039_Health_Bulletin_2011/table_0084.csv    46     6              3
-cleaned_tables/043_Health_Bulletin_2007/table_0024.csv    46     4              1
- cleaned_tables/042_Health_Bulletin_2008/table_026.csv    44    20              2
-cleaned_tables/043_Health_Bulletin_2007/table_0037.csv    44     3              2
- cleaned_tables/042_Health_Bulletin_2008/table_023.csv    43    15              3
-cleaned_tables/039_Health_Bulletin_2011/table_0089.csv    43     6              2
-cleaned_tables/043_Health_Bulletin_2007/table_0005.csv    43     5              2
-cleaned_tables/034_Health_Bulletin_2016/table_0249.csv    42     9              2
-cleaned_tables/043_Health_Bulletin_2007/table_0052.csv    42     6              1
-cleaned_tables/034_Health_Bulletin_2016/table_0265.csv    42     3              1
-cleaned_tables/028_Health_Bulletin_2022/table_0140.csv    42     1              1
- cleaned_tables/042_Health_Bulletin_2008/table_027.csv    41    36              1
-cleaned_tables/039_Health_Bulletin_2011/table_0079.csv    41     6              2
+                                                                    file  rows  cols  keyword_score
+         cleaned_tables/114_DGHS_Active_Facility_Registry/table_0001.csv 39434    14              2
+     cleaned_tables/114_DGHS_Active_Facility_Registry/HealthFacility.csv 39434     4              2
+         cleaned_tables/114_DGHS_Active_Facility_Registry/Laboratory.csv  9694     3              1
+                   cleaned_tables/042_Health_Bulletin_2008/table_008.csv    57    14              2
+cleaned_tables/118_Bangladesh_Open_Data_Doctor_Directory/Designation.csv    54     2              1
+                  cleaned_tables/039_Health_Bulletin_2011/table_0035.csv    53     6              1
+                  cleaned_tables/034_Health_Bulletin_2016/table_0186.csv    52     7              1
+                  cleaned_tables/034_Health_Bulletin_2016/table_0270.csv    50     4              1
+                  cleaned_tables/034_Health_Bulletin_2016/table_0184.csv    47     7              1
+                  cleaned_tables/039_Health_Bulletin_2011/table_0086.csv    47     6              1
+                  cleaned_tables/039_Health_Bulletin_2011/table_0032.csv    46    12              2
+                  cleaned_tables/039_Health_Bulletin_2011/table_0084.csv    46     6              3
+                  cleaned_tables/043_Health_Bulletin_2007/table_0024.csv    46     4              1
+                   cleaned_tables/042_Health_Bulletin_2008/table_026.csv    44    20              2
+                  cleaned_tables/043_Health_Bulletin_2007/table_0037.csv    44     3              2
+                   cleaned_tables/042_Health_Bulletin_2008/table_023.csv    43    15              3
+                  cleaned_tables/039_Health_Bulletin_2011/table_0089.csv    43     6              2
+                  cleaned_tables/043_Health_Bulletin_2007/table_0005.csv    43     5              2
+                  cleaned_tables/034_Health_Bulletin_2016/table_0249.csv    42     9              2
+                  cleaned_tables/043_Health_Bulletin_2007/table_0052.csv    42     6              1
 
 ================================================================================
 HUMAN_RESOURCE
@@ -102,6 +102,7 @@ cleaned_tables/095__HRH_Data_Sheet_2019_of_HSD/table_005.csv    29     4        
 MATERNAL_CHILD
 ================================================================================
                                                                                                                               file  rows  cols  keyword_score
+                                                                cleaned_tables/116_Bangladesh_ICD11_Condition_ValueSet/Disease.csv 18508     3              2
                                                                             cleaned_tables/039_Health_Bulletin_2011/table_0072.csv    76    17              1
 cleaned_tables/010_Joint_UNICEF_Bangladesh_Government_of_Bangladesh_Nutrition_Programme_MidTerm_Evaluation_2017-2020/table_007.csv    31     4              2
 cleaned_tables/010_Joint_UNICEF_Bangladesh_Government_of_Bangladesh_Nutrition_Programme_MidTerm_Evaluation_2017-2020/table_006.csv    24     6              1
@@ -121,7 +122,6 @@ cleaned_tables/010_Joint_UNICEF_Bangladesh_Government_of_Bangladesh_Nutrition_Pr
                                                                             cleaned_tables/028_Health_Bulletin_2022/table_0236.csv    12     8              2
                                                                             cleaned_tables/027_Health_Bulletin_2023/table_0173.csv    12     7              2
                                                                             cleaned_tables/027_Health_Bulletin_2023/table_0142.csv    12     3              2
-                                                                            cleaned_tables/030_Health_Bulletin_2020/table_0076.csv    11    12              1
 
 ================================================================================
 OTHER
@@ -151,27 +151,27 @@ cleaned_tables/071_Other_information_including_vacant_beds_in_Corona_hospitals/t
 ================================================================================
 POPULATION
 ================================================================================
-                                                  file  rows  cols  keyword_score
- cleaned_tables/042_Health_Bulletin_2008/table_009.csv    62    14              1
- cleaned_tables/085_MR_Bulletin_Volume_3/table_008.csv    56    15              2
- cleaned_tables/085_MR_Bulletin_Volume_3/table_010.csv    56    15              2
- cleaned_tables/083_MR_Bulletin_Volume_1/table_009.csv    55    21              2
- cleaned_tables/084_MR_Bulletin_Volume_2/table_008.csv    55    21              2
- cleaned_tables/084_MR_Bulletin_Volume_2/table_010.csv    55    15              2
- cleaned_tables/083_MR_Bulletin_Volume_1/table_007.csv    54    18              1
- cleaned_tables/084_MR_Bulletin_Volume_2/table_006.csv    54    18              1
- cleaned_tables/085_MR_Bulletin_Volume_3/table_006.csv    54    18              1
- cleaned_tables/083_MR_Bulletin_Volume_1/table_011.csv    54    15              1
-cleaned_tables/029_Health_Bulletin_2021/table_0103.csv    53     6              1
-cleaned_tables/043_Health_Bulletin_2007/table_0165.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0166.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0168.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0171.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0173.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0175.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0176.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0177.csv    51     5              1
-cleaned_tables/043_Health_Bulletin_2007/table_0178.csv    51     5              1
+                                                                   file  rows  cols  keyword_score
+cleaned_tables/118_Bangladesh_Open_Data_Doctor_Directory/table_0001.csv   199    11              1
+                  cleaned_tables/042_Health_Bulletin_2008/table_009.csv    62    14              1
+                  cleaned_tables/085_MR_Bulletin_Volume_3/table_008.csv    56    15              2
+                  cleaned_tables/085_MR_Bulletin_Volume_3/table_010.csv    56    15              2
+                  cleaned_tables/083_MR_Bulletin_Volume_1/table_009.csv    55    21              2
+                  cleaned_tables/084_MR_Bulletin_Volume_2/table_008.csv    55    21              2
+                  cleaned_tables/084_MR_Bulletin_Volume_2/table_010.csv    55    15              2
+                  cleaned_tables/083_MR_Bulletin_Volume_1/table_007.csv    54    18              1
+                  cleaned_tables/084_MR_Bulletin_Volume_2/table_006.csv    54    18              1
+                  cleaned_tables/085_MR_Bulletin_Volume_3/table_006.csv    54    18              1
+                  cleaned_tables/083_MR_Bulletin_Volume_1/table_011.csv    54    15              1
+                 cleaned_tables/029_Health_Bulletin_2021/table_0103.csv    53     6              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0165.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0166.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0168.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0171.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0173.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0175.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0176.csv    51     5              1
+                 cleaned_tables/043_Health_Bulletin_2007/table_0177.csv    51     5              1
 
 ================================================================================
 SURGERY

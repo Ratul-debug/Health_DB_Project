@@ -1,0 +1,102 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "bd-vaccine-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem bd-vaccine-code</b></p><a name=\"bd-vaccine-code\"> </a><a name=\"hcbd-vaccine-code\"> </a><p>This case-sensitive code system <code>https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BCG<a name=\"bd-vaccine-code-BCG\"> </a></td><td>BCG Vaccine</td><td>Bacillus Calmette-Guérin vaccine, used against tuberculosis.</td></tr><tr><td style=\"white-space:nowrap\">OPV<a name=\"bd-vaccine-code-OPV\"> </a></td><td>Oral Polio Vaccine (OPV)</td><td>Live attenuated oral polio vaccine.</td></tr><tr><td style=\"white-space:nowrap\">IPV<a name=\"bd-vaccine-code-IPV\"> </a></td><td>Inactivated Polio Vaccine (IPV)</td><td>Inactivated polio vaccine.</td></tr><tr><td style=\"white-space:nowrap\">PENTA<a name=\"bd-vaccine-code-PENTA\"> </a></td><td>Pentavalent Vaccine</td><td>DTP-HepB-Hib combined vaccine.</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"bd-vaccine-code-MR\"> </a></td><td>Measles-Rubella (MR) Vaccine</td><td>Combined measles and rubella vaccine.</td></tr><tr><td style=\"white-space:nowrap\">TT<a name=\"bd-vaccine-code-TT\"> </a></td><td>Tetanus Toxoid (TT) Vaccine</td><td>Vaccine used for tetanus prevention.</td></tr><tr><td style=\"white-space:nowrap\">PCV10<a name=\"bd-vaccine-code-PCV10\"> </a></td><td>Pneumococcal Conjugate Vaccine</td><td>10-valent pneumococcal conjugate vaccine.</td></tr><tr><td style=\"white-space:nowrap\">ROTA<a name=\"bd-vaccine-code-ROTA\"> </a></td><td>Rotavirus Vaccine</td><td>Live attenuated rotavirus vaccine for diarrheal disease prevention.</td></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"bd-vaccine-code-HPV\"> </a></td><td>Human Papillomavirus (HPV) Vaccine</td><td>Vaccine used for prevention of cervical cancer and HPV-related diseases.</td></tr><tr><td style=\"white-space:nowrap\">COVID19<a name=\"bd-vaccine-code-COVID19\"> </a></td><td>COVID-19 Vaccine</td><td>Vaccines against SARS-CoV-2 (various manufacturers).</td></tr></table></div><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem bd-vaccine-code</b></p><a name=\"de-bd-vaccine-code\"> </a><a name=\"de-hcbd-vaccine-code\"> </a><p>This case-sensitive code system <code>https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BCG<a name=\"de-bd-vaccine-code-BCG\"> </a></td><td>BCG Vaccine</td><td>Bacillus Calmette-Guérin vaccine, used against tuberculosis.</td></tr><tr><td style=\"white-space:nowrap\">OPV<a name=\"de-bd-vaccine-code-OPV\"> </a></td><td>Oral Polio Vaccine (OPV)</td><td>Live attenuated oral polio vaccine.</td></tr><tr><td style=\"white-space:nowrap\">IPV<a name=\"de-bd-vaccine-code-IPV\"> </a></td><td>Inactivated Polio Vaccine (IPV)</td><td>Inactivated polio vaccine.</td></tr><tr><td style=\"white-space:nowrap\">PENTA<a name=\"de-bd-vaccine-code-PENTA\"> </a></td><td>Pentavalent Vaccine</td><td>DTP-HepB-Hib combined vaccine.</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"de-bd-vaccine-code-MR\"> </a></td><td>Measles-Rubella (MR) Vaccine</td><td>Combined measles and rubella vaccine.</td></tr><tr><td style=\"white-space:nowrap\">TT<a name=\"de-bd-vaccine-code-TT\"> </a></td><td>Tetanus Toxoid (TT) Vaccine</td><td>Vaccine used for tetanus prevention.</td></tr><tr><td style=\"white-space:nowrap\">PCV10<a name=\"de-bd-vaccine-code-PCV10\"> </a></td><td>Pneumococcal Conjugate Vaccine</td><td>10-valent pneumococcal conjugate vaccine.</td></tr><tr><td style=\"white-space:nowrap\">ROTA<a name=\"de-bd-vaccine-code-ROTA\"> </a></td><td>Rotavirus Vaccine</td><td>Live attenuated rotavirus vaccine for diarrheal disease prevention.</td></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"de-bd-vaccine-code-HPV\"> </a></td><td>Human Papillomavirus (HPV) Vaccine</td><td>Vaccine used for prevention of cervical cancer and HPV-related diseases.</td></tr><tr><td style=\"white-space:nowrap\">COVID19<a name=\"de-bd-vaccine-code-COVID19\"> </a></td><td>COVID-19 Vaccine</td><td>Vaccines against SARS-CoV-2 (various manufacturers).</td></tr></table></div><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem bd-vaccine-code</b></p><a name=\"fr-bd-vaccine-code\"> </a><a name=\"fr-hcbd-vaccine-code\"> </a><p>This case-sensitive code system <code>https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">BCG<a name=\"fr-bd-vaccine-code-BCG\"> </a></td><td>BCG Vaccine</td><td>Bacillus Calmette-Guérin vaccine, used against tuberculosis.</td></tr><tr><td style=\"white-space:nowrap\">OPV<a name=\"fr-bd-vaccine-code-OPV\"> </a></td><td>Oral Polio Vaccine (OPV)</td><td>Live attenuated oral polio vaccine.</td></tr><tr><td style=\"white-space:nowrap\">IPV<a name=\"fr-bd-vaccine-code-IPV\"> </a></td><td>Inactivated Polio Vaccine (IPV)</td><td>Inactivated polio vaccine.</td></tr><tr><td style=\"white-space:nowrap\">PENTA<a name=\"fr-bd-vaccine-code-PENTA\"> </a></td><td>Pentavalent Vaccine</td><td>DTP-HepB-Hib combined vaccine.</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"fr-bd-vaccine-code-MR\"> </a></td><td>Measles-Rubella (MR) Vaccine</td><td>Combined measles and rubella vaccine.</td></tr><tr><td style=\"white-space:nowrap\">TT<a name=\"fr-bd-vaccine-code-TT\"> </a></td><td>Tetanus Toxoid (TT) Vaccine</td><td>Vaccine used for tetanus prevention.</td></tr><tr><td style=\"white-space:nowrap\">PCV10<a name=\"fr-bd-vaccine-code-PCV10\"> </a></td><td>Pneumococcal Conjugate Vaccine</td><td>10-valent pneumococcal conjugate vaccine.</td></tr><tr><td style=\"white-space:nowrap\">ROTA<a name=\"fr-bd-vaccine-code-ROTA\"> </a></td><td>Rotavirus Vaccine</td><td>Live attenuated rotavirus vaccine for diarrheal disease prevention.</td></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"fr-bd-vaccine-code-HPV\"> </a></td><td>Human Papillomavirus (HPV) Vaccine</td><td>Vaccine used for prevention of cervical cancer and HPV-related diseases.</td></tr><tr><td style=\"white-space:nowrap\">COVID19<a name=\"fr-bd-vaccine-code-COVID19\"> </a></td><td>COVID-19 Vaccine</td><td>Vaccines against SARS-CoV-2 (various manufacturers).</td></tr></table></div></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.dghs.gov.bd/core/ImplementationGuide/bd.fhir.core"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.dghs.gov.bd/core/ImplementationGuide/bd.fhir.core"
+      }]
+    }
+  }],
+  "url" : "https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code",
+  "version" : "0.4.6",
+  "name" : "BDVaccineCS",
+  "title" : "Bangladesh Vaccine Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-04-27T17:15:47+00:00",
+  "publisher" : "Directorate General of Health Services (DGHS), Bangladesh",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dghs.gov.bd"
+    }]
+  }],
+  "description" : "Vaccine codes used in Bangladesh EPI and immunization program.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "050"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "BCG",
+    "display" : "BCG Vaccine",
+    "definition" : "Bacillus Calmette-Guérin vaccine, used against tuberculosis."
+  },
+  {
+    "code" : "OPV",
+    "display" : "Oral Polio Vaccine (OPV)",
+    "definition" : "Live attenuated oral polio vaccine."
+  },
+  {
+    "code" : "IPV",
+    "display" : "Inactivated Polio Vaccine (IPV)",
+    "definition" : "Inactivated polio vaccine."
+  },
+  {
+    "code" : "PENTA",
+    "display" : "Pentavalent Vaccine",
+    "definition" : "DTP-HepB-Hib combined vaccine."
+  },
+  {
+    "code" : "MR",
+    "display" : "Measles-Rubella (MR) Vaccine",
+    "definition" : "Combined measles and rubella vaccine."
+  },
+  {
+    "code" : "TT",
+    "display" : "Tetanus Toxoid (TT) Vaccine",
+    "definition" : "Vaccine used for tetanus prevention."
+  },
+  {
+    "code" : "PCV10",
+    "display" : "Pneumococcal Conjugate Vaccine",
+    "definition" : "10-valent pneumococcal conjugate vaccine."
+  },
+  {
+    "code" : "ROTA",
+    "display" : "Rotavirus Vaccine",
+    "definition" : "Live attenuated rotavirus vaccine for diarrheal disease prevention."
+  },
+  {
+    "code" : "HPV",
+    "display" : "Human Papillomavirus (HPV) Vaccine",
+    "definition" : "Vaccine used for prevention of cervical cancer and HPV-related diseases."
+  },
+  {
+    "code" : "COVID19",
+    "display" : "COVID-19 Vaccine",
+    "definition" : "Vaccines against SARS-CoV-2 (various manufacturers)."
+  }]
+}

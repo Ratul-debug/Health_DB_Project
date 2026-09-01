@@ -1,0 +1,11 @@
+﻿code,display,definition,code_system,version
+BCG,BCG Vaccine,"Bacillus Calmette-Guérin vaccine, used against tuberculosis.",https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+OPV,Oral Polio Vaccine (OPV),Live attenuated oral polio vaccine.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+IPV,Inactivated Polio Vaccine (IPV),Inactivated polio vaccine.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+PENTA,Pentavalent Vaccine,DTP-HepB-Hib combined vaccine.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+MR,Measles-Rubella (MR) Vaccine,Combined measles and rubella vaccine.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+TT,Tetanus Toxoid (TT) Vaccine,Vaccine used for tetanus prevention.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+PCV10,Pneumococcal Conjugate Vaccine,10-valent pneumococcal conjugate vaccine.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+ROTA,Rotavirus Vaccine,Live attenuated rotavirus vaccine for diarrheal disease prevention.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+HPV,Human Papillomavirus (HPV) Vaccine,Vaccine used for prevention of cervical cancer and HPV-related diseases.,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6
+COVID19,COVID-19 Vaccine,Vaccines against SARS-CoV-2 (various manufacturers).,https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code,0.4.6

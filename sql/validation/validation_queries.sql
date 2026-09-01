@@ -44,7 +44,7 @@ UNION ALL SELECT 'TelemedicineCenter', COUNT(*) FROM `TelemedicineCenter`
 UNION ALL SELECT 'Vaccination', COUNT(*) FROM `Vaccination`
 ORDER BY table_name;
 
--- Expected after migration 005: 495 total demonstration rows and zero empty tables.
+-- Expected after migration 006: 68,185 total rows and zero empty tables.
 SELECT SUM(row_count) AS total_demonstration_rows,
        SUM(row_count = 0) AS empty_tables
 FROM (
@@ -209,6 +209,7 @@ FROM (
         ELSE NULL
     END AS expected_region
     FROM `HealthFacility`
+    WHERE `FacilityID` < 100000
 ) AS facility_location
 WHERE expected_region IS NOT NULL AND `RegionID` <> expected_region
 UNION ALL
@@ -229,6 +230,7 @@ WHERE `FacilityType` IN (
     'Government District/General Hospital',
     'Public Health Institute'
 )
+  AND `FacilityID` < 100000
 UNION ALL
 SELECT 'source_2023_iph_laboratory_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 8)
 FROM `Laboratory` laboratory_row
@@ -252,6 +254,60 @@ WHERE `DesignationName` IN (
     'Medical Technologist (Other Discipline)',
     'Medical Technologist (Unspecified Discipline)'
 )
+UNION ALL
+SELECT 'source_006_total_row_count_mismatch', ABS(CAST((
+    (SELECT COUNT(*) FROM `AdministrativeRegion`) +
+    (SELECT COUNT(*) FROM `Biopsy`) +
+    (SELECT COUNT(*) FROM `CancerCase`) +
+    (SELECT COUNT(*) FROM `Covid19`) +
+    (SELECT COUNT(*) FROM `Dengue`) +
+    (SELECT COUNT(*) FROM `Designation`) +
+    (SELECT COUNT(*) FROM `Diarrhea`) +
+    (SELECT COUNT(*) FROM `Disease`) +
+    (SELECT COUNT(*) FROM `HealthFacility`) +
+    (SELECT COUNT(*) FROM `HealthWorker`) +
+    (SELECT COUNT(*) FROM `HIV`) +
+    (SELECT COUNT(*) FROM `HospitalBed`) +
+    (SELECT COUNT(*) FROM `Laboratory`) +
+    (SELECT COUNT(*) FROM `Malnutrition`) +
+    (SELECT COUNT(*) FROM `MaternalHealth`) +
+    (SELECT COUNT(*) FROM `Measles`) +
+    (SELECT COUNT(*) FROM `Newborn`) +
+    (SELECT COUNT(*) FROM `Patient`) +
+    (SELECT COUNT(*) FROM `PopulationGroup`) +
+    (SELECT COUNT(*) FROM `TelemedicineCenter`) +
+    (SELECT COUNT(*) FROM `Vaccination`)
+) AS SIGNED) - 68185)
+UNION ALL
+SELECT 'source_006_facility_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 39434)
+FROM `HealthFacility`
+WHERE `FacilityID` BETWEEN 100001 AND 199999
+UNION ALL
+SELECT 'source_006_laboratory_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 9694)
+FROM `Laboratory`
+WHERE `LabID` BETWEEN 200001 AND 299999
+UNION ALL
+SELECT 'source_006_condition_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 18508)
+FROM `Disease`
+WHERE `DiseaseID` BETWEEN 300001 AND 399999
+UNION ALL
+SELECT 'source_006_designation_count_mismatch', ABS(CAST(COUNT(*) AS SIGNED) - 54)
+FROM `Designation`
+WHERE `DesignationID` BETWEEN 400001 AND 499999
+UNION ALL
+SELECT 'source_006_missing_facility_trace_id', COUNT(*)
+FROM `HealthFacility`
+WHERE `FacilityID` BETWEEN 100001 AND 199999
+  AND `FacilityName` NOT REGEXP '\\[DGHS Facility ID [0-9]+\\]$'
+UNION ALL
+SELECT 'source_006_duplicate_icd11_codes', COUNT(*)
+FROM (
+    SELECT `ICDCode`
+    FROM `Disease`
+    WHERE `DiseaseID` BETWEEN 300001 AND 399999
+    GROUP BY `ICDCode`
+    HAVING COUNT(*) > 1
+) duplicate_rows
 UNION ALL
 SELECT 'normalized_duplicate_facility_names', COUNT(*)
 FROM (
@@ -366,3 +422,28 @@ WHERE `DesignationName` IN (
     'Medical Technologist (Unspecified Discipline)'
 )
 ORDER BY `DesignationName`;
+
+-- Bangladesh-only national-scale expansion demonstrations.
+SELECT region_row.`RegionName`, COUNT(*) AS dghs_active_facility_count
+FROM `HealthFacility` facility_row
+JOIN `AdministrativeRegion` region_row
+  ON region_row.`RegionID` = facility_row.`RegionID`
+WHERE facility_row.`FacilityID` BETWEEN 100001 AND 199999
+GROUP BY region_row.`RegionName`
+ORDER BY region_row.`RegionName`;
+
+SELECT region_row.`RegionName`, COUNT(*) AS dghs_laboratory_count
+FROM `Laboratory` laboratory_row
+JOIN `HealthFacility` facility_row
+  ON facility_row.`FacilityID` = laboratory_row.`FacilityID`
+JOIN `AdministrativeRegion` region_row
+  ON region_row.`RegionID` = facility_row.`RegionID`
+WHERE laboratory_row.`LabID` BETWEEN 200001 AND 299999
+GROUP BY region_row.`RegionName`
+ORDER BY region_row.`RegionName`;
+
+SELECT `DiseaseID`, `ICDCode`, `DiseaseName`
+FROM `Disease`
+WHERE `DiseaseID` BETWEEN 300001 AND 399999
+ORDER BY `ICDCode`
+LIMIT 25;

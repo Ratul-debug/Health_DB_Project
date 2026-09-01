@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bd-vaccine-valueset",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet bd-vaccine-valueset</b></p><a name=\"bd-vaccine-valueset\"> </a><a name=\"hcbd-vaccine-valueset\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-bd-vaccine-code.html\"><code>https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.4.6</span></li></ul></div><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet bd-vaccine-valueset</b></p><a name=\"de-bd-vaccine-valueset\"> </a><a name=\"de-hcbd-vaccine-valueset\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-bd-vaccine-code.html\"><code>https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.4.6</span></li></ul></div><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs bd-vaccine-valueset</b></p><a name=\"fr-bd-vaccine-valueset\"> </a><a name=\"fr-hcbd-vaccine-valueset\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-bd-vaccine-code.html\"><code>https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;0.4.6</span></li></ul></div></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.dghs.gov.bd/core/ImplementationGuide/bd.fhir.core"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.dghs.gov.bd/core/ImplementationGuide/bd.fhir.core"
+      }]
+    }
+  }],
+  "url" : "https://fhir.dghs.gov.bd/core/ValueSet/bd-vaccine-valueset",
+  "version" : "0.4.6",
+  "name" : "BDVaccineVS",
+  "title" : "Bangladesh Vaccine Value Set",
+  "status" : "active",
+  "date" : "2026-04-27T17:15:47+00:00",
+  "publisher" : "Directorate General of Health Services (DGHS), Bangladesh",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dghs.gov.bd"
+    }]
+  }],
+  "description" : "Allowed vaccines for immunization in Bangladesh.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "050"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://fhir.dghs.gov.bd/core/CodeSystem/bd-vaccine-code"
+    }]
+  }
+}

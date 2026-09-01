@@ -1,0 +1,39 @@
+{
+  "catalog_row": 117,
+  "source_name": "Bangladesh Vaccine Value Set",
+  "source_url": "https://fhir.dghs.gov.bd/core/ValueSet-bd-vaccine-valueset.html",
+  "download_urls": [
+    "https://fhir.dghs.gov.bd/core/ValueSet-bd-vaccine-valueset.json",
+    "https://fhir.dghs.gov.bd/core/CodeSystem-bd-vaccine-code.json"
+  ],
+  "bangladesh_only": true,
+  "collection_date": "2026-09-01",
+  "release_or_snapshot": "v0.4.6 generated 2026-04-27",
+  "raw_files": [
+    {
+      "file": "source_datasets/bd_vaccine_valueset_0.4.6.json",
+      "sha256": "ed4cc58a39c35c71e0c36e695f2feb7a7753e6dbda9ba5b96777232987df7453"
+    },
+    {
+      "file": "source_datasets/bd_vaccine_code_system_0.4.6.json",
+      "sha256": "4de21a447da6b8b00b6386e343e5bc26053207e32c0c949c2d256c0486173d34"
+    }
+  ],
+  "extracted_tables": [
+    {
+      "file": "extracted_tables/117_Bangladesh_Vaccine_Value_Set/table_0001.csv",
+      "rows": 10,
+      "columns": 5
+    }
+  ],
+  "sql_mapping": {},
+  "exclusion_note": "Terminology has no PatientID or vaccination date, so it is not converted into patient events.",
+  "pipeline": [
+    "catalogued_in_health_data.xlsx",
+    "raw_source_archived",
+    "table_extracted",
+    "reference_reviewed",
+    "retained_as_reference_only",
+    "validated"
+  ]
+}

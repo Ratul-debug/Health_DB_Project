@@ -1,6 +1,6 @@
 # Source archive status
 
-The catalog contains 112 source records. The repository preserves 61 files that
+The catalog contains 117 source records. The repository preserves 61 files that
 have valid PDF signatures under `pdfs/`. Four downloaded URLs returned HTML web
 pages rather than PDF documents; they are retained with truthful `.html`
 extensions under `source_pages/`.
@@ -14,7 +14,7 @@ extensions under `source_pages/`.
 
 The original grouped catalog is preserved in the `Health` worksheet of
 `health_data.xlsx`. The `Health_Catalog_Clean` worksheet is the machine-readable
-version: it contains 112 rows, 112 populated links, no blank fields, explicit
+version: it contains 117 rows, 117 populated links, no blank fields, explicit
 source types, and an alias note for the one repeated URL used by two distinct
 catalog descriptions.
 
@@ -22,3 +22,16 @@ Existing extracted CSV tables and metadata remain unchanged as raw evidence.
 The downloader now validates the response signature before choosing `.pdf` and
 stores HTML responses in `source_pages/`, preventing misleading file extensions
 in future runs.
+
+Five official Bangladesh dataset/catalog entries were added for the
+national-scale expansion. Their downloaded XLSX, XLS, JSON, and ZIP evidence is
+stored under `source_datasets/`; the exact URLs, publication/snapshot dates,
+collection date, mappings, exclusions, and hashes are recorded in
+`source_datasets/README.md`. These files are separate from the 61-document PDF
+count.
+
+Their tabular extraction outputs are retained in numbered folders 114-118 under
+`extracted_tables/`, matching their workbook catalog rows. Five corresponding
+JSON lineage records are stored under `metadata/`; the generated cleaned layer
+feeds migration 006 and is reproducible with
+`scripts/08_build_bangladesh_scale_expansion.py`.

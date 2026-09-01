@@ -1,0 +1,36 @@
+{
+  "catalog_row": 116,
+  "source_name": "Bangladesh ICD-11 MMS Condition ValueSet",
+  "source_url": "https://fhir.dghs.gov.bd/core/ValueSet-bd-condition-icd11-diagnosis-valueset.html",
+  "download_urls": [
+    "https://tr.ocl.dghs.gov.bd/api/orgs/MoHFW/collections/bd-condition-icd11-diagnosis-valueset/HEAD/expansions/autoexpand-HEAD/concepts/?limit=1000"
+  ],
+  "bangladesh_only": true,
+  "collection_date": "2026-09-01",
+  "release_or_snapshot": "ICD-11-MMS 2025-01 expansion collected 2026-09-01",
+  "raw_files": [
+    {
+      "file": "source_datasets/bd_condition_icd11_2025_01_ocl.json",
+      "sha256": "320cd2645cf2fe1d8d591903d421796b26a201e89931ab0c017fcf087b8f6d3e"
+    }
+  ],
+  "extracted_tables": [
+    {
+      "file": "extracted_tables/116_Bangladesh_ICD11_Condition_ValueSet/table_0001.csv",
+      "rows": 18508,
+      "columns": 5
+    }
+  ],
+  "sql_mapping": {
+    "Disease": 18508
+  },
+  "exclusion_note": "All displayable Diagnosis and Finding concepts returned by the archived public expansion are included.",
+  "pipeline": [
+    "catalogued_in_health_data.xlsx",
+    "raw_source_archived",
+    "table_extracted",
+    "mapping_cleaned",
+    "loaded_by_migration_006",
+    "validated"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "catalog_row": 115,
+  "source_name": "Bangladesh Core FHIR Implementation Guide v0.4.6",
+  "source_url": "https://fhir.dghs.gov.bd/core/artifacts.html",
+  "download_urls": [
+    "https://fhir.dghs.gov.bd/core/full-ig.zip"
+  ],
+  "bangladesh_only": true,
+  "collection_date": "2026-09-01",
+  "release_or_snapshot": "v0.4.6 generated 2026-04-27",
+  "raw_files": [
+    {
+      "file": "source_datasets/bd_core_fhir_ig_0.4.6_full.zip",
+      "sha256": "0498f07a3ce5765c88e23954211101e7aa68bfa759f6dae6f7f33e797d2ac879"
+    }
+  ],
+  "extracted_tables": [
+    {
+      "file": "extracted_tables/115_Bangladesh_Core_FHIR_IG/table_0001.csv",
+      "rows": 1529,
+      "columns": 5
+    }
+  ],
+  "sql_mapping": {},
+  "exclusion_note": "Documentation/package inventory; terminology content is loaded from catalog rows 116 and 117.",
+  "pipeline": [
+    "catalogued_in_health_data.xlsx",
+    "raw_source_archived",
+    "table_extracted",
+    "reference_reviewed",
+    "retained_as_reference_only",
+    "validated"
+  ]
+}

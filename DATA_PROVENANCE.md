@@ -23,7 +23,7 @@ as patient-level or bed-level source records.
 
 The source catalog is retained in two forms inside `health_data.xlsx`:
 `Health` preserves the original grouped presentation, while
-`Health_Catalog_Clean` provides 112 machine-readable records with every field
+`Health_Catalog_Clean` provides 117 machine-readable records with every field
 populated. Four catalog URLs returned HTML web pages rather than PDF documents;
 their original responses are preserved under `source_pages/` with `.html`
 extensions. See `SOURCE_ARCHIVE_STATUS.md`.
@@ -51,5 +51,48 @@ The ordered migrations are retained under `sql/migrations/`. Migration
 documented semantic relationships, and makes every populated column mandatory.
 Migration `005_source_backed_row_expansion.sql` increases the canonical
 demonstration snapshot from 395 to 495 rows using source-backed reference and
-facility data. None of these migrations changes the 21-entity design, its 89
-columns, or its 25 foreign keys.
+facility data.
+
+Migration `006_bangladesh_national_scale_expansion.sql` then adds 67,690 rows
+from official Bangladesh sources: 39,434 DGHS active facilities, 9,694
+laboratory/diagnostic facilities linked to them, 18,508 Bangladesh ICD-11
+Condition concepts, and 54 designation values. The final snapshot contains
+68,185 rows. The source-to-table rules are deterministic and are implemented by
+`scripts/08_build_bangladesh_scale_expansion.py`; full metadata and hashes are
+in `source_datasets/README.md`.
+
+For catalog rows 114-118, raw downloads are preserved under
+`source_datasets/`, extracted CSV tables under matching numbered folders in
+`extracted_tables/`, and per-source lineage records under `metadata/`. The
+script writes normalized physical-table mappings to the generated
+`cleaned_tables/` layer and reads those cleaned files back before producing
+migration 006. `reports/bangladesh_scale_pipeline_manifest.csv` reconciles each
+source's extracted rows, mapped table, inserted rows, and explicit exclusions.
+
+The source Doctor Directory contains 199 provider names, but it has no Gender
+field. Because `HealthWorker.Gender` is mandatory, those names are not imported
+as workers. Likewise, the 10-code Bangladesh Vaccine ValueSet is terminology,
+not patient vaccination events, so it is not converted into `Vaccination` rows.
+This boundary prevents missing values from being invented. None of the ordered
+migrations changes the 21-entity design, its 89 columns, or its 25 foreign keys.
+
+## Row-count reconciliation
+
+An earlier working estimate of 124,334 rows included 74,721 Disease reference
+rows from a US CDC terminology source. That scenario was not accepted as the
+canonical expansion because the project requirement was subsequently narrowed
+to Bangladesh-only sources. It was replaced rather than combined with the
+official Bangladesh OCL Condition expansion.
+
+| Group | Earlier draft | Bangladesh-only canonical | Change |
+|---|---:|---:|---:|
+| `Disease` | 74,721 | 18,517 | -56,204 |
+| `HealthFacility` | 39,613 | 39,614 | +1 |
+| `Laboratory` | 9,709 | 9,709 | 0 |
+| Other 18 tables | 291 | 345 | +54 |
+| **Total** | **124,334** | **68,185** | **-56,149** |
+
+The valid comparison is therefore the verified 495-row baseline versus the
+68,185-row Bangladesh-only snapshot: migration 006 adds 67,690 defensible SQL
+rows. The discarded 124,334-row draft must not be cited as a previously
+validated Bangladesh database.

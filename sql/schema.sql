@@ -132,7 +132,7 @@ CREATE TABLE `Designation` (
   `DesignationID` int NOT NULL AUTO_INCREMENT,
   `DesignationName` varchar(255) NOT NULL,
   PRIMARY KEY (`DesignationID`)
-) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=400055 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -170,7 +170,7 @@ CREATE TABLE `Disease` (
   `ICDCode` varchar(100) NOT NULL,
   PRIMARY KEY (`DiseaseID`),
   KEY `idx_disease_name` (`DiseaseName`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=318509 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -210,7 +210,7 @@ CREATE TABLE `HealthFacility` (
   PRIMARY KEY (`FacilityID`),
   KEY `idx_healthfacility_region` (`RegionID`),
   CONSTRAINT `fk_healthfacility_region` FOREIGN KEY (`RegionID`) REFERENCES `AdministrativeRegion` (`RegionID`)
-) ENGINE=InnoDB AUTO_INCREMENT=228 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=140654 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -266,7 +266,7 @@ CREATE TABLE `Laboratory` (
   PRIMARY KEY (`LabID`),
   KEY `idx_laboratory_facility` (`FacilityID`),
   CONSTRAINT `fk_laboratory_facility` FOREIGN KEY (`FacilityID`) REFERENCES `HealthFacility` (`FacilityID`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=240034 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

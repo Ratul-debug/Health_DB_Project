@@ -3796,3 +3796,13 @@ cleaned_tables/107_Cancer_J_Bangladesh_Vol_3_No_1/table_003.csv,other,0,4,10
 cleaned_tables/110_Cancer_J_Bangladesh_Vol_2_No_1_January_2021/table_001.csv,other,0,1,1
 cleaned_tables/110_Cancer_J_Bangladesh_Vol_2_No_1_January_2021/table_002.csv,error,0,0,0
 cleaned_tables/111_Cancer_J_Bangladesh_Vol_1_No_1_July_2020/table_001.csv,error,0,0,0
+cleaned_tables/114_DGHS_Active_Facility_Registry/HealthFacility.csv,health_stat,2,39434,4
+cleaned_tables/114_DGHS_Active_Facility_Registry/Laboratory.csv,health_stat,1,9694,3
+cleaned_tables/114_DGHS_Active_Facility_Registry/table_0001.csv,health_stat,2,39434,14
+cleaned_tables/115_Bangladesh_Core_FHIR_IG/table_0001.csv,cancer,2,1529,5
+cleaned_tables/116_Bangladesh_ICD11_Condition_ValueSet/Disease.csv,maternal_child,2,18508,3
+cleaned_tables/116_Bangladesh_ICD11_Condition_ValueSet/table_0001.csv,cancer,1,18508,5
+cleaned_tables/117_Bangladesh_Vaccine_Value_Set/VaccineReference.csv,health_stat,1,10,5
+cleaned_tables/117_Bangladesh_Vaccine_Value_Set/table_0001.csv,health_stat,1,10,5
+cleaned_tables/118_Bangladesh_Open_Data_Doctor_Directory/Designation.csv,health_stat,1,54,2
+cleaned_tables/118_Bangladesh_Open_Data_Doctor_Directory/table_0001.csv,population,1,199,11

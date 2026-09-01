@@ -1,0 +1,37 @@
+{
+  "catalog_row": 114,
+  "source_name": "DGHS Active Facility Registry (Bangladesh)",
+  "source_url": "https://hrm.dghs.gov.bd/public/facility-registry",
+  "download_urls": [
+    "https://hrm.dghs.gov.bd/public/facility-registry/reports/organization-list?is_active=1&submit=Run&columns_csv=id%2Cname%2Cname_bn%2Ccode%2Cemail_1%2Cfacility_agency_name%2Cfacility_type_name%2Cdivision_name%2Cdistrict_name%2Ccity_corporation_name%2Cupazila_name%2Cpaurasava_name%2Cunion_name%2Cis_private&alias_columns_csv=ID%2CName%2CName+%28Bangla%29%2CCode%2CEmail%2CAgency%2CType%2CDivision%2CDistrict%2CCity+Corporation%2CUpazila%2CPaurasava%2CUnion%2CPrivate&ret=excel"
+  ],
+  "bangladesh_only": true,
+  "collection_date": "2026-09-01",
+  "release_or_snapshot": "Live active-facility snapshot collected 2026-09-01",
+  "raw_files": [
+    {
+      "file": "source_datasets/dghs_active_facility_registry_2026-09-01.xlsx",
+      "sha256": "4524ca1795363223f92b0c074415fad6cdcaf32314671bc04caf51adc6a73f30"
+    }
+  ],
+  "extracted_tables": [
+    {
+      "file": "extracted_tables/114_DGHS_Active_Facility_Registry/table_0001.csv",
+      "rows": 39434,
+      "columns": 14
+    }
+  ],
+  "sql_mapping": {
+    "HealthFacility": 39434,
+    "Laboratory": 9694
+  },
+  "exclusion_note": "Only three laboratory/diagnostic facility types create Laboratory rows.",
+  "pipeline": [
+    "catalogued_in_health_data.xlsx",
+    "raw_source_archived",
+    "table_extracted",
+    "mapping_cleaned",
+    "loaded_by_migration_006",
+    "validated"
+  ]
+}

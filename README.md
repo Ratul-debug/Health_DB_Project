@@ -7,9 +7,10 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
 - 21 MySQL tables matching the submitted entity list
 - 21 primary keys and 25 implemented foreign-key constraints
 - All 89 table columns populated in the canonical snapshot and enforced as `NOT NULL`
-- 495 populated demonstration rows after the source-backed expansion
-- 112 source records inventoried in `health_data.xlsx`; 61 valid PDFs and 4
-  HTML source pages retained with their real file types
+- 68,185 populated rows after the Bangladesh-only national-scale expansion
+- 117 source records inventoried in `health_data.xlsx`; 61 valid PDFs, 4
+  HTML source pages, and 5 additional official Bangladesh dataset/catalog
+  entries retained with their real file types
 - 68 extraction/metadata source folders and 3,797 extracted CSV tables retained for traceability
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
@@ -19,10 +20,12 @@ Synthetic patient and clinical records are clearly demo data and must not be pre
 
 ```text
 Health_DB_Project/
-├── extracted_tables/          Raw CSV tables extracted from PDFs
-├── metadata/                  Per-document extraction metadata
+├── extracted_tables/          Raw CSV tables extracted from PDFs/datasets
+├── cleaned_tables/            Generated normalized/mapping-ready CSVs (ignored)
+├── metadata/                  Per-source extraction and mapping metadata
 ├── pdfs/                      Downloaded source reports
 ├── source_pages/              Downloaded sources that are HTML pages
+├── source_datasets/           Official Bangladesh XLSX/XLS/JSON/ZIP datasets
 ├── reports/                   Catalog, classification, and cleaning summaries
 ├── scripts/                   Download, extraction, cleaning, and catalog scripts
 ├── sql/
@@ -64,6 +67,43 @@ python scripts/07_find_best_tables.py
 
 The cleaner preserves `extracted_tables/` as raw evidence and writes normalized copies to `cleaned_tables/`.
 
+## Run the Bangladesh dataset pipeline
+
+The five additional catalog entries follow the same auditable sequence as the
+earlier sources:
+
+```text
+health_data.xlsx catalog
+  -> source_datasets raw download
+  -> extracted_tables CSV
+  -> cleaned_tables physical mapping
+  -> migration 006 SQL
+  -> canonical full dump
+  -> validation reports
+```
+
+Run all deterministic stages from the repository root:
+
+```bash
+python scripts/08_download_bangladesh_scale_sources.py
+python scripts/08_build_bangladesh_scale_expansion.py
+python scripts/cleaner.py
+python scripts/04_find_duplicates.py
+python scripts/05_build_catalog.py
+python scripts/06_classify_tables.py
+python scripts/07_find_best_tables.py
+```
+
+The downloader preserves five catalog entries as six validated raw files. The
+builder then recreates five extracted tables, five mapping/reference outputs,
+five metadata records, `reports/bangladesh_scale_pipeline_manifest.csv`, the
+migration SQL, full data dump, schema AUTO_INCREMENT metadata, and the static
+validation report. It then reads the cleaned physical mappings—not the raw
+files directly—to generate the SQL rows.
+The remaining commands refresh the archive-wide cleaning, duplicate, catalog,
+classification, and best-table reports so the five new extractions are included
+alongside the earlier PDF tables.
+
 ## Restore MySQL
 
 Choose one option, not both.
@@ -101,6 +141,28 @@ The same source reports sanctioned bed totals, but not one complete row per
 physical bed with the required `BedType` and `Status` fields.
 Those aggregate totals are therefore not expanded into synthetic `HospitalBed`
 rows.
+
+Migration `006_bangladesh_national_scale_expansion.sql` adds 67,690
+Bangladesh-only source rows without adding or changing an entity, column, or
+foreign key:
+
+- 39,434 active facilities from the DGHS Facility Registry
+- 9,694 laboratory/diagnostic facilities linked to those facility rows
+- 18,508 Bangladesh ICD-11 Condition concepts (Diagnosis and Finding)
+- 54 workforce designation values from the Bangladesh Open Data Doctor Directory
+
+The resulting canonical snapshot has 68,185 rows in the same 21 tables. Run
+`python scripts/08_build_bangladesh_scale_expansion.py` to regenerate the SQL
+deterministically from the archived source extracts. Source URLs, dates,
+mapping rules, exclusions, and SHA-256 hashes are documented in
+`source_datasets/README.md`.
+
+The Doctor Directory's 199 provider rows are not inserted as `HealthWorker`
+records because its published fields do not include the mandatory `Gender`
+attribute. The Bangladesh Vaccine ValueSet is retained as reference evidence,
+but its 10 codes are not converted into patient vaccination events because the
+source does not publish a `PatientID`. These exclusions prevent fabricated
+values.
 
 No database password is stored in this repository.
 

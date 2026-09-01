@@ -3796,3 +3796,8 @@ extracted_tables/107_Cancer_J_Bangladesh_Vol_3_No_1/table_003.csv,cleaned_tables
 extracted_tables/110_Cancer_J_Bangladesh_Vol_2_No_1_January_2021/table_001.csv,cleaned_tables/110_Cancer_J_Bangladesh_Vol_2_No_1_January_2021/table_001.csv,ok,7,1,9,1,6,
 extracted_tables/110_Cancer_J_Bangladesh_Vol_2_No_1_January_2021/table_002.csv,cleaned_tables/110_Cancer_J_Bangladesh_Vol_2_No_1_January_2021/table_002.csv,ok,10,0,6,0,10,
 extracted_tables/111_Cancer_J_Bangladesh_Vol_1_No_1_July_2020/table_001.csv,cleaned_tables/111_Cancer_J_Bangladesh_Vol_1_No_1_July_2020/table_001.csv,ok,5,0,6,0,5,
+extracted_tables/114_DGHS_Active_Facility_Registry/table_0001.csv,cleaned_tables/114_DGHS_Active_Facility_Registry/table_0001.csv,ok,39434,39434,14,14,0,
+extracted_tables/115_Bangladesh_Core_FHIR_IG/table_0001.csv,cleaned_tables/115_Bangladesh_Core_FHIR_IG/table_0001.csv,ok,1529,1529,5,5,0,
+extracted_tables/116_Bangladesh_ICD11_Condition_ValueSet/table_0001.csv,cleaned_tables/116_Bangladesh_ICD11_Condition_ValueSet/table_0001.csv,ok,18508,18508,5,5,0,
+extracted_tables/117_Bangladesh_Vaccine_Value_Set/table_0001.csv,cleaned_tables/117_Bangladesh_Vaccine_Value_Set/table_0001.csv,ok,10,10,5,5,0,
+extracted_tables/118_Bangladesh_Open_Data_Doctor_Directory/table_0001.csv,cleaned_tables/118_Bangladesh_Open_Data_Doctor_Directory/table_0001.csv,ok,199,199,11,11,0,

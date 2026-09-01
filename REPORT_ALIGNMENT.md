@@ -9,7 +9,7 @@ restorable snapshot `sql/health_db_21_tables_with_data.sql`. It contains:
 - 89 mandatory (`NOT NULL`) columns
 - 21 primary keys
 - 25 foreign-key constraints
-- 495 populated demonstration rows
+- 68,185 populated rows after migration 006
 
 `sql/validation/validation_queries.sql` verifies these counts, every foreign-key
 relationship, empty tables, NULL/blank values, duplicate business keys, and the
@@ -47,3 +47,13 @@ facility relationships without adding or removing an entity.
 For demonstrations and SQL queries, use the physical names and relationships in
 `sql/schema.sql`. The conceptual ERD remains the presentation artifact, while
 the schema and validation report are the executable proof of implementation.
+
+## Post-report data expansion
+
+The 54-page `PROJECT_REPORT.pdf` documents the verified 495-row baseline at the
+time that version was produced. Migration 006 is a later, Bangladesh-only data
+expansion that preserves the same 21 entities, 89 columns, and 25 foreign keys
+while increasing the canonical SQL snapshot to 68,185 rows. Before submitting
+an updated report, regenerate its row-count tables and validation evidence from
+a successful local MySQL restore of the migration-006 snapshot; do not present
+the older 495-row validation files as proof of the expanded database.

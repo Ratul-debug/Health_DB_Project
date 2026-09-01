@@ -1,0 +1,89 @@
+BANGLADESH NATIONAL-SCALE STATIC VALIDATION
+
+baseline_rows=495
+added_designations=54
+added_conditions=18508
+added_facilities=39434
+added_laboratories=9694
+final_total_rows=68185
+
+TABLE COUNTS
+AdministrativeRegion=8
+Biopsy=12
+CancerCase=12
+Covid19=20
+Dengue=15
+Designation=85
+Diarrhea=15
+Disease=18517
+HIV=15
+HealthFacility=39614
+HealthWorker=12
+HospitalBed=60
+Laboratory=9709
+Malnutrition=15
+MaternalHealth=12
+Measles=15
+Newborn=10
+Patient=15
+PopulationGroup=8
+TelemedicineCenter=10
+Vaccination=6
+
+SOURCE CHECKS
+facility_blank_required_fields=0
+facility_duplicate_ids=0
+facility_unmapped_divisions=0
+laboratory_orphan_facility_ids=0
+condition_blank_codes=0
+condition_blank_names=0
+condition_duplicate_codes=0
+pipeline_catalog_rows=5
+pipeline_raw_source_entries_archived=5
+pipeline_raw_files_archived=6
+pipeline_extracted_tables=5
+pipeline_sql_tables_loaded=4
+facility_extracted_rows=39434
+fhir_package_inventory_rows=1529
+condition_extracted_rows=18508
+vaccine_reference_rows_not_imported=10
+doctor_directory_extracted_rows=199
+source_006_sql_rows_inserted=67690
+condition_class_Diagnosis=13389
+condition_class_Finding=5119
+doctor_directory_provider_rows_not_imported=199
+doctor_directory_reason=HealthWorker.Gender is required but absent from source
+
+FACILITY COUNTS BY REGION ID
+region_1=9981
+region_2=7481
+region_3=5225
+region_4=4821
+region_5=2883
+region_6=2227
+region_7=4025
+region_8=2791
+
+LABORATORY COUNTS BY REGION ID
+region_1=3148
+region_2=1858
+region_3=1205
+region_4=1036
+region_5=739
+region_6=474
+region_7=671
+region_8=563
+
+ARCHIVE SHA256
+facility_xlsx=4524ca1795363223f92b0c074415fad6cdcaf32314671bc04caf51adc6a73f30
+facility_csv=5d13de522937cc58757f4f0316d9402a10b5a10a08b7de339b7e1e082c664b11
+condition_json=320cd2645cf2fe1d8d591903d421796b26a201e89931ab0c017fcf087b8f6d3e
+doctor_xls=cde1e8463c9dff60c3ddc7b4a3a3528bec28294eb1e67efcaadf81a4fa566bb2
+doctor_csv=133130849621ee0610d36d69a51a1c54720da90162ef2308199824f1a846e284
+fhir_full_ig_zip=0498f07a3ce5765c88e23954211101e7aa68bfa759f6dae6f7f33e797d2ac879
+vaccine_valueset_json=ed4cc58a39c35c71e0c36e695f2feb7a7753e6dbda9ba5b96777232987df7453
+vaccine_code_system_json=4de21a447da6b8b00b6386e343e5bc26053207e32c0c949c2d256c0486173d34
+pipeline_manifest=125783906289600a6ec8da0a1441f416fc4937f83c8ff25841e110e8a6a217c4
+
+NOTE: This is deterministic source/dump validation, not a live MySQL restore test.
+Run the documented isolated restore before commit/push.
