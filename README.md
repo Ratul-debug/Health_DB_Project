@@ -11,7 +11,9 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
 - 117 source records inventoried in `health_data.xlsx`; 61 valid PDFs, 4
   HTML source pages, and 5 additional official Bangladesh dataset/catalog
   entries retained with their real file types
-- 68 extraction/metadata source folders and 3,797 extracted CSV tables retained for traceability
+- 73 extraction/metadata source folders and 3,802 raw extracted CSV tables
+  retained for traceability; the cleaned/catalogued layer contains 3,807 CSV
+  outputs after five derived mapping/reference files are added
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
 Synthetic patient and clinical records are clearly demo data and must not be presented as real patient observations. See `DATA_PROVENANCE.md`.

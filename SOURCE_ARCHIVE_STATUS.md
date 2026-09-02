@@ -35,3 +35,9 @@ Their tabular extraction outputs are retained in numbered folders 114-118 under
 JSON lineage records are stored under `metadata/`; the generated cleaned layer
 feeds migration 006 and is reproducible with
 `scripts/08_build_bangladesh_scale_expansion.py`.
+
+Across the complete archive there are 73 extraction/metadata source folders and
+3,802 raw extracted CSV tables. The cleaned/catalogued layer contains 3,807 CSV
+outputs because the Bangladesh-scale pipeline adds five derived
+mapping/reference files. These figures describe separate pipeline layers and
+must not be reported as the same unit.

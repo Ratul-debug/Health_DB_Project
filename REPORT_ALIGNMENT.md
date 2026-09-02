@@ -58,9 +58,12 @@ migration-006 snapshot. Its discovery inventory, ETL stages, normalization
 sample summaries, validation matrix, provenance table, and final maintenance
 summary all report the canonical 68,185-row state. The seven-step ETL flow on
 printed page 40 separates discovery, acquisition, extraction, cleaning,
-source-to-schema mapping, MySQL loading, and live/restore validation. The
-Contents and List of Tables entries are internal PDF links to their stated
-pages. The displayed sample rows
+source-to-schema mapping, MySQL loading, and live/restore validation. It also
+distinguishes the 3,802 raw extracted CSV tables from the 3,807
+cleaned/catalogued outputs: five derived mapping/reference files are added
+between those layers. Sections 3.2.1-3.2.8 now appear before Section 3.3, and
+the affected Contents entries point to their corrected printed pages. The
+Contents and List of Tables entries remain internal PDF links. The displayed sample rows
 remain present after the expansion; their final table totals are
 `HealthFacility = 39,614`, `Designation = 85`, `Disease = 18,517`,
 `Laboratory = 9,709`, and `HealthWorker = 12`.
