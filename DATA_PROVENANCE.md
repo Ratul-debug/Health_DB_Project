@@ -38,6 +38,15 @@ duplicate removal to values and headers. It then assigns `accepted`,
 and cannot be loaded. The decision for every table is committed in
 `reports/cleaning_summary.csv` and `reports/source_to_schema_mapping.csv`.
 
+Structure integrity and OCR risk are not assessed only for the three Measles
+examples. `reports/structure_ocr_integrity_audit.csv` records parseability,
+header integrity, rectangular shape, blanks, multiline/merged cells, encoding
+and OCR-risk indicators, SHA-256, provenance status and load safety for all
+3,802 raw tables. `reports/extraction_page_trace.csv` reconciles each raw table
+with existing page metadata or a conservative recovered trace. Any unresolved
+page, unavailable source, structural concern or OCR concern remains review
+blocked and cannot become SQL-load eligible by classification alone.
+
 The three extracted tables from the DGHS Measles update dated 14 May 2026 were
 manually checked against the official three-page bulletin. Corrected copies are
 in `verified_tables/086_Measles_Update_Till_14_05_26_/`. They report aggregated

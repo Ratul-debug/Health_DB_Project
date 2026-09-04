@@ -1,0 +1,24 @@
+ARCHIVE-WIDE STRUCTURE AND OCR INTEGRITY AUDIT
+
+raw_tables_audited=3802
+unique_raw_files=3802
+missing_quality_decisions=0
+missing_mapping_decisions=0
+structure_pass=5
+structure_review=3797
+structure_reject=0
+ocr_pass=3750
+ocr_review=48
+ocr_not_applicable_digital_source=4
+original_exact_page_metadata=863
+recovered_exact_table_hash=1847
+recovered_conservative_token_match=419
+source_dataset_metadata=5
+unresolved_page_review_required=419
+source_document_unavailable=249
+automatic_clean_pass=4
+source_verified_curated_pass=3
+review_blocked=3022
+reject_blocked=773
+raw_files_deleted=0
+raw_retention_policy=retain immutable evidence; never SQL-load unapproved raw output

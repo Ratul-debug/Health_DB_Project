@@ -1,0 +1,12 @@
+EXTRACTION PAGE-TRACE RECONCILIATION
+
+raw_tables=3802
+raw_tables_with_source_document=3802
+page_or_digital_source_traced=3134
+original_exact_page_metadata=863
+recovered_exact_table_hash=1847
+recovered_conservative_token_match=419
+digital_source_metadata=5
+unresolved_page_review_required=419
+source_document_unavailable=249
+unresolved_or_unavailable_sql_loadable=0

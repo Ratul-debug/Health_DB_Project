@@ -23,6 +23,13 @@ raw does not mean clean or loadable. All 3,802 are now assessed by the cleaner.
 Accepted outputs are generated under `cleaned_tables/`, review/rejected outputs
 under `quarantined_tables/`, and the table-level decisions are committed in
 `reports/cleaning_summary.csv`.
+
+All 3,802 raw tables also receive a dedicated structure-integrity and OCR-risk
+record in `reports/structure_ocr_integrity_audit.csv`. The audit fingerprints
+the immutable raw file, reconciles cleaning and mapping decisions, and blocks
+every unsafe output. `reports/extraction_page_trace.csv` records exact,
+conservatively recovered, unresolved or unavailable page provenance without
+inventing page numbers.
 The downloader now validates the response signature before choosing `.pdf` and
 stores HTML responses in `source_pages/`, preventing misleading file extensions
 in future runs.

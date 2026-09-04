@@ -70,6 +70,12 @@ remain present after the expansion; their final table totals are
 `HealthFacility = 39,614`, `Designation = 85`, `Disease = 18,517`,
 `Laboratory = 9,709`, and `HealthWorker = 12`.
 
+The final ETL evidence also includes an archive-wide structure/OCR integrity
+audit: every one of the 3,802 immutable raw CSVs has a SHA-256 fingerprint,
+structural and OCR-risk decision, provenance status and SQL-load-safety result.
+The report states that unsafe raw outputs remain blocked rather than deleted or
+presented as clean.
+
 `reports/final_validation.txt` and
 `reports/restore_test_validation.txt` are the identical 207-line live and
 clean-restore evidence for this state. The historical 495-row count is retained

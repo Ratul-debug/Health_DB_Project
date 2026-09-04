@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from pathlib import Path
 
@@ -36,6 +37,10 @@ def main() -> None:
     catalog = pd.read_csv(REPORTS / "table_catalog.csv", keep_default_na=False)
     classified = pd.read_csv(REPORTS / "classified_tables.csv", keep_default_na=False)
     mapping = pd.read_csv(REPORTS / "source_to_schema_mapping.csv", keep_default_na=False)
+    structure_ocr = pd.read_csv(
+        REPORTS / "structure_ocr_integrity_audit.csv", keep_default_na=False
+    )
+    page_trace = pd.read_csv(REPORTS / "extraction_page_trace.csv", keep_default_na=False)
 
     require(len(cleaning) == 3802, "all_3802_raw_tables_screened", lines)
     require(cleaning["source_file"].is_unique, "one_quality_decision_per_raw_table", lines)
@@ -49,6 +54,75 @@ def main() -> None:
     )
     require(int(mapping["loaded_rows"].sum()) == 67690, "migration_006_lineage_rows_67690", lines)
     require((classified["classification_status"] != "").all(), "no_forced_or_unexplained_classification", lines)
+
+    require(len(structure_ocr) == 3802, "all_3802_tables_structure_ocr_audited", lines)
+    require(structure_ocr["raw_file"].is_unique, "one_integrity_audit_per_raw_table", lines)
+    require(
+        not structure_ocr[["structure_status", "ocr_status", "overall_status"]]
+        .eq("")
+        .any()
+        .any(),
+        "no_missing_structure_or_ocr_decision",
+        lines,
+    )
+    require(
+        (structure_ocr["raw_retention_policy"] == "retain_immutable_evidence").all(),
+        "all_raw_tables_retained_as_evidence",
+        lines,
+    )
+    require(
+        (structure_ocr["sql_load_eligible"] != "yes").all(),
+        "no_raw_extraction_directly_sql_loadable",
+        lines,
+    )
+    require(
+        (structure_ocr["mapping_status"] != "missing_mapping_decision").all(),
+        "all_integrity_audits_have_mapping_decisions",
+        lines,
+    )
+    require(
+        all(
+            (ROOT / row.raw_file).is_file()
+            and hashlib.sha256((ROOT / row.raw_file).read_bytes()).hexdigest() == row.raw_sha256
+            for row in structure_ocr.itertuples(index=False)
+        ),
+        "all_raw_sha256_values_reconcile",
+        lines,
+    )
+    require(
+        len(
+            structure_ocr[
+                structure_ocr["overall_status"] == "pass_source_verified_curated_output"
+            ]
+        )
+        == 3,
+        "three_source_verified_curated_integrity_outputs",
+        lines,
+    )
+    require(len(page_trace) == 3802, "all_3802_raw_tables_page_trace_assessed", lines)
+    require(page_trace["raw_file"].is_unique, "one_page_trace_per_raw_table", lines)
+    require(
+        all(
+            (ROOT / row.raw_file).is_file()
+            and hashlib.sha256((ROOT / row.raw_file).read_bytes()).hexdigest() == row.raw_sha256
+            for row in page_trace.itertuples(index=False)
+        ),
+        "all_page_trace_hashes_reconcile",
+        lines,
+    )
+    require(
+        (page_trace["source_document"] != "").all(),
+        "all_raw_tables_have_source_document_identity",
+        lines,
+    )
+    require(
+        (
+            page_trace["sql_load_policy"]
+            == "blocked_unless_separately_verified_and_explicitly_mapped"
+        ).all(),
+        "unresolved_page_trace_never_load_eligible",
+        lines,
+    )
 
     measles_files = sorted(MEASLES.glob("table_*.csv"))
     require(len(measles_files) == 3, "three_verified_measles_tables", lines)
@@ -86,6 +160,9 @@ def main() -> None:
         ("3,022", "report_review_count"), ("773", "report_rejected_count"),
         ("67,690", "report_loaded_source_rows"), ("68,185", "report_final_rows"),
         ("unclassified", "report_unclassified_rule"),
+        ("Archive-wide Structure and OCR Integrity Control", "report_archive_wide_structure_ocr_control"),
+        ("structure_ocr_integrity_audit.csv", "report_structure_ocr_evidence_link"),
+        ("extraction_page_trace.csv", "report_page_trace_evidence_link"),
     ]:
         require(value in report_text, name, lines)
     internal_links = sum(1 for page in pdf for link in page.get_links() if link.get("kind") == fitz.LINK_GOTO)

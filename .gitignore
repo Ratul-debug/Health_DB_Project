@@ -17,6 +17,7 @@ project_branches.txt
 project_git_log.txt
 project_tracked_files.txt
 project_changed_files.txt
+reports/page_trace_recovery_cache.json
 project_diff_stat.txt
 project_sizes.txt
 local_changes.patch

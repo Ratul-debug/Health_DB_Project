@@ -12,8 +12,9 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
   HTML source pages, and 5 additional official Bangladesh dataset/catalog
   entries retained with their real file types
 - 73 extraction/metadata source folders and 3,802 raw extracted CSV tables
-  retained for traceability; every table is value-cleaned and quality-screened,
-  while only accepted, explicitly mapped outputs can reach SQL
+  retained for traceability; every table has a structure/OCR audit, SHA-256
+  fingerprint, cleaning decision and mapping decision, while only accepted,
+  explicitly mapped outputs can reach SQL
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
 Synthetic patient and clinical records are clearly demo data and must not be presented as real patient observations. See `DATA_PROVENANCE.md`.
@@ -68,6 +69,8 @@ python scripts/04_find_duplicates.py
 python scripts/05_build_catalog.py
 python scripts/06_classify_tables.py
 python scripts/07_find_best_tables.py
+python scripts/11_recover_extraction_page_trace.py --recover-pages
+python scripts/10_audit_all_extracted_tables.py
 python scripts/09_validate_supervisor_corrections.py
 ```
 
@@ -76,6 +79,12 @@ well as headers, and writes accepted tables to `cleaned_tables/`. Tables with
 placeholder headers, excessive internal blanks, suspicious encoding, unsafe
 width, or unusable structure go to `quarantined_tables/` with a reason in
 `reports/cleaning_summary.csv`. No quarantined table is eligible for SQL load.
+
+`reports/structure_ocr_integrity_audit.csv` contains one structure-integrity,
+OCR-risk, provenance and load-safety decision for every one of the 3,802 raw
+tables. `reports/extraction_page_trace.csv` retains original page metadata,
+recovers legacy page links conservatively where possible, and explicitly marks
+unresolved or unavailable source pages instead of guessing them.
 
 The three OCR-damaged tables from the 14 May 2026 DGHS Measles bulletin are
 source-checked in `verified_tables/086_Measles_Update_Till_14_05_26_/`. Their
@@ -107,6 +116,8 @@ python scripts/04_find_duplicates.py
 python scripts/05_build_catalog.py
 python scripts/06_classify_tables.py
 python scripts/07_find_best_tables.py
+python scripts/11_recover_extraction_page_trace.py --recover-pages
+python scripts/10_audit_all_extracted_tables.py
 python scripts/09_validate_supervisor_corrections.py
 ```
 

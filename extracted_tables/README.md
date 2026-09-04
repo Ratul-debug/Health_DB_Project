@@ -16,6 +16,11 @@ The next pipeline stages are:
 4. `reports/source_to_schema_mapping.csv` records the classification, target
    table, load eligibility and decision reason for all 3,807 pipeline outputs.
 5. Only an explicit, field-level, compatible-grain mapping can feed SQL.
+6. `scripts/10_audit_all_extracted_tables.py` independently records structure
+   integrity, OCR risk, raw SHA-256, provenance and load safety for every raw
+   table in `reports/structure_ocr_integrity_audit.csv`.
+7. `scripts/11_recover_extraction_page_trace.py --recover-pages` reconciles
+   original and legacy page traces; unresolved pages are never guessed.
 
 The three OCR-damaged Measles examples from source 086 have source-verified
 corrections under `verified_tables/086_Measles_Update_Till_14_05_26_/`. Their
