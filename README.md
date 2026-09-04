@@ -1,6 +1,6 @@
 # Health Data Integration Model
 
-A Bangladesh healthcare data engineering and MySQL project created by the **NULL TERMINATORS** group. The repository inventories source reports, downloads PDFs, extracts and cleans tables, and provides a normalized 21-table demonstration database.
+A Bangladesh healthcare data engineering and MySQL project created by the **NULL TERMINATORS** group. The repository inventories source reports, downloads PDFs, screens extracted tables, and provides an implemented 21-table relational demonstration database.
 
 ## Current implementation
 
@@ -23,8 +23,8 @@ Synthetic patient and clinical records are clearly demo data and must not be pre
 
 ```text
 Health_DB_Project/
-├── extracted_tables/          Raw CSV tables extracted from PDFs/datasets
-├── cleaned_tables/            Generated normalized/mapping-ready CSVs (ignored)
+├── extracted_tables/          Immutable raw source-shaped CSV evidence; not SQL tables
+├── cleaned_tables/            Generated quality-passed candidates; not SQL tables (ignored)
 ├── quarantined_tables/        Generated tables blocked by quality gates (ignored)
 ├── verified_tables/           Tracked source-checked corrections for OCR edge cases
 ├── metadata/                  Per-source extraction and mapping metadata
@@ -43,6 +43,8 @@ Health_DB_Project/
 ├── PROJECT_REPORT.pdf         Submitted project report
 ├── REPORT_ALIGNMENT.md        Report-to-database alignment addendum
 ├── SUPERVISOR_CORRECTIONS.md  Review findings and project-wide fixes
+├── DATA_LAYER_AND_NORMALIZATION_GUIDE.md
+│                              Raw/verified/mapped/SQL layer boundary
 ├── SOURCE_ARCHIVE_STATUS.md   Source-file type and archive status
 ├── health_data.xlsx           Original and clean source-catalog sheets
 └── requirements.txt
@@ -80,6 +82,11 @@ placeholder headers, excessive internal blanks, suspicious encoding, unsafe
 width, or unusable structure go to `quarantined_tables/` with a reason in
 `reports/cleaning_summary.csv`. No quarantined table is eligible for SQL load.
 
+The name `cleaned_tables/` means only that an extraction output passed the
+automated cell/structure gate. It is neither the normalized schema nor automatic
+permission to load. The physical database is defined only by `sql/schema.sql`;
+the distinction is documented in `DATA_LAYER_AND_NORMALIZATION_GUIDE.md`.
+
 `reports/structure_ocr_integrity_audit.csv` contains one structure-integrity,
 OCR-risk, provenance and load-safety decision for every one of the 3,802 raw
 tables. `reports/extraction_page_trace.csv` retains original page metadata,
@@ -100,7 +107,7 @@ earlier sources:
 health_data.xlsx catalog
   -> source_datasets raw download
   -> extracted_tables CSV
-  -> cleaned_tables physical mapping
+  -> cleaned_tables quality-passed mapping candidate
   -> migration 006 SQL
   -> canonical full dump
   -> validation reports
@@ -127,6 +134,9 @@ five metadata records, `reports/bangladesh_scale_pipeline_manifest.csv`, the
 migration SQL, full data dump, schema AUTO_INCREMENT metadata, and the static
 validation report. It then reads the cleaned physical mappings—not the raw
 files directly—to generate the SQL rows.
+Exact source fields, transformations, target columns and loaded counts for the
+four compatible mappings are recorded in
+`reports/loaded_source_to_sql_lineage.csv`.
 The remaining commands refresh the archive-wide cleaning, quality, duplicate,
 catalog, classification, and best-table reports. Classification now requires
 at least two independent keyword matches with no top-score tie; otherwise the
@@ -211,6 +221,12 @@ while `ICDCode` is a mandatory domain attribute. A health worker's region is
 derived through `HealthWorker -> HealthFacility -> AdministrativeRegion`, so
 `RegionID` is not duplicated in `HealthWorker`. See `REPORT_ALIGNMENT.md` for
 the complete report-to-schema mapping.
+
+The report's BCNF proof applies specifically to `Patient`. Raw extraction CSVs
+are not relational-schema tables and are never claimed to be normalized. The
+database-wide wording “21-table relational target schema” preserves the
+submitted entity design without making an unsupported claim that every raw
+source layout is in BCNF.
 
 ## GitHub
 

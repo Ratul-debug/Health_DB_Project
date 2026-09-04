@@ -1,9 +1,15 @@
-# Raw extracted tables
+# Raw extraction archive - not SQL tables
 
 Files in this directory are immutable **raw extraction evidence**. They preserve
 what the automated PDF/dataset extractor produced, including OCR defects,
 multi-row headers, shifted cells and sparse layouts. A file being present here
 does not mean that it is clean, normalized, classified or eligible for MySQL.
+
+**Do not assess this directory as the physical database schema.** The 21
+implemented relations are defined only in `sql/schema.sql`. See
+`00_READ_ME_FIRST_RAW_NOT_SQL.md` and
+`../DATA_LAYER_AND_NORMALIZATION_GUIDE.md` before reviewing any numbered source
+folder.
 
 The next pipeline stages are:
 

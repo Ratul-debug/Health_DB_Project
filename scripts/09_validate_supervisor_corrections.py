@@ -41,6 +41,9 @@ def main() -> None:
         REPORTS / "structure_ocr_integrity_audit.csv", keep_default_na=False
     )
     page_trace = pd.read_csv(REPORTS / "extraction_page_trace.csv", keep_default_na=False)
+    loaded_lineage = pd.read_csv(
+        REPORTS / "loaded_source_to_sql_lineage.csv", keep_default_na=False
+    )
 
     require(len(cleaning) == 3802, "all_3802_raw_tables_screened", lines)
     require(cleaning["source_file"].is_unique, "one_quality_decision_per_raw_table", lines)
@@ -124,6 +127,46 @@ def main() -> None:
         lines,
     )
 
+    require(len(loaded_lineage) == 4, "four_explicit_loaded_field_mappings", lines)
+    require(
+        set(loaded_lineage["target_sql_table"])
+        == {"HealthFacility", "Laboratory", "Disease", "Designation"},
+        "loaded_field_mapping_targets_exact",
+        lines,
+    )
+    require(
+        int(loaded_lineage["loaded_rows"].sum()) == 67690,
+        "loaded_field_mapping_rows_67690",
+        lines,
+    )
+    require(
+        not loaded_lineage[["source_fields", "selection_or_transformation", "target_columns"]]
+        .eq("")
+        .any()
+        .any(),
+        "all_loaded_mappings_have_field_rules",
+        lines,
+    )
+    mapping_counts = {
+        row.target_sql_table: int(row.loaded_rows)
+        for row in mapping[mapping["load_eligible"] == "yes"].itertuples(index=False)
+    }
+    lineage_counts = {
+        row.target_sql_table: int(row.loaded_rows)
+        for row in loaded_lineage.itertuples(index=False)
+    }
+    require(
+        mapping_counts == lineage_counts,
+        "loaded_lineage_matches_archive_mapping_decisions",
+        lines,
+    )
+    require(
+        (ROOT / "DATA_LAYER_AND_NORMALIZATION_GUIDE.md").is_file()
+        and (ROOT / "extracted_tables" / "00_READ_ME_FIRST_RAW_NOT_SQL.md").is_file(),
+        "raw_sql_layer_boundary_documented",
+        lines,
+    )
+
     measles_files = sorted(MEASLES.glob("table_*.csv"))
     require(len(measles_files) == 3, "three_verified_measles_tables", lines)
     frames = {path.name: pd.read_csv(path) for path in measles_files}
@@ -163,8 +206,17 @@ def main() -> None:
         ("Archive-wide Structure and OCR Integrity Control", "report_archive_wide_structure_ocr_control"),
         ("structure_ocr_integrity_audit.csv", "report_structure_ocr_evidence_link"),
         ("extraction_page_trace.csv", "report_page_trace_evidence_link"),
+        ("IMPORTANT LAYER BOUNDARY", "report_raw_archive_not_sql_warning"),
+        ("Loaded source-to-SQL lineage", "report_loaded_source_lineage_table"),
+        ("loaded_source_to_sql_lineage.csv", "report_field_lineage_evidence_link"),
+        ("Normalization scope and data-layer terminology", "report_normalization_scope"),
     ]:
         require(value in report_text, name, lines)
+    require(
+        "Loaded into existing normalized" not in report_text,
+        "report_avoids_ambiguous_mapping_wording",
+        lines,
+    )
     internal_links = sum(1 for page in pdf for link in page.get_links() if link.get("kind") == fitz.LINK_GOTO)
     repository_links = [
         link for page in pdf for link in page.get_links()

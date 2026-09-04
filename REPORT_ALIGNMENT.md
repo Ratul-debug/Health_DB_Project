@@ -76,6 +76,22 @@ structural and OCR-risk decision, provenance status and SQL-load-safety result.
 The report states that unsafe raw outputs remain blocked rather than deleted or
 presented as clean.
 
+## Data-layer and normalization interpretation
+
+`extracted_tables/` is the immutable raw extraction archive, not a second copy
+of the 21-table schema. Its tables retain source document grain and may therefore
+be wide, aggregate or structurally irregular. Generated `cleaned_tables/`
+outputs are only quality-passed extraction candidates; they still cannot load
+without an explicit compatible-grain mapping. `verified_tables/` contains
+source-checked corrections, while `sql/schema.sql` alone defines the physical
+relational database.
+
+The report's detailed 1NF-to-BCNF proof is explicitly scoped to `Patient`. It
+does not assert that all 3,802 raw CSVs are normalized relations. Exact field
+lineage for the four migration-006 mappings is committed in
+`reports/loaded_source_to_sql_lineage.csv`; this demonstrates why the source
+data and the target schema differ in shape while still being traceably related.
+
 `reports/final_validation.txt` and
 `reports/restore_test_validation.txt` are the identical 207-line live and
 clean-restore evidence for this state. The historical 495-row count is retained

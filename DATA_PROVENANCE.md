@@ -96,6 +96,13 @@ source's extracted rows, mapped table, inserted rows, and explicit exclusions.
 The four compatible physical mappings are also present in the archive-wide
 `reports/source_to_schema_mapping.csv`; their loaded-row total is 67,690.
 
+Here `cleaned_tables/` is a historical path name for quality-passed extraction
+candidates, not for the normalized database relations. The source-shaped raw,
+screened/verified candidate, explicit mapping and physical SQL layers are
+defined in `DATA_LAYER_AND_NORMALIZATION_GUIDE.md`. Exact field transformations
+for all four load-eligible migration-006 mappings are recorded in
+`reports/loaded_source_to_sql_lineage.csv`.
+
 The source Doctor Directory contains 199 provider names, but it has no Gender
 field. Because `HealthWorker.Gender` is mandatory, those names are not imported
 as workers. Likewise, the 10-code Bangladesh Vaccine ValueSet is terminology,

@@ -24,6 +24,11 @@ Accepted outputs are generated under `cleaned_tables/`, review/rejected outputs
 under `quarantined_tables/`, and the table-level decisions are committed in
 `reports/cleaning_summary.csv`.
 
+`cleaned_tables/` is a stable historical directory name and means
+quality-screened extraction candidates only. It is not the 21-table SQL schema
+and does not imply relational normalization or load approval. The layer boundary
+is documented in `DATA_LAYER_AND_NORMALIZATION_GUIDE.md`.
+
 All 3,802 raw tables also receive a dedicated structure-integrity and OCR-risk
 record in `reports/structure_ocr_integrity_audit.csv`. The audit fingerprints
 the immutable raw file, reconciles cleaning and mapping decisions, and blocks
