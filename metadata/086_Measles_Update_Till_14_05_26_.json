@@ -1,5 +1,9 @@
 {
   "pdf": "086_Measles_Update_Till_14_05_26_.pdf",
+  "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2026/4/52fe889d-9910-4b42-8967-01593b6d8d1c.pdf",
+  "publisher": "Directorate General of Health Services, Bangladesh",
+  "bulletin_date": "2026-05-14",
+  "raw_quality_status": "replaced_by_source_verified_curation",
   "tables": [
     {
       "page": 2,
@@ -22,5 +26,30 @@
       "cols": 21,
       "hash": "26d3153d3d31100d6b7a2c7efb99af40"
     }
-  ]
+  ],
+  "verified_tables": [
+    {
+      "file": "verified_tables/086_Measles_Update_Till_14_05_26_/table_001.csv",
+      "rows": 9,
+      "cols": 13,
+      "content": "division-level measles surveillance totals"
+    },
+    {
+      "file": "verified_tables/086_Measles_Update_Till_14_05_26_/table_002.csv",
+      "rows": 9,
+      "cols": 9,
+      "content": "division-level measles-rubella campaign totals"
+    },
+    {
+      "file": "verified_tables/086_Measles_Update_Till_14_05_26_/table_003.csv",
+      "rows": 13,
+      "cols": 9,
+      "content": "city-corporation measles-rubella campaign totals"
+    }
+  ],
+  "source_to_schema_decision": {
+    "target_table": "Measles",
+    "load_eligible": false,
+    "reason": "aggregate division/city grain does not match the patient/event-grain Measles schema; PatientID must not be fabricated"
+  }
 }

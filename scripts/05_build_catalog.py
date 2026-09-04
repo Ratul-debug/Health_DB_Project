@@ -1,58 +1,78 @@
 #!/usr/bin/env python3
 
-"""Build a full row/column catalog for extracted or cleaned CSV tables."""
+"""Build a catalog that retains the quality decision for every pipeline table."""
 
 from __future__ import annotations
 
 from pathlib import Path
 
 import pandas as pd
-from tqdm import tqdm
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 REPORT_DIR = BASE_DIR / "reports"
+SUMMARY_FILE = REPORT_DIR / "cleaning_summary.csv"
 OUTPUT_FILE = REPORT_DIR / "table_catalog.csv"
 
 
+def dimensions(path: Path) -> tuple[int, int, str]:
+    try:
+        frame = pd.read_csv(
+            path, dtype=str, keep_default_na=False, on_bad_lines="skip", encoding_errors="replace"
+        )
+        return len(frame), len(frame.columns), ""
+    except Exception as exc:
+        return 0, 0, str(exc)
+
+
 def main() -> None:
-    cleaned = BASE_DIR / "cleaned_tables"
-    source_root = cleaned if any(cleaned.rglob("*.csv")) else BASE_DIR / "extracted_tables"
-    csv_files = sorted(source_root.rglob("*.csv"))
+    if not SUMMARY_FILE.exists():
+        raise FileNotFoundError(f"Run scripts/cleaner.py first: {SUMMARY_FILE}")
+    cleaning = pd.read_csv(SUMMARY_FILE, keep_default_na=False)
     records: list[dict[str, object]] = []
+    associated_outputs: set[str] = set()
+    for item in cleaning.to_dict("records"):
+        output = str(item["output_file"])
+        if output:
+            associated_outputs.add(output)
+        records.append(
+            {
+                "source_file": item["source_file"],
+                "file": output,
+                "rows": int(item["rows_after"]),
+                "cols": int(item["columns_after"]),
+                "quality_status": item["quality_status"],
+                "quality_reasons": item["quality_reasons"],
+                "status": "ok" if output else "error",
+                "error": item["error"],
+            }
+        )
 
-    for csv_file in tqdm(csv_files, desc="Cataloging tables"):
-        try:
-            frame = pd.read_csv(
-                csv_file,
-                dtype=str,
-                keep_default_na=False,
-                on_bad_lines="skip",
-                encoding_errors="ignore",
-            )
-            records.append(
-                {
-                    "file": str(csv_file.relative_to(BASE_DIR)),
-                    "rows": len(frame),
-                    "cols": len(frame.columns),
-                    "status": "ok",
-                    "error": "",
-                }
-            )
-        except Exception as exc:
-            records.append(
-                {
-                    "file": str(csv_file.relative_to(BASE_DIR)),
-                    "rows": 0,
-                    "cols": 0,
-                    "status": "error",
-                    "error": str(exc),
-                }
-            )
+    # Include deterministic mapping/reference tables created by the national-scale builder.
+    cleaned_root = BASE_DIR / "cleaned_tables"
+    for csv_file in sorted(cleaned_root.rglob("*.csv")):
+        relative = str(csv_file.relative_to(BASE_DIR))
+        if relative in associated_outputs:
+            continue
+        rows, cols, error = dimensions(csv_file)
+        records.append(
+            {
+                "source_file": "derived_mapping_output",
+                "file": relative,
+                "rows": rows,
+                "cols": cols,
+                "quality_status": "accepted_mapped" if not error else "rejected",
+                "quality_reasons": "explicit_source_to_schema_mapping",
+                "status": "ok" if not error else "error",
+                "error": error,
+            }
+        )
 
+    result = pd.DataFrame(records).sort_values(["source_file", "file"])
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(records).to_csv(OUTPUT_FILE, index=False)
-    print(f"Tables : {len(records)}")
+    result.to_csv(OUTPUT_FILE, index=False)
+    print(f"Tables : {len(result)}")
+    print(result["quality_status"].value_counts().to_string())
     print(f"Catalog: {OUTPUT_FILE}")
 
 

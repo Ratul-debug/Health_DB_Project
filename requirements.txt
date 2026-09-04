@@ -3,6 +3,7 @@ openpyxl
 xlrd
 requests
 pdfplumber
+PyMuPDF
 pyyaml
 python-dateutil
 unidecode

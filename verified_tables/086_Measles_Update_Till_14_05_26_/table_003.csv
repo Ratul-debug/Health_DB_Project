@@ -1,0 +1,14 @@
+area,total_target,cumulative_target_since_2026_04_05,cumulative_vaccinated_since_2026_04_05,cumulative_coverage_pct,last_24h_target,last_24h_vaccinated,last_24h_coverage_pct,total_campaign_coverage_pct
+Barishal City Corporation,43506,43506,43622,100%,0,0,0%,100%
+Chattogram City Corporation,300285,256103,289617,113%,4762,4151,87%,96%
+Cumilla City Corporation,48004,48004,48419,101%,0,0,0%,101%
+Dhaka North City Corporation,495884,495884,514776,104%,0,3224,0%,104%
+Dhaka South City Corporation,404074,403939,404947,100%,42,989,2355%,100%
+Gazipur City Corporation,178423,178156,192079,108%,9404,1650,18%,108%
+Narayanganj City Corporation,78337,77423,80761,104%,615,755,123%,103%
+Khulna City Corporation,92701,92444,92264,100%,0,873,0%,100%
+Mymensingh City Corporation,58668,58668,58018,99%,0,151,0%,99%
+Rajshahi City Corporation,54886,54886,58306,106%,0,445,0%,106%
+Rangpur City Corporation,82249,82249,79076,96%,0,510,0%,96%
+Sylhet City Corporation,68933,67872,66663,98%,0,1220,0%,97%
+Total,1905950,1859134,1928548,104%,14823,13968,94%,101%

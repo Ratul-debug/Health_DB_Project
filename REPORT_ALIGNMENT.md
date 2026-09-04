@@ -56,12 +56,14 @@ the schema and validation report are the executable proof of implementation.
 The 54-page `PROJECT_REPORT.pdf` is synchronized with the Bangladesh-only
 migration-006 snapshot. Its discovery inventory, ETL stages, normalization
 sample summaries, validation matrix, provenance table, and final maintenance
-summary all report the canonical 68,185-row state. The seven-step ETL flow on
-printed page 40 separates discovery, acquisition, extraction, cleaning,
-source-to-schema mapping, MySQL loading, and live/restore validation. It also
-distinguishes the 3,802 raw extracted CSV tables from the 3,807
-cleaned/catalogued outputs: five derived mapping/reference files are added
-between those layers. Sections 3.2.1-3.2.8 now appear before Section 3.3, and
+summary all report the canonical 68,185-row state. The seven-step ETL flow
+separates discovery, acquisition, extraction, value cleaning plus quality
+screening, explicit source-to-schema mapping, MySQL loading, and live/restore
+validation. It distinguishes the 3,802 raw extracted CSV tables from the 3,807
+catalogued pipeline outputs and no longer calls every output clean. The report
+records accepted, curated, review-required and rejected counts, and identifies
+the three source-verified Measles corrections as aggregate reference tables
+excluded from patient/event loading. Sections 3.2.1-3.2.8 now appear before Section 3.3, and
 the affected Contents entries point to their corrected printed pages. The
 Contents and List of Tables entries remain internal PDF links. The displayed sample rows
 remain present after the expansion; their final table totals are

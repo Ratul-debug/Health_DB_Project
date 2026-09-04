@@ -12,8 +12,8 @@ A Bangladesh healthcare data engineering and MySQL project created by the **NULL
   HTML source pages, and 5 additional official Bangladesh dataset/catalog
   entries retained with their real file types
 - 73 extraction/metadata source folders and 3,802 raw extracted CSV tables
-  retained for traceability; the cleaned/catalogued layer contains 3,807 CSV
-  outputs after five derived mapping/reference files are added
+  retained for traceability; every table is value-cleaned and quality-screened,
+  while only accepted, explicitly mapped outputs can reach SQL
 - Mixed-source demonstration data: source-derived rows where usable, synthetic rows where the extracted tables were insufficient
 
 Synthetic patient and clinical records are clearly demo data and must not be presented as real patient observations. See `DATA_PROVENANCE.md`.
@@ -24,6 +24,8 @@ Synthetic patient and clinical records are clearly demo data and must not be pre
 Health_DB_Project/
 ├── extracted_tables/          Raw CSV tables extracted from PDFs/datasets
 ├── cleaned_tables/            Generated normalized/mapping-ready CSVs (ignored)
+├── quarantined_tables/        Generated tables blocked by quality gates (ignored)
+├── verified_tables/           Tracked source-checked corrections for OCR edge cases
 ├── metadata/                  Per-source extraction and mapping metadata
 ├── pdfs/                      Downloaded source reports
 ├── source_pages/              Downloaded sources that are HTML pages
@@ -39,6 +41,7 @@ Health_DB_Project/
 ├── Health_ER_Diagram_.pdf     Submitted 21-entity ERD
 ├── PROJECT_REPORT.pdf         Submitted project report
 ├── REPORT_ALIGNMENT.md        Report-to-database alignment addendum
+├── SUPERVISOR_CORRECTIONS.md  Review findings and project-wide fixes
 ├── SOURCE_ARCHIVE_STATUS.md   Source-file type and archive status
 ├── health_data.xlsx           Original and clean source-catalog sheets
 └── requirements.txt
@@ -65,9 +68,19 @@ python scripts/04_find_duplicates.py
 python scripts/05_build_catalog.py
 python scripts/06_classify_tables.py
 python scripts/07_find_best_tables.py
+python scripts/09_validate_supervisor_corrections.py
 ```
 
-The cleaner preserves `extracted_tables/` as raw evidence and writes normalized copies to `cleaned_tables/`.
+The cleaner preserves `extracted_tables/` as raw evidence, normalizes values as
+well as headers, and writes accepted tables to `cleaned_tables/`. Tables with
+placeholder headers, excessive internal blanks, suspicious encoding, unsafe
+width, or unusable structure go to `quarantined_tables/` with a reason in
+`reports/cleaning_summary.csv`. No quarantined table is eligible for SQL load.
+
+The three OCR-damaged tables from the 14 May 2026 DGHS Measles bulletin are
+source-checked in `verified_tables/086_Measles_Update_Till_14_05_26_/`. Their
+headers, area names and digits are corrected, but the aggregate division/city
+rows are not forced into the patient/event-grain `Measles` SQL table.
 
 ## Run the Bangladesh dataset pipeline
 
@@ -94,6 +107,7 @@ python scripts/04_find_duplicates.py
 python scripts/05_build_catalog.py
 python scripts/06_classify_tables.py
 python scripts/07_find_best_tables.py
+python scripts/09_validate_supervisor_corrections.py
 ```
 
 The downloader preserves five catalog entries as six validated raw files. The
@@ -102,9 +116,12 @@ five metadata records, `reports/bangladesh_scale_pipeline_manifest.csv`, the
 migration SQL, full data dump, schema AUTO_INCREMENT metadata, and the static
 validation report. It then reads the cleaned physical mappings—not the raw
 files directly—to generate the SQL rows.
-The remaining commands refresh the archive-wide cleaning, duplicate, catalog,
-classification, and best-table reports so the five new extractions are included
-alongside the earlier PDF tables.
+The remaining commands refresh the archive-wide cleaning, quality, duplicate,
+catalog, classification, and best-table reports. Classification now requires
+at least two independent keyword matches with no top-score tie; otherwise the
+table remains `unclassified`. `reports/source_to_schema_mapping.csv` records an
+explicit load, exclusion, quality block, or reference-only reason for every
+pipeline output. This prevents forced categories and dirty imports.
 
 ## Restore MySQL
 

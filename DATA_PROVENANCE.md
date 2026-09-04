@@ -30,6 +30,22 @@ extensions. See `SOURCE_ARCHIVE_STATUS.md`.
 
 PDF extraction can capture sentence fragments instead of clean entity names. The final cleanup migration removes obvious fragments from the curated demonstration database while retaining the unmodified raw evidence under `extracted_tables/` and `metadata/`.
 
+Raw extraction is not claimed to be database-ready. The current cleaner applies
+Unicode/control-character repair, Bengali-digit conversion, numeric-separator
+normalization, whitespace/null normalization, empty row/column removal and
+duplicate removal to values and headers. It then assigns `accepted`,
+`review_required`, or `rejected` status. Review/rejected tables are quarantined
+and cannot be loaded. The decision for every table is committed in
+`reports/cleaning_summary.csv` and `reports/source_to_schema_mapping.csv`.
+
+The three extracted tables from the DGHS Measles update dated 14 May 2026 were
+manually checked against the official three-page bulletin. Corrected copies are
+in `verified_tables/086_Measles_Update_Till_14_05_26_/`. They report aggregated
+division/city surveillance and vaccination-campaign totals, whereas the fixed
+SQL `Measles` entity is patient/event-grain and requires `PatientID`. Therefore
+the source tables are retained as verified evidence but deliberately not loaded;
+no patient identifier or event row is fabricated.
+
 ## Synthetic demonstration values
 
 - Patient rows, including every `DEMO-NID-*` identifier
@@ -68,6 +84,8 @@ script writes normalized physical-table mappings to the generated
 `cleaned_tables/` layer and reads those cleaned files back before producing
 migration 006. `reports/bangladesh_scale_pipeline_manifest.csv` reconciles each
 source's extracted rows, mapped table, inserted rows, and explicit exclusions.
+The four compatible physical mappings are also present in the archive-wide
+`reports/source_to_schema_mapping.csv`; their loaded-row total is 67,690.
 
 The source Doctor Directory contains 199 provider names, but it has no Gender
 field. Because `HealthWorker.Gender` is mandatory, those names are not imported

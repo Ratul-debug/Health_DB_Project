@@ -1,0 +1,10 @@
+division,last_24h_suspected_cases,last_24h_suspected_deaths,last_24h_confirmed_cases,last_24h_confirmed_deaths,last_24h_admissions,last_24h_discharged,cumulative_suspected_cases_since_2026_03_15,cumulative_suspected_deaths_since_2026_03_15,cumulative_confirmed_cases_since_2026_03_15,cumulative_confirmed_deaths_since_2026_03_15,cumulative_admissions_since_2026_03_15,cumulative_discharged_since_2026_03_15
+Dhaka,588,4,132,1,440,466,24464,147,5017,45,17018,15208
+Rajshahi,159,0,0,0,68,79,9222,78,1107,2,4603,4037
+Barishal,126,0,3,0,126,124,4079,29,148,11,3423,3122
+Chattogram,273,1,18,0,262,311,8000,32,565,7,7226,6778
+Mymensingh,40,1,0,0,39,26,1137,31,42,2,845,651
+Sylhet,79,0,0,0,74,63,2486,29,148,3,2090,1694
+Khulna,87,0,0,0,87,60,3918,19,239,0,3503,3083
+Rangpur,11,0,2,0,10,7,1113,4,39,0,452,395
+Total,1363,6,155,1,1106,1136,54419,369,7305,70,39160,34968

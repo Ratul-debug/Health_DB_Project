@@ -1,0 +1,18 @@
+ETL QUALITY-GATE SUMMARY
+
+raw_extracted_tables=3802
+accepted_automatic=4
+accepted_curated=3
+review_required=3022
+rejected=773
+derived_mapping_outputs=5
+catalogued_pipeline_outputs=3807
+keyword_unclassified=3796
+explicit_sql_mappings=4
+sql_rows_loaded_by_migration_006=67690
+blocked_by_quality_gate=3795
+reference_only=4
+excluded_for_schema_or_granularity=4
+measles_tables_verified=3
+measles_tables_loaded=0
+measles_exclusion_reason=aggregate grain does not match patient/event Measles schema

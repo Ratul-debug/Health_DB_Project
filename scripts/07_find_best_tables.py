@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Rank the largest candidate tables in every classification category."""
+"""Rank accepted, evidence-classified candidate tables only."""
 
 from __future__ import annotations
 
@@ -19,6 +19,13 @@ def main() -> None:
         raise FileNotFoundError(f"Run scripts/06_classify_tables.py first: {INPUT_FILE}")
 
     frame = pd.read_csv(INPUT_FILE)
+    frame = frame[
+        frame["quality_status"].astype(str).str.startswith("accepted")
+        & (frame["category"] != "unclassified")
+        & frame["classification_status"].isin(
+            ["rule_supported", "explicit_verified_mapping", "verified_source_specific_classification"]
+        )
+    ]
     sections: list[str] = []
     for category in sorted(frame["category"].dropna().unique()):
         subset = frame[frame["category"] == category].sort_values(
@@ -29,7 +36,9 @@ def main() -> None:
                 "=" * 80,
                 str(category).upper(),
                 "=" * 80,
-                subset.head(20)[["file", "rows", "cols", "keyword_score"]].to_string(index=False),
+                subset.head(20)[
+                    ["file", "rows", "cols", "keyword_score", "matched_keywords"]
+                ].to_string(index=False),
                 "",
             ]
         )
