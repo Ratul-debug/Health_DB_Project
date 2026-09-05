@@ -168,6 +168,95 @@ def main() -> None:
         "raw_sql_layer_boundary_documented",
         lines,
     )
+    require(
+        (REPORTS / "README.md").is_file()
+        and (ROOT / "sql" / "README.md").is_file()
+        and (ROOT / "SUPERVISOR_ACCEPTANCE_CHECKLIST.md").is_file(),
+        "reviewer_navigation_guides_present",
+        lines,
+    )
+    require(
+        not (REPORTS / "restore_test_validation_006.txt").exists(),
+        "duplicate_restore_report_removed",
+        lines,
+    )
+    archive_paths = [
+        path.relative_to(ROOT).as_posix()
+        for directory in ["pdfs", "metadata", "extracted_tables"]
+        for path in (ROOT / directory).rglob("*")
+        if path.is_file()
+    ]
+    require(
+        not any(
+            re.search(r"(?:^|/)\d+_(?:nan|_+(?:-_)?)(?:\.|/|$)", path, flags=re.IGNORECASE)
+            for path in archive_paths
+        ),
+        "no_ambiguous_nan_or_punctuation_only_archive_names",
+        lines,
+    )
+    clean_sources = pd.read_excel(
+        ROOT / "health_data.xlsx",
+        sheet_name="Health_Catalog_Clean",
+        keep_default_na=False,
+    )
+    require(
+        len(clean_sources) == 117
+        and not clean_sources.astype(str).eq("").any().any(),
+        "source_catalog_117_rows_blank_cells_zero",
+        lines,
+    )
+    expected_source_names = {
+        23: "Prevention and Management of Mental Health Conditions in Bangladesh",
+        24: "UNFPA Country Programme Document for Bangladesh 2022-2026",
+        25: "UNFPA Country Programme Document for Bangladesh 2017-2020",
+        26: "UNDAF Action Plan Bangladesh 2012-2016",
+        27: "UNFPA Final Country Programme Document for Bangladesh 2012-2016",
+        78: "Bangladesh Maternal Mortality Survey",
+        81: "Rohingya Health Bulletin 2018",
+        82: "eHealth August 2012",
+        83: "Global Climate Change: Health Impacts on Bangladesh",
+        89: "NICVD Cardiovascular Journal (Resource 40dbe_5098)",
+        90: "NICVD Cardiovascular Journal (Resource 43724_24444)",
+        91: "NICVD Cardiovascular Journal (Resource 6dc7e_11451)",
+        92: "NICVD Cardiovascular Journal (Resource 32e70_4921)",
+        93: "Bangladesh Health Workforce Strategy 2024",
+    }
+    catalog_names = clean_sources.set_index("Catalog Row")["Dataset Name"].to_dict()
+    require(
+        all(catalog_names[row] == name for row, name in expected_source_names.items()),
+        "corrected_source_identities_match_catalog_rows",
+        lines,
+    )
+    corrected_archive_layers = {
+        23: ("pdfs", "metadata", "extracted_tables"),
+        24: ("pdfs", "metadata", "extracted_tables"),
+        25: ("pdfs", "metadata", "extracted_tables"),
+        26: ("pdfs",),
+        27: ("pdfs", "metadata", "extracted_tables"),
+        78: ("pdfs", "metadata"),
+        81: ("pdfs", "metadata"),
+        82: ("pdfs", "metadata"),
+        83: ("pdfs", "metadata", "extracted_tables"),
+        89: ("metadata",),
+        90: ("metadata",),
+        91: ("metadata",),
+        92: ("metadata",),
+        93: ("metadata", "extracted_tables"),
+    }
+    corrected_paths: list[Path] = []
+    for catalog_row, layers in corrected_archive_layers.items():
+        safe_name = re.sub(
+            r"[^A-Za-z0-9_-]+", "_", expected_source_names[catalog_row]
+        ).strip("_")
+        stem = f"{catalog_row - 2:03d}_{safe_name}"
+        for layer in layers:
+            suffix = ".pdf" if layer == "pdfs" else ".json" if layer == "metadata" else ""
+            corrected_paths.append(ROOT / layer / f"{stem}{suffix}")
+    require(
+        all(path.exists() for path in corrected_paths),
+        "corrected_archive_names_match_downloader_rule",
+        lines,
+    )
 
     relational_export = runpy.run_path(
         str(ROOT / "scripts" / "12_export_verified_relational_tables.py"),

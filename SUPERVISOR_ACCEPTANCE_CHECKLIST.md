@@ -3,9 +3,15 @@
 This checklist makes the project evidence directly reviewable without treating
 the immutable raw extraction archive as the relational database.
 
+Recommended review order: final report and ERD -> `normalized_sql_tables/` ->
+`verified_tables/migration_006_loaded/` -> canonical SQL dump -> current
+validation reports. The raw `extracted_tables/` archive should be inspected only
+as provenance evidence, together with its quality and mapping decisions.
+
 | Acceptance item | Project evidence | Result |
 |---|---|---|
 | Contains data sources | `health_data.xlsx`, `pdfs/`, `source_pages/`, `source_datasets/` | Present |
+| Source identity is readable | Catalog, archive paths, metadata, and audit references | No `nan` or punctuation-only source names |
 | Contains extracted data | 3,802 source-shaped CSVs under `extracted_tables/` | Present |
 | Sources verified | URLs/dates/hashes plus 3,802 provenance decisions | Verified or explicitly review-blocked |
 | Clean loaded extraction | Four tracked CSVs under `verified_tables/migration_006_loaded/` | 67,690 rows; blank/NULL 0 |

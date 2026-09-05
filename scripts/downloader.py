@@ -108,7 +108,10 @@ for idx, row in tqdm(df.iterrows(), total=len(df)):
         r'[^A-Za-z0-9_-]+',
         "_",
         dataset_name
-    )
+    ).strip("_")
+
+    if not dataset_name:
+        dataset_name = f"dataset_{idx:03d}"
 
     dataset_name = dataset_name[:120]
 

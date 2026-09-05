@@ -2,6 +2,28 @@
 
 A Bangladesh healthcare data engineering and MySQL project created by the **NULL TERMINATORS** group. The repository inventories source reports, downloads PDFs, screens extracted tables, and provides an implemented 21-table relational demonstration database.
 
+## Supervisor and reviewer quick path
+
+Review the project in this order to avoid confusing raw extraction evidence with
+the implemented relational database:
+
+1. [`PROJECT_REPORT.pdf`](PROJECT_REPORT.pdf) - final 54-page submitted report.
+2. [`Health_ER_Diagram_.pdf`](Health_ER_Diagram_.pdf) - submitted 21-entity ERD.
+3. [`normalized_sql_tables/`](normalized_sql_tables/) - exact CSV mirrors of all
+   21 implemented SQL tables and all 68,185 rows.
+4. [`verified_tables/migration_006_loaded/`](verified_tables/migration_006_loaded/)
+   - four clean source-derived datasets actually loaded by migration 006.
+5. [`sql/schema.sql`](sql/schema.sql) and
+   [`sql/health_db_21_tables_with_data.sql`](sql/health_db_21_tables_with_data.sql)
+   - authoritative physical schema and restorable full dump.
+6. [`reports/supervisor_correction_validation.txt`](reports/supervisor_correction_validation.txt)
+   - project-wide acceptance checks ending in `result=ALL_CHECKS_PASS`.
+
+[`SUPERVISOR_ACCEPTANCE_CHECKLIST.md`](SUPERVISOR_ACCEPTANCE_CHECKLIST.md)
+provides the shortest evidence index. `extracted_tables/` is deliberately kept
+as immutable, source-shaped raw evidence; it is not the normalized database and
+no file from that directory can load directly into SQL.
+
 ## Current implementation
 
 - 21 MySQL tables matching the submitted entity list
@@ -33,11 +55,12 @@ Health_DB_Project/
 ├── pdfs/                      Downloaded source reports
 ├── source_pages/              Downloaded sources that are HTML pages
 ├── source_datasets/           Official Bangladesh XLSX/XLS/JSON/ZIP datasets
-├── reports/                   Catalog, classification, and cleaning summaries
+├── reports/                   Current validation, audit evidence, and historical stage results
 ├── scripts/                   Download, extraction, cleaning, and catalog scripts
 ├── sql/
 │   ├── migrations/            Historical one-time database migrations
 │   ├── validation/            Integrity and demonstration queries
+│   ├── README.md              Canonical SQL and migration guide
 │   ├── schema.sql             Canonical 21-table schema (no data)
 │   └── health_db_21_tables_with_data.sql
 ├── ER_DIAGRAM.png             21-entity ERD image
@@ -50,6 +73,7 @@ Health_DB_Project/
 ├── DATA_LAYER_AND_NORMALIZATION_GUIDE.md
 │                              Raw/verified/mapped/SQL layer boundary
 ├── SOURCE_ARCHIVE_STATUS.md   Source-file type and archive status
+├── reports/README.md          Current-versus-historical report guide
 ├── health_data.xlsx           Original and clean source-catalog sheets
 └── requirements.txt
 ```

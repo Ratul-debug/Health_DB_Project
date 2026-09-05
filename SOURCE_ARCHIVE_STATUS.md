@@ -12,13 +12,22 @@ extensions under `source_pages/`.
 | `source_pages/019_All_Health_Indicators_for_Bangladesh.html` | https://ap.wps.com/cms/docs/d/cbMascEJoyZx1ADs |
 | `source_pages/072_Dengue_Press_Release_Till_11_05_2026_.html` | https://old.dghs.gov.bd/index.php/bd/home/5200-daily-dengue-status-report |
 
-The original grouped catalog is preserved in the `Health` worksheet of
+The original grouped catalog layout is preserved in the `Health` worksheet of
 `health_data.xlsx`. The `Health_Catalog_Clean` worksheet is the machine-readable
 version: it contains 117 rows, 117 populated links, no blank fields, explicit
 source types, and an alias note for the one repeated URL used by two distinct
 catalog descriptions.
 
-Existing extracted CSV tables and metadata remain unchanged as raw evidence;
+Previously blank, `nan`, punctuation-only, and misspelled archive labels were
+replaced with descriptive source identities in the workbook, `pdfs/`,
+`metadata/`, extracted-table folder names, and every audit reference. Examples
+include the three UNFPA/UNDAF documents, the Bangladesh climate-health report,
+four NICVD resource records, the Bangladesh Health Workforce Strategy, the
+Maternal Mortality Survey, and the Rohingya Health Bulletin. These are naming
+corrections only: source bytes, extracted cell values, hashes, page traces,
+quality decisions, mappings, SQL, and row counts are unchanged.
+
+Existing extracted CSV table contents and metadata evidence remain unchanged;
 raw does not mean clean or loadable. All 3,802 are now assessed by the cleaner.
 Accepted outputs are generated under `cleaned_tables/`, review/rejected outputs
 under `quarantined_tables/`, and the table-level decisions are committed in
