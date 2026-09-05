@@ -1,0 +1,13 @@
+﻿CancerID,PatientID,LabID,CancerType,TestResult,CancerStage
+1,1,1,Lung,Confirmed,Stage I
+2,2,2,Colorectal,Confirmed,Stage II
+3,3,3,Ovarian,Confirmed,Stage III
+4,4,4,Oral,Confirmed,Stage IV
+5,5,5,Leukemia,Confirmed,Stage I
+6,6,6,Breast,Confirmed,Stage II
+7,7,7,Cervical,Confirmed,Stage III
+8,9,1,Ovarian,Confirmed,Stage IV
+9,8,2,Prostate,Confirmed,Stage I
+10,10,3,Esophagus,Confirmed,Stage II
+11,11,4,Esophagus,Confirmed,Stage III
+12,12,5,Stomach,Confirmed,Stage IV

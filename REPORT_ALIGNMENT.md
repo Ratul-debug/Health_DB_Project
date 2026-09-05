@@ -86,6 +86,14 @@ without an explicit compatible-grain mapping. `verified_tables/` contains
 source-checked corrections, while `sql/schema.sql` alone defines the physical
 relational database.
 
+The four clean source-derived outputs that populate migration 006 are tracked
+under `verified_tables/migration_006_loaded/`, with all 12 target columns
+reconciled in `reports/source_column_reconciliation.csv`. For reviewers who
+need the final relations as ordinary tables, `normalized_sql_tables/` provides
+21 generated CSV files containing the exact 89-column, 68,185-row canonical
+state. Automated validation compares every header, value and hash with the
+schema and full dump. These views do not replace the raw source archive.
+
 The report's detailed 1NF-to-BCNF proof is explicitly scoped to `Patient`. It
 does not assert that all 3,802 raw CSVs are normalized relations. Exact field
 lineage for the four migration-006 mappings is committed in

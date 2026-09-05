@@ -9,7 +9,9 @@ does not mean that it is clean, normalized, classified or eligible for MySQL.
 implemented relations are defined only in `sql/schema.sql`. See
 `00_READ_ME_FIRST_RAW_NOT_SQL.md` and
 `../DATA_LAYER_AND_NORMALIZATION_GUIDE.md` before reviewing any numbered source
-folder.
+folder. Clean loaded source outputs are under
+`../verified_tables/migration_006_loaded/`; the exact final 21-table CSV view is
+under `../normalized_sql_tables/`.
 
 The next pipeline stages are:
 

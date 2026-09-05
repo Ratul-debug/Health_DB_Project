@@ -1,0 +1,16 @@
+﻿MeaslesID,DiseaseID,PatientID,Symptoms,Fever,DiagnosisDate
+1,16,1,Fever and rash,Yes,2023-01-10
+2,16,2,Fever and rash,Yes,2023-01-22
+3,16,3,Fever and rash,Yes,2023-02-03
+4,16,4,Fever and rash,Yes,2023-02-15
+5,16,5,Fever and rash,Yes,2023-02-27
+6,16,6,Fever and rash,Yes,2023-03-11
+7,16,7,Fever and rash,Yes,2023-03-23
+8,16,8,Fever and rash,Yes,2023-04-04
+9,16,9,Fever and rash,Yes,2023-04-16
+10,16,10,Fever and rash,Yes,2023-04-28
+11,16,11,Fever and rash,Yes,2023-05-10
+12,16,12,Fever and rash,Yes,2023-05-22
+13,16,13,Fever and rash,Yes,2023-06-03
+14,16,14,Fever and rash,Yes,2023-06-15
+15,16,15,Fever and rash,Yes,2023-06-27

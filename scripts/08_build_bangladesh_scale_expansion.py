@@ -12,6 +12,7 @@ import csv
 import hashlib
 import json
 import re
+import runpy
 from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
@@ -915,6 +916,11 @@ def main() -> None:
         ]
     )
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    relational_export = runpy.run_path(
+        str(ROOT / "scripts" / "12_export_verified_relational_tables.py"),
+        run_name="verified_relational_export_module",
+    )
+    relational_export["main"]()
     print("\n".join(lines[:14]))
 
 

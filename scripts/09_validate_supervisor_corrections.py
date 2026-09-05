@@ -4,9 +4,11 @@
 
 from __future__ import annotations
 
+import csv
 import json
 import hashlib
 import re
+import runpy
 from pathlib import Path
 
 import pymupdf as fitz
@@ -167,6 +169,163 @@ def main() -> None:
         lines,
     )
 
+    relational_export = runpy.run_path(
+        str(ROOT / "scripts" / "12_export_verified_relational_tables.py"),
+        run_name="verified_relational_export_module",
+    )
+    schema_columns = relational_export["read_schema"]()
+    canonical_rows = relational_export["read_dump_rows"](schema=schema_columns)
+    source_006 = relational_export["SOURCE_006"]
+    normalized_dir = ROOT / "normalized_sql_tables"
+    verified_dir = ROOT / "verified_tables" / "migration_006_loaded"
+
+    column_reconciliation = pd.read_csv(
+        REPORTS / "source_column_reconciliation.csv", keep_default_na=False
+    )
+    require(len(column_reconciliation) == 12, "twelve_target_columns_reconciled", lines)
+    require(
+        not column_reconciliation.duplicated(["target_sql_table", "target_column"]).any(),
+        "one_rule_per_loaded_target_column",
+        lines,
+    )
+    require(
+        all(
+            set(group["target_column"]) == set(schema_columns[table])
+            for table, group in column_reconciliation.groupby("target_sql_table")
+        ),
+        "all_loaded_target_columns_match_schema",
+        lines,
+    )
+    raw_headers: dict[int, set[str]] = {}
+    for _, (source_record, _, source_path) in source_006.items():
+        if source_record in raw_headers:
+            continue
+        with (ROOT / source_path).open(encoding="utf-8-sig", newline="") as handle:
+            raw_headers[source_record] = set(next(csv.reader(handle)))
+    require(
+        all(
+            row.source_header_check == "not_applicable_generated_key"
+            or (
+                row.source_header_check == "yes"
+                and all(
+                    field.strip() in raw_headers[int(row.source_record)]
+                    for field in row.source_field.split(";")
+                )
+            )
+            for row in column_reconciliation.itertuples(index=False)
+        ),
+        "source_fields_exist_or_generated_key_declared",
+        lines,
+    )
+    require(
+        (column_reconciliation["target_schema_check"] == "yes").all()
+        and (column_reconciliation["verification_status"] == "verified").all(),
+        "source_to_target_column_checks_verified",
+        lines,
+    )
+
+    verified_files = sorted(verified_dir.glob("*.csv"))
+    require(len(verified_files) == 4, "four_tracked_verified_loaded_csvs", lines)
+    verified_manifest = pd.read_csv(
+        REPORTS / "verified_loaded_extracts_manifest.csv", keep_default_na=False
+    )
+    require(
+        len(verified_manifest) == 4
+        and int(verified_manifest["loaded_rows"].sum()) == 67690,
+        "verified_loaded_manifest_rows_67690",
+        lines,
+    )
+    for table, (_, source_count, _) in source_006.items():
+        with (verified_dir / f"{table}.csv").open(
+            encoding="utf-8-sig", newline=""
+        ) as handle:
+            reader = csv.reader(handle)
+            header = next(reader)
+            rows = list(reader)
+        require(header == schema_columns[table], f"verified_{table}_columns_match_schema", lines)
+        require(
+            rows
+            == [
+                ["" if value is None else value for value in row]
+                for row in canonical_rows[table][-source_count:]
+            ],
+            f"verified_{table}_rows_match_loaded_sql",
+            lines,
+        )
+        require(
+            not any(value == "" for row in rows for value in row),
+            f"verified_{table}_blank_cells_zero",
+            lines,
+        )
+    require(
+        all(
+            hashlib.sha256((ROOT / row.verified_csv).read_bytes()).hexdigest() == row.sha256
+            for row in verified_manifest.itertuples(index=False)
+        ),
+        "verified_loaded_manifest_hashes_reconcile",
+        lines,
+    )
+
+    normalized_files = sorted(normalized_dir.glob("*.csv"))
+    require(len(normalized_files) == 21, "normalized_sql_csv_tables_21", lines)
+    require(
+        {path.stem for path in normalized_files} == set(schema_columns),
+        "normalized_sql_table_names_exact",
+        lines,
+    )
+    normalized_total = 0
+    for table, columns in schema_columns.items():
+        with (normalized_dir / f"{table}.csv").open(
+            encoding="utf-8-sig", newline=""
+        ) as handle:
+            reader = csv.reader(handle)
+            header = next(reader)
+            rows = list(reader)
+        require(header == columns, f"normalized_{table}_columns_match_schema", lines)
+        require(
+            rows
+            == [
+                ["" if value is None else value for value in row]
+                for row in canonical_rows[table]
+            ],
+            f"normalized_{table}_values_match_dump",
+            lines,
+        )
+        require(
+            not any(value == "" for row in rows for value in row),
+            f"normalized_{table}_blank_cells_zero",
+            lines,
+        )
+        normalized_total += len(rows)
+    require(normalized_total == 68185, "normalized_sql_rows_68185", lines)
+    normalized_manifest = pd.read_csv(
+        REPORTS / "normalized_sql_tables_manifest.csv", keep_default_na=False
+    )
+    require(
+        len(normalized_manifest) == 21
+        and int(normalized_manifest["row_count"].sum()) == 68185
+        and int(normalized_manifest["migration_006_source_rows"].sum()) == 67690
+        and int(normalized_manifest["pre_migration_006_rows"].sum()) == 495,
+        "normalized_sql_manifest_counts_reconcile",
+        lines,
+    )
+    require(
+        all(
+            hashlib.sha256((ROOT / row.csv_file).read_bytes()).hexdigest() == row.sha256
+            for row in normalized_manifest.itertuples(index=False)
+        ),
+        "normalized_sql_manifest_hashes_reconcile",
+        lines,
+    )
+    relational_validation = (
+        REPORTS / "relational_export_validation.txt"
+    ).read_text(encoding="utf-8")
+    require(
+        "result=ALL_CHECKS_PASS" in relational_validation,
+        "relational_export_validation_pass",
+        lines,
+    )
+
     measles_files = sorted(MEASLES.glob("table_*.csv"))
     require(len(measles_files) == 3, "three_verified_measles_tables", lines)
     frames = {path.name: pd.read_csv(path) for path in measles_files}
@@ -210,6 +369,10 @@ def main() -> None:
         ("Loaded source-to-SQL lineage", "report_loaded_source_lineage_table"),
         ("loaded_source_to_sql_lineage.csv", "report_field_lineage_evidence_link"),
         ("Normalization scope and data-layer terminology", "report_normalization_scope"),
+        ("Verified loaded extraction", "report_verified_loaded_extraction"),
+        ("source_column_reconciliation.csv", "report_column_reconciliation_evidence"),
+        ("normalized_sql_tables/", "report_normalized_sql_csv_layer"),
+        ("21 schema-exact CSV relations", "report_normalized_sql_csv_count"),
     ]:
         require(value in report_text, name, lines)
     require(

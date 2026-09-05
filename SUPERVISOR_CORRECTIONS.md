@@ -14,8 +14,8 @@ to all 3,802 raw extracted CSV tables.
 | Supposed clean tables are dirty | Every extracted table receives an accepted/review/rejected decision; unsafe results are routed to generated quarantine and blocked from load | `reports/etl_quality_gate_summary.txt` |
 | Unlabelled data is forced into a category | Keyword classification requires two matches and a unique top score; insufficient/ambiguous evidence remains `unclassified` | `scripts/06_classify_tables.py`, `reports/classified_tables.csv` |
 | Dirty data is imported | Only four explicit verified mappings are load-eligible; all other rows have a committed exclusion/block/reference reason | `reports/source_to_schema_mapping.csv` |
-| “Schema and the extracted data seems unrelated” | Every catalogued output has a target decision or a reason why no compatible mapping exists; the four loaded mappings now show exact source fields, transformations, target columns and row counts | `reports/source_to_schema_mapping.csv`, `reports/loaded_source_to_sql_lineage.csv` |
-| “Tables not normalized” | The ambiguous layer naming is corrected: `extracted_tables/` is explicitly labelled raw source evidence, `cleaned_tables/` means quality-passed extraction candidate, and only `sql/schema.sql` is the relational target. The report limits its BCNF proof to `Patient` instead of treating raw source layouts as normalized relations | `DATA_LAYER_AND_NORMALIZATION_GUIDE.md`, `extracted_tables/00_READ_ME_FIRST_RAW_NOT_SQL.md`, `sql/schema.sql` |
+| “Schema and the extracted data seems unrelated” | Every catalogued output has a target decision or a reason why no compatible mapping exists. The four loaded mappings expose their 67,690 clean transformed rows, and every one of their 12 target columns has a source field/generated-key rule and schema check | `verified_tables/migration_006_loaded/`, `reports/source_column_reconciliation.csv`, `reports/loaded_source_to_sql_lineage.csv` |
+| “Tables not normalized” | `extracted_tables/` is explicitly raw evidence and `cleaned_tables/` is only a generated quality candidate. The final relational layer is directly visible as 21 schema-exact CSV relations matching all 68,185 SQL rows. The report limits its BCNF proof to `Patient` instead of treating raw source layouts as normalized relations | `DATA_LAYER_AND_NORMALIZATION_GUIDE.md`, `normalized_sql_tables/`, `reports/normalized_sql_tables_manifest.csv`, `sql/schema.sql` |
 | Extracted data is not populated | Migration 006 loads 67,690 rows from four source-compatible mappings into `HealthFacility`, `Laboratory`, `Disease` and `Designation` | `reports/bangladesh_scale_pipeline_manifest.csv`, `sql/migrations/006_bangladesh_national_scale_expansion.sql` |
 
 The Measles bulletin tables are aggregate division/city observations. The fixed
@@ -30,3 +30,9 @@ retain OCR or structural defects because it is immutable extraction evidence;
 its audit decision determines whether a corrected output is accepted,
 quarantined, source-verified or excluded. This policy applies to all 3,802 raw
 tables, not only to the three Measles examples.
+
+The clean reviewer-facing outputs are deterministic rather than hand edited.
+`scripts/12_export_verified_relational_tables.py` regenerates them from the
+canonical snapshot after the source-mapping builder completes. The main
+validator compares every header and value to SQL, checks source headers and
+target columns, and fails on any mismatch.

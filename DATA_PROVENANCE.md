@@ -96,6 +96,15 @@ source's extracted rows, mapped table, inserted rows, and explicit exclusions.
 The four compatible physical mappings are also present in the archive-wide
 `reports/source_to_schema_mapping.csv`; their loaded-row total is 67,690.
 
+Their clean transformed outputs are committed under
+`verified_tables/migration_006_loaded/`. Each file uses the exact target schema
+columns and matches the source-derived portion of the canonical SQL rows.
+`reports/source_column_reconciliation.csv` records all 12 source/generated-key
+to target-column rules. After the full dump is built,
+`scripts/12_export_verified_relational_tables.py` also creates the complete 21
+schema-exact CSV relations under `normalized_sql_tables/`. These are derived
+views of the same 68,185-row database, not additional source data.
+
 Here `cleaned_tables/` is a historical path name for quality-passed extraction
 candidates, not for the normalized database relations. The source-shaped raw,
 screened/verified candidate, explicit mapping and physical SQL layers are

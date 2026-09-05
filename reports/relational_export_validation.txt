@@ -1,0 +1,17 @@
+VERIFIED RELATIONAL EXPORT VALIDATION
+
+authoritative_source_records=4
+verified_loaded_csv_tables=4
+verified_loaded_rows=67690
+source_to_target_column_rules=12
+normalized_sql_csv_tables=21
+normalized_sql_rows=68185
+schema_columns=89
+blank_or_null_cells=0
+verified_loaded_outputs_match_canonical_sql=PASS
+source_to_target_columns_reconciled=PASS
+normalized_table_names_match_schema=PASS
+normalized_column_order_matches_schema=PASS
+normalized_values_and_row_order_match_dump=PASS
+manifest_sha256_complete=PASS
+result=ALL_CHECKS_PASS

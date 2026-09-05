@@ -62,3 +62,10 @@ The three source-verified Measles corrections are tracked under
 `verified_tables/086_Measles_Update_Till_14_05_26_/`. They remain aggregate
 reference data because their grain cannot satisfy the existing patient/event
 `Measles` schema without invented identifiers.
+
+The archive is separate from the accepted relational outputs. Four clean,
+source-mapped files under `verified_tables/migration_006_loaded/` contain the
+67,690 rows actually loaded by migration 006. The complete
+`normalized_sql_tables/` directory contains 21 schema-exact CSV views of the
+final 68,185-row database. These are generated inspection artifacts and are not
+counted as new sources or raw extraction outputs.

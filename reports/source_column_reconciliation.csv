@@ -1,0 +1,13 @@
+source_record,source_dataset,source_field,target_sql_table,target_column,transformation_or_lookup,source_header_check,target_schema_check,verification_status
+114,DGHS Active Facility Registry,Id,HealthFacility,FacilityID,integer Id + 100000,yes,yes,verified
+114,DGHS Active Facility Registry,Type,HealthFacility,FacilityType,trim source Type,yes,yes,verified
+114,DGHS Active Facility Registry,Name,HealthFacility,FacilityName,trim Name and append DGHS Facility ID for traceability,yes,yes,verified
+114,DGHS Active Facility Registry,Division,HealthFacility,RegionID,normalized division lookup to AdministrativeRegion.RegionID,yes,yes,verified
+114,DGHS laboratory-type facility subset,Id,Laboratory,LabID,integer Id + 200000,yes,yes,verified
+114,DGHS laboratory-type facility subset,Name; Type; Id,Laboratory,LabName,"combine facility name, type and DGHS source ID",yes,yes,verified
+114,DGHS laboratory-type facility subset,Id,Laboratory,FacilityID,integer Id + 100000; same key as mapped parent facility,yes,yes,verified
+116,Bangladesh ICD-11 Condition ValueSet,generated surrogate sequence,Disease,DiseaseID,deterministic sorted-row sequence + 300000,not_applicable_generated_key,yes,verified
+116,Bangladesh ICD-11 Condition ValueSet,display_name,Disease,DiseaseName,trim verified nonblank display name,yes,yes,verified
+116,Bangladesh ICD-11 Condition ValueSet,id,Disease,ICDCode,preserve unique Bangladesh OCL concept code,yes,yes,verified
+118,Bangladesh Open Data Doctor Directory,generated surrogate sequence,Designation,DesignationID,deterministic distinct-Post sequence + 400000,not_applicable_generated_key,yes,verified
+118,Bangladesh Open Data Doctor Directory,Post,Designation,DesignationName,"trim, deduplicate, exclude compound labels and existing titles",yes,yes,verified

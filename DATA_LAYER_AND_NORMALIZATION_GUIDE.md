@@ -5,14 +5,16 @@ This file prevents a common interpretation error: the CSVs under
 evidence captured before relational mapping and may retain merged headers,
 aggregate layouts, sparse cells or OCR defects from the source document.
 
-## Four distinct layers
+## Six distinct layers
 
 | Layer | Repository location | Meaning | May load directly to MySQL? |
 |---|---|---|---|
 | Raw extraction archive | `extracted_tables/` | Source-shaped CSV evidence preserved for audit | No |
 | Quality-screened output | generated `cleaned_tables/` or `quarantined_tables/` | Cell-standardized extraction candidate plus a quality decision; neither directory is the SQL schema | No |
 | Source-verified correction | `verified_tables/` | A table manually checked against its authoritative source | No; it still requires compatible grain and explicit mapping |
+| Verified loaded extraction | `verified_tables/migration_006_loaded/` | Four clean, schema-shaped source outputs actually loaded by migration 006 | Already represented in the canonical migration/full dump |
 | Physical relational database | `sql/schema.sql`, migrations and full dump | The implemented 21-table MySQL target with PK/FK constraints | Yes, through an explicit mapping or migration |
+| Reviewer-facing relational export | `normalized_sql_tables/` | 21 CSV mirrors generated from the physical SQL snapshot | No separate load step; it is a derived inspection view of the canonical dump |
 
 The historical folder name `cleaned_tables/` means that automated cell and
 structure checks passed. It does **not** mean “normalized SQL table” or
@@ -28,6 +30,14 @@ explicit here and in each mapping decision.
 2. **Relational normalization** organizes target entities, keys and
    relationships to reduce update anomalies. This applies to the physical SQL
    layer, not to source-layout evidence.
+
+The two tracked reviewer-facing outputs remove ambiguity. The four CSVs under
+`verified_tables/migration_006_loaded/` contain the 67,690 source-derived rows
+after explicit field mapping; all 12 target columns are reconciled in
+`reports/source_column_reconciliation.csv`. The 21 CSVs under
+`normalized_sql_tables/` mirror the complete 68,185-row relational snapshot.
+Every header, value, row order and SHA-256 is checked against the canonical SQL
+dump; neither directory replaces the immutable raw source archive.
 
 Section 3.6 of the report gives a complete 1NF-to-BCNF worked proof for the
 implemented `Patient` relation. The complete database is described more

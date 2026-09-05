@@ -1,0 +1,16 @@
+﻿MalnutritionID,PatientID,Height,BMI,MalnutritionType
+1,1,157.00,15.90,Severe Thinness
+2,2,164.00,16.60,Moderate Thinness
+3,3,171.00,17.30,Mild Thinness
+4,4,178.00,18.00,Mild Thinness
+5,5,154.00,15.50,Severe Thinness
+6,6,161.00,16.20,Moderate Thinness
+7,7,168.00,16.90,Moderate Thinness
+8,8,175.00,17.60,Mild Thinness
+9,9,151.00,18.30,Mild Thinness
+10,10,158.00,15.80,Severe Thinness
+11,11,165.00,16.50,Moderate Thinness
+12,12,172.00,17.20,Mild Thinness
+13,13,179.00,17.90,Mild Thinness
+14,14,155.00,15.40,Severe Thinness
+15,15,162.00,16.10,Moderate Thinness

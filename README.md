@@ -27,6 +27,8 @@ Health_DB_Project/
 ├── cleaned_tables/            Generated quality-passed candidates; not SQL tables (ignored)
 ├── quarantined_tables/        Generated tables blocked by quality gates (ignored)
 ├── verified_tables/           Tracked source-checked corrections for OCR edge cases
+│   └── migration_006_loaded/  Four clean source-to-SQL outputs (67,690 rows)
+├── normalized_sql_tables/     Exact CSV mirrors of all 21 physical SQL relations
 ├── metadata/                  Per-source extraction and mapping metadata
 ├── pdfs/                      Downloaded source reports
 ├── source_pages/              Downloaded sources that are HTML pages
@@ -43,6 +45,8 @@ Health_DB_Project/
 ├── PROJECT_REPORT.pdf         Submitted project report
 ├── REPORT_ALIGNMENT.md        Report-to-database alignment addendum
 ├── SUPERVISOR_CORRECTIONS.md  Review findings and project-wide fixes
+├── SUPERVISOR_ACCEPTANCE_CHECKLIST.md
+│                              Direct evidence for source/extraction/schema review
 ├── DATA_LAYER_AND_NORMALIZATION_GUIDE.md
 │                              Raw/verified/mapped/SQL layer boundary
 ├── SOURCE_ARCHIVE_STATUS.md   Source-file type and archive status
@@ -73,6 +77,7 @@ python scripts/06_classify_tables.py
 python scripts/07_find_best_tables.py
 python scripts/11_recover_extraction_page_trace.py --recover-pages
 python scripts/10_audit_all_extracted_tables.py
+python scripts/12_export_verified_relational_tables.py
 python scripts/09_validate_supervisor_corrections.py
 ```
 
@@ -86,6 +91,17 @@ The name `cleaned_tables/` means only that an extraction output passed the
 automated cell/structure gate. It is neither the normalized schema nor automatic
 permission to load. The physical database is defined only by `sql/schema.sql`;
 the distinction is documented in `DATA_LAYER_AND_NORMALIZATION_GUIDE.md`.
+
+The four source-compatible outputs that actually load migration 006 are tracked
+under `verified_tables/migration_006_loaded/`: 67,690 clean rows with exact SQL
+target columns and no blank/NULL cell. Their 12 source-to-target column rules
+are verified in `reports/source_column_reconciliation.csv`. This gives reviewers
+a clean extracted-and-transformed subset without mislabelling the raw archive.
+
+For direct inspection of the whole physical database,
+`normalized_sql_tables/` contains one generated CSV for each of the 21
+relations. Table names, all 89 columns, values, row order and the 68,185-row
+total exactly match the canonical schema and full dump.
 
 `reports/structure_ocr_integrity_audit.csv` contains one structure-integrity,
 OCR-risk, provenance and load-safety decision for every one of the 3,802 raw
@@ -125,6 +141,7 @@ python scripts/06_classify_tables.py
 python scripts/07_find_best_tables.py
 python scripts/11_recover_extraction_page_trace.py --recover-pages
 python scripts/10_audit_all_extracted_tables.py
+python scripts/12_export_verified_relational_tables.py
 python scripts/09_validate_supervisor_corrections.py
 ```
 
@@ -137,6 +154,8 @@ files directly—to generate the SQL rows.
 Exact source fields, transformations, target columns and loaded counts for the
 four compatible mappings are recorded in
 `reports/loaded_source_to_sql_lineage.csv`.
+The export step tracks their clean 67,690-row output, checks every target column,
+and regenerates the complete 21-table CSV view with count/hash manifests.
 The remaining commands refresh the archive-wide cleaning, quality, duplicate,
 catalog, classification, and best-table reports. Classification now requires
 at least two independent keyword matches with no top-score tie; otherwise the

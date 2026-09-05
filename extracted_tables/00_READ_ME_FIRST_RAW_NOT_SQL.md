@@ -8,6 +8,9 @@ damage inherited from the source.
 Do not evaluate these CSVs as the project's 21 normalized database tables and
 do not import them directly. The implemented database is defined only by
 `../sql/schema.sql` and `../sql/health_db_21_tables_with_data.sql`.
+Use `../verified_tables/migration_006_loaded/` to inspect the four clean
+source-derived outputs actually loaded, and `../normalized_sql_tables/` to
+inspect all 21 final relations in exact CSV form.
 
 Every raw CSV has a structure/OCR/load-safety decision in
 `../reports/structure_ocr_integrity_audit.csv` and a mapping decision in

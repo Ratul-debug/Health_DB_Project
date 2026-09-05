@@ -1,0 +1,16 @@
+﻿HIVID,DiseaseID,PatientID,DiagnosisDate,HIVStatus,TestResult
+1,17,1,2022-01-15,Positive,Reactive
+2,17,2,2022-01-30,Negative,Non-reactive
+3,17,3,2022-02-14,Negative,Non-reactive
+4,17,4,2022-03-01,Positive,Reactive
+5,17,5,2022-03-16,Negative,Non-reactive
+6,17,6,2022-03-31,Negative,Non-reactive
+7,17,7,2022-04-15,Positive,Reactive
+8,17,8,2022-04-30,Negative,Non-reactive
+9,17,9,2022-05-15,Negative,Non-reactive
+10,17,10,2022-05-30,Positive,Reactive
+11,17,11,2022-06-14,Negative,Non-reactive
+12,17,12,2022-06-29,Negative,Non-reactive
+13,17,13,2022-07-14,Positive,Reactive
+14,17,14,2022-07-29,Negative,Non-reactive
+15,17,15,2022-08-13,Negative,Non-reactive
